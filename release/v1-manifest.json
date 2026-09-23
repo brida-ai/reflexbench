@@ -580,6 +580,6 @@
   "reflex_registry_sha_at_export": "810c738c257053fb879caf484142365409b8924f",
   "release_candidate": "1.0.0-rc.1",
   "schema": "brida.reflexbench.public-release/v1",
-  "source_private_monorepo_sha": "6e06feed8ef9aba3f4839b617284584963396339",
+  "source_private_monorepo_sha": "5d30fdac4d34e5369f409497a9064cf68831d84e",
   "visibility_target": "private-rc-then-public"
 }
