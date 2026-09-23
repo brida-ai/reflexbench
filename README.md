@@ -4,7 +4,7 @@
 
 ReflexBench measures engines such as **TypeSafe Jev, Laya, Reflex/Qwen, Kev, jeff and Verdict** on typed **Choice, Score and Noul/Binary** decisions. It also measures a separate question: how much operational value can a small deterministic **Reflex Core** policy add without changing the model response?
 
-This repository is the release candidate for **ReflexBench v1.0.0**. The benchmark is provider-neutral; Brida Reflex is one consumer of the methodology.
+This repository contains **ReflexBench v1.0.0**, the first stable public benchmark release. The benchmark is provider-neutral; Brida Reflex is one consumer of the methodology.
 
 > ReflexBench does not publish a single "best model" score. Semantic quality, calibration, language consistency, option-order robustness, cardinality, failures, latency boundaries and harness/policy value are reported separately.
 
@@ -105,7 +105,7 @@ The public [`brida-ai/reflex`](https://github.com/brida-ai/reflex) registry and 
 
 ## Status
 
-**Developer Preview / release candidate.** Benchmark publication does not imply that every hosted Brida Reflex route is generally available or production-admitted.
+**ReflexBench v1.0.0 is stable.** The separately operated hosted Brida Reflex service remains availability/release-gated and this benchmark release does not imply hosted GA.
 
 ## License
 

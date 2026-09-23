@@ -42,9 +42,9 @@
       "sha256": "fd8dd3c55404624fc24518237ae25ca27602eee2c6726a8af3128508fc682100"
     },
     {
-      "bytes": 5753,
+      "bytes": 5786,
       "path": "README.md",
-      "sha256": "2b95fb3ed1086c8e59305e6a99d2fa5be859ddc41e15e1637caa4fec629437dd"
+      "sha256": "88c91dbcefecfbc99409d9df27829c4f3749822eed296b3b49f38a115bb03b37"
     },
     {
       "bytes": 4122,
@@ -132,9 +132,9 @@
       "sha256": "048c7db3843562f028e328127f18bce65d32446cd15248b5d3c16c529874f715"
     },
     {
-      "bytes": 240,
+      "bytes": 237,
       "path": "pyproject.toml",
-      "sha256": "7ee252e0570bcffa724a3a77f35030bd3885efb3a340169236baf950d3b4b3f7"
+      "sha256": "0d5d3163797495ec85ecf8be1a349743cbaf26740a1ccc1edceb612c95647c13"
     },
     {
       "bytes": 25,
@@ -588,7 +588,7 @@
     }
   ],
   "reflex_registry_sha_at_export": "810c738c257053fb879caf484142365409b8924f",
-  "release_candidate": "1.0.0-rc.3",
+  "release_candidate": "1.0.0",
   "schema": "brida.reflexbench.public-release/v1",
   "source_private_monorepo_sha": "04222dbeb2599d92cd17e5598981f96431c09c85",
   "visibility_target": "private-rc-then-public"

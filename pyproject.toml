@@ -1,6 +1,6 @@
 [project]
 name="reflexbench"
-version="1.0.0rc3"
+version="1.0.0"
 description="Open benchmark and evaluation harness for System One and typed decision models"
 requires-python=">=3.11"
 license={text="Apache-2.0"}
