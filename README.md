@@ -48,6 +48,12 @@ bounded state + canonical typed questions
 
 A model-specific prompt rewrite, semantic adapter or extra inference pass is **not** counted as Core uplift. See [docs/system-one-contract-v1.md](docs/system-one-contract-v1.md).
 
+## Benchmark your model
+
+Maintaining a System One or typed-decision model? Run the frozen protocol and submit a reproducible result. See **[SUBMIT_A_MODEL.md](SUBMIT_A_MODEL.md)** for the adapter contract, identity/provenance requirements, receipt rules and result-PR workflow.
+
+Accepted public results may use the **Evaluated on ReflexBench v1** badge; acceptance records reproducible evidence and is not an endorsement or universal ranking.
+
 ## Quick start
 
 Requires Python 3.11+ for the core harness. Core v1 uses only the standard library.
