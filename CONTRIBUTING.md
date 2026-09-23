@@ -12,3 +12,5 @@ For a new v1 engine result:
 6. include machine-readable receipt(s) and the command/procedure used.
 
 Changes to v1 tasks/scoring are not accepted as silent fixes; propose v2 instead.
+
+For the full model/result submission workflow, see [SUBMIT_A_MODEL.md](SUBMIT_A_MODEL.md).

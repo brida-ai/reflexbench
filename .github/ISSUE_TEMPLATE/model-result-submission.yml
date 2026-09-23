@@ -1,0 +1,64 @@
+name: Model / result submission
+description: Propose a model adapter or reproducible result for a frozen ReflexBench version.
+title: "[result] "
+labels: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for contributing a reproducible System One / typed-decision result. Please do not include credentials, private customer data, or unpublished model artifacts in this issue.
+  - type: input
+    id: engine
+    attributes:
+      label: Engine / model
+      placeholder: owner/model-name
+    validations:
+      required: true
+  - type: input
+    id: revision
+    attributes:
+      label: Immutable revision
+      description: Model/checkpoint revision, commit, image digest, or hosted revision if exposed.
+    validations:
+      required: true
+  - type: dropdown
+    id: deployment
+    attributes:
+      label: Deployment boundary
+      options:
+        - Hosted API
+        - Local CPU
+        - Local GPU
+        - Other
+    validations:
+      required: true
+  - type: input
+    id: benchmark
+    attributes:
+      label: Benchmark version
+      value: v1.0.0
+    validations:
+      required: true
+  - type: textarea
+    id: hardware
+    attributes:
+      label: Hardware / provider metadata
+      description: Hardware for local runs, or provider/region boundary for hosted runs. Do not include secrets.
+  - type: textarea
+    id: procedure
+    attributes:
+      label: Exact run procedure
+      description: Commands, adapter revision and any retry policy.
+    validations:
+      required: true
+  - type: checkboxes
+    id: integrity
+    attributes:
+      label: Evidence integrity
+      options:
+        - label: I retained failed/unsupported rows and retries in the submitted evidence.
+          required: true
+        - label: I did not silently change benchmark task semantics for this engine.
+          required: true
+        - label: I will disclose whether ReflexBench influenced model/prompt/threshold development.
+          required: true
