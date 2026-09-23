@@ -12,3 +12,4 @@ jobs:
           python-version: "3.12"
       - run: PYTHONPATH=reflexbench python -m unittest discover -s tests -p 'test_*.py' -v
       - run: python tools/check_public_release.py .
+      - run: python tools/check_claims.py .

@@ -6,7 +6,7 @@ bad=[]
 path_parts=('private-v2','private-use-case','hidden-gate','brida-b2','models/')
 needles=(b'/home/carlos/',b'/Users/navarro/',b'jv_live_',b'gho_',b'sk_live_',b'BEGIN PRIVATE KEY',b'SUPABASE_SERVICE_ROLE_KEY',b'RAILWAY_TOKEN')
 for p in root.rglob('*'):
-    if not p.is_file() or '.git' in p.parts: continue
+    if not p.is_file() or '.git' in p.parts or '__pycache__' in p.parts or p.suffix in {'.pyc','.pyo'}: continue
     if p.relative_to(root).as_posix() == 'tools/check_public_release.py': continue
     rel=p.relative_to(root).as_posix(); low=rel.lower()
     if any(x in low for x in path_parts): bad.append('forbidden path: '+rel)

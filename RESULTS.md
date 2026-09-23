@@ -7,7 +7,7 @@ All numbers below are frozen Brida measurement receipts unless explicitly marked
 | Evidence | Raw engine | Reflex Core | Delta | Rescues / harms | Completion |
 |---|---:|---:|---:|---:|---:|
 | Public product fixtures (Jev) | 96.4% | **100.0%** | +3.6 pp | 4 / 0 | 110/110 |
-| Blind workflow Gate v1 (Jev) | 80.5% | **100.0%** | +19.5 pp | 29 / 0 | 149/150 — **FAIL** |
+| Blind workflow Gate v1 (Jev) | 45.0% | **64.4%** | +19.5 pp | 29 / 0 | 149/150 — **FAIL** |
 | Blind workflow Gate v2 (Jev) | 76.7% | **82.0%** | +5.3 pp | 10 / 2 | 150/150 — **PASS** |
 
 Gate v1 remains failed because one provider 503 prevented 100% completion. Gate v2 was independently frozen before inference, used a different case pack, completed 150/150 and used zero transport retries. Gate v2 proves positive net same-response harness value; it does **not** prove automatic-action safety or global policy optimality.
@@ -17,12 +17,12 @@ Gate v1 remains failed because one provider 503 prevented 100% completion. Gate 
 | Engine | Accuracy | ECE ↓ | Score MAE ↓ | p50 | Boundary |
 |---|---:|---:|---:|---:|---|
 | TypeSafe Jev | **73.0%** | 0.088 | 0.410 | 345.8 ms | hosted route |
-| upstream Reflex / Qwen3.5-2B | 41.4% | 0.271 | 0.898 | 124.0 ms | local RTX 3070 |
+| upstream Reflex / Qwen3.5-2B | 41.4% | 0.271 | 0.898 | 124.0 ms | local RTX 3070 HTTP |
 | frozen Qwen3.5-0.8B readout control | 39.6% | 0.215 | 0.711 | excluded | reference kernels |
-| jeff / GLiFormer ~400M | 37.8% | 0.232 | 0.581 | 57.6 ms | local RTX 3070 |
-| openJev Verdict 1.4 / 151M | 36.9% | 0.124 | 0.662 | 64.0 ms | local RTX 3070 |
-| Laya base / 421M | 35.1% | 0.236 | 0.602 | 70.9 ms | local RTX 3070 |
-| Kev-0.8B | 32.4% | 0.440 | 0.603 | 109.6 ms | local RTX 3070 |
+| jeff / GLiFormer ~400M | 37.8% | 0.232 | 0.581 | 57.6 ms | local RTX 3070 HTTP |
+| openJev Verdict 1.4 / 151M | 36.9% | 0.124 | 0.662 | 64.0 ms | local RTX 3070 HTTP |
+| Laya base / 421M | 35.1% | 0.236 | 0.602 | 70.9 ms | local RTX 3070 HTTP |
+| Kev-0.8B | 32.4% | 0.440 | 0.603 | 109.6 ms | local RTX 3070 HTTP |
 
 The 111 public-hard rows are now development evidence for Brida and may not later be presented as an untouched Brida model gate.
 

@@ -2,9 +2,9 @@
   "benchmark_version": "1.0.0",
   "files": [
     {
-      "bytes": 378,
+      "bytes": 422,
       "path": ".github/workflows/ci.yml",
-      "sha256": "1a86c402bc23df1637080c3dc292eb8ef545e2867c787ace2c0d5fd6c6b8c4ea"
+      "sha256": "e4adfffa6ea2315a5b3eb31b73c00ccc4fae0656761f2868c6f5bfd956cfa3fe"
     },
     {
       "bytes": 35,
@@ -47,9 +47,9 @@
       "sha256": "2b95fb3ed1086c8e59305e6a99d2fa5be859ddc41e15e1637caa4fec629437dd"
     },
     {
-      "bytes": 4098,
+      "bytes": 4122,
       "path": "RESULTS.md",
-      "sha256": "015e0faea7ce0aa0d763cec9720e9eaa1edc2570b03ce3e765bc2cf7bf844ba6"
+      "sha256": "6ac34fff7fa21d1ed035e05c07d4fab6b9576062bec4715e98ee595278f361a3"
     },
     {
       "bytes": 407,
@@ -134,12 +134,12 @@
     {
       "bytes": 240,
       "path": "pyproject.toml",
-      "sha256": "931132c353294dc579c795eb822075802979dd18d188e9bea1b4e11d139e1497"
+      "sha256": "a47918c824ced6e3eb1f681b3f8b9f7f17d3e508da55e272517c8b003d7a958d"
     },
     {
       "bytes": 25,
       "path": "reflexbench/__init__.py",
-      "sha256": "83a3485c6dc7de0c72ce0f51100cc473e027fac04986ee8c0a8bc5693dc20934"
+      "sha256": "f1a7613687a0dfea3e54046519dfac4feb254e2e3c60d26e385f72b22bbcbddb"
     },
     {
       "bytes": 27048,
@@ -572,14 +572,19 @@
       "sha256": "973b3cda50769717c706fd633903406ba0dd802e9a7d9623bdd589ffe99ae616"
     },
     {
-      "bytes": 885,
+      "bytes": 4001,
+      "path": "tools/check_claims.py",
+      "sha256": "9d47a44e8b06ed21c9d79641bbf732e03b04c0bcd39e47d9f8af3eb98a001c97"
+    },
+    {
+      "bytes": 944,
       "path": "tools/check_public_release.py",
-      "sha256": "41073d318c720d77bb707bb607de1cb6b2f9c934c85aca86056207c64bed36c3"
+      "sha256": "aa953d6e3b7486a3b69c674cc3ac9289dfba3d8357d5b81208882737a469ce40"
     }
   ],
   "reflex_registry_sha_at_export": "810c738c257053fb879caf484142365409b8924f",
-  "release_candidate": "1.0.0-rc.1",
+  "release_candidate": "1.0.0-rc.2",
   "schema": "brida.reflexbench.public-release/v1",
-  "source_private_monorepo_sha": "5d30fdac4d34e5369f409497a9064cf68831d84e",
+  "source_private_monorepo_sha": "04222dbeb2599d92cd17e5598981f96431c09c85",
   "visibility_target": "private-rc-then-public"
 }
