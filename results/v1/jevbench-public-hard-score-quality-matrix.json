@@ -1,0 +1,80 @@
+{
+  "caveat": "Only six Score rows exist in this JevBench public-hard cohort. Report as regression diagnostic, not overall engine ordering.",
+  "claimClass": "small-n-development-diagnostic-not-ranking",
+  "engines": {
+    "kev-0.8b": {
+      "argmaxExactAccuracy": 0.3333333333333333,
+      "argmaxMae": 0.8333333333333334,
+      "argmaxWithinOneAccuracy": 0.8333333333333334,
+      "ece": 0.5411111111111112,
+      "expectedValueMae": 0.6028282828282828,
+      "n": 6,
+      "sourceResult": "jevbench-public-hard-kev-0.8b-rtx3070.json"
+    },
+    "laya-base": {
+      "argmaxExactAccuracy": 0.3333333333333333,
+      "argmaxMae": 0.8333333333333334,
+      "argmaxWithinOneAccuracy": 0.8333333333333334,
+      "ece": 0.13317933126645998,
+      "expectedValueMae": 0.6016301530153015,
+      "n": 6,
+      "sourceResult": "jevbench-public-hard-laya-base-http-rtx3070.json"
+    },
+    "laya-multilingual": {
+      "argmaxExactAccuracy": 0.16666666666666666,
+      "argmaxMae": 1.1666666666666667,
+      "argmaxWithinOneAccuracy": 0.6666666666666666,
+      "ece": 0.5010977681101443,
+      "expectedValueMae": 0.9524162082874955,
+      "n": 6,
+      "sourceResult": "jevbench-public-hard-laya-multilingual-rtx3070.json"
+    },
+    "laya-typed-decisions": {
+      "argmaxExactAccuracy": 0.3333333333333333,
+      "argmaxMae": 0.8333333333333334,
+      "argmaxWithinOneAccuracy": 0.8333333333333334,
+      "ece": 0.21388316061983162,
+      "expectedValueMae": 0.6925891383548913,
+      "n": 6,
+      "sourceResult": "jevbench-public-hard-laya-typed-decisions-rtx3070.json"
+    },
+    "logan-jeff": {
+      "argmaxExactAccuracy": 0.16666666666666666,
+      "argmaxMae": 1.3333333333333333,
+      "argmaxWithinOneAccuracy": 0.5,
+      "ece": 0.3663520377923537,
+      "expectedValueMae": 0.5808827902851613,
+      "n": 6,
+      "sourceResult": "jevbench-public-hard-jeff-rtx3070.json"
+    },
+    "openjev-verdict-1.4": {
+      "argmaxExactAccuracy": 0.16666666666666666,
+      "argmaxMae": 1.5,
+      "argmaxWithinOneAccuracy": 0.3333333333333333,
+      "ece": 0.2768112694623671,
+      "expectedValueMae": 0.6624021865687696,
+      "n": 6,
+      "sourceResult": "jevbench-public-hard-verdict-1.4-rtx3070.json"
+    },
+    "qwen-reflex-2b": {
+      "argmaxExactAccuracy": 0.0,
+      "argmaxMae": 1.3333333333333333,
+      "argmaxWithinOneAccuracy": 0.6666666666666666,
+      "ece": 0.5096234261592405,
+      "expectedValueMae": 0.8975650112696555,
+      "n": 6,
+      "sourceResult": "jevbench-public-hard-qwen-reflex-2b-rtx3070.json"
+    },
+    "typesafe-jev": {
+      "argmaxExactAccuracy": 0.3333333333333333,
+      "argmaxMae": 0.6666666666666666,
+      "argmaxWithinOneAccuracy": 1.0,
+      "ece": 0.33333333333333337,
+      "expectedValueMae": 0.41,
+      "n": 6,
+      "sourceResult": "jevbench-public-hard-typesafe-jev-consolidated.json"
+    }
+  },
+  "schema": "brida.reflexbench.score-quality-matrix/v1alpha1",
+  "tasksSha256": "89e9e6becb33ed88c1de7d42dcc87531b2fb64cfaef4e1986faf7c37b3f80ebb"
+}

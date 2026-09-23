@@ -1,0 +1,158 @@
+{
+  "schemaVersion": 1,
+  "status": "research",
+  "canonicalizationRule": "Canonical engine IDs identify the actual implementation/vendor. Wire model aliases such as jev-latest do not define engine identity.",
+  "engines": [
+    {
+      "id": "typesafe-jev",
+      "displayName": "TypeSafe Jev",
+      "owner": "TypeSafe AI",
+      "kind": "hosted-proprietary",
+      "benchmarkRoute": "Vercel AI Gateway -> typesafe-ai/jev",
+      "weights": "not public",
+      "revision": "not exposed by route on 2026-09-21",
+      "notes": "Official Jev. Never alias this engine to the third-party project named jeff.",
+      "choiceCapability": {
+        "maxChoiceOptions": null,
+        "evidence": "observed",
+        "observedAtLeast": 255,
+        "notes": "Synthetic exact-code capability lane completed through 255-way after explicit retry ledger; public maximum is still not inferred. First-attempt completion was 57/64 (89.1%) due provider 503s; consolidated completion is 64/64."
+      }
+    },
+    {
+      "id": "logan-jeff",
+      "displayName": "jeff (Logan Markewich)",
+      "owner": "logan-markewich",
+      "kind": "local-open-source",
+      "repository": "logan-markewich/jeff",
+      "codeRevision": "34b32f99a727c47b679adde33f4702a001e02979",
+      "checkpoint": "knowledgator/gliformer-large-v1",
+      "checkpointRevision": "d0a4e53d09cebe6bc963dd9be319d4279084bb2d",
+      "wireModelAliasUsed": "jev-latest",
+      "notes": "Third-party self-hosted implementation of the System One wire contract. The accepted wire alias jev-latest must not be interpreted as TypeSafe Jev.",
+      "choiceCapability": {
+        "maxChoiceOptions": 64,
+        "evidence": "configured-default",
+        "observedAtLeast": 60,
+        "notes": "JEFF_MAX_LABELS defaults to 64; 60-way MASSIVE completed locally."
+      }
+    },
+    {
+      "id": "kev-0.8b",
+      "displayName": "Kev-0.8B",
+      "owner": "jaredpalmer",
+      "kind": "local-open-weights",
+      "repository": "jaredpalmer/kev",
+      "codeRevision": "e0bcf50153f1bda4ca6a8be5e12cbd5f9ebbce1c",
+      "checkpoint": "jaredpalmer/kev-0.8b",
+      "checkpointRevision": "c917edefdfd72b3e9ba71455584700acc70595f6",
+      "baseModel": "Qwen/Qwen3.5-0.8B-Base",
+      "baseRevision": "dc7cdfe2ee4154fa7e30f5b51ca41bfa40174e68",
+      "wireModelAliasUsed": "kev-latest",
+      "choiceCapability": {
+        "maxChoiceOptions": 255,
+        "evidence": "upstream-api-contract",
+        "observedAtLeast": 255,
+        "notes": "Upstream API contract caps Choice at 255; Brida exact-code capability lane completed 64/64 including 8/8 at K=255 on RTX 3070."
+      }
+    },
+    {
+      "id": "kshetrajna-reflex-2b",
+      "displayName": "reflex (Kshetrajna) / Qwen3.5-2B",
+      "owner": "kshetrajna12",
+      "kind": "local-frozen-foundation-readout",
+      "repository": "kshetrajna12/reflex",
+      "codeRevision": "e21b3b23afdfeee7021a6604fa38f57e7ff5187f",
+      "checkpoint": "Qwen/Qwen3.5-2B",
+      "checkpointRevision": "15852e8c16360a2fea060d615a32b45270f8a8fc",
+      "notes": "Unrelated to Brida Reflex. Canonical ID intentionally includes the upstream author to avoid name collision.",
+      "choiceCapability": {
+        "maxChoiceOptions": 26,
+        "evidence": "upstream-code-constant",
+        "observedAtLeast": 20,
+        "notes": "MAX_CHOICE_OPTIONS=26. Upstream Banking77 recipe samples gold + 11 distractors rather than running 77-way."
+      }
+    },
+    {
+      "id": "openjev-verdict-1.4",
+      "displayName": "openJev Verdict 1.4 compatible published checkpoint",
+      "owner": "Heman10x-NGU / heman10x",
+      "kind": "local-open-weights",
+      "repository": "Heman10x-NGU/openJev-verdict-2.0",
+      "codeRevision": "bff28567cff463b833bf044f351a8b7945d53e07",
+      "checkpoint": "heman10x/rlcd-modernbert-151m",
+      "checkpointRevision": "8af2496eb63c7fa66d7d234e1f62629380030eb4",
+      "notes": "The separate verdict2-base Git LFS artifact was unavailable (404); benchmark uses the reproducible 151M published weights identified by the upstream/JevBench provenance.",
+      "choiceCapability": {
+        "maxChoiceOptions": 24,
+        "evidence": "published-schema-observed-validation",
+        "observedAtLeast": 20,
+        "notes": "60-way request is rejected by the published compatible primitive; 20-way MASSIVE completes."
+      }
+    },
+    {
+      "id": "laya-base",
+      "displayName": "Laya base",
+      "owner": "Convai Innovations",
+      "kind": "local-open-weights",
+      "repository": "NandhaKishorM/laya",
+      "checkpoint": "convaiinnovations/laya",
+      "checkpointRevision": "1c5edc17a7acd8701df6fc341c0d179f1c62c982",
+      "choiceCapability": {
+        "maxChoiceOptions": null,
+        "evidence": "observed",
+        "observedAtLeast": 100,
+        "notes": "Exact-code capability lane completes through K=100; all 8 K=255 cases are rejected with options exceed head_max_len=192. Full 77-way Banking77 remains a semantic-quality stressor."
+      }
+    },
+    {
+      "id": "laya-multilingual",
+      "displayName": "Laya multilingual",
+      "owner": "Convai Innovations",
+      "kind": "local-open-weights",
+      "repository": "NandhaKishorM/laya",
+      "checkpoint": "convaiinnovations/laya-multilingual",
+      "checkpointRevision": "052592a15d198d9ad47da779604259b10b47b7aa",
+      "choiceCapability": {
+        "maxChoiceOptions": null,
+        "evidence": "observed",
+        "observedAtLeast": 60,
+        "notes": "60-way MASSIVE evaluated locally."
+      }
+    },
+    {
+      "id": "laya-typed-decisions",
+      "displayName": "Laya typed-decisions specialist",
+      "owner": "Convai Innovations",
+      "kind": "local-open-weights-specialist",
+      "repository": "NandhaKishorM/laya",
+      "checkpoint": "convaiinnovations/laya-typed-decisions",
+      "checkpointRevision": "f9ab0b228f0fc0f14d873dbc99038f135c2da1b2",
+      "choiceCapability": {
+        "maxChoiceOptions": null,
+        "evidence": "observed",
+        "observedAtLeast": 60,
+        "notes": "60-way MASSIVE evaluated locally."
+      }
+    },
+    {
+      "id": "control-qwen35-0.8b-base-readout",
+      "displayName": "Research control: frozen Qwen3.5-0.8B-Base through upstream reflex readout",
+      "owner": "Brida research composition using Qwen + kshetrajna12/reflex",
+      "kind": "local-frozen-foundation-readout-control",
+      "repository": "kshetrajna12/reflex",
+      "codeRevision": "e21b3b23afdfeee7021a6604fa38f57e7ff5187f",
+      "checkpoint": "Qwen/Qwen3.5-0.8B-Base",
+      "checkpointRevision": "dc7cdfe2ee4154fa7e30f5b51ca41bfa40174e68",
+      "adapter": null,
+      "calibration": "identity temperatures",
+      "notes": "Brida-created research control, not an upstream named model. Same Qwen3.5-0.8B base lineage used by Kev-0.8B. Quality evidence is valid; recorded local latency uses reference causal-conv1d fallbacks and is not serving-authoritative.",
+      "choiceCapability": {
+        "maxChoiceOptions": 26,
+        "evidence": "upstream-readout-code-constant",
+        "observedAtLeast": 20,
+        "notes": "Uses kshetrajna12/reflex readout, therefore the same 26-option cap."
+      }
+    }
+  ]
+}

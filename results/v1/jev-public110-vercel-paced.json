@@ -1,0 +1,3336 @@
+{
+  "ablation": {
+    "choice_ensemble": "none",
+    "inter_request_delay_ms": 1800.0,
+    "native_permutations": null,
+    "question_mode": "all"
+  },
+  "by_difficulty": {
+    "fixture": {
+      "latency_ms": {
+        "mean": 345.16997928731143,
+        "p50": 349.84147595241666,
+        "p95": 452.3015139857307,
+        "p99": 464.2802629387006
+      },
+      "n": 110,
+      "operational_accuracy": 1.0,
+      "operational_correct": 110,
+      "review_or_uncertain": 4,
+      "semantic_accuracy": 0.9636363636363636,
+      "semantic_correct": 106
+    }
+  },
+  "by_policy_type": {
+    "binary": {
+      "latency_ms": {
+        "mean": 344.48491368675604,
+        "p50": 349.4046349078417,
+        "p95": 444.21138102188706,
+        "p99": 444.21138102188706
+      },
+      "n": 10,
+      "operational_accuracy": 1.0,
+      "operational_correct": 10,
+      "review_or_uncertain": 0,
+      "semantic_accuracy": 1.0,
+      "semantic_correct": 10
+    },
+    "choice": {
+      "latency_ms": {
+        "mean": 345.2143379548368,
+        "p50": 349.7545049758628,
+        "p95": 452.3015139857307,
+        "p99": 464.2802629387006
+      },
+      "n": 95,
+      "operational_accuracy": 1.0,
+      "operational_correct": 95,
+      "review_or_uncertain": 4,
+      "semantic_accuracy": 0.9578947368421052,
+      "semantic_correct": 91
+    },
+    "score": {
+      "latency_ms": {
+        "mean": 345.69729580543935,
+        "p50": 350.14096600934863,
+        "p95": 351.23430599924177,
+        "p99": 351.23430599924177
+      },
+      "n": 5,
+      "operational_accuracy": 1.0,
+      "operational_correct": 5,
+      "review_or_uncertain": 0,
+      "semantic_accuracy": 1.0,
+      "semantic_correct": 5
+    }
+  },
+  "by_use_case": {
+    "agent-progress-gate": {
+      "latency_ms": {
+        "mean": 379.10468998597935,
+        "p50": 350.1070359488949,
+        "p95": 408.1023440230638,
+        "p99": 408.1023440230638
+      },
+      "n": 2,
+      "operational_accuracy": 1.0,
+      "operational_correct": 2,
+      "review_or_uncertain": 0,
+      "semantic_accuracy": 1.0,
+      "semantic_correct": 2
+    },
+    "browser-action-risk": {
+      "latency_ms": {
+        "mean": 384.4038516981527,
+        "p50": 444.2179719917476,
+        "p95": 451.99290406890213,
+        "p99": 451.99290406890213
+      },
+      "n": 3,
+      "operational_accuracy": 1.0,
+      "operational_correct": 3,
+      "review_or_uncertain": 0,
+      "semantic_accuracy": 1.0,
+      "semantic_correct": 3
+    },
+    "catalog-listing-signals": {
+      "latency_ms": {
+        "mean": 350.19178898073733,
+        "p50": 350.16367596108466,
+        "p95": 351.26554500311613,
+        "p99": 351.26554500311613
+      },
+      "n": 3,
+      "operational_accuracy": 1.0,
+      "operational_correct": 3,
+      "review_or_uncertain": 0,
+      "semantic_accuracy": 1.0,
+      "semantic_correct": 3
+    },
+    "change-review-risk": {
+      "latency_ms": {
+        "mean": 299.39609044231474,
+        "p50": 286.27692197915167,
+        "p95": 312.5152589054778,
+        "p99": 312.5152589054778
+      },
+      "n": 2,
+      "operational_accuracy": 1.0,
+      "operational_correct": 2,
+      "review_or_uncertain": 0,
+      "semantic_accuracy": 1.0,
+      "semantic_correct": 2
+    },
+    "code-change-classification": {
+      "latency_ms": {
+        "mean": 401.333282032283,
+        "p50": 452.4525940651074,
+        "p95": 452.5596630992368,
+        "p99": 452.5596630992368
+      },
+      "n": 4,
+      "operational_accuracy": 1.0,
+      "operational_correct": 4,
+      "review_or_uncertain": 0,
+      "semantic_accuracy": 1.0,
+      "semantic_correct": 4
+    },
+    "completion-evidence-gate": {
+      "latency_ms": {
+        "mean": 351.2021976833542,
+        "p50": 351.30430408753455,
+        "p95": 352.85004298202693,
+        "p99": 352.85004298202693
+      },
+      "n": 3,
+      "operational_accuracy": 1.0,
+      "operational_correct": 3,
+      "review_or_uncertain": 0,
+      "semantic_accuracy": 1.0,
+      "semantic_correct": 3
+    },
+    "content-policy-review": {
+      "latency_ms": {
+        "mean": 348.67226652568206,
+        "p50": 274.5066430652514,
+        "p95": 422.8378899861127,
+        "p99": 422.8378899861127
+      },
+      "n": 2,
+      "operational_accuracy": 1.0,
+      "operational_correct": 2,
+      "review_or_uncertain": 0,
+      "semantic_accuracy": 1.0,
+      "semantic_correct": 2
+    },
+    "content-quality-gate": {
+      "latency_ms": {
+        "mean": 350.16612235146266,
+        "p50": 350.14096600934863,
+        "p95": 350.31361505389214,
+        "p99": 350.31361505389214
+      },
+      "n": 3,
+      "operational_accuracy": 1.0,
+      "operational_correct": 3,
+      "review_or_uncertain": 0,
+      "semantic_accuracy": 1.0,
+      "semantic_correct": 3
+    },
+    "context-retention-gate": {
+      "latency_ms": {
+        "mean": 375.8707500237506,
+        "p50": 351.31267504766583,
+        "p95": 451.5241349581629,
+        "p99": 451.5241349581629
+      },
+      "n": 4,
+      "operational_accuracy": 1.0,
+      "operational_correct": 4,
+      "review_or_uncertain": 1,
+      "semantic_accuracy": 0.75,
+      "semantic_correct": 3
+    },
+    "conversation-turn-state": {
+      "latency_ms": {
+        "mean": 329.3278287455905,
+        "p50": 350.00821598805487,
+        "p95": 351.82881401851773,
+        "p99": 351.82881401851773
+      },
+      "n": 4,
+      "operational_accuracy": 1.0,
+      "operational_correct": 4,
+      "review_or_uncertain": 0,
+      "semantic_accuracy": 1.0,
+      "semantic_correct": 4
+    },
+    "customer-support-ticket-triage": {
+      "latency_ms": {
+        "mean": 352.44479356333613,
+        "p50": 331.4259620383382,
+        "p95": 373.4636250883341,
+        "p99": 373.4636250883341
+      },
+      "n": 2,
+      "operational_accuracy": 1.0,
+      "operational_correct": 2,
+      "review_or_uncertain": 0,
+      "semantic_accuracy": 1.0,
+      "semantic_correct": 2
+    },
+    "dataset-example-quality": {
+      "latency_ms": {
+        "mean": 338.9940559864044,
+        "p50": 326.75380597356707,
+        "p95": 351.23430599924177,
+        "p99": 351.23430599924177
+      },
+      "n": 2,
+      "operational_accuracy": 1.0,
+      "operational_correct": 2,
+      "review_or_uncertain": 0,
+      "semantic_accuracy": 1.0,
+      "semantic_correct": 2
+    },
+    "document-extraction-route": {
+      "latency_ms": {
+        "mean": 350.15356552321464,
+        "p50": 349.5415460783988,
+        "p95": 350.76558496803045,
+        "p99": 350.76558496803045
+      },
+      "n": 2,
+      "operational_accuracy": 1.0,
+      "operational_correct": 2,
+      "review_or_uncertain": 0,
+      "semantic_accuracy": 1.0,
+      "semantic_correct": 2
+    },
+    "document-invoice-review": {
+      "latency_ms": {
+        "mean": 349.93215498980135,
+        "p50": 349.4046349078417,
+        "p95": 350.459675071761,
+        "p99": 350.459675071761
+      },
+      "n": 2,
+      "operational_accuracy": 1.0,
+      "operational_correct": 2,
+      "review_or_uncertain": 0,
+      "semantic_accuracy": 1.0,
+      "semantic_correct": 2
+    },
+    "duplicate-report-match": {
+      "latency_ms": {
+        "mean": 331.2483252957463,
+        "p50": 267.72783894557506,
+        "p95": 464.2802629387006,
+        "p99": 464.2802629387006
+      },
+      "n": 3,
+      "operational_accuracy": 1.0,
+      "operational_correct": 3,
+      "review_or_uncertain": 0,
+      "semantic_accuracy": 1.0,
+      "semantic_correct": 3
+    },
+    "execution-failure-classification": {
+      "latency_ms": {
+        "mean": 314.5370386607413,
+        "p50": 296.4788539102301,
+        "p95": 400.22076095920056,
+        "p99": 400.22076095920056
+      },
+      "n": 7,
+      "operational_accuracy": 1.0,
+      "operational_correct": 7,
+      "review_or_uncertain": 0,
+      "semantic_accuracy": 1.0,
+      "semantic_correct": 7
+    },
+    "game-state-action": {
+      "latency_ms": {
+        "mean": 374.3182339821942,
+        "p50": 349.9135859310627,
+        "p95": 398.72288203332573,
+        "p99": 398.72288203332573
+      },
+      "n": 2,
+      "operational_accuracy": 1.0,
+      "operational_correct": 2,
+      "review_or_uncertain": 0,
+      "semantic_accuracy": 1.0,
+      "semantic_correct": 2
+    },
+    "incident-signal-triage": {
+      "latency_ms": {
+        "mean": 325.87872695876285,
+        "p50": 306.5477339550853,
+        "p95": 345.20971996244043,
+        "p99": 345.20971996244043
+      },
+      "n": 2,
+      "operational_accuracy": 1.0,
+      "operational_correct": 2,
+      "review_or_uncertain": 0,
+      "semantic_accuracy": 1.0,
+      "semantic_correct": 2
+    },
+    "incoming-message-risk": {
+      "latency_ms": {
+        "mean": 335.375252024581,
+        "p50": 350.2366660395637,
+        "p95": 350.26879503857344,
+        "p99": 350.26879503857344
+      },
+      "n": 3,
+      "operational_accuracy": 1.0,
+      "operational_correct": 3,
+      "review_or_uncertain": 0,
+      "semantic_accuracy": 1.0,
+      "semantic_correct": 3
+    },
+    "marketplace-job-fit": {
+      "latency_ms": {
+        "mean": 372.56211100611836,
+        "p50": 300.91284099034965,
+        "p95": 444.21138102188706,
+        "p99": 444.21138102188706
+      },
+      "n": 2,
+      "operational_accuracy": 1.0,
+      "operational_correct": 2,
+      "review_or_uncertain": 0,
+      "semantic_accuracy": 1.0,
+      "semantic_correct": 2
+    },
+    "memory-relevance-gate": {
+      "latency_ms": {
+        "mean": 350.21815000800416,
+        "p50": 348.5270160017535,
+        "p95": 351.9092840142548,
+        "p99": 351.9092840142548
+      },
+      "n": 2,
+      "operational_accuracy": 1.0,
+      "operational_correct": 2,
+      "review_or_uncertain": 0,
+      "semantic_accuracy": 1.0,
+      "semantic_correct": 2
+    },
+    "model-effort-routing": {
+      "latency_ms": {
+        "mean": 324.5704255241435,
+        "p50": 348.4929359983653,
+        "p95": 350.0474350294098,
+        "p99": 350.0474350294098
+      },
+      "n": 4,
+      "operational_accuracy": 1.0,
+      "operational_correct": 4,
+      "review_or_uncertain": 0,
+      "semantic_accuracy": 1.0,
+      "semantic_correct": 4
+    },
+    "outbound-message-risk": {
+      "latency_ms": {
+        "mean": 350.243635630856,
+        "p50": 349.88434496335685,
+        "p95": 353.082224028185,
+        "p99": 353.082224028185
+      },
+      "n": 3,
+      "operational_accuracy": 1.0,
+      "operational_correct": 3,
+      "review_or_uncertain": 0,
+      "semantic_accuracy": 1.0,
+      "semantic_correct": 3
+    },
+    "page-clutter-relevance": {
+      "latency_ms": {
+        "mean": 335.9140376172339,
+        "p50": 345.86902998853475,
+        "p95": 354.6042889356613,
+        "p99": 354.6042889356613
+      },
+      "n": 3,
+      "operational_accuracy": 1.0,
+      "operational_correct": 3,
+      "review_or_uncertain": 1,
+      "semantic_accuracy": 0.6666666666666666,
+      "semantic_correct": 2
+    },
+    "policy-change-impact": {
+      "latency_ms": {
+        "mean": 296.9638929547121,
+        "p50": 300.83393899258226,
+        "p95": 317.6927949534729,
+        "p99": 317.6927949534729
+      },
+      "n": 3,
+      "operational_accuracy": 1.0,
+      "operational_correct": 3,
+      "review_or_uncertain": 0,
+      "semantic_accuracy": 1.0,
+      "semantic_correct": 3
+    },
+    "research-claim-verification": {
+      "latency_ms": {
+        "mean": 401.3764095143415,
+        "p50": 352.06138400826603,
+        "p95": 450.691435020417,
+        "p99": 450.691435020417
+      },
+      "n": 2,
+      "operational_accuracy": 1.0,
+      "operational_correct": 2,
+      "review_or_uncertain": 0,
+      "semantic_accuracy": 1.0,
+      "semantic_correct": 2
+    },
+    "research-event-relevance": {
+      "latency_ms": {
+        "mean": 297.9527814895846,
+        "p50": 285.96701193600893,
+        "p95": 309.93855104316026,
+        "p99": 309.93855104316026
+      },
+      "n": 2,
+      "operational_accuracy": 1.0,
+      "operational_correct": 2,
+      "review_or_uncertain": 0,
+      "semantic_accuracy": 1.0,
+      "semantic_correct": 2
+    },
+    "retrieval-relevance-gate": {
+      "latency_ms": {
+        "mean": 299.3345464929007,
+        "p50": 293.04470599163324,
+        "p95": 305.62438699416816,
+        "p99": 305.62438699416816
+      },
+      "n": 2,
+      "operational_accuracy": 1.0,
+      "operational_correct": 2,
+      "review_or_uncertain": 0,
+      "semantic_accuracy": 1.0,
+      "semantic_correct": 2
+    },
+    "sales-lead-fit": {
+      "latency_ms": {
+        "mean": 350.10685498127714,
+        "p50": 338.554244954139,
+        "p95": 361.6594650084153,
+        "p99": 361.6594650084153
+      },
+      "n": 2,
+      "operational_accuracy": 1.0,
+      "operational_correct": 2,
+      "review_or_uncertain": 0,
+      "semantic_accuracy": 1.0,
+      "semantic_correct": 2
+    },
+    "semantic-cache-reuse-gate": {
+      "latency_ms": {
+        "mean": 350.4889009636827,
+        "p50": 350.05255590658635,
+        "p95": 350.925246020779,
+        "p99": 350.925246020779
+      },
+      "n": 2,
+      "operational_accuracy": 1.0,
+      "operational_correct": 2,
+      "review_or_uncertain": 0,
+      "semantic_accuracy": 1.0,
+      "semantic_correct": 2
+    },
+    "semantic-content-blocking": {
+      "latency_ms": {
+        "mean": 316.07392232399434,
+        "p50": 319.1529529867694,
+        "p95": 347.5562169915065,
+        "p99": 347.5562169915065
+      },
+      "n": 3,
+      "operational_accuracy": 1.0,
+      "operational_correct": 3,
+      "review_or_uncertain": 1,
+      "semantic_accuracy": 0.6666666666666666,
+      "semantic_correct": 2
+    },
+    "semantic-data-consistency": {
+      "latency_ms": {
+        "mean": 350.0103586896633,
+        "p50": 303.64852608181536,
+        "p95": 452.3015139857307,
+        "p99": 452.3015139857307
+      },
+      "n": 3,
+      "operational_accuracy": 1.0,
+      "operational_correct": 3,
+      "review_or_uncertain": 1,
+      "semantic_accuracy": 0.6666666666666666,
+      "semantic_correct": 2
+    },
+    "semantic-record-match": {
+      "latency_ms": {
+        "mean": 316.16150234670687,
+        "p50": 309.926641988568,
+        "p95": 349.3855450069532,
+        "p99": 349.3855450069532
+      },
+      "n": 3,
+      "operational_accuracy": 1.0,
+      "operational_correct": 3,
+      "review_or_uncertain": 0,
+      "semantic_accuracy": 1.0,
+      "semantic_correct": 3
+    },
+    "semantic-response-health": {
+      "latency_ms": {
+        "mean": 350.27275199536234,
+        "p50": 349.8712449800223,
+        "p95": 351.0877549415454,
+        "p99": 351.0877549415454
+      },
+      "n": 3,
+      "operational_accuracy": 1.0,
+      "operational_correct": 3,
+      "review_or_uncertain": 0,
+      "semantic_accuracy": 1.0,
+      "semantic_correct": 3
+    },
+    "semantic-rule-check": {
+      "latency_ms": {
+        "mean": 418.75945031642914,
+        "p50": 350.4021749831736,
+        "p95": 555.8314699446782,
+        "p99": 555.8314699446782
+      },
+      "n": 3,
+      "operational_accuracy": 1.0,
+      "operational_correct": 3,
+      "review_or_uncertain": 0,
+      "semantic_accuracy": 1.0,
+      "semantic_correct": 3
+    },
+    "software-issue-triage": {
+      "latency_ms": {
+        "mean": 315.99988400315243,
+        "p50": 331.64267998654395,
+        "p95": 350.5287419538945,
+        "p99": 350.5287419538945
+      },
+      "n": 3,
+      "operational_accuracy": 1.0,
+      "operational_correct": 3,
+      "review_or_uncertain": 0,
+      "semantic_accuracy": 1.0,
+      "semantic_correct": 3
+    },
+    "sponsor-segment-detection": {
+      "latency_ms": {
+        "mean": 316.6466500066842,
+        "p50": 318.14191199373454,
+        "p95": 334.1696070274338,
+        "p99": 334.1696070274338
+      },
+      "n": 3,
+      "operational_accuracy": 1.0,
+      "operational_correct": 3,
+      "review_or_uncertain": 0,
+      "semantic_accuracy": 1.0,
+      "semantic_correct": 3
+    },
+    "test-relevance-gate": {
+      "latency_ms": {
+        "mean": 349.4851097154121,
+        "p50": 349.96550204232335,
+        "p95": 350.03810306079686,
+        "p99": 350.03810306079686
+      },
+      "n": 3,
+      "operational_accuracy": 1.0,
+      "operational_correct": 3,
+      "review_or_uncertain": 0,
+      "semantic_accuracy": 1.0,
+      "semantic_correct": 3
+    },
+    "untrusted-input-risk": {
+      "latency_ms": {
+        "mean": 401.6678860061802,
+        "p50": 350.2980030607432,
+        "p95": 453.0377689516172,
+        "p99": 453.0377689516172
+      },
+      "n": 2,
+      "operational_accuracy": 1.0,
+      "operational_correct": 2,
+      "review_or_uncertain": 0,
+      "semantic_accuracy": 1.0,
+      "semantic_correct": 2
+    },
+    "work-priority": {
+      "latency_ms": {
+        "mean": 349.9843339668587,
+        "p50": 349.7545049758628,
+        "p95": 350.21416295785457,
+        "p99": 350.21416295785457
+      },
+      "n": 2,
+      "operational_accuracy": 1.0,
+      "operational_correct": 2,
+      "review_or_uncertain": 0,
+      "semantic_accuracy": 1.0,
+      "semantic_correct": 2
+    }
+  },
+  "completion": {
+    "completed": 110,
+    "failed": 0,
+    "rate": 1.0
+  },
+  "corpus": {
+    "path_name": "reflex-public-fixtures-8e2eafa.jsonl",
+    "rows": 110,
+    "sha256": "06b87e1285bf0385478a0c48b2254d1925f8f98a45b215abce4a60ad08df98b7"
+  },
+  "engine": {
+    "id": "jev-vercel",
+    "model": "typesafe-ai/jev",
+    "revision": "not-exposed@2026-09-21"
+  },
+  "failures": [],
+  "registry": {
+    "custom_reflex_manifest_sha256": "8a23b8ed5c55b7c3a7f24de8639ec4f67b536c6eb2867130b754e755baf12b86",
+    "revision": "8e2eafa413b1312ebc61c93ff4c6ebeb4c6d8ca4",
+    "use_cases": 40
+  },
+  "rows": [
+    {
+      "answer": {
+        "choice": "progressing",
+        "probabilities": {
+          "progressing": 1.0,
+          "stalled": 0.0,
+          "unclear": 0.0
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-progress",
+      "difficulty": "fixture",
+      "ensemble_used": false,
+      "expected_branch": "continue_candidate",
+      "index": 0,
+      "latency_ms": 408.1023440230638,
+      "operational_branch": "continue_candidate",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 1.0,
+      "semantic_branch": "continue_candidate",
+      "semantic_correct": true,
+      "use_case": "agent-progress-gate"
+    },
+    {
+      "answer": {
+        "choice": "stalled",
+        "probabilities": {
+          "progressing": 0.0,
+          "stalled": 1.0,
+          "unclear": 0.0
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-stall",
+      "difficulty": "fixture",
+      "ensemble_used": false,
+      "expected_branch": "inspect",
+      "index": 1,
+      "latency_ms": 350.1070359488949,
+      "operational_branch": "inspect",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 1.0,
+      "semantic_branch": "inspect",
+      "semantic_correct": true,
+      "use_case": "agent-progress-gate"
+    },
+    {
+      "answer": {
+        "choice": "low",
+        "probabilities": {
+          "high": 0.0,
+          "low": 1.0,
+          "medium": 0.0
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-navigation",
+      "difficulty": "fixture",
+      "ensemble_used": false,
+      "expected_branch": "auto_candidate",
+      "index": 2,
+      "latency_ms": 257.0006790338084,
+      "operational_branch": "auto_candidate",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 1.0,
+      "semantic_branch": "auto_candidate",
+      "semantic_correct": true,
+      "use_case": "browser-action-risk"
+    },
+    {
+      "answer": {
+        "choice": "high",
+        "probabilities": {
+          "high": 1.0,
+          "low": 0.0,
+          "medium": 0.0
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-payment",
+      "difficulty": "fixture",
+      "ensemble_used": false,
+      "expected_branch": "block",
+      "index": 3,
+      "latency_ms": 444.2179719917476,
+      "operational_branch": "block",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 1.0,
+      "semantic_branch": "block",
+      "semantic_correct": true,
+      "use_case": "browser-action-risk"
+    },
+    {
+      "answer": {
+        "choice": "medium",
+        "probabilities": {
+          "high": 0.0,
+          "low": 0.0,
+          "medium": 1.0
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-profile-update",
+      "difficulty": "fixture",
+      "ensemble_used": false,
+      "expected_branch": "review",
+      "index": 4,
+      "latency_ms": 451.99290406890213,
+      "operational_branch": "review",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 1.0,
+      "semantic_branch": "review",
+      "semantic_correct": true,
+      "use_case": "browser-action-risk"
+    },
+    {
+      "answer": {
+        "choice": "physical_good",
+        "probabilities": {
+          "digital_product": 0.0,
+          "other": 0.0,
+          "physical_good": 1.0,
+          "service_or_event": 0.0
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-physical-mug",
+      "difficulty": "fixture",
+      "ensemble_used": false,
+      "expected_branch": "physical_candidate",
+      "index": 5,
+      "latency_ms": 351.26554500311613,
+      "operational_branch": "physical_candidate",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 1.0,
+      "semantic_branch": "physical_candidate",
+      "semantic_correct": true,
+      "use_case": "catalog-listing-signals"
+    },
+    {
+      "answer": {
+        "choice": "digital_product",
+        "probabilities": {
+          "digital_product": 1.0,
+          "other": 0.0,
+          "physical_good": 0.0,
+          "service_or_event": 0.0
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-digital-app",
+      "difficulty": "fixture",
+      "ensemble_used": false,
+      "expected_branch": "digital_candidate",
+      "index": 6,
+      "latency_ms": 349.1461459780112,
+      "operational_branch": "digital_candidate",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 1.0,
+      "semantic_branch": "digital_candidate",
+      "semantic_correct": true,
+      "use_case": "catalog-listing-signals"
+    },
+    {
+      "answer": {
+        "choice": "other",
+        "probabilities": {
+          "digital_product": 0.32,
+          "other": 0.65,
+          "physical_good": 0.01,
+          "service_or_event": 0.02
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-ambiguous-package",
+      "difficulty": "fixture",
+      "ensemble_used": false,
+      "expected_branch": "review",
+      "index": 7,
+      "latency_ms": 350.16367596108466,
+      "operational_branch": "review",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 0.65,
+      "semantic_branch": "review",
+      "semantic_correct": true,
+      "use_case": "catalog-listing-signals"
+    },
+    {
+      "answer": {
+        "choice": "routine",
+        "probabilities": {
+          "focused": 0.0,
+          "routine": 1.0,
+          "specialist": 0.0
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-doc-copy",
+      "difficulty": "fixture",
+      "ensemble_used": false,
+      "expected_branch": "routine_review",
+      "index": 8,
+      "latency_ms": 286.27692197915167,
+      "operational_branch": "routine_review",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 1.0,
+      "semantic_branch": "routine_review",
+      "semantic_correct": true,
+      "use_case": "change-review-risk"
+    },
+    {
+      "answer": {
+        "choice": "specialist",
+        "probabilities": {
+          "focused": 0.0,
+          "routine": 0.0,
+          "specialist": 1.0
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-auth-boundary",
+      "difficulty": "fixture",
+      "ensemble_used": false,
+      "expected_branch": "specialist_review",
+      "index": 9,
+      "latency_ms": 312.5152589054778,
+      "operational_branch": "specialist_review",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 1.0,
+      "semantic_branch": "specialist_review",
+      "semantic_correct": true,
+      "use_case": "change-review-risk"
+    },
+    {
+      "answer": {
+        "choice": "bug_fix",
+        "probabilities": {
+          "bug_fix": 1.0,
+          "feature": 0.0,
+          "maintenance": 0.0,
+          "mixed_or_unclear": 0.0,
+          "security_sensitive": 0.0
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-parser-null-fix",
+      "difficulty": "fixture",
+      "ensemble_used": false,
+      "expected_branch": "bugfix_candidate",
+      "index": 10,
+      "latency_ms": 349.84147595241666,
+      "operational_branch": "bugfix_candidate",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 1.0,
+      "semantic_branch": "bugfix_candidate",
+      "semantic_correct": true,
+      "use_case": "code-change-classification"
+    },
+    {
+      "answer": {
+        "choice": "feature",
+        "probabilities": {
+          "bug_fix": 0.0,
+          "feature": 1.0,
+          "maintenance": 0.0,
+          "mixed_or_unclear": 0.0,
+          "security_sensitive": 0.0
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-new-export-format",
+      "difficulty": "fixture",
+      "ensemble_used": false,
+      "expected_branch": "feature_candidate",
+      "index": 11,
+      "latency_ms": 452.4525940651074,
+      "operational_branch": "feature_candidate",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 1.0,
+      "semantic_branch": "feature_candidate",
+      "semantic_correct": true,
+      "use_case": "code-change-classification"
+    },
+    {
+      "answer": {
+        "choice": "security_sensitive",
+        "probabilities": {
+          "bug_fix": 0.0,
+          "feature": 0.0,
+          "maintenance": 0.0,
+          "mixed_or_unclear": 0.0,
+          "security_sensitive": 1.0
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-auth-scope-change",
+      "difficulty": "fixture",
+      "ensemble_used": false,
+      "expected_branch": "security_review",
+      "index": 12,
+      "latency_ms": 350.47939501237124,
+      "operational_branch": "security_review",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 1.0,
+      "semantic_branch": "security_review",
+      "semantic_correct": true,
+      "use_case": "code-change-classification"
+    },
+    {
+      "answer": {
+        "choice": "maintenance",
+        "probabilities": {
+          "bug_fix": 0.0,
+          "feature": 0.0,
+          "maintenance": 1.0,
+          "mixed_or_unclear": 0.0,
+          "security_sensitive": 0.0
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-doc-cleanup",
+      "difficulty": "fixture",
+      "ensemble_used": false,
+      "expected_branch": "maintenance_candidate",
+      "index": 13,
+      "latency_ms": 452.5596630992368,
+      "operational_branch": "maintenance_candidate",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 1.0,
+      "semantic_branch": "maintenance_candidate",
+      "semantic_correct": true,
+      "use_case": "code-change-classification"
+    },
+    {
+      "answer": {
+        "choice": "verified_complete",
+        "probabilities": {
+          "incomplete": 0.0,
+          "unverified": 0.13,
+          "verified_complete": 0.87
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-verified-complete",
+      "difficulty": "fixture",
+      "ensemble_used": false,
+      "expected_branch": "completion_candidate",
+      "index": 14,
+      "latency_ms": 351.30430408753455,
+      "operational_branch": "completion_candidate",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 0.87,
+      "semantic_branch": "completion_candidate",
+      "semantic_correct": true,
+      "use_case": "completion-evidence-gate"
+    },
+    {
+      "answer": {
+        "choice": "incomplete",
+        "probabilities": {
+          "incomplete": 1.0,
+          "unverified": 0.0,
+          "verified_complete": 0.0
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-unfinished-check",
+      "difficulty": "fixture",
+      "ensemble_used": false,
+      "expected_branch": "resume_work",
+      "index": 15,
+      "latency_ms": 349.4522459805012,
+      "operational_branch": "resume_work",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 1.0,
+      "semantic_branch": "resume_work",
+      "semantic_correct": true,
+      "use_case": "completion-evidence-gate"
+    },
+    {
+      "answer": {
+        "choice": "unverified",
+        "probabilities": {
+          "incomplete": 0.01,
+          "unverified": 0.99,
+          "verified_complete": 0.0
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-unverified-evidence",
+      "difficulty": "fixture",
+      "ensemble_used": false,
+      "expected_branch": "review",
+      "index": 16,
+      "latency_ms": 352.85004298202693,
+      "operational_branch": "review",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 0.99,
+      "semantic_branch": "review",
+      "semantic_correct": true,
+      "use_case": "completion-evidence-gate"
+    },
+    {
+      "answer": {
+        "choice": "ordinary",
+        "probabilities": {
+          "ambiguous": 0.0,
+          "ordinary": 1.0,
+          "restricted": 0.0
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-product-question",
+      "difficulty": "fixture",
+      "ensemble_used": false,
+      "expected_branch": "ordinary_candidate",
+      "index": 17,
+      "latency_ms": 274.5066430652514,
+      "operational_branch": "ordinary_candidate",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 1.0,
+      "semantic_branch": "ordinary_candidate",
+      "semantic_correct": true,
+      "use_case": "content-policy-review"
+    },
+    {
+      "answer": {
+        "choice": "restricted",
+        "probabilities": {
+          "ambiguous": 0.0,
+          "ordinary": 0.0,
+          "restricted": 1.0
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-credential-phish",
+      "difficulty": "fixture",
+      "ensemble_used": false,
+      "expected_branch": "restricted_candidate",
+      "index": 18,
+      "latency_ms": 422.8378899861127,
+      "operational_branch": "restricted_candidate",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 1.0,
+      "semantic_branch": "restricted_candidate",
+      "semantic_correct": true,
+      "use_case": "content-policy-review"
+    },
+    {
+      "answer": {
+        "probabilities": {
+          "0": 0.0,
+          "1": 0.01,
+          "2": 0.03,
+          "3": 0.11,
+          "4": 0.85
+        },
+        "score": 3.8,
+        "type": "score"
+      },
+      "case_id": "synthetic-good",
+      "difficulty": "fixture",
+      "ensemble_used": false,
+      "expected_branch": "publish_candidate",
+      "index": 19,
+      "latency_ms": 350.31361505389214,
+      "operational_branch": "publish_candidate",
+      "operational_correct": true,
+      "policy_type": "score",
+      "selected_probability": null,
+      "semantic_branch": "publish_candidate",
+      "semantic_correct": true,
+      "use_case": "content-quality-gate"
+    },
+    {
+      "answer": {
+        "probabilities": {
+          "0": 0.42,
+          "1": 0.58,
+          "2": 0.0,
+          "3": 0.0,
+          "4": 0.0
+        },
+        "score": 0.59,
+        "type": "score"
+      },
+      "case_id": "synthetic-missing",
+      "difficulty": "fixture",
+      "ensemble_used": false,
+      "expected_branch": "reject",
+      "index": 20,
+      "latency_ms": 350.04378599114716,
+      "operational_branch": "reject",
+      "operational_correct": true,
+      "policy_type": "score",
+      "selected_probability": null,
+      "semantic_branch": "reject",
+      "semantic_correct": true,
+      "use_case": "content-quality-gate"
+    },
+    {
+      "answer": {
+        "probabilities": {
+          "0": 0.0,
+          "1": 0.87,
+          "2": 0.13,
+          "3": 0.0,
+          "4": 0.0
+        },
+        "score": 1.13,
+        "type": "score"
+      },
+      "case_id": "synthetic-major-omission",
+      "difficulty": "fixture",
+      "ensemble_used": false,
+      "expected_branch": "revise",
+      "index": 21,
+      "latency_ms": 350.14096600934863,
+      "operational_branch": "revise",
+      "operational_correct": true,
+      "policy_type": "score",
+      "selected_probability": null,
+      "semantic_branch": "revise",
+      "semantic_correct": true,
+      "use_case": "content-quality-gate"
+    },
+    {
+      "answer": {
+        "choice": "keep_verbatim",
+        "probabilities": {
+          "ambiguous": 0.0,
+          "compactable": 0.11,
+          "keep_verbatim": 0.85,
+          "low_value": 0.04
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-exact-validation-error",
+      "difficulty": "fixture",
+      "ensemble_used": false,
+      "expected_branch": "keep_candidate",
+      "index": 22,
+      "latency_ms": 350.3974750638008,
+      "operational_branch": "keep_candidate",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 0.85,
+      "semantic_branch": "keep_candidate",
+      "semantic_correct": true,
+      "use_case": "context-retention-gate"
+    },
+    {
+      "answer": {
+        "choice": "compactable",
+        "probabilities": {
+          "ambiguous": 0.0,
+          "compactable": 0.85,
+          "keep_verbatim": 0.1,
+          "low_value": 0.05
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-completed-investigation-summary",
+      "difficulty": "fixture",
+      "ensemble_used": false,
+      "expected_branch": "compact_candidate",
+      "index": 23,
+      "latency_ms": 350.2487150253728,
+      "operational_branch": "compact_candidate",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 0.85,
+      "semantic_branch": "compact_candidate",
+      "semantic_correct": true,
+      "use_case": "context-retention-gate"
+    },
+    {
+      "answer": {
+        "choice": "low_value",
+        "probabilities": {
+          "ambiguous": 0.0,
+          "compactable": 0.07,
+          "keep_verbatim": 0.01,
+          "low_value": 0.92
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-superseded-progress-note",
+      "difficulty": "fixture",
+      "ensemble_used": false,
+      "expected_branch": "drop_candidate",
+      "index": 24,
+      "latency_ms": 351.31267504766583,
+      "operational_branch": "drop_candidate",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 0.92,
+      "semantic_branch": "drop_candidate",
+      "semantic_correct": true,
+      "use_case": "context-retention-gate"
+    },
+    {
+      "answer": {
+        "choice": "compactable",
+        "probabilities": {
+          "ambiguous": 0.26,
+          "compactable": 0.46,
+          "keep_verbatim": 0.12,
+          "low_value": 0.16
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-unclear-design-note",
+      "difficulty": "fixture",
+      "ensemble_used": false,
+      "expected_branch": "review",
+      "index": 25,
+      "latency_ms": 451.5241349581629,
+      "operational_branch": "review",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 0.46,
+      "semantic_branch": "compact_candidate",
+      "semantic_correct": false,
+      "use_case": "context-retention-gate"
+    },
+    {
+      "answer": {
+        "choice": "incomplete",
+        "probabilities": {
+          "ambiguous": 0.0,
+          "barge_in": 0.0,
+          "complete_request": 0.0,
+          "incomplete": 1.0
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-incomplete-timer",
+      "difficulty": "fixture",
+      "ensemble_used": false,
+      "expected_branch": "continue_listening",
+      "index": 26,
+      "latency_ms": 350.00821598805487,
+      "operational_branch": "continue_listening",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 1.0,
+      "semantic_branch": "continue_listening",
+      "semantic_correct": true,
+      "use_case": "conversation-turn-state"
+    },
+    {
+      "answer": {
+        "choice": "complete_request",
+        "probabilities": {
+          "ambiguous": 0.0,
+          "barge_in": 0.0,
+          "complete_request": 1.0,
+          "incomplete": 0.0
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-complete-weather-question",
+      "difficulty": "fixture",
+      "ensemble_used": false,
+      "expected_branch": "respond_candidate",
+      "index": 27,
+      "latency_ms": 351.82881401851773,
+      "operational_branch": "respond_candidate",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 1.0,
+      "semantic_branch": "respond_candidate",
+      "semantic_correct": true,
+      "use_case": "conversation-turn-state"
+    },
+    {
+      "answer": {
+        "choice": "barge_in",
+        "probabilities": {
+          "ambiguous": 0.0,
+          "barge_in": 0.99,
+          "complete_request": 0.01,
+          "incomplete": 0.0
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-explicit-interruption",
+      "difficulty": "fixture",
+      "ensemble_used": false,
+      "expected_branch": "barge_in_candidate",
+      "index": 28,
+      "latency_ms": 349.004705902189,
+      "operational_branch": "barge_in_candidate",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 0.99,
+      "semantic_branch": "barge_in_candidate",
+      "semantic_correct": true,
+      "use_case": "conversation-turn-state"
+    },
+    {
+      "answer": {
+        "choice": "ambiguous",
+        "probabilities": {
+          "ambiguous": 0.51,
+          "barge_in": 0.01,
+          "complete_request": 0.01,
+          "incomplete": 0.47
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-ambiguous-backchannel",
+      "difficulty": "fixture",
+      "ensemble_used": false,
+      "expected_branch": "review",
+      "index": 29,
+      "latency_ms": 266.46957907360047,
+      "operational_branch": "review",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 0.51,
+      "semantic_branch": "review",
+      "semantic_correct": true,
+      "use_case": "conversation-turn-state"
+    },
+    {
+      "answer": {
+        "choice": "urgent_human",
+        "probabilities": {
+          "self_serve": 0.0,
+          "standard_queue": 0.0,
+          "urgent_human": 1.0
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-outage",
+      "difficulty": "fixture",
+      "ensemble_used": false,
+      "expected_branch": "escalate",
+      "index": 30,
+      "latency_ms": 331.4259620383382,
+      "operational_branch": "escalate",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 1.0,
+      "semantic_branch": "escalate",
+      "semantic_correct": true,
+      "use_case": "customer-support-ticket-triage"
+    },
+    {
+      "answer": {
+        "choice": "self_serve",
+        "probabilities": {
+          "self_serve": 1.0,
+          "standard_queue": 0.0,
+          "urgent_human": 0.0
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-howto",
+      "difficulty": "fixture",
+      "ensemble_used": false,
+      "expected_branch": "self_serve",
+      "index": 31,
+      "latency_ms": 373.4636250883341,
+      "operational_branch": "self_serve",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 1.0,
+      "semantic_branch": "self_serve",
+      "semantic_correct": true,
+      "use_case": "customer-support-ticket-triage"
+    },
+    {
+      "answer": {
+        "probabilities": {
+          "0": 0.0,
+          "1": 0.0,
+          "2": 0.0,
+          "3": 0.05,
+          "4": 0.95
+        },
+        "score": 3.93,
+        "type": "score"
+      },
+      "case_id": "synthetic-clear-example",
+      "difficulty": "fixture",
+      "ensemble_used": false,
+      "expected_branch": "keep_candidate",
+      "index": 32,
+      "latency_ms": 326.75380597356707,
+      "operational_branch": "keep_candidate",
+      "operational_correct": true,
+      "policy_type": "score",
+      "selected_probability": null,
+      "semantic_branch": "keep_candidate",
+      "semantic_correct": true,
+      "use_case": "dataset-example-quality"
+    },
+    {
+      "answer": {
+        "probabilities": {
+          "0": 0.08,
+          "1": 0.92,
+          "2": 0.0,
+          "3": 0.0,
+          "4": 0.0
+        },
+        "score": 0.94,
+        "type": "score"
+      },
+      "case_id": "synthetic-contradictory-example",
+      "difficulty": "fixture",
+      "ensemble_used": false,
+      "expected_branch": "drop_candidate",
+      "index": 33,
+      "latency_ms": 351.23430599924177,
+      "operational_branch": "drop_candidate",
+      "operational_correct": true,
+      "policy_type": "score",
+      "selected_probability": null,
+      "semantic_branch": "drop_candidate",
+      "semantic_correct": true,
+      "use_case": "dataset-example-quality"
+    },
+    {
+      "answer": {
+        "choice": "clean_text",
+        "probabilities": {
+          "clean_text": 1.0,
+          "ocr_candidate": 0.0,
+          "review": 0.0
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-clean-text",
+      "difficulty": "fixture",
+      "ensemble_used": false,
+      "expected_branch": "continue_local",
+      "index": 34,
+      "latency_ms": 349.5415460783988,
+      "operational_branch": "continue_local",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 1.0,
+      "semantic_branch": "continue_local",
+      "semantic_correct": true,
+      "use_case": "document-extraction-route"
+    },
+    {
+      "answer": {
+        "choice": "ocr_candidate",
+        "probabilities": {
+          "clean_text": 0.0,
+          "ocr_candidate": 1.0,
+          "review": 0.0
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-scan",
+      "difficulty": "fixture",
+      "ensemble_used": false,
+      "expected_branch": "try_ocr",
+      "index": 35,
+      "latency_ms": 350.76558496803045,
+      "operational_branch": "try_ocr",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 1.0,
+      "semantic_branch": "try_ocr",
+      "semantic_correct": true,
+      "use_case": "document-extraction-route"
+    },
+    {
+      "answer": {
+        "noul": 0.82,
+        "type": "noul"
+      },
+      "case_id": "synthetic-mismatch",
+      "difficulty": "fixture",
+      "ensemble_used": false,
+      "expected_branch": "review",
+      "index": 36,
+      "latency_ms": 349.4046349078417,
+      "operational_branch": "review",
+      "operational_correct": true,
+      "policy_type": "binary",
+      "selected_probability": 0.82,
+      "semantic_branch": "review",
+      "semantic_correct": true,
+      "use_case": "document-invoice-review"
+    },
+    {
+      "answer": {
+        "noul": 0.08,
+        "type": "noul"
+      },
+      "case_id": "synthetic-clean",
+      "difficulty": "fixture",
+      "ensemble_used": false,
+      "expected_branch": "continue",
+      "index": 37,
+      "latency_ms": 350.459675071761,
+      "operational_branch": "continue",
+      "operational_correct": true,
+      "policy_type": "binary",
+      "selected_probability": 0.92,
+      "semantic_branch": "continue",
+      "semantic_correct": true,
+      "use_case": "document-invoice-review"
+    },
+    {
+      "answer": {
+        "choice": "same_problem",
+        "probabilities": {
+          "ambiguous": 0.0,
+          "different_problem": 0.0,
+          "same_problem": 1.0
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-same-upload-stall",
+      "difficulty": "fixture",
+      "ensemble_used": false,
+      "expected_branch": "duplicate_candidate",
+      "index": 38,
+      "latency_ms": 261.7368740029633,
+      "operational_branch": "duplicate_candidate",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 1.0,
+      "semantic_branch": "duplicate_candidate",
+      "semantic_correct": true,
+      "use_case": "duplicate-report-match"
+    },
+    {
+      "answer": {
+        "choice": "different_problem",
+        "probabilities": {
+          "ambiguous": 0.01,
+          "different_problem": 0.99,
+          "same_problem": 0.0
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-export-distinct",
+      "difficulty": "fixture",
+      "ensemble_used": false,
+      "expected_branch": "distinct",
+      "index": 39,
+      "latency_ms": 464.2802629387006,
+      "operational_branch": "distinct",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 0.99,
+      "semantic_branch": "distinct",
+      "semantic_correct": true,
+      "use_case": "duplicate-report-match"
+    },
+    {
+      "answer": {
+        "choice": "ambiguous",
+        "probabilities": {
+          "ambiguous": 0.92,
+          "different_problem": 0.01,
+          "same_problem": 0.07
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-overlapping-sync-symptoms",
+      "difficulty": "fixture",
+      "ensemble_used": false,
+      "expected_branch": "review",
+      "index": 40,
+      "latency_ms": 267.72783894557506,
+      "operational_branch": "review",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 0.92,
+      "semantic_branch": "review",
+      "semantic_correct": true,
+      "use_case": "duplicate-report-match"
+    },
+    {
+      "answer": {
+        "choice": "no_failure",
+        "probabilities": {
+          "code_bug": 0.0,
+          "environment": 0.0,
+          "invalid_input": 0.0,
+          "no_failure": 1.0,
+          "permission": 0.0,
+          "transient": 0.0,
+          "unclear": 0.0
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-successful-test-run",
+      "difficulty": "fixture",
+      "ensemble_used": false,
+      "expected_branch": "no_failure_candidate",
+      "index": 41,
+      "latency_ms": 287.9638319136575,
+      "operational_branch": "no_failure_candidate",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 1.0,
+      "semantic_branch": "no_failure_candidate",
+      "semantic_correct": true,
+      "use_case": "execution-failure-classification"
+    },
+    {
+      "answer": {
+        "choice": "transient",
+        "probabilities": {
+          "code_bug": 0.0,
+          "environment": 0.0,
+          "invalid_input": 0.0,
+          "no_failure": 0.0,
+          "permission": 0.0,
+          "transient": 1.0,
+          "unclear": 0.0
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-network-reset",
+      "difficulty": "fixture",
+      "ensemble_used": false,
+      "expected_branch": "transient_candidate",
+      "index": 42,
+      "latency_ms": 284.5072849886492,
+      "operational_branch": "transient_candidate",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 1.0,
+      "semantic_branch": "transient_candidate",
+      "semantic_correct": true,
+      "use_case": "execution-failure-classification"
+    },
+    {
+      "answer": {
+        "choice": "environment",
+        "probabilities": {
+          "code_bug": 0.0,
+          "environment": 1.0,
+          "invalid_input": 0.0,
+          "no_failure": 0.0,
+          "permission": 0.0,
+          "transient": 0.0,
+          "unclear": 0.0
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-port-in-use",
+      "difficulty": "fixture",
+      "ensemble_used": false,
+      "expected_branch": "environment_candidate",
+      "index": 43,
+      "latency_ms": 330.00426297076046,
+      "operational_branch": "environment_candidate",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 1.0,
+      "semantic_branch": "environment_candidate",
+      "semantic_correct": true,
+      "use_case": "execution-failure-classification"
+    },
+    {
+      "answer": {
+        "choice": "code_bug",
+        "probabilities": {
+          "code_bug": 0.96,
+          "environment": 0.0,
+          "invalid_input": 0.04,
+          "no_failure": 0.0,
+          "permission": 0.0,
+          "transient": 0.0,
+          "unclear": 0.0
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-code-exception",
+      "difficulty": "fixture",
+      "ensemble_used": false,
+      "expected_branch": "code_candidate",
+      "index": 44,
+      "latency_ms": 296.4788539102301,
+      "operational_branch": "code_candidate",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 0.96,
+      "semantic_branch": "code_candidate",
+      "semantic_correct": true,
+      "use_case": "execution-failure-classification"
+    },
+    {
+      "answer": {
+        "choice": "permission",
+        "probabilities": {
+          "code_bug": 0.0,
+          "environment": 0.0,
+          "invalid_input": 0.0,
+          "no_failure": 0.0,
+          "permission": 1.0,
+          "transient": 0.0,
+          "unclear": 0.0
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-permission-denied",
+      "difficulty": "fixture",
+      "ensemble_used": false,
+      "expected_branch": "permission_candidate",
+      "index": 45,
+      "latency_ms": 400.22076095920056,
+      "operational_branch": "permission_candidate",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 1.0,
+      "semantic_branch": "permission_candidate",
+      "semantic_correct": true,
+      "use_case": "execution-failure-classification"
+    },
+    {
+      "answer": {
+        "choice": "invalid_input",
+        "probabilities": {
+          "code_bug": 0.0,
+          "environment": 0.0,
+          "invalid_input": 1.0,
+          "no_failure": 0.0,
+          "permission": 0.0,
+          "transient": 0.0,
+          "unclear": 0.0
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-invalid-argument",
+      "difficulty": "fixture",
+      "ensemble_used": false,
+      "expected_branch": "input_candidate",
+      "index": 46,
+      "latency_ms": 260.7935549458489,
+      "operational_branch": "input_candidate",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 1.0,
+      "semantic_branch": "input_candidate",
+      "semantic_correct": true,
+      "use_case": "execution-failure-classification"
+    },
+    {
+      "answer": {
+        "choice": "unclear",
+        "probabilities": {
+          "code_bug": 0.0,
+          "environment": 0.0,
+          "invalid_input": 0.0,
+          "no_failure": 0.0,
+          "permission": 0.0,
+          "transient": 0.0,
+          "unclear": 1.0
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-opaque-failure",
+      "difficulty": "fixture",
+      "ensemble_used": false,
+      "expected_branch": "review",
+      "index": 47,
+      "latency_ms": 341.79072093684226,
+      "operational_branch": "review",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 1.0,
+      "semantic_branch": "review",
+      "semantic_correct": true,
+      "use_case": "execution-failure-classification"
+    },
+    {
+      "answer": {
+        "choice": "advance",
+        "probabilities": {
+          "advance": 1.0,
+          "defend": 0.0,
+          "hold": 0.0,
+          "retreat": 0.0
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-advance",
+      "difficulty": "fixture",
+      "ensemble_used": false,
+      "expected_branch": "advance_candidate",
+      "index": 48,
+      "latency_ms": 349.9135859310627,
+      "operational_branch": "advance_candidate",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 1.0,
+      "semantic_branch": "advance_candidate",
+      "semantic_correct": true,
+      "use_case": "game-state-action"
+    },
+    {
+      "answer": {
+        "choice": "defend",
+        "probabilities": {
+          "advance": 0.0,
+          "defend": 1.0,
+          "hold": 0.0,
+          "retreat": 0.0
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-defend",
+      "difficulty": "fixture",
+      "ensemble_used": false,
+      "expected_branch": "defend_candidate",
+      "index": 49,
+      "latency_ms": 398.72288203332573,
+      "operational_branch": "defend_candidate",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 1.0,
+      "semantic_branch": "defend_candidate",
+      "semantic_correct": true,
+      "use_case": "game-state-action"
+    },
+    {
+      "answer": {
+        "choice": "routine",
+        "probabilities": {
+          "escalate": 0.0,
+          "investigate": 0.0,
+          "routine": 1.0
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-recovered-retry",
+      "difficulty": "fixture",
+      "ensemble_used": false,
+      "expected_branch": "observe",
+      "index": 50,
+      "latency_ms": 306.5477339550853,
+      "operational_branch": "observe",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 1.0,
+      "semantic_branch": "observe",
+      "semantic_correct": true,
+      "use_case": "incident-signal-triage"
+    },
+    {
+      "answer": {
+        "choice": "escalate",
+        "probabilities": {
+          "escalate": 1.0,
+          "investigate": 0.0,
+          "routine": 0.0
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-active-login-impact",
+      "difficulty": "fixture",
+      "ensemble_used": false,
+      "expected_branch": "human_attention",
+      "index": 51,
+      "latency_ms": 345.20971996244043,
+      "operational_branch": "human_attention",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 1.0,
+      "semantic_branch": "human_attention",
+      "semantic_correct": true,
+      "use_case": "incident-signal-triage"
+    },
+    {
+      "answer": {
+        "choice": "routine",
+        "probabilities": {
+          "high_risk": 0.0,
+          "routine": 1.0,
+          "suspicious": 0.0
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-routine-project-update",
+      "difficulty": "fixture",
+      "ensemble_used": false,
+      "expected_branch": "routine_candidate",
+      "index": 52,
+      "latency_ms": 350.2366660395637,
+      "operational_branch": "routine_candidate",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 1.0,
+      "semantic_branch": "routine_candidate",
+      "semantic_correct": true,
+      "use_case": "incoming-message-risk"
+    },
+    {
+      "answer": {
+        "choice": "high_risk",
+        "probabilities": {
+          "high_risk": 1.0,
+          "routine": 0.0,
+          "suspicious": 0.0
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-credential-lure",
+      "difficulty": "fixture",
+      "ensemble_used": false,
+      "expected_branch": "high_risk_candidate",
+      "index": 53,
+      "latency_ms": 350.26879503857344,
+      "operational_branch": "high_risk_candidate",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 1.0,
+      "semantic_branch": "high_risk_candidate",
+      "semantic_correct": true,
+      "use_case": "incoming-message-risk"
+    },
+    {
+      "answer": {
+        "choice": "suspicious",
+        "probabilities": {
+          "high_risk": 0.47,
+          "routine": 0.0,
+          "suspicious": 0.53
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-unusual-vendor-change",
+      "difficulty": "fixture",
+      "ensemble_used": false,
+      "expected_branch": "security_review",
+      "index": 54,
+      "latency_ms": 305.62029499560595,
+      "operational_branch": "security_review",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 0.53,
+      "semantic_branch": "security_review",
+      "semantic_correct": true,
+      "use_case": "incoming-message-risk"
+    },
+    {
+      "answer": {
+        "noul": 0.78,
+        "type": "noul"
+      },
+      "case_id": "synthetic-fit",
+      "difficulty": "fixture",
+      "ensemble_used": false,
+      "expected_branch": "bid_candidate",
+      "index": 55,
+      "latency_ms": 300.91284099034965,
+      "operational_branch": "bid_candidate",
+      "operational_correct": true,
+      "policy_type": "binary",
+      "selected_probability": 0.78,
+      "semantic_branch": "bid_candidate",
+      "semantic_correct": true,
+      "use_case": "marketplace-job-fit"
+    },
+    {
+      "answer": {
+        "noul": 0.02,
+        "type": "noul"
+      },
+      "case_id": "synthetic-skip",
+      "difficulty": "fixture",
+      "ensemble_used": false,
+      "expected_branch": "skip",
+      "index": 56,
+      "latency_ms": 444.21138102188706,
+      "operational_branch": "skip",
+      "operational_correct": true,
+      "policy_type": "binary",
+      "selected_probability": 0.98,
+      "semantic_branch": "skip",
+      "semantic_correct": true,
+      "use_case": "marketplace-job-fit"
+    },
+    {
+      "answer": {
+        "choice": "durable",
+        "probabilities": {
+          "durable": 1.0,
+          "transient": 0.0,
+          "unclear": 0.0
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-durable-convention",
+      "difficulty": "fixture",
+      "ensemble_used": false,
+      "expected_branch": "store_candidate",
+      "index": 57,
+      "latency_ms": 348.5270160017535,
+      "operational_branch": "store_candidate",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 1.0,
+      "semantic_branch": "store_candidate",
+      "semantic_correct": true,
+      "use_case": "memory-relevance-gate"
+    },
+    {
+      "answer": {
+        "choice": "transient",
+        "probabilities": {
+          "durable": 0.0,
+          "transient": 1.0,
+          "unclear": 0.0
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-transient-status",
+      "difficulty": "fixture",
+      "ensemble_used": false,
+      "expected_branch": "ignore",
+      "index": 58,
+      "latency_ms": 351.9092840142548,
+      "operational_branch": "ignore",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 1.0,
+      "semantic_branch": "ignore",
+      "semantic_correct": true,
+      "use_case": "memory-relevance-gate"
+    },
+    {
+      "answer": {
+        "choice": "fast",
+        "probabilities": {
+          "balanced": 0.0,
+          "deep": 0.0,
+          "fast": 1.0,
+          "unclear": 0.0
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-local-normalization",
+      "difficulty": "fixture",
+      "ensemble_used": false,
+      "expected_branch": "fast_candidate",
+      "index": 59,
+      "latency_ms": 315.80140604637563,
+      "operational_branch": "fast_candidate",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 1.0,
+      "semantic_branch": "fast_candidate",
+      "semantic_correct": true,
+      "use_case": "model-effort-routing"
+    },
+    {
+      "answer": {
+        "choice": "balanced",
+        "probabilities": {
+          "balanced": 1.0,
+          "deep": 0.0,
+          "fast": 0.0,
+          "unclear": 0.0
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-bounded-debugging",
+      "difficulty": "fixture",
+      "ensemble_used": false,
+      "expected_branch": "balanced_candidate",
+      "index": 60,
+      "latency_ms": 283.93992502242327,
+      "operational_branch": "balanced_candidate",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 1.0,
+      "semantic_branch": "balanced_candidate",
+      "semantic_correct": true,
+      "use_case": "model-effort-routing"
+    },
+    {
+      "answer": {
+        "choice": "deep",
+        "probabilities": {
+          "balanced": 0.0,
+          "deep": 1.0,
+          "fast": 0.0,
+          "unclear": 0.0
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-cross-component-migration",
+      "difficulty": "fixture",
+      "ensemble_used": false,
+      "expected_branch": "deep_candidate",
+      "index": 61,
+      "latency_ms": 348.4929359983653,
+      "operational_branch": "deep_candidate",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 1.0,
+      "semantic_branch": "deep_candidate",
+      "semantic_correct": true,
+      "use_case": "model-effort-routing"
+    },
+    {
+      "answer": {
+        "choice": "unclear",
+        "probabilities": {
+          "balanced": 0.0,
+          "deep": 0.04,
+          "fast": 0.0,
+          "unclear": 0.96
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-underspecified-request",
+      "difficulty": "fixture",
+      "ensemble_used": false,
+      "expected_branch": "review",
+      "index": 62,
+      "latency_ms": 350.0474350294098,
+      "operational_branch": "review",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 0.96,
+      "semantic_branch": "review",
+      "semantic_correct": true,
+      "use_case": "model-effort-routing"
+    },
+    {
+      "answer": {
+        "choice": "ordinary",
+        "probabilities": {
+          "caution": 0.0,
+          "ordinary": 1.0,
+          "protected": 0.0
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-routine-internal-update",
+      "difficulty": "fixture",
+      "ensemble_used": false,
+      "expected_branch": "send_candidate",
+      "index": 63,
+      "latency_ms": 353.082224028185,
+      "operational_branch": "send_candidate",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 1.0,
+      "semantic_branch": "send_candidate",
+      "semantic_correct": true,
+      "use_case": "outbound-message-risk"
+    },
+    {
+      "answer": {
+        "choice": "caution",
+        "probabilities": {
+          "caution": 0.98,
+          "ordinary": 0.02,
+          "protected": 0.0
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-unapproved-delivery-promise",
+      "difficulty": "fixture",
+      "ensemble_used": false,
+      "expected_branch": "review",
+      "index": 64,
+      "latency_ms": 347.764337901026,
+      "operational_branch": "review",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 0.98,
+      "semantic_branch": "review",
+      "semantic_correct": true,
+      "use_case": "outbound-message-risk"
+    },
+    {
+      "answer": {
+        "choice": "protected",
+        "probabilities": {
+          "caution": 0.04,
+          "ordinary": 0.03,
+          "protected": 0.93
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-confidential-pricing-leak",
+      "difficulty": "fixture",
+      "ensemble_used": false,
+      "expected_branch": "block_candidate",
+      "index": 65,
+      "latency_ms": 349.88434496335685,
+      "operational_branch": "block_candidate",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 0.93,
+      "semantic_branch": "block_candidate",
+      "semantic_correct": true,
+      "use_case": "outbound-message-risk"
+    },
+    {
+      "answer": {
+        "choice": "useful",
+        "probabilities": {
+          "ambiguous": 0.0,
+          "nonessential": 0.0,
+          "useful": 1.0
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-primary-explanation",
+      "difficulty": "fixture",
+      "ensemble_used": false,
+      "expected_branch": "keep_candidate",
+      "index": 66,
+      "latency_ms": 345.86902998853475,
+      "operational_branch": "keep_candidate",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 1.0,
+      "semantic_branch": "keep_candidate",
+      "semantic_correct": true,
+      "use_case": "page-clutter-relevance"
+    },
+    {
+      "answer": {
+        "choice": "nonessential",
+        "probabilities": {
+          "ambiguous": 0.0,
+          "nonessential": 1.0,
+          "useful": 0.0
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-unrelated-community-box",
+      "difficulty": "fixture",
+      "ensemble_used": false,
+      "expected_branch": "hide_candidate",
+      "index": 67,
+      "latency_ms": 354.6042889356613,
+      "operational_branch": "hide_candidate",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 1.0,
+      "semantic_branch": "hide_candidate",
+      "semantic_correct": true,
+      "use_case": "page-clutter-relevance"
+    },
+    {
+      "answer": {
+        "choice": "useful",
+        "probabilities": {
+          "ambiguous": 0.36,
+          "nonessential": 0.16,
+          "useful": 0.48
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-unclear-related-card",
+      "difficulty": "fixture",
+      "ensemble_used": false,
+      "expected_branch": "review",
+      "index": 68,
+      "latency_ms": 307.2687939275056,
+      "operational_branch": "review",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 0.48,
+      "semantic_branch": "keep_candidate",
+      "semantic_correct": false,
+      "use_case": "page-clutter-relevance"
+    },
+    {
+      "answer": {
+        "choice": "unaffected",
+        "probabilities": {
+          "affected": 0.0,
+          "unaffected": 0.98,
+          "unclear": 0.02
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-unaffected-renderer",
+      "difficulty": "fixture",
+      "ensemble_used": false,
+      "expected_branch": "no_change_candidate",
+      "index": 69,
+      "latency_ms": 272.36494491808116,
+      "operational_branch": "no_change_candidate",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 0.98,
+      "semantic_branch": "no_change_candidate",
+      "semantic_correct": true,
+      "use_case": "policy-change-impact"
+    },
+    {
+      "answer": {
+        "choice": "affected",
+        "probabilities": {
+          "affected": 1.0,
+          "unaffected": 0.0,
+          "unclear": 0.0
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-affected-export-service",
+      "difficulty": "fixture",
+      "ensemble_used": false,
+      "expected_branch": "impact_review",
+      "index": 70,
+      "latency_ms": 300.83393899258226,
+      "operational_branch": "impact_review",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 1.0,
+      "semantic_branch": "impact_review",
+      "semantic_correct": true,
+      "use_case": "policy-change-impact"
+    },
+    {
+      "answer": {
+        "choice": "unclear",
+        "probabilities": {
+          "affected": 0.14,
+          "unaffected": 0.04,
+          "unclear": 0.82
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-ambiguous-export-ui",
+      "difficulty": "fixture",
+      "ensemble_used": false,
+      "expected_branch": "review",
+      "index": 71,
+      "latency_ms": 317.6927949534729,
+      "operational_branch": "review",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 0.82,
+      "semantic_branch": "review",
+      "semantic_correct": true,
+      "use_case": "policy-change-impact"
+    },
+    {
+      "answer": {
+        "choice": "supported",
+        "probabilities": {
+          "contradicted": 0.0,
+          "supported": 1.0,
+          "unclear": 0.0
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-supported",
+      "difficulty": "fixture",
+      "ensemble_used": false,
+      "expected_branch": "continue",
+      "index": 72,
+      "latency_ms": 450.691435020417,
+      "operational_branch": "continue",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 1.0,
+      "semantic_branch": "continue",
+      "semantic_correct": true,
+      "use_case": "research-claim-verification"
+    },
+    {
+      "answer": {
+        "choice": "unclear",
+        "probabilities": {
+          "contradicted": 0.01,
+          "supported": 0.0,
+          "unclear": 0.99
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-unclear",
+      "difficulty": "fixture",
+      "ensemble_used": false,
+      "expected_branch": "verify",
+      "index": 73,
+      "latency_ms": 352.06138400826603,
+      "operational_branch": "verify",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 0.99,
+      "semantic_branch": "verify",
+      "semantic_correct": true,
+      "use_case": "research-claim-verification"
+    },
+    {
+      "answer": {
+        "choice": "irrelevant",
+        "probabilities": {
+          "irrelevant": 1.0,
+          "relevant": 0.0,
+          "urgent": 0.0
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-unrelated-event",
+      "difficulty": "fixture",
+      "ensemble_used": false,
+      "expected_branch": "ignore",
+      "index": 74,
+      "latency_ms": 285.96701193600893,
+      "operational_branch": "ignore",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 1.0,
+      "semantic_branch": "ignore",
+      "semantic_correct": true,
+      "use_case": "research-event-relevance"
+    },
+    {
+      "answer": {
+        "choice": "relevant",
+        "probabilities": {
+          "irrelevant": 0.0,
+          "relevant": 0.8,
+          "urgent": 0.2
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-relevant-amendment",
+      "difficulty": "fixture",
+      "ensemble_used": false,
+      "expected_branch": "research_candidate",
+      "index": 75,
+      "latency_ms": 309.93855104316026,
+      "operational_branch": "research_candidate",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 0.8,
+      "semantic_branch": "research_candidate",
+      "semantic_correct": true,
+      "use_case": "research-event-relevance"
+    },
+    {
+      "answer": {
+        "noul": 0.95,
+        "type": "noul"
+      },
+      "case_id": "synthetic-relevant",
+      "difficulty": "fixture",
+      "ensemble_used": false,
+      "expected_branch": "include_candidate",
+      "index": 76,
+      "latency_ms": 293.04470599163324,
+      "operational_branch": "include_candidate",
+      "operational_correct": true,
+      "policy_type": "binary",
+      "selected_probability": 0.95,
+      "semantic_branch": "include_candidate",
+      "semantic_correct": true,
+      "use_case": "retrieval-relevance-gate"
+    },
+    {
+      "answer": {
+        "noul": 0.02,
+        "type": "noul"
+      },
+      "case_id": "synthetic-irrelevant",
+      "difficulty": "fixture",
+      "ensemble_used": false,
+      "expected_branch": "discard",
+      "index": 77,
+      "latency_ms": 305.62438699416816,
+      "operational_branch": "discard",
+      "operational_correct": true,
+      "policy_type": "binary",
+      "selected_probability": 0.98,
+      "semantic_branch": "discard",
+      "semantic_correct": true,
+      "use_case": "retrieval-relevance-gate"
+    },
+    {
+      "answer": {
+        "noul": 0.84,
+        "type": "noul"
+      },
+      "case_id": "synthetic-fit",
+      "difficulty": "fixture",
+      "ensemble_used": false,
+      "expected_branch": "qualified",
+      "index": 78,
+      "latency_ms": 338.554244954139,
+      "operational_branch": "qualified",
+      "operational_correct": true,
+      "policy_type": "binary",
+      "selected_probability": 0.84,
+      "semantic_branch": "qualified",
+      "semantic_correct": true,
+      "use_case": "sales-lead-fit"
+    },
+    {
+      "answer": {
+        "noul": 0.02,
+        "type": "noul"
+      },
+      "case_id": "synthetic-mismatch",
+      "difficulty": "fixture",
+      "ensemble_used": false,
+      "expected_branch": "ignore",
+      "index": 79,
+      "latency_ms": 361.6594650084153,
+      "operational_branch": "ignore",
+      "operational_correct": true,
+      "policy_type": "binary",
+      "selected_probability": 0.98,
+      "semantic_branch": "ignore",
+      "semantic_correct": true,
+      "use_case": "sales-lead-fit"
+    },
+    {
+      "answer": {
+        "noul": 0.93,
+        "type": "noul"
+      },
+      "case_id": "synthetic-paraphrase",
+      "difficulty": "fixture",
+      "ensemble_used": false,
+      "expected_branch": "reuse_candidate",
+      "index": 80,
+      "latency_ms": 350.925246020779,
+      "operational_branch": "reuse_candidate",
+      "operational_correct": true,
+      "policy_type": "binary",
+      "selected_probability": 0.93,
+      "semantic_branch": "reuse_candidate",
+      "semantic_correct": true,
+      "use_case": "semantic-cache-reuse-gate"
+    },
+    {
+      "answer": {
+        "noul": 0.08,
+        "type": "noul"
+      },
+      "case_id": "synthetic-scope-change",
+      "difficulty": "fixture",
+      "ensemble_used": false,
+      "expected_branch": "miss",
+      "index": 81,
+      "latency_ms": 350.05255590658635,
+      "operational_branch": "miss",
+      "operational_correct": true,
+      "policy_type": "binary",
+      "selected_probability": 0.92,
+      "semantic_branch": "miss",
+      "semantic_correct": true,
+      "use_case": "semantic-cache-reuse-gate"
+    },
+    {
+      "answer": {
+        "choice": "ordinary",
+        "probabilities": {
+          "ambiguous": 0.0,
+          "ordinary": 1.0,
+          "promotional": 0.0
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-editorial-paragraph",
+      "difficulty": "fixture",
+      "ensemble_used": false,
+      "expected_branch": "keep_candidate",
+      "index": 82,
+      "latency_ms": 281.5125969937071,
+      "operational_branch": "keep_candidate",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 1.0,
+      "semantic_branch": "keep_candidate",
+      "semantic_correct": true,
+      "use_case": "semantic-content-blocking"
+    },
+    {
+      "answer": {
+        "choice": "promotional",
+        "probabilities": {
+          "ambiguous": 0.0,
+          "ordinary": 0.0,
+          "promotional": 1.0
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-promotional-card",
+      "difficulty": "fixture",
+      "ensemble_used": false,
+      "expected_branch": "hide_candidate",
+      "index": 83,
+      "latency_ms": 319.1529529867694,
+      "operational_branch": "hide_candidate",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 1.0,
+      "semantic_branch": "hide_candidate",
+      "semantic_correct": true,
+      "use_case": "semantic-content-blocking"
+    },
+    {
+      "answer": {
+        "choice": "promotional",
+        "probabilities": {
+          "ambiguous": 0.28,
+          "ordinary": 0.21,
+          "promotional": 0.51
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-ambiguous-recommendation",
+      "difficulty": "fixture",
+      "ensemble_used": false,
+      "expected_branch": "review",
+      "index": 84,
+      "latency_ms": 347.5562169915065,
+      "operational_branch": "review",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 0.51,
+      "semantic_branch": "hide_candidate",
+      "semantic_correct": false,
+      "use_case": "semantic-content-blocking"
+    },
+    {
+      "answer": {
+        "choice": "consistent",
+        "probabilities": {
+          "consistent": 1.0,
+          "inconsistent": 0.0,
+          "unclear": 0.0
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-consistent-deployment",
+      "difficulty": "fixture",
+      "ensemble_used": false,
+      "expected_branch": "continue_candidate",
+      "index": 85,
+      "latency_ms": 452.3015139857307,
+      "operational_branch": "continue_candidate",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 1.0,
+      "semantic_branch": "continue_candidate",
+      "semantic_correct": true,
+      "use_case": "semantic-data-consistency"
+    },
+    {
+      "answer": {
+        "choice": "inconsistent",
+        "probabilities": {
+          "consistent": 0.14,
+          "inconsistent": 0.85,
+          "unclear": 0.01
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-semantic-contradiction",
+      "difficulty": "fixture",
+      "ensemble_used": false,
+      "expected_branch": "exception_review",
+      "index": 86,
+      "latency_ms": 294.08103600144386,
+      "operational_branch": "exception_review",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 0.85,
+      "semantic_branch": "exception_review",
+      "semantic_correct": true,
+      "use_case": "semantic-data-consistency"
+    },
+    {
+      "answer": {
+        "choice": "inconsistent",
+        "probabilities": {
+          "consistent": 0.19,
+          "inconsistent": 0.63,
+          "unclear": 0.18
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-ambiguous-transition",
+      "difficulty": "fixture",
+      "ensemble_used": false,
+      "expected_branch": "review",
+      "index": 87,
+      "latency_ms": 303.64852608181536,
+      "operational_branch": "review",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 0.63,
+      "semantic_branch": "exception_review",
+      "semantic_correct": false,
+      "use_case": "semantic-data-consistency"
+    },
+    {
+      "answer": {
+        "choice": "same_entity",
+        "probabilities": {
+          "different_entity": 0.0,
+          "insufficient": 0.0,
+          "same_entity": 1.0
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-clear-semantic-match",
+      "difficulty": "fixture",
+      "ensemble_used": false,
+      "expected_branch": "match_candidate",
+      "index": 88,
+      "latency_ms": 289.1723200445995,
+      "operational_branch": "match_candidate",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 1.0,
+      "semantic_branch": "match_candidate",
+      "semantic_correct": true,
+      "use_case": "semantic-record-match"
+    },
+    {
+      "answer": {
+        "choice": "insufficient",
+        "probabilities": {
+          "different_entity": 0.02,
+          "insufficient": 0.73,
+          "same_entity": 0.25
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-ambiguous-alias",
+      "difficulty": "fixture",
+      "ensemble_used": false,
+      "expected_branch": "review",
+      "index": 89,
+      "latency_ms": 309.926641988568,
+      "operational_branch": "review",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 0.73,
+      "semantic_branch": "review",
+      "semantic_correct": true,
+      "use_case": "semantic-record-match"
+    },
+    {
+      "answer": {
+        "choice": "different_entity",
+        "probabilities": {
+          "different_entity": 1.0,
+          "insufficient": 0.0,
+          "same_entity": 0.0
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-hard-conflict",
+      "difficulty": "fixture",
+      "ensemble_used": false,
+      "expected_branch": "different",
+      "index": 90,
+      "latency_ms": 349.3855450069532,
+      "operational_branch": "different",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 1.0,
+      "semantic_branch": "different",
+      "semantic_correct": true,
+      "use_case": "semantic-record-match"
+    },
+    {
+      "answer": {
+        "choice": "failed",
+        "probabilities": {
+          "completed": 0.0,
+          "failed": 0.99,
+          "unresolved": 0.01
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-disguised-failure",
+      "difficulty": "fixture",
+      "ensemble_used": false,
+      "expected_branch": "failure_review",
+      "index": 91,
+      "latency_ms": 351.0877549415454,
+      "operational_branch": "failure_review",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 0.99,
+      "semantic_branch": "failure_review",
+      "semantic_correct": true,
+      "use_case": "semantic-response-health"
+    },
+    {
+      "answer": {
+        "choice": "completed",
+        "probabilities": {
+          "completed": 1.0,
+          "failed": 0.0,
+          "unresolved": 0.0
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-normal-success",
+      "difficulty": "fixture",
+      "ensemble_used": false,
+      "expected_branch": "continue_candidate",
+      "index": 92,
+      "latency_ms": 349.8712449800223,
+      "operational_branch": "continue_candidate",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 1.0,
+      "semantic_branch": "continue_candidate",
+      "semantic_correct": true,
+      "use_case": "semantic-response-health"
+    },
+    {
+      "answer": {
+        "choice": "unresolved",
+        "probabilities": {
+          "completed": 0.0,
+          "failed": 0.0,
+          "unresolved": 1.0
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-unresolved-acceptance",
+      "difficulty": "fixture",
+      "ensemble_used": false,
+      "expected_branch": "review",
+      "index": 93,
+      "latency_ms": 349.8592560645193,
+      "operational_branch": "review",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 1.0,
+      "semantic_branch": "review",
+      "semantic_correct": true,
+      "use_case": "semantic-response-health"
+    },
+    {
+      "answer": {
+        "choice": "satisfies",
+        "probabilities": {
+          "satisfies": 1.0,
+          "unclear": 0.0,
+          "violates": 0.0
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-recoverable-message",
+      "difficulty": "fixture",
+      "ensemble_used": false,
+      "expected_branch": "pass_candidate",
+      "index": 94,
+      "latency_ms": 350.04470602143556,
+      "operational_branch": "pass_candidate",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 1.0,
+      "semantic_branch": "pass_candidate",
+      "semantic_correct": true,
+      "use_case": "semantic-rule-check"
+    },
+    {
+      "answer": {
+        "choice": "violates",
+        "probabilities": {
+          "satisfies": 0.02,
+          "unclear": 0.0,
+          "violates": 0.98
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-internal-error-leak",
+      "difficulty": "fixture",
+      "ensemble_used": false,
+      "expected_branch": "violation_candidate",
+      "index": 95,
+      "latency_ms": 350.4021749831736,
+      "operational_branch": "violation_candidate",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 0.98,
+      "semantic_branch": "violation_candidate",
+      "semantic_correct": true,
+      "use_case": "semantic-rule-check"
+    },
+    {
+      "answer": {
+        "choice": "violates",
+        "probabilities": {
+          "satisfies": 0.0,
+          "unclear": 0.05,
+          "violates": 0.95
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-vague-action-label",
+      "difficulty": "fixture",
+      "ensemble_used": false,
+      "expected_branch": "violation_candidate",
+      "index": 96,
+      "latency_ms": 555.8314699446782,
+      "operational_branch": "violation_candidate",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 0.95,
+      "semantic_branch": "violation_candidate",
+      "semantic_correct": true,
+      "use_case": "semantic-rule-check"
+    },
+    {
+      "answer": {
+        "choice": "investigate",
+        "probabilities": {
+          "ask_author": 0.07,
+          "backlog": 0.0,
+          "close_review": 0.0,
+          "investigate": 0.93,
+          "product_decision": 0.0
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-reproducible-crash",
+      "difficulty": "fixture",
+      "ensemble_used": false,
+      "expected_branch": "investigate_candidate",
+      "index": 97,
+      "latency_ms": 350.5287419538945,
+      "operational_branch": "investigate_candidate",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 0.93,
+      "semantic_branch": "investigate_candidate",
+      "semantic_correct": true,
+      "use_case": "software-issue-triage"
+    },
+    {
+      "answer": {
+        "choice": "ask_author",
+        "probabilities": {
+          "ask_author": 1.0,
+          "backlog": 0.0,
+          "close_review": 0.0,
+          "investigate": 0.0,
+          "product_decision": 0.0
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-vague-report",
+      "difficulty": "fixture",
+      "ensemble_used": false,
+      "expected_branch": "ask_author_candidate",
+      "index": 98,
+      "latency_ms": 265.8282300690189,
+      "operational_branch": "ask_author_candidate",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 1.0,
+      "semantic_branch": "ask_author_candidate",
+      "semantic_correct": true,
+      "use_case": "software-issue-triage"
+    },
+    {
+      "answer": {
+        "choice": "product_decision",
+        "probabilities": {
+          "ask_author": 0.0,
+          "backlog": 0.0,
+          "close_review": 0.0,
+          "investigate": 0.0,
+          "product_decision": 1.0
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-product-request",
+      "difficulty": "fixture",
+      "ensemble_used": false,
+      "expected_branch": "decision_review",
+      "index": 99,
+      "latency_ms": 331.64267998654395,
+      "operational_branch": "decision_review",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 1.0,
+      "semantic_branch": "decision_review",
+      "semantic_correct": true,
+      "use_case": "software-issue-triage"
+    },
+    {
+      "answer": {
+        "choice": "primary",
+        "probabilities": {
+          "ambiguous": 0.0,
+          "primary": 1.0,
+          "sponsorship": 0.0
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-main-explanation",
+      "difficulty": "fixture",
+      "ensemble_used": false,
+      "expected_branch": "keep_candidate",
+      "index": 100,
+      "latency_ms": 297.62843099888414,
+      "operational_branch": "keep_candidate",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 1.0,
+      "semantic_branch": "keep_candidate",
+      "semantic_correct": true,
+      "use_case": "sponsor-segment-detection"
+    },
+    {
+      "answer": {
+        "choice": "sponsorship",
+        "probabilities": {
+          "ambiguous": 0.0,
+          "primary": 0.0,
+          "sponsorship": 1.0
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-sponsor-read",
+      "difficulty": "fixture",
+      "ensemble_used": false,
+      "expected_branch": "skip_candidate",
+      "index": 101,
+      "latency_ms": 318.14191199373454,
+      "operational_branch": "skip_candidate",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 1.0,
+      "semantic_branch": "skip_candidate",
+      "semantic_correct": true,
+      "use_case": "sponsor-segment-detection"
+    },
+    {
+      "answer": {
+        "choice": "primary",
+        "probabilities": {
+          "ambiguous": 0.16,
+          "primary": 0.81,
+          "sponsorship": 0.02
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-review-unit-disclosure",
+      "difficulty": "fixture",
+      "ensemble_used": false,
+      "expected_branch": "keep_candidate",
+      "index": 102,
+      "latency_ms": 334.1696070274338,
+      "operational_branch": "keep_candidate",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 0.81,
+      "semantic_branch": "keep_candidate",
+      "semantic_correct": true,
+      "use_case": "sponsor-segment-detection"
+    },
+    {
+      "answer": {
+        "choice": "relevant",
+        "probabilities": {
+          "ambiguous": 0.0,
+          "relevant": 1.0,
+          "unrelated": 0.0
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-export-e2e",
+      "difficulty": "fixture",
+      "ensemble_used": false,
+      "expected_branch": "run_candidate",
+      "index": 103,
+      "latency_ms": 348.451724043116,
+      "operational_branch": "run_candidate",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 1.0,
+      "semantic_branch": "run_candidate",
+      "semantic_correct": true,
+      "use_case": "test-relevance-gate"
+    },
+    {
+      "answer": {
+        "choice": "unrelated",
+        "probabilities": {
+          "ambiguous": 0.0,
+          "relevant": 0.0,
+          "unrelated": 1.0
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-avatar-unrelated",
+      "difficulty": "fixture",
+      "ensemble_used": false,
+      "expected_branch": "low_priority_candidate",
+      "index": 104,
+      "latency_ms": 350.03810306079686,
+      "operational_branch": "low_priority_candidate",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 1.0,
+      "semantic_branch": "low_priority_candidate",
+      "semantic_correct": true,
+      "use_case": "test-relevance-gate"
+    },
+    {
+      "answer": {
+        "choice": "ambiguous",
+        "probabilities": {
+          "ambiguous": 0.62,
+          "relevant": 0.01,
+          "unrelated": 0.37
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-insufficient-shared-helper",
+      "difficulty": "fixture",
+      "ensemble_used": false,
+      "expected_branch": "review",
+      "index": 105,
+      "latency_ms": 349.96550204232335,
+      "operational_branch": "review",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 0.62,
+      "semantic_branch": "review",
+      "semantic_correct": true,
+      "use_case": "test-relevance-gate"
+    },
+    {
+      "answer": {
+        "choice": "routine",
+        "probabilities": {
+          "instruction_override": 0.01,
+          "protected_context_request": 0.0,
+          "routine": 0.99
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-routine",
+      "difficulty": "fixture",
+      "ensemble_used": false,
+      "expected_branch": "continue_candidate",
+      "index": 106,
+      "latency_ms": 453.0377689516172,
+      "operational_branch": "continue_candidate",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 0.99,
+      "semantic_branch": "continue_candidate",
+      "semantic_correct": true,
+      "use_case": "untrusted-input-risk"
+    },
+    {
+      "answer": {
+        "choice": "instruction_override",
+        "probabilities": {
+          "instruction_override": 0.83,
+          "protected_context_request": 0.17,
+          "routine": 0.0
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-override",
+      "difficulty": "fixture",
+      "ensemble_used": false,
+      "expected_branch": "isolate_review",
+      "index": 107,
+      "latency_ms": 350.2980030607432,
+      "operational_branch": "isolate_review",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 0.83,
+      "semantic_branch": "isolate_review",
+      "semantic_correct": true,
+      "use_case": "untrusted-input-risk"
+    },
+    {
+      "answer": {
+        "choice": "later",
+        "probabilities": {
+          "escalate": 0.0,
+          "later": 1.0,
+          "now": 0.0
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-later",
+      "difficulty": "fixture",
+      "ensemble_used": false,
+      "expected_branch": "defer",
+      "index": 108,
+      "latency_ms": 349.7545049758628,
+      "operational_branch": "defer",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 1.0,
+      "semantic_branch": "defer",
+      "semantic_correct": true,
+      "use_case": "work-priority"
+    },
+    {
+      "answer": {
+        "choice": "escalate",
+        "probabilities": {
+          "escalate": 0.99,
+          "later": 0.0,
+          "now": 0.01
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-overdue",
+      "difficulty": "fixture",
+      "ensemble_used": false,
+      "expected_branch": "human_attention",
+      "index": 109,
+      "latency_ms": 350.21416295785457,
+      "operational_branch": "human_attention",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 0.99,
+      "semantic_branch": "human_attention",
+      "semantic_correct": true,
+      "use_case": "work-priority"
+    }
+  ],
+  "run": {
+    "http_requests": 110
+  },
+  "schema": "brida.reflexbench.reflex-http-result/v1alpha1",
+  "summary": {
+    "latency_ms": {
+      "mean": 345.16997928731143,
+      "p50": 349.84147595241666,
+      "p95": 452.3015139857307,
+      "p99": 464.2802629387006
+    },
+    "n": 110,
+    "operational_accuracy": 1.0,
+    "operational_correct": 110,
+    "review_or_uncertain": 4,
+    "semantic_accuracy": 0.9636363636363636,
+    "semantic_correct": 106
+  },
+  "visibility": "private",
+  "warmup": {
+    "attempted": true,
+    "latency_ms": 623.1597000733018,
+    "ok": true
+  }
+}

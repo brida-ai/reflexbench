@@ -1,0 +1,112 @@
+{
+  "by_cardinality": {
+    "10": {
+      "accuracy_all_cases": 1.0,
+      "accuracy_completed_only": 1.0,
+      "cases": 8,
+      "completed": 8,
+      "completion_rate": 1.0,
+      "failed": 0,
+      "failure_types": {},
+      "mean_ms": 63.6690141109284,
+      "p50_ms": 63.815254950895905,
+      "p95_ms": 65.87480404414237
+    },
+    "100": {
+      "accuracy_all_cases": 1.0,
+      "accuracy_completed_only": 1.0,
+      "cases": 8,
+      "completed": 8,
+      "completion_rate": 1.0,
+      "failed": 0,
+      "failure_types": {},
+      "mean_ms": 31.513587979134172,
+      "p50_ms": 31.45924292039126,
+      "p95_ms": 31.98420291300863
+    },
+    "2": {
+      "accuracy_all_cases": 1.0,
+      "accuracy_completed_only": 1.0,
+      "cases": 8,
+      "completed": 8,
+      "completion_rate": 1.0,
+      "failed": 0,
+      "failure_types": {},
+      "mean_ms": 62.54422511847224,
+      "p50_ms": 62.8495360724628,
+      "p95_ms": 63.86649399064481
+    },
+    "20": {
+      "accuracy_all_cases": 1.0,
+      "accuracy_completed_only": 1.0,
+      "cases": 8,
+      "completed": 8,
+      "completion_rate": 1.0,
+      "failed": 0,
+      "failure_types": {},
+      "mean_ms": 63.90572022064589,
+      "p50_ms": 63.83620493579656,
+      "p95_ms": 66.88185292296112
+    },
+    "255": {
+      "accuracy_all_cases": 0.0,
+      "accuracy_completed_only": null,
+      "cases": 8,
+      "completed": 0,
+      "completion_rate": 0.0,
+      "failed": 8,
+      "failure_types": {
+        "SystemOneHttpError": 8
+      },
+      "mean_ms": null,
+      "p50_ms": null,
+      "p95_ms": null
+    },
+    "4": {
+      "accuracy_all_cases": 1.0,
+      "accuracy_completed_only": 1.0,
+      "cases": 8,
+      "completed": 8,
+      "completion_rate": 1.0,
+      "failed": 0,
+      "failure_types": {},
+      "mean_ms": 63.16960834374186,
+      "p50_ms": 63.01532592624426,
+      "p95_ms": 63.91350505873561
+    },
+    "50": {
+      "accuracy_all_cases": 1.0,
+      "accuracy_completed_only": 1.0,
+      "cases": 8,
+      "completed": 8,
+      "completion_rate": 1.0,
+      "failed": 0,
+      "failure_types": {},
+      "mean_ms": 65.12341064808425,
+      "p50_ms": 64.89816505927593,
+      "p95_ms": 65.84082299377769
+    },
+    "77": {
+      "accuracy_all_cases": 1.0,
+      "accuracy_completed_only": 1.0,
+      "cases": 8,
+      "completed": 8,
+      "completion_rate": 1.0,
+      "failed": 0,
+      "failure_types": {},
+      "mean_ms": 28.85088650509715,
+      "p50_ms": 28.38739601429552,
+      "p95_ms": 35.91984894592315
+    }
+  },
+  "claim_class": "representational-capability-only-not-semantic-quality",
+  "engine": {
+    "id": "laya-base",
+    "model": "laya-base",
+    "revision": "1c5edc17a7acd8701df6fc341c0d179f1c62c982"
+  },
+  "max_fully_completed_k": 100,
+  "max_perfect_k": 100,
+  "schema": "brida.reflexbench.choice-cardinality-summary/v1alpha1",
+  "tasks_sha256": "c6d0903d3bdc1e6ea64d10b1b80bc0ce9efcea5b96ed6af7f2f81f09b0b87469"
+}

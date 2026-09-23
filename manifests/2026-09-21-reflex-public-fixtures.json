@@ -1,0 +1,257 @@
+{
+  "claim_class": "public-product-fixtures-regression-and-harness-development-only",
+  "corpus_path": "reflex-public-fixtures-8e2eafa.jsonl",
+  "corpus_sha256": "06b87e1285bf0385478a0c48b2254d1925f8f98a45b215abce4a60ad08df98b7",
+  "policy_fixture_counts": {
+    "binary": 10,
+    "choice": 95,
+    "score": 5
+  },
+  "recipes": [
+    {
+      "custom_reflex_sha256": "ada60b434d65db3583f264d1e24e264f937c64d65b81a134387ae7c071e82a76",
+      "fixtures": 2,
+      "policy_type": "choice",
+      "use_case": "agent-progress-gate"
+    },
+    {
+      "custom_reflex_sha256": "2eab46167bffc29c53ad8a2d343e9d7e18c3dce3cce828425a09a142210569ac",
+      "fixtures": 3,
+      "policy_type": "choice",
+      "use_case": "browser-action-risk"
+    },
+    {
+      "custom_reflex_sha256": "0b250c7bc29c2309c93e4e467a3d25188ee8b18b83f654c70ad6cf5902f90f20",
+      "fixtures": 3,
+      "policy_type": "choice",
+      "use_case": "catalog-listing-signals"
+    },
+    {
+      "custom_reflex_sha256": "b005b04cebce47ffd6ba5c96ab1a66c7895b1bfb15dafe2c1a63b9170a572591",
+      "fixtures": 2,
+      "policy_type": "choice",
+      "use_case": "change-review-risk"
+    },
+    {
+      "custom_reflex_sha256": "7c0c4f822ccd5cfcfd7202a42ffbf517a085a73e7ef7e28741465bfea38c699e",
+      "fixtures": 4,
+      "policy_type": "choice",
+      "use_case": "code-change-classification"
+    },
+    {
+      "custom_reflex_sha256": "d2e492a95e5b8a53939130b55fdc64d6421fc333ed24792de50ce0a758e90c5d",
+      "fixtures": 3,
+      "policy_type": "choice",
+      "use_case": "completion-evidence-gate"
+    },
+    {
+      "custom_reflex_sha256": "a6ad596395e92784588fb206ae45bc4d785790e5b8ae7f377f2d08f769b4ddce",
+      "fixtures": 2,
+      "policy_type": "choice",
+      "use_case": "content-policy-review"
+    },
+    {
+      "custom_reflex_sha256": "0ba6c267b864e2fb6320b039b4fdac38e1f8e6d53884741499cdea14f2f3576d",
+      "fixtures": 3,
+      "policy_type": "score",
+      "use_case": "content-quality-gate"
+    },
+    {
+      "custom_reflex_sha256": "6e8949cc42fad774fd44a0f0c8977d75f3d0231d6fcbf82962bfece114375d7b",
+      "fixtures": 4,
+      "policy_type": "choice",
+      "use_case": "context-retention-gate"
+    },
+    {
+      "custom_reflex_sha256": "9a27f4d47c3b454231a656fedae354bf4b2f51ef38d4ddcc8c8741727ff4585d",
+      "fixtures": 4,
+      "policy_type": "choice",
+      "use_case": "conversation-turn-state"
+    },
+    {
+      "custom_reflex_sha256": "ed7fd641c43177caf1f64e2bdd229d44f572750996207ea85c1dc1a19afc5b37",
+      "fixtures": 2,
+      "policy_type": "choice",
+      "use_case": "customer-support-ticket-triage"
+    },
+    {
+      "custom_reflex_sha256": "d8b6fa68df794cfc23e4121791ea4f5d5ffcf70bce3582f3255dc18308aa1d50",
+      "fixtures": 2,
+      "policy_type": "score",
+      "use_case": "dataset-example-quality"
+    },
+    {
+      "custom_reflex_sha256": "8de30efcf0a662a4836f7ef36df04e528b20b7a336294abc39dddd9d62198f4f",
+      "fixtures": 2,
+      "policy_type": "choice",
+      "use_case": "document-extraction-route"
+    },
+    {
+      "custom_reflex_sha256": "33586c226c43352d79b13c9fcb7710979802fb155f90d4fdcf3f77c74a279b1f",
+      "fixtures": 2,
+      "policy_type": "binary",
+      "use_case": "document-invoice-review"
+    },
+    {
+      "custom_reflex_sha256": "1b830d02bff969c218c7eba5cd271dd0bb4c620ff674d24cfb53d96985388349",
+      "fixtures": 3,
+      "policy_type": "choice",
+      "use_case": "duplicate-report-match"
+    },
+    {
+      "custom_reflex_sha256": "4bcb352e9de9de7efe7ae7c018a63d7d65f5b6613e5b1c3de2af95b3c1078fd3",
+      "fixtures": 7,
+      "policy_type": "choice",
+      "use_case": "execution-failure-classification"
+    },
+    {
+      "custom_reflex_sha256": "ae320c5d77572589b93230ad58e5e49c37d76fa131385a495a31d585d0b9d0ce",
+      "fixtures": 2,
+      "policy_type": "choice",
+      "use_case": "game-state-action"
+    },
+    {
+      "custom_reflex_sha256": "9c2e9c1d48e8203f59ba5feb9430a0159ece8df6a9961faa0f6763c2968a2343",
+      "fixtures": 2,
+      "policy_type": "choice",
+      "use_case": "incident-signal-triage"
+    },
+    {
+      "custom_reflex_sha256": "f50be228c3b38300382acf0bf5974914879a19b55b9d29ad0a29bb4cc1bf1705",
+      "fixtures": 3,
+      "policy_type": "choice",
+      "use_case": "incoming-message-risk"
+    },
+    {
+      "custom_reflex_sha256": "a49c66d5778c17a8aa011ac0b451a7eb6f3707b2c8bcb62a1631bc9342a3230c",
+      "fixtures": 2,
+      "policy_type": "binary",
+      "use_case": "marketplace-job-fit"
+    },
+    {
+      "custom_reflex_sha256": "eff538646e2aabcf06b867dc26fa8a320124809d394960048d26b87074d64229",
+      "fixtures": 2,
+      "policy_type": "choice",
+      "use_case": "memory-relevance-gate"
+    },
+    {
+      "custom_reflex_sha256": "e0cd0779ee169555fd3bf2f8560eb0c0ef2495a1a59316e8bbc0f8719d68842c",
+      "fixtures": 4,
+      "policy_type": "choice",
+      "use_case": "model-effort-routing"
+    },
+    {
+      "custom_reflex_sha256": "2485e370fc04b63cea52fd51a55f14a58d17ca0b73820a46cd3846c7c7a32c95",
+      "fixtures": 3,
+      "policy_type": "choice",
+      "use_case": "outbound-message-risk"
+    },
+    {
+      "custom_reflex_sha256": "1d1264e8dcd9d18df50477a477ecaab79b987e206665df775205b390ecef4f45",
+      "fixtures": 3,
+      "policy_type": "choice",
+      "use_case": "page-clutter-relevance"
+    },
+    {
+      "custom_reflex_sha256": "8794dafd1c71c67fc245eabb8792d6ea0c4bfcb693161b7e176604c684901d96",
+      "fixtures": 3,
+      "policy_type": "choice",
+      "use_case": "policy-change-impact"
+    },
+    {
+      "custom_reflex_sha256": "9846b4c60ad120632b7afa4615d4de173cd696ae4c21f055622dd08b0543e85c",
+      "fixtures": 2,
+      "policy_type": "choice",
+      "use_case": "research-claim-verification"
+    },
+    {
+      "custom_reflex_sha256": "def995e0168b46610da419e8a74953c14cb60dd067ca034bec4d3d7f5610cf31",
+      "fixtures": 2,
+      "policy_type": "choice",
+      "use_case": "research-event-relevance"
+    },
+    {
+      "custom_reflex_sha256": "e920b68f60ea73f5cdedc4a33052925777e8a4a33c77c08e020f00df0f659fc7",
+      "fixtures": 2,
+      "policy_type": "binary",
+      "use_case": "retrieval-relevance-gate"
+    },
+    {
+      "custom_reflex_sha256": "8f029ab7edbf85a93029293d0b8581847a914a96240fd98be29c9b0b57b79d1e",
+      "fixtures": 2,
+      "policy_type": "binary",
+      "use_case": "sales-lead-fit"
+    },
+    {
+      "custom_reflex_sha256": "cc4fed11e73e23c7737c92532b22bd213d0c9e996d56a0647f1628764cf6a880",
+      "fixtures": 2,
+      "policy_type": "binary",
+      "use_case": "semantic-cache-reuse-gate"
+    },
+    {
+      "custom_reflex_sha256": "bbcb9c0823e3094d5929ab7b7cec5680452f27709cf9e68a519408015e0b3069",
+      "fixtures": 3,
+      "policy_type": "choice",
+      "use_case": "semantic-content-blocking"
+    },
+    {
+      "custom_reflex_sha256": "adee6402caa40fd45fe58d47b9def49a5d8f9958d230b80f0e16279a3a1dc1d7",
+      "fixtures": 3,
+      "policy_type": "choice",
+      "use_case": "semantic-data-consistency"
+    },
+    {
+      "custom_reflex_sha256": "157226bcfee00c3fb19fea3cd667f4e3b7e6298c4618ea00f1f764266987684a",
+      "fixtures": 3,
+      "policy_type": "choice",
+      "use_case": "semantic-record-match"
+    },
+    {
+      "custom_reflex_sha256": "f6b54d2c50cabf2f86feabbf3ee690269f760bd17fbc28a7423f1ea7fe4b845b",
+      "fixtures": 3,
+      "policy_type": "choice",
+      "use_case": "semantic-response-health"
+    },
+    {
+      "custom_reflex_sha256": "fbe34e68087fd2a09bc2b4b1d15a7eb115a0759bd434b92345f449c22db1ffc9",
+      "fixtures": 3,
+      "policy_type": "choice",
+      "use_case": "semantic-rule-check"
+    },
+    {
+      "custom_reflex_sha256": "5b041b66b0f3259becae9d44f41a688d2ad62f764b5096b3736058ca9309eca6",
+      "fixtures": 3,
+      "policy_type": "choice",
+      "use_case": "software-issue-triage"
+    },
+    {
+      "custom_reflex_sha256": "221e74228cdb18ea3df12e53ef23d42925c4257c9887022b9cca4a396bce39fa",
+      "fixtures": 3,
+      "policy_type": "choice",
+      "use_case": "sponsor-segment-detection"
+    },
+    {
+      "custom_reflex_sha256": "4cd6d657330a56964990091322b32f4f0e6eebcc6613926c6336fab78e46ce7d",
+      "fixtures": 3,
+      "policy_type": "choice",
+      "use_case": "test-relevance-gate"
+    },
+    {
+      "custom_reflex_sha256": "2f3fd7584214216c6eabb16239eec4038f9aa77f321c35c03a95182ed851abd3",
+      "fixtures": 2,
+      "policy_type": "choice",
+      "use_case": "untrusted-input-risk"
+    },
+    {
+      "custom_reflex_sha256": "09fc5b03586becd32f4fa2dff27b470498d1a8cbfbd0384d600737ed710a6edb",
+      "fixtures": 2,
+      "policy_type": "choice",
+      "use_case": "work-priority"
+    }
+  ],
+  "rows": 110,
+  "schema": "brida.reflexbench.fixture-manifest/v1alpha1",
+  "source_repository": "brida-ai/reflex",
+  "source_revision": "8e2eafa413b1312ebc61c93ff4c6ebeb4c6d8ca4",
+  "use_cases": 40
+}

@@ -1,0 +1,1763 @@
+{
+  "corpus_sha256": "06b87e1285bf0385478a0c48b2254d1925f8f98a45b215abce4a60ad08df98b7",
+  "engines": {
+    "jeff": {
+      "optimized": {
+        "0.1": {
+          "automated": 0,
+          "automation_coverage": 0.0,
+          "branch_accuracy_delta": -0.38181818181818183,
+          "caught_required_reviews": 20,
+          "controlled_branch_accuracy": 0.2,
+          "heldout_direct_accuracy": null,
+          "heldout_direct_error": null,
+          "method": "leave-one-use-case-out Wilson selective risk control",
+          "min_automated_train": 8,
+          "n": 110,
+          "raw_semantic_accuracy": 0.5818181818181818,
+          "required_review_recall": 1.0,
+          "required_reviews": 20,
+          "review_rate": 1.0,
+          "reviewed": 105,
+          "selective_n": 105,
+          "target_error_upper_95": 0.1,
+          "threshold_summary": {
+            "binary": {
+              "max": 1.0000001,
+              "median": 1.0000001,
+              "min": 1.0000001
+            },
+            "choice": {
+              "max": 1.0000001,
+              "median": 1.0000001,
+              "min": 1.0000001
+            }
+          },
+          "use_cases": 40,
+          "wrong_automated": 0
+        },
+        "0.2": {
+          "automated": 2,
+          "automation_coverage": 0.01904761904761905,
+          "branch_accuracy_delta": -0.37272727272727274,
+          "caught_required_reviews": 20,
+          "controlled_branch_accuracy": 0.20909090909090908,
+          "heldout_direct_accuracy": 0.5,
+          "heldout_direct_error": 0.5,
+          "method": "leave-one-use-case-out Wilson selective risk control",
+          "min_automated_train": 8,
+          "n": 110,
+          "raw_semantic_accuracy": 0.5818181818181818,
+          "required_review_recall": 1.0,
+          "required_reviews": 20,
+          "review_rate": 0.9809523809523809,
+          "reviewed": 103,
+          "selective_n": 105,
+          "target_error_upper_95": 0.2,
+          "threshold_summary": {
+            "binary": {
+              "max": 1.0000001,
+              "median": 1.0000001,
+              "min": 1.0000001
+            },
+            "choice": {
+              "max": 1.0000001,
+              "median": 1.0000001,
+              "min": 0.62445
+            }
+          },
+          "use_cases": 40,
+          "wrong_automated": 1
+        },
+        "0.3": {
+          "automated": 21,
+          "automation_coverage": 0.2,
+          "branch_accuracy_delta": -0.21818181818181817,
+          "caught_required_reviews": 19,
+          "controlled_branch_accuracy": 0.36363636363636365,
+          "heldout_direct_accuracy": 0.9047619047619048,
+          "heldout_direct_error": 0.09523809523809523,
+          "method": "leave-one-use-case-out Wilson selective risk control",
+          "min_automated_train": 8,
+          "n": 110,
+          "raw_semantic_accuracy": 0.5818181818181818,
+          "required_review_recall": 0.95,
+          "required_reviews": 20,
+          "review_rate": 0.8,
+          "reviewed": 84,
+          "selective_n": 105,
+          "target_error_upper_95": 0.3,
+          "threshold_summary": {
+            "binary": {
+              "max": 1.0000001,
+              "median": 1.0000001,
+              "min": 1.0000001
+            },
+            "choice": {
+              "max": 0.60965,
+              "median": 0.60745,
+              "min": 0.60745
+            }
+          },
+          "use_cases": 40,
+          "wrong_automated": 2
+        },
+        "0.4": {
+          "automated": 31,
+          "automation_coverage": 0.29523809523809524,
+          "branch_accuracy_delta": -0.19090909090909092,
+          "caught_required_reviews": 18,
+          "controlled_branch_accuracy": 0.39090909090909093,
+          "heldout_direct_accuracy": 0.7419354838709677,
+          "heldout_direct_error": 0.25806451612903225,
+          "method": "leave-one-use-case-out Wilson selective risk control",
+          "min_automated_train": 8,
+          "n": 110,
+          "raw_semantic_accuracy": 0.5818181818181818,
+          "required_review_recall": 0.9,
+          "required_reviews": 20,
+          "review_rate": 0.7047619047619048,
+          "reviewed": 74,
+          "selective_n": 105,
+          "target_error_upper_95": 0.4,
+          "threshold_summary": {
+            "binary": {
+              "max": 1.0000001,
+              "median": 1.0000001,
+              "min": 1.0000001
+            },
+            "choice": {
+              "max": 0.591,
+              "median": 0.56017199140043,
+              "min": 0.5224761238061902
+            }
+          },
+          "use_cases": 40,
+          "wrong_automated": 8
+        }
+      },
+      "raw": {
+        "0.1": {
+          "automated": 0,
+          "automation_coverage": 0.0,
+          "branch_accuracy_delta": -0.34545454545454546,
+          "caught_required_reviews": 20,
+          "controlled_branch_accuracy": 0.2,
+          "heldout_direct_accuracy": null,
+          "heldout_direct_error": null,
+          "method": "leave-one-use-case-out Wilson selective risk control",
+          "min_automated_train": 8,
+          "n": 110,
+          "raw_semantic_accuracy": 0.5454545454545454,
+          "required_review_recall": 1.0,
+          "required_reviews": 20,
+          "review_rate": 1.0,
+          "reviewed": 105,
+          "selective_n": 105,
+          "target_error_upper_95": 0.1,
+          "threshold_summary": {
+            "binary": {
+              "max": 1.0000001,
+              "median": 1.0000001,
+              "min": 1.0000001
+            },
+            "choice": {
+              "max": 1.0000001,
+              "median": 1.0000001,
+              "min": 1.0000001
+            }
+          },
+          "use_cases": 40,
+          "wrong_automated": 0
+        },
+        "0.2": {
+          "automated": 2,
+          "automation_coverage": 0.01904761904761905,
+          "branch_accuracy_delta": -0.33636363636363636,
+          "caught_required_reviews": 20,
+          "controlled_branch_accuracy": 0.20909090909090908,
+          "heldout_direct_accuracy": 0.5,
+          "heldout_direct_error": 0.5,
+          "method": "leave-one-use-case-out Wilson selective risk control",
+          "min_automated_train": 8,
+          "n": 110,
+          "raw_semantic_accuracy": 0.5454545454545454,
+          "required_review_recall": 1.0,
+          "required_reviews": 20,
+          "review_rate": 0.9809523809523809,
+          "reviewed": 103,
+          "selective_n": 105,
+          "target_error_upper_95": 0.2,
+          "threshold_summary": {
+            "binary": {
+              "max": 1.0000001,
+              "median": 1.0000001,
+              "min": 1.0000001
+            },
+            "choice": {
+              "max": 1.0000001,
+              "median": 1.0000001,
+              "min": 0.6684
+            }
+          },
+          "use_cases": 40,
+          "wrong_automated": 1
+        },
+        "0.3": {
+          "automated": 15,
+          "automation_coverage": 0.14285714285714285,
+          "branch_accuracy_delta": -0.21818181818181817,
+          "caught_required_reviews": 20,
+          "controlled_branch_accuracy": 0.32727272727272727,
+          "heldout_direct_accuracy": 0.9333333333333333,
+          "heldout_direct_error": 0.06666666666666667,
+          "method": "leave-one-use-case-out Wilson selective risk control",
+          "min_automated_train": 8,
+          "n": 110,
+          "raw_semantic_accuracy": 0.5454545454545454,
+          "required_review_recall": 1.0,
+          "required_reviews": 20,
+          "review_rate": 0.8571428571428571,
+          "reviewed": 90,
+          "selective_n": 105,
+          "target_error_upper_95": 0.3,
+          "threshold_summary": {
+            "binary": {
+              "max": 1.0000001,
+              "median": 1.0000001,
+              "min": 1.0000001
+            },
+            "choice": {
+              "max": 0.6897,
+              "median": 0.6684,
+              "min": 0.655
+            }
+          },
+          "use_cases": 40,
+          "wrong_automated": 1
+        },
+        "0.4": {
+          "automated": 33,
+          "automation_coverage": 0.3142857142857143,
+          "branch_accuracy_delta": -0.16363636363636364,
+          "caught_required_reviews": 16,
+          "controlled_branch_accuracy": 0.38181818181818183,
+          "heldout_direct_accuracy": 0.7272727272727273,
+          "heldout_direct_error": 0.2727272727272727,
+          "method": "leave-one-use-case-out Wilson selective risk control",
+          "min_automated_train": 8,
+          "n": 110,
+          "raw_semantic_accuracy": 0.5454545454545454,
+          "required_review_recall": 0.8,
+          "required_reviews": 20,
+          "review_rate": 0.6857142857142857,
+          "reviewed": 72,
+          "selective_n": 105,
+          "target_error_upper_95": 0.4,
+          "threshold_summary": {
+            "binary": {
+              "max": 1.0000001,
+              "median": 1.0000001,
+              "min": 1.0000001
+            },
+            "choice": {
+              "max": 0.5895,
+              "median": 0.5737,
+              "min": 0.5493
+            }
+          },
+          "use_cases": 40,
+          "wrong_automated": 9
+        }
+      }
+    },
+    "jev": {
+      "raw": {
+        "0.1": {
+          "automated": 95,
+          "automation_coverage": 0.9047619047619048,
+          "branch_accuracy_delta": -0.08181818181818182,
+          "caught_required_reviews": 1,
+          "controlled_branch_accuracy": 0.8818181818181818,
+          "heldout_direct_accuracy": 0.9578947368421052,
+          "heldout_direct_error": 0.042105263157894736,
+          "method": "leave-one-use-case-out Wilson selective risk control",
+          "min_automated_train": 8,
+          "n": 110,
+          "raw_semantic_accuracy": 0.9636363636363636,
+          "required_review_recall": 0.05,
+          "required_reviews": 20,
+          "review_rate": 0.09523809523809523,
+          "reviewed": 10,
+          "selective_n": 105,
+          "target_error_upper_95": 0.1,
+          "threshold_summary": {
+            "binary": {
+              "max": 1.0000001,
+              "median": 1.0000001,
+              "min": 1.0000001
+            },
+            "choice": {
+              "max": 0.0,
+              "median": 0.0,
+              "min": 0.0
+            }
+          },
+          "use_cases": 40,
+          "wrong_automated": 4
+        },
+        "0.2": {
+          "automated": 95,
+          "automation_coverage": 0.9047619047619048,
+          "branch_accuracy_delta": -0.08181818181818182,
+          "caught_required_reviews": 1,
+          "controlled_branch_accuracy": 0.8818181818181818,
+          "heldout_direct_accuracy": 0.9578947368421052,
+          "heldout_direct_error": 0.042105263157894736,
+          "method": "leave-one-use-case-out Wilson selective risk control",
+          "min_automated_train": 8,
+          "n": 110,
+          "raw_semantic_accuracy": 0.9636363636363636,
+          "required_review_recall": 0.05,
+          "required_reviews": 20,
+          "review_rate": 0.09523809523809523,
+          "reviewed": 10,
+          "selective_n": 105,
+          "target_error_upper_95": 0.2,
+          "threshold_summary": {
+            "binary": {
+              "max": 1.0000001,
+              "median": 1.0000001,
+              "min": 1.0000001
+            },
+            "choice": {
+              "max": 0.0,
+              "median": 0.0,
+              "min": 0.0
+            }
+          },
+          "use_cases": 40,
+          "wrong_automated": 4
+        },
+        "0.3": {
+          "automated": 105,
+          "automation_coverage": 1.0,
+          "branch_accuracy_delta": 0.0,
+          "caught_required_reviews": 0,
+          "controlled_branch_accuracy": 0.9636363636363636,
+          "heldout_direct_accuracy": 0.9619047619047619,
+          "heldout_direct_error": 0.0380952380952381,
+          "method": "leave-one-use-case-out Wilson selective risk control",
+          "min_automated_train": 8,
+          "n": 110,
+          "raw_semantic_accuracy": 0.9636363636363636,
+          "required_review_recall": 0.0,
+          "required_reviews": 20,
+          "review_rate": 0.0,
+          "reviewed": 0,
+          "selective_n": 105,
+          "target_error_upper_95": 0.3,
+          "threshold_summary": {
+            "binary": {
+              "max": 0.0,
+              "median": 0.0,
+              "min": 0.0
+            },
+            "choice": {
+              "max": 0.0,
+              "median": 0.0,
+              "min": 0.0
+            }
+          },
+          "use_cases": 40,
+          "wrong_automated": 4
+        },
+        "0.4": {
+          "automated": 105,
+          "automation_coverage": 1.0,
+          "branch_accuracy_delta": 0.0,
+          "caught_required_reviews": 0,
+          "controlled_branch_accuracy": 0.9636363636363636,
+          "heldout_direct_accuracy": 0.9619047619047619,
+          "heldout_direct_error": 0.0380952380952381,
+          "method": "leave-one-use-case-out Wilson selective risk control",
+          "min_automated_train": 8,
+          "n": 110,
+          "raw_semantic_accuracy": 0.9636363636363636,
+          "required_review_recall": 0.0,
+          "required_reviews": 20,
+          "review_rate": 0.0,
+          "reviewed": 0,
+          "selective_n": 105,
+          "target_error_upper_95": 0.4,
+          "threshold_summary": {
+            "binary": {
+              "max": 0.0,
+              "median": 0.0,
+              "min": 0.0
+            },
+            "choice": {
+              "max": 0.0,
+              "median": 0.0,
+              "min": 0.0
+            }
+          },
+          "use_cases": 40,
+          "wrong_automated": 4
+        }
+      }
+    },
+    "kev-0.8b": {
+      "optimized": {
+        "0.1": {
+          "automated": 0,
+          "automation_coverage": 0.0,
+          "branch_accuracy_delta": -0.509090909090909,
+          "caught_required_reviews": 20,
+          "controlled_branch_accuracy": 0.19090909090909092,
+          "heldout_direct_accuracy": null,
+          "heldout_direct_error": null,
+          "method": "leave-one-use-case-out Wilson selective risk control",
+          "min_automated_train": 8,
+          "n": 110,
+          "raw_semantic_accuracy": 0.7,
+          "required_review_recall": 1.0,
+          "required_reviews": 20,
+          "review_rate": 1.0,
+          "reviewed": 105,
+          "selective_n": 105,
+          "target_error_upper_95": 0.1,
+          "threshold_summary": {
+            "binary": {
+              "max": 1.0000001,
+              "median": 1.0000001,
+              "min": 1.0000001
+            },
+            "choice": {
+              "max": 1.0000001,
+              "median": 1.0000001,
+              "min": 1.0000001
+            }
+          },
+          "use_cases": 40,
+          "wrong_automated": 0
+        },
+        "0.2": {
+          "automated": 50,
+          "automation_coverage": 0.47619047619047616,
+          "branch_accuracy_delta": -0.2,
+          "caught_required_reviews": 11,
+          "controlled_branch_accuracy": 0.5,
+          "heldout_direct_accuracy": 0.86,
+          "heldout_direct_error": 0.14,
+          "method": "leave-one-use-case-out Wilson selective risk control",
+          "min_automated_train": 8,
+          "n": 110,
+          "raw_semantic_accuracy": 0.7,
+          "required_review_recall": 0.55,
+          "required_reviews": 20,
+          "review_rate": 0.5238095238095238,
+          "reviewed": 55,
+          "selective_n": 105,
+          "target_error_upper_95": 0.2,
+          "threshold_summary": {
+            "binary": {
+              "max": 1.0000001,
+              "median": 1.0000001,
+              "min": 1.0000001
+            },
+            "choice": {
+              "max": 1.0000001,
+              "median": 0.77,
+              "min": 0.67
+            }
+          },
+          "use_cases": 40,
+          "wrong_automated": 7
+        },
+        "0.3": {
+          "automated": 78,
+          "automation_coverage": 0.7428571428571429,
+          "branch_accuracy_delta": -0.08181818181818182,
+          "caught_required_reviews": 5,
+          "controlled_branch_accuracy": 0.6181818181818182,
+          "heldout_direct_accuracy": 0.7948717948717949,
+          "heldout_direct_error": 0.20512820512820512,
+          "method": "leave-one-use-case-out Wilson selective risk control",
+          "min_automated_train": 8,
+          "n": 110,
+          "raw_semantic_accuracy": 0.7,
+          "required_review_recall": 0.25,
+          "required_reviews": 20,
+          "review_rate": 0.2571428571428571,
+          "reviewed": 27,
+          "selective_n": 105,
+          "target_error_upper_95": 0.3,
+          "threshold_summary": {
+            "binary": {
+              "max": 1.0000001,
+              "median": 1.0000001,
+              "min": 1.0000001
+            },
+            "choice": {
+              "max": 0.53,
+              "median": 0.5,
+              "min": 0.48
+            }
+          },
+          "use_cases": 40,
+          "wrong_automated": 16
+        },
+        "0.4": {
+          "automated": 95,
+          "automation_coverage": 0.9047619047619048,
+          "branch_accuracy_delta": -0.06363636363636363,
+          "caught_required_reviews": 1,
+          "controlled_branch_accuracy": 0.6363636363636364,
+          "heldout_direct_accuracy": 0.7157894736842105,
+          "heldout_direct_error": 0.28421052631578947,
+          "method": "leave-one-use-case-out Wilson selective risk control",
+          "min_automated_train": 8,
+          "n": 110,
+          "raw_semantic_accuracy": 0.7,
+          "required_review_recall": 0.05,
+          "required_reviews": 20,
+          "review_rate": 0.09523809523809523,
+          "reviewed": 10,
+          "selective_n": 105,
+          "target_error_upper_95": 0.4,
+          "threshold_summary": {
+            "binary": {
+              "max": 1.0000001,
+              "median": 1.0000001,
+              "min": 1.0000001
+            },
+            "choice": {
+              "max": 0.0,
+              "median": 0.0,
+              "min": 0.0
+            }
+          },
+          "use_cases": 40,
+          "wrong_automated": 27
+        }
+      },
+      "raw": {
+        "0.1": {
+          "automated": 0,
+          "automation_coverage": 0.0,
+          "branch_accuracy_delta": -0.509090909090909,
+          "caught_required_reviews": 20,
+          "controlled_branch_accuracy": 0.19090909090909092,
+          "heldout_direct_accuracy": null,
+          "heldout_direct_error": null,
+          "method": "leave-one-use-case-out Wilson selective risk control",
+          "min_automated_train": 8,
+          "n": 110,
+          "raw_semantic_accuracy": 0.7,
+          "required_review_recall": 1.0,
+          "required_reviews": 20,
+          "review_rate": 1.0,
+          "reviewed": 105,
+          "selective_n": 105,
+          "target_error_upper_95": 0.1,
+          "threshold_summary": {
+            "binary": {
+              "max": 1.0000001,
+              "median": 1.0000001,
+              "min": 1.0000001
+            },
+            "choice": {
+              "max": 1.0000001,
+              "median": 1.0000001,
+              "min": 1.0000001
+            }
+          },
+          "use_cases": 40,
+          "wrong_automated": 0
+        },
+        "0.2": {
+          "automated": 50,
+          "automation_coverage": 0.47619047619047616,
+          "branch_accuracy_delta": -0.2,
+          "caught_required_reviews": 11,
+          "controlled_branch_accuracy": 0.5,
+          "heldout_direct_accuracy": 0.86,
+          "heldout_direct_error": 0.14,
+          "method": "leave-one-use-case-out Wilson selective risk control",
+          "min_automated_train": 8,
+          "n": 110,
+          "raw_semantic_accuracy": 0.7,
+          "required_review_recall": 0.55,
+          "required_reviews": 20,
+          "review_rate": 0.5238095238095238,
+          "reviewed": 55,
+          "selective_n": 105,
+          "target_error_upper_95": 0.2,
+          "threshold_summary": {
+            "binary": {
+              "max": 1.0000001,
+              "median": 1.0000001,
+              "min": 1.0000001
+            },
+            "choice": {
+              "max": 1.0000001,
+              "median": 0.77,
+              "min": 0.67
+            }
+          },
+          "use_cases": 40,
+          "wrong_automated": 7
+        },
+        "0.3": {
+          "automated": 78,
+          "automation_coverage": 0.7428571428571429,
+          "branch_accuracy_delta": -0.08181818181818182,
+          "caught_required_reviews": 5,
+          "controlled_branch_accuracy": 0.6181818181818182,
+          "heldout_direct_accuracy": 0.7948717948717949,
+          "heldout_direct_error": 0.20512820512820512,
+          "method": "leave-one-use-case-out Wilson selective risk control",
+          "min_automated_train": 8,
+          "n": 110,
+          "raw_semantic_accuracy": 0.7,
+          "required_review_recall": 0.25,
+          "required_reviews": 20,
+          "review_rate": 0.2571428571428571,
+          "reviewed": 27,
+          "selective_n": 105,
+          "target_error_upper_95": 0.3,
+          "threshold_summary": {
+            "binary": {
+              "max": 1.0000001,
+              "median": 1.0000001,
+              "min": 1.0000001
+            },
+            "choice": {
+              "max": 0.53,
+              "median": 0.5,
+              "min": 0.48
+            }
+          },
+          "use_cases": 40,
+          "wrong_automated": 16
+        },
+        "0.4": {
+          "automated": 95,
+          "automation_coverage": 0.9047619047619048,
+          "branch_accuracy_delta": -0.06363636363636363,
+          "caught_required_reviews": 1,
+          "controlled_branch_accuracy": 0.6363636363636364,
+          "heldout_direct_accuracy": 0.7157894736842105,
+          "heldout_direct_error": 0.28421052631578947,
+          "method": "leave-one-use-case-out Wilson selective risk control",
+          "min_automated_train": 8,
+          "n": 110,
+          "raw_semantic_accuracy": 0.7,
+          "required_review_recall": 0.05,
+          "required_reviews": 20,
+          "review_rate": 0.09523809523809523,
+          "reviewed": 10,
+          "selective_n": 105,
+          "target_error_upper_95": 0.4,
+          "threshold_summary": {
+            "binary": {
+              "max": 1.0000001,
+              "median": 1.0000001,
+              "min": 1.0000001
+            },
+            "choice": {
+              "max": 0.0,
+              "median": 0.0,
+              "min": 0.0
+            }
+          },
+          "use_cases": 40,
+          "wrong_automated": 27
+        }
+      }
+    },
+    "laya-base": {
+      "optimized": {
+        "0.1": {
+          "automated": 0,
+          "automation_coverage": 0.0,
+          "branch_accuracy_delta": -0.39090909090909093,
+          "caught_required_reviews": 20,
+          "controlled_branch_accuracy": 0.19090909090909092,
+          "heldout_direct_accuracy": null,
+          "heldout_direct_error": null,
+          "method": "leave-one-use-case-out Wilson selective risk control",
+          "min_automated_train": 8,
+          "n": 110,
+          "raw_semantic_accuracy": 0.5818181818181818,
+          "required_review_recall": 1.0,
+          "required_reviews": 20,
+          "review_rate": 1.0,
+          "reviewed": 105,
+          "selective_n": 105,
+          "target_error_upper_95": 0.1,
+          "threshold_summary": {
+            "binary": {
+              "max": 1.0000001,
+              "median": 1.0000001,
+              "min": 1.0000001
+            },
+            "choice": {
+              "max": 1.0000001,
+              "median": 1.0000001,
+              "min": 1.0000001
+            }
+          },
+          "use_cases": 40,
+          "wrong_automated": 0
+        },
+        "0.2": {
+          "automated": 5,
+          "automation_coverage": 0.047619047619047616,
+          "branch_accuracy_delta": -0.38181818181818183,
+          "caught_required_reviews": 19,
+          "controlled_branch_accuracy": 0.2,
+          "heldout_direct_accuracy": 0.4,
+          "heldout_direct_error": 0.6,
+          "method": "leave-one-use-case-out Wilson selective risk control",
+          "min_automated_train": 8,
+          "n": 110,
+          "raw_semantic_accuracy": 0.5818181818181818,
+          "required_review_recall": 0.95,
+          "required_reviews": 20,
+          "review_rate": 0.9523809523809523,
+          "reviewed": 100,
+          "selective_n": 105,
+          "target_error_upper_95": 0.2,
+          "threshold_summary": {
+            "binary": {
+              "max": 1.0000001,
+              "median": 1.0000001,
+              "min": 1.0000001
+            },
+            "choice": {
+              "max": 1.0000001,
+              "median": 1.0000001,
+              "min": 0.6353
+            }
+          },
+          "use_cases": 40,
+          "wrong_automated": 3
+        },
+        "0.3": {
+          "automated": 52,
+          "automation_coverage": 0.49523809523809526,
+          "branch_accuracy_delta": -0.09090909090909091,
+          "caught_required_reviews": 12,
+          "controlled_branch_accuracy": 0.4909090909090909,
+          "heldout_direct_accuracy": 0.7884615384615384,
+          "heldout_direct_error": 0.21153846153846154,
+          "method": "leave-one-use-case-out Wilson selective risk control",
+          "min_automated_train": 8,
+          "n": 110,
+          "raw_semantic_accuracy": 0.5818181818181818,
+          "required_review_recall": 0.6,
+          "required_reviews": 20,
+          "review_rate": 0.5047619047619047,
+          "reviewed": 53,
+          "selective_n": 105,
+          "target_error_upper_95": 0.3,
+          "threshold_summary": {
+            "binary": {
+              "max": 1.0000001,
+              "median": 1.0000001,
+              "min": 1.0000001
+            },
+            "choice": {
+              "max": 0.5524,
+              "median": 0.494,
+              "min": 0.4865
+            }
+          },
+          "use_cases": 40,
+          "wrong_automated": 11
+        },
+        "0.4": {
+          "automated": 73,
+          "automation_coverage": 0.6952380952380952,
+          "branch_accuracy_delta": -0.045454545454545456,
+          "caught_required_reviews": 8,
+          "controlled_branch_accuracy": 0.5363636363636364,
+          "heldout_direct_accuracy": 0.6849315068493151,
+          "heldout_direct_error": 0.3150684931506849,
+          "method": "leave-one-use-case-out Wilson selective risk control",
+          "min_automated_train": 8,
+          "n": 110,
+          "raw_semantic_accuracy": 0.5818181818181818,
+          "required_review_recall": 0.4,
+          "required_reviews": 20,
+          "review_rate": 0.3047619047619048,
+          "reviewed": 32,
+          "selective_n": 105,
+          "target_error_upper_95": 0.4,
+          "threshold_summary": {
+            "binary": {
+              "max": 1.0000001,
+              "median": 1.0000001,
+              "min": 1.0000001
+            },
+            "choice": {
+              "max": 0.4568,
+              "median": 0.4513,
+              "min": 0.4285
+            }
+          },
+          "use_cases": 40,
+          "wrong_automated": 23
+        }
+      },
+      "raw": {
+        "0.1": {
+          "automated": 0,
+          "automation_coverage": 0.0,
+          "branch_accuracy_delta": -0.39090909090909093,
+          "caught_required_reviews": 20,
+          "controlled_branch_accuracy": 0.19090909090909092,
+          "heldout_direct_accuracy": null,
+          "heldout_direct_error": null,
+          "method": "leave-one-use-case-out Wilson selective risk control",
+          "min_automated_train": 8,
+          "n": 110,
+          "raw_semantic_accuracy": 0.5818181818181818,
+          "required_review_recall": 1.0,
+          "required_reviews": 20,
+          "review_rate": 1.0,
+          "reviewed": 105,
+          "selective_n": 105,
+          "target_error_upper_95": 0.1,
+          "threshold_summary": {
+            "binary": {
+              "max": 1.0000001,
+              "median": 1.0000001,
+              "min": 1.0000001
+            },
+            "choice": {
+              "max": 1.0000001,
+              "median": 1.0000001,
+              "min": 1.0000001
+            }
+          },
+          "use_cases": 40,
+          "wrong_automated": 0
+        },
+        "0.2": {
+          "automated": 5,
+          "automation_coverage": 0.047619047619047616,
+          "branch_accuracy_delta": -0.38181818181818183,
+          "caught_required_reviews": 19,
+          "controlled_branch_accuracy": 0.2,
+          "heldout_direct_accuracy": 0.4,
+          "heldout_direct_error": 0.6,
+          "method": "leave-one-use-case-out Wilson selective risk control",
+          "min_automated_train": 8,
+          "n": 110,
+          "raw_semantic_accuracy": 0.5818181818181818,
+          "required_review_recall": 0.95,
+          "required_reviews": 20,
+          "review_rate": 0.9523809523809523,
+          "reviewed": 100,
+          "selective_n": 105,
+          "target_error_upper_95": 0.2,
+          "threshold_summary": {
+            "binary": {
+              "max": 1.0000001,
+              "median": 1.0000001,
+              "min": 1.0000001
+            },
+            "choice": {
+              "max": 1.0000001,
+              "median": 1.0000001,
+              "min": 0.6361
+            }
+          },
+          "use_cases": 40,
+          "wrong_automated": 3
+        },
+        "0.3": {
+          "automated": 52,
+          "automation_coverage": 0.49523809523809526,
+          "branch_accuracy_delta": -0.09090909090909091,
+          "caught_required_reviews": 12,
+          "controlled_branch_accuracy": 0.4909090909090909,
+          "heldout_direct_accuracy": 0.7884615384615384,
+          "heldout_direct_error": 0.21153846153846154,
+          "method": "leave-one-use-case-out Wilson selective risk control",
+          "min_automated_train": 8,
+          "n": 110,
+          "raw_semantic_accuracy": 0.5818181818181818,
+          "required_review_recall": 0.6,
+          "required_reviews": 20,
+          "review_rate": 0.5047619047619047,
+          "reviewed": 53,
+          "selective_n": 105,
+          "target_error_upper_95": 0.3,
+          "threshold_summary": {
+            "binary": {
+              "max": 1.0000001,
+              "median": 1.0000001,
+              "min": 1.0000001
+            },
+            "choice": {
+              "max": 0.5524,
+              "median": 0.5032,
+              "min": 0.4865
+            }
+          },
+          "use_cases": 40,
+          "wrong_automated": 11
+        },
+        "0.4": {
+          "automated": 72,
+          "automation_coverage": 0.6857142857142857,
+          "branch_accuracy_delta": -0.03636363636363636,
+          "caught_required_reviews": 9,
+          "controlled_branch_accuracy": 0.5454545454545454,
+          "heldout_direct_accuracy": 0.6944444444444444,
+          "heldout_direct_error": 0.3055555555555556,
+          "method": "leave-one-use-case-out Wilson selective risk control",
+          "min_automated_train": 8,
+          "n": 110,
+          "raw_semantic_accuracy": 0.5818181818181818,
+          "required_review_recall": 0.45,
+          "required_reviews": 20,
+          "review_rate": 0.3142857142857143,
+          "reviewed": 33,
+          "selective_n": 105,
+          "target_error_upper_95": 0.4,
+          "threshold_summary": {
+            "binary": {
+              "max": 1.0000001,
+              "median": 1.0000001,
+              "min": 1.0000001
+            },
+            "choice": {
+              "max": 0.4543,
+              "median": 0.452,
+              "min": 0.4285
+            }
+          },
+          "use_cases": 40,
+          "wrong_automated": 22
+        }
+      }
+    },
+    "laya-typed": {
+      "optimized": {
+        "0.1": {
+          "automated": 0,
+          "automation_coverage": 0.0,
+          "branch_accuracy_delta": -0.4636363636363636,
+          "caught_required_reviews": 20,
+          "controlled_branch_accuracy": 0.19090909090909092,
+          "heldout_direct_accuracy": null,
+          "heldout_direct_error": null,
+          "method": "leave-one-use-case-out Wilson selective risk control",
+          "min_automated_train": 8,
+          "n": 110,
+          "raw_semantic_accuracy": 0.6545454545454545,
+          "required_review_recall": 1.0,
+          "required_reviews": 20,
+          "review_rate": 1.0,
+          "reviewed": 105,
+          "selective_n": 105,
+          "target_error_upper_95": 0.1,
+          "threshold_summary": {
+            "binary": {
+              "max": 1.0000001,
+              "median": 1.0000001,
+              "min": 1.0000001
+            },
+            "choice": {
+              "max": 1.0000001,
+              "median": 1.0000001,
+              "min": 1.0000001
+            }
+          },
+          "use_cases": 40,
+          "wrong_automated": 0
+        },
+        "0.2": {
+          "automated": 2,
+          "automation_coverage": 0.01904761904761905,
+          "branch_accuracy_delta": -0.4636363636363636,
+          "caught_required_reviews": 19,
+          "controlled_branch_accuracy": 0.19090909090909092,
+          "heldout_direct_accuracy": 0.5,
+          "heldout_direct_error": 0.5,
+          "method": "leave-one-use-case-out Wilson selective risk control",
+          "min_automated_train": 8,
+          "n": 110,
+          "raw_semantic_accuracy": 0.6545454545454545,
+          "required_review_recall": 0.95,
+          "required_reviews": 20,
+          "review_rate": 0.9809523809523809,
+          "reviewed": 103,
+          "selective_n": 105,
+          "target_error_upper_95": 0.2,
+          "threshold_summary": {
+            "binary": {
+              "max": 1.0000001,
+              "median": 1.0000001,
+              "min": 1.0000001
+            },
+            "choice": {
+              "max": 1.0000001,
+              "median": 1.0000001,
+              "min": 0.6158692065396731
+            }
+          },
+          "use_cases": 40,
+          "wrong_automated": 1
+        },
+        "0.3": {
+          "automated": 25,
+          "automation_coverage": 0.23809523809523808,
+          "branch_accuracy_delta": -0.33636363636363636,
+          "caught_required_reviews": 16,
+          "controlled_branch_accuracy": 0.3181818181818182,
+          "heldout_direct_accuracy": 0.72,
+          "heldout_direct_error": 0.28,
+          "method": "leave-one-use-case-out Wilson selective risk control",
+          "min_automated_train": 8,
+          "n": 110,
+          "raw_semantic_accuracy": 0.6545454545454545,
+          "required_review_recall": 0.8,
+          "required_reviews": 20,
+          "review_rate": 0.7619047619047619,
+          "reviewed": 80,
+          "selective_n": 105,
+          "target_error_upper_95": 0.3,
+          "threshold_summary": {
+            "binary": {
+              "max": 1.0000001,
+              "median": 1.0000001,
+              "min": 1.0000001
+            },
+            "choice": {
+              "max": 0.62725,
+              "median": 0.5151,
+              "min": 0.46905
+            }
+          },
+          "use_cases": 40,
+          "wrong_automated": 7
+        },
+        "0.4": {
+          "automated": 86,
+          "automation_coverage": 0.819047619047619,
+          "branch_accuracy_delta": -0.09090909090909091,
+          "caught_required_reviews": 3,
+          "controlled_branch_accuracy": 0.5636363636363636,
+          "heldout_direct_accuracy": 0.6744186046511628,
+          "heldout_direct_error": 0.32558139534883723,
+          "method": "leave-one-use-case-out Wilson selective risk control",
+          "min_automated_train": 8,
+          "n": 110,
+          "raw_semantic_accuracy": 0.6545454545454545,
+          "required_review_recall": 0.15,
+          "required_reviews": 20,
+          "review_rate": 0.18095238095238095,
+          "reviewed": 19,
+          "selective_n": 105,
+          "target_error_upper_95": 0.4,
+          "threshold_summary": {
+            "binary": {
+              "max": 1.0000001,
+              "median": 0.5187,
+              "min": 0.5187
+            },
+            "choice": {
+              "max": 0.39715,
+              "median": 0.2865,
+              "min": 0.24817518248175183
+            }
+          },
+          "use_cases": 40,
+          "wrong_automated": 28
+        }
+      },
+      "raw": {
+        "0.1": {
+          "automated": 0,
+          "automation_coverage": 0.0,
+          "branch_accuracy_delta": -0.43636363636363634,
+          "caught_required_reviews": 20,
+          "controlled_branch_accuracy": 0.19090909090909092,
+          "heldout_direct_accuracy": null,
+          "heldout_direct_error": null,
+          "method": "leave-one-use-case-out Wilson selective risk control",
+          "min_automated_train": 8,
+          "n": 110,
+          "raw_semantic_accuracy": 0.6272727272727273,
+          "required_review_recall": 1.0,
+          "required_reviews": 20,
+          "review_rate": 1.0,
+          "reviewed": 105,
+          "selective_n": 105,
+          "target_error_upper_95": 0.1,
+          "threshold_summary": {
+            "binary": {
+              "max": 1.0000001,
+              "median": 1.0000001,
+              "min": 1.0000001
+            },
+            "choice": {
+              "max": 1.0000001,
+              "median": 1.0000001,
+              "min": 1.0000001
+            }
+          },
+          "use_cases": 40,
+          "wrong_automated": 0
+        },
+        "0.2": {
+          "automated": 0,
+          "automation_coverage": 0.0,
+          "branch_accuracy_delta": -0.43636363636363634,
+          "caught_required_reviews": 20,
+          "controlled_branch_accuracy": 0.19090909090909092,
+          "heldout_direct_accuracy": null,
+          "heldout_direct_error": null,
+          "method": "leave-one-use-case-out Wilson selective risk control",
+          "min_automated_train": 8,
+          "n": 110,
+          "raw_semantic_accuracy": 0.6272727272727273,
+          "required_review_recall": 1.0,
+          "required_reviews": 20,
+          "review_rate": 1.0,
+          "reviewed": 105,
+          "selective_n": 105,
+          "target_error_upper_95": 0.2,
+          "threshold_summary": {
+            "binary": {
+              "max": 1.0000001,
+              "median": 1.0000001,
+              "min": 1.0000001
+            },
+            "choice": {
+              "max": 1.0000001,
+              "median": 1.0000001,
+              "min": 1.0000001
+            }
+          },
+          "use_cases": 40,
+          "wrong_automated": 0
+        },
+        "0.3": {
+          "automated": 36,
+          "automation_coverage": 0.34285714285714286,
+          "branch_accuracy_delta": -0.23636363636363636,
+          "caught_required_reviews": 14,
+          "controlled_branch_accuracy": 0.39090909090909093,
+          "heldout_direct_accuracy": 0.7777777777777778,
+          "heldout_direct_error": 0.2222222222222222,
+          "method": "leave-one-use-case-out Wilson selective risk control",
+          "min_automated_train": 8,
+          "n": 110,
+          "raw_semantic_accuracy": 0.6272727272727273,
+          "required_review_recall": 0.7,
+          "required_reviews": 20,
+          "review_rate": 0.6571428571428571,
+          "reviewed": 69,
+          "selective_n": 105,
+          "target_error_upper_95": 0.3,
+          "threshold_summary": {
+            "binary": {
+              "max": 1.0000001,
+              "median": 1.0000001,
+              "min": 1.0000001
+            },
+            "choice": {
+              "max": 0.5067,
+              "median": 0.4989,
+              "min": 0.4523
+            }
+          },
+          "use_cases": 40,
+          "wrong_automated": 8
+        },
+        "0.4": {
+          "automated": 63,
+          "automation_coverage": 0.6,
+          "branch_accuracy_delta": -0.13636363636363635,
+          "caught_required_reviews": 9,
+          "controlled_branch_accuracy": 0.4909090909090909,
+          "heldout_direct_accuracy": 0.6984126984126984,
+          "heldout_direct_error": 0.30158730158730157,
+          "method": "leave-one-use-case-out Wilson selective risk control",
+          "min_automated_train": 8,
+          "n": 110,
+          "raw_semantic_accuracy": 0.6272727272727273,
+          "required_review_recall": 0.45,
+          "required_reviews": 20,
+          "review_rate": 0.4,
+          "reviewed": 42,
+          "selective_n": 105,
+          "target_error_upper_95": 0.4,
+          "threshold_summary": {
+            "binary": {
+              "max": 1.0000001,
+              "median": 0.5187,
+              "min": 0.5187
+            },
+            "choice": {
+              "max": 0.4087,
+              "median": 0.401,
+              "min": 0.3592
+            }
+          },
+          "use_cases": 40,
+          "wrong_automated": 19
+        }
+      }
+    },
+    "qwen-reflex-2b": {
+      "optimized": {
+        "0.1": {
+          "automated": 0,
+          "automation_coverage": 0.0,
+          "branch_accuracy_delta": -0.5636363636363636,
+          "caught_required_reviews": 20,
+          "controlled_branch_accuracy": 0.2,
+          "heldout_direct_accuracy": null,
+          "heldout_direct_error": null,
+          "method": "leave-one-use-case-out Wilson selective risk control",
+          "min_automated_train": 8,
+          "n": 110,
+          "raw_semantic_accuracy": 0.7636363636363637,
+          "required_review_recall": 1.0,
+          "required_reviews": 20,
+          "review_rate": 1.0,
+          "reviewed": 105,
+          "selective_n": 105,
+          "target_error_upper_95": 0.1,
+          "threshold_summary": {
+            "binary": {
+              "max": 1.0000001,
+              "median": 1.0000001,
+              "min": 1.0000001
+            },
+            "choice": {
+              "max": 1.0000001,
+              "median": 1.0000001,
+              "min": 1.0000001
+            }
+          },
+          "use_cases": 40,
+          "wrong_automated": 0
+        },
+        "0.2": {
+          "automated": 20,
+          "automation_coverage": 0.19047619047619047,
+          "branch_accuracy_delta": -0.4636363636363636,
+          "caught_required_reviews": 17,
+          "controlled_branch_accuracy": 0.3,
+          "heldout_direct_accuracy": 0.7,
+          "heldout_direct_error": 0.3,
+          "method": "leave-one-use-case-out Wilson selective risk control",
+          "min_automated_train": 8,
+          "n": 110,
+          "raw_semantic_accuracy": 0.7636363636363637,
+          "required_review_recall": 0.85,
+          "required_reviews": 20,
+          "review_rate": 0.8095238095238095,
+          "reviewed": 85,
+          "selective_n": 105,
+          "target_error_upper_95": 0.2,
+          "threshold_summary": {
+            "binary": {
+              "max": 1.0000001,
+              "median": 1.0000001,
+              "min": 1.0000001
+            },
+            "choice": {
+              "max": 1.0000001,
+              "median": 0.9077040461479768,
+              "min": 0.6056936971531515
+            }
+          },
+          "use_cases": 40,
+          "wrong_automated": 6
+        },
+        "0.3": {
+          "automated": 94,
+          "automation_coverage": 0.8952380952380953,
+          "branch_accuracy_delta": -0.06363636363636363,
+          "caught_required_reviews": 2,
+          "controlled_branch_accuracy": 0.7,
+          "heldout_direct_accuracy": 0.7765957446808511,
+          "heldout_direct_error": 0.22340425531914893,
+          "method": "leave-one-use-case-out Wilson selective risk control",
+          "min_automated_train": 8,
+          "n": 110,
+          "raw_semantic_accuracy": 0.7636363636363637,
+          "required_review_recall": 0.1,
+          "required_reviews": 20,
+          "review_rate": 0.10476190476190476,
+          "reviewed": 11,
+          "selective_n": 105,
+          "target_error_upper_95": 0.3,
+          "threshold_summary": {
+            "binary": {
+              "max": 1.0000001,
+              "median": 0.651355,
+              "min": 0.651355
+            },
+            "choice": {
+              "max": 0.4248355,
+              "median": 0.0,
+              "min": 0.0
+            }
+          },
+          "use_cases": 40,
+          "wrong_automated": 21
+        },
+        "0.4": {
+          "automated": 95,
+          "automation_coverage": 0.9047619047619048,
+          "branch_accuracy_delta": -0.06363636363636363,
+          "caught_required_reviews": 1,
+          "controlled_branch_accuracy": 0.7,
+          "heldout_direct_accuracy": 0.7789473684210526,
+          "heldout_direct_error": 0.22105263157894736,
+          "method": "leave-one-use-case-out Wilson selective risk control",
+          "min_automated_train": 8,
+          "n": 110,
+          "raw_semantic_accuracy": 0.7636363636363637,
+          "required_review_recall": 0.05,
+          "required_reviews": 20,
+          "review_rate": 0.09523809523809523,
+          "reviewed": 10,
+          "selective_n": 105,
+          "target_error_upper_95": 0.4,
+          "threshold_summary": {
+            "binary": {
+              "max": 1.0000001,
+              "median": 0.592667,
+              "min": 0.592667
+            },
+            "choice": {
+              "max": 0.0,
+              "median": 0.0,
+              "min": 0.0
+            }
+          },
+          "use_cases": 40,
+          "wrong_automated": 21
+        }
+      },
+      "raw": {
+        "0.1": {
+          "automated": 0,
+          "automation_coverage": 0.0,
+          "branch_accuracy_delta": -0.4818181818181818,
+          "caught_required_reviews": 20,
+          "controlled_branch_accuracy": 0.2,
+          "heldout_direct_accuracy": null,
+          "heldout_direct_error": null,
+          "method": "leave-one-use-case-out Wilson selective risk control",
+          "min_automated_train": 8,
+          "n": 110,
+          "raw_semantic_accuracy": 0.6818181818181818,
+          "required_review_recall": 1.0,
+          "required_reviews": 20,
+          "review_rate": 1.0,
+          "reviewed": 105,
+          "selective_n": 105,
+          "target_error_upper_95": 0.1,
+          "threshold_summary": {
+            "binary": {
+              "max": 1.0000001,
+              "median": 1.0000001,
+              "min": 1.0000001
+            },
+            "choice": {
+              "max": 1.0000001,
+              "median": 1.0000001,
+              "min": 1.0000001
+            }
+          },
+          "use_cases": 40,
+          "wrong_automated": 0
+        },
+        "0.2": {
+          "automated": 23,
+          "automation_coverage": 0.21904761904761905,
+          "branch_accuracy_delta": -0.3181818181818182,
+          "caught_required_reviews": 18,
+          "controlled_branch_accuracy": 0.36363636363636365,
+          "heldout_direct_accuracy": 0.8695652173913043,
+          "heldout_direct_error": 0.13043478260869565,
+          "method": "leave-one-use-case-out Wilson selective risk control",
+          "min_automated_train": 8,
+          "n": 110,
+          "raw_semantic_accuracy": 0.6818181818181818,
+          "required_review_recall": 0.9,
+          "required_reviews": 20,
+          "review_rate": 0.780952380952381,
+          "reviewed": 82,
+          "selective_n": 105,
+          "target_error_upper_95": 0.2,
+          "threshold_summary": {
+            "binary": {
+              "max": 1.0000001,
+              "median": 1.0000001,
+              "min": 1.0000001
+            },
+            "choice": {
+              "max": 0.979199,
+              "median": 0.966162,
+              "min": 0.916536
+            }
+          },
+          "use_cases": 40,
+          "wrong_automated": 3
+        },
+        "0.3": {
+          "automated": 60,
+          "automation_coverage": 0.5714285714285714,
+          "branch_accuracy_delta": -0.13636363636363635,
+          "caught_required_reviews": 12,
+          "controlled_branch_accuracy": 0.5454545454545454,
+          "heldout_direct_accuracy": 0.7666666666666666,
+          "heldout_direct_error": 0.23333333333333334,
+          "method": "leave-one-use-case-out Wilson selective risk control",
+          "min_automated_train": 8,
+          "n": 110,
+          "raw_semantic_accuracy": 0.6818181818181818,
+          "required_review_recall": 0.6,
+          "required_reviews": 20,
+          "review_rate": 0.42857142857142855,
+          "reviewed": 45,
+          "selective_n": 105,
+          "target_error_upper_95": 0.3,
+          "threshold_summary": {
+            "binary": {
+              "max": 1.0000001,
+              "median": 0.651355,
+              "min": 0.651355
+            },
+            "choice": {
+              "max": 0.729561,
+              "median": 0.727569,
+              "min": 0.616259
+            }
+          },
+          "use_cases": 40,
+          "wrong_automated": 14
+        },
+        "0.4": {
+          "automated": 90,
+          "automation_coverage": 0.8571428571428571,
+          "branch_accuracy_delta": -0.07272727272727272,
+          "caught_required_reviews": 3,
+          "controlled_branch_accuracy": 0.6090909090909091,
+          "heldout_direct_accuracy": 0.6888888888888889,
+          "heldout_direct_error": 0.3111111111111111,
+          "method": "leave-one-use-case-out Wilson selective risk control",
+          "min_automated_train": 8,
+          "n": 110,
+          "raw_semantic_accuracy": 0.6818181818181818,
+          "required_review_recall": 0.15,
+          "required_reviews": 20,
+          "review_rate": 0.14285714285714285,
+          "reviewed": 15,
+          "selective_n": 105,
+          "target_error_upper_95": 0.4,
+          "threshold_summary": {
+            "binary": {
+              "max": 1.0000001,
+              "median": 0.592667,
+              "min": 0.592667
+            },
+            "choice": {
+              "max": 0.523794,
+              "median": 0.0,
+              "min": 0.0
+            }
+          },
+          "use_cases": 40,
+          "wrong_automated": 28
+        }
+      }
+    },
+    "verdict-1.4": {
+      "optimized": {
+        "0.1": {
+          "automated": 0,
+          "automation_coverage": 0.0,
+          "branch_accuracy_delta": -0.2909090909090909,
+          "caught_required_reviews": 20,
+          "controlled_branch_accuracy": 0.19090909090909092,
+          "heldout_direct_accuracy": null,
+          "heldout_direct_error": null,
+          "method": "leave-one-use-case-out Wilson selective risk control",
+          "min_automated_train": 8,
+          "n": 110,
+          "raw_semantic_accuracy": 0.4818181818181818,
+          "required_review_recall": 1.0,
+          "required_reviews": 20,
+          "review_rate": 1.0,
+          "reviewed": 105,
+          "selective_n": 105,
+          "target_error_upper_95": 0.1,
+          "threshold_summary": {
+            "binary": {
+              "max": 1.0000001,
+              "median": 1.0000001,
+              "min": 1.0000001
+            },
+            "choice": {
+              "max": 1.0000001,
+              "median": 1.0000001,
+              "min": 1.0000001
+            }
+          },
+          "use_cases": 40,
+          "wrong_automated": 0
+        },
+        "0.2": {
+          "automated": 0,
+          "automation_coverage": 0.0,
+          "branch_accuracy_delta": -0.2909090909090909,
+          "caught_required_reviews": 20,
+          "controlled_branch_accuracy": 0.19090909090909092,
+          "heldout_direct_accuracy": null,
+          "heldout_direct_error": null,
+          "method": "leave-one-use-case-out Wilson selective risk control",
+          "min_automated_train": 8,
+          "n": 110,
+          "raw_semantic_accuracy": 0.4818181818181818,
+          "required_review_recall": 1.0,
+          "required_reviews": 20,
+          "review_rate": 1.0,
+          "reviewed": 105,
+          "selective_n": 105,
+          "target_error_upper_95": 0.2,
+          "threshold_summary": {
+            "binary": {
+              "max": 1.0000001,
+              "median": 1.0000001,
+              "min": 1.0000001
+            },
+            "choice": {
+              "max": 1.0000001,
+              "median": 1.0000001,
+              "min": 1.0000001
+            }
+          },
+          "use_cases": 40,
+          "wrong_automated": 0
+        },
+        "0.3": {
+          "automated": 9,
+          "automation_coverage": 0.08571428571428572,
+          "branch_accuracy_delta": -0.2818181818181818,
+          "caught_required_reviews": 18,
+          "controlled_branch_accuracy": 0.2,
+          "heldout_direct_accuracy": 0.33333333333333337,
+          "heldout_direct_error": 0.6666666666666666,
+          "method": "leave-one-use-case-out Wilson selective risk control",
+          "min_automated_train": 8,
+          "n": 110,
+          "raw_semantic_accuracy": 0.4818181818181818,
+          "required_review_recall": 0.9,
+          "required_reviews": 20,
+          "review_rate": 0.9142857142857143,
+          "reviewed": 96,
+          "selective_n": 105,
+          "target_error_upper_95": 0.3,
+          "threshold_summary": {
+            "binary": {
+              "max": 1.0000001,
+              "median": 1.0000001,
+              "min": 1.0000001
+            },
+            "choice": {
+              "max": 1.0000001,
+              "median": 1.0000001,
+              "min": 0.5586030906981376
+            }
+          },
+          "use_cases": 40,
+          "wrong_automated": 6
+        },
+        "0.4": {
+          "automated": 39,
+          "automation_coverage": 0.37142857142857144,
+          "branch_accuracy_delta": -0.1,
+          "caught_required_reviews": 13,
+          "controlled_branch_accuracy": 0.38181818181818183,
+          "heldout_direct_accuracy": 0.717948717948718,
+          "heldout_direct_error": 0.28205128205128205,
+          "method": "leave-one-use-case-out Wilson selective risk control",
+          "min_automated_train": 8,
+          "n": 110,
+          "raw_semantic_accuracy": 0.4818181818181818,
+          "required_review_recall": 0.65,
+          "required_reviews": 20,
+          "review_rate": 0.6285714285714286,
+          "reviewed": 66,
+          "selective_n": 105,
+          "target_error_upper_95": 0.4,
+          "threshold_summary": {
+            "binary": {
+              "max": 1.0000001,
+              "median": 1.0000001,
+              "min": 1.0000001
+            },
+            "choice": {
+              "max": 0.5496427397845545,
+              "median": 0.5431212603504103,
+              "min": 0.5060715482985567
+            }
+          },
+          "use_cases": 40,
+          "wrong_automated": 11
+        }
+      },
+      "raw": {
+        "0.1": {
+          "automated": 0,
+          "automation_coverage": 0.0,
+          "branch_accuracy_delta": -0.2727272727272727,
+          "caught_required_reviews": 20,
+          "controlled_branch_accuracy": 0.19090909090909092,
+          "heldout_direct_accuracy": null,
+          "heldout_direct_error": null,
+          "method": "leave-one-use-case-out Wilson selective risk control",
+          "min_automated_train": 8,
+          "n": 110,
+          "raw_semantic_accuracy": 0.4636363636363636,
+          "required_review_recall": 1.0,
+          "required_reviews": 20,
+          "review_rate": 1.0,
+          "reviewed": 105,
+          "selective_n": 105,
+          "target_error_upper_95": 0.1,
+          "threshold_summary": {
+            "binary": {
+              "max": 1.0000001,
+              "median": 1.0000001,
+              "min": 1.0000001
+            },
+            "choice": {
+              "max": 1.0000001,
+              "median": 1.0000001,
+              "min": 1.0000001
+            }
+          },
+          "use_cases": 40,
+          "wrong_automated": 0
+        },
+        "0.2": {
+          "automated": 0,
+          "automation_coverage": 0.0,
+          "branch_accuracy_delta": -0.2727272727272727,
+          "caught_required_reviews": 20,
+          "controlled_branch_accuracy": 0.19090909090909092,
+          "heldout_direct_accuracy": null,
+          "heldout_direct_error": null,
+          "method": "leave-one-use-case-out Wilson selective risk control",
+          "min_automated_train": 8,
+          "n": 110,
+          "raw_semantic_accuracy": 0.4636363636363636,
+          "required_review_recall": 1.0,
+          "required_reviews": 20,
+          "review_rate": 1.0,
+          "reviewed": 105,
+          "selective_n": 105,
+          "target_error_upper_95": 0.2,
+          "threshold_summary": {
+            "binary": {
+              "max": 1.0000001,
+              "median": 1.0000001,
+              "min": 1.0000001
+            },
+            "choice": {
+              "max": 1.0000001,
+              "median": 1.0000001,
+              "min": 1.0000001
+            }
+          },
+          "use_cases": 40,
+          "wrong_automated": 0
+        },
+        "0.3": {
+          "automated": 4,
+          "automation_coverage": 0.0380952380952381,
+          "branch_accuracy_delta": -0.2636363636363636,
+          "caught_required_reviews": 20,
+          "controlled_branch_accuracy": 0.2,
+          "heldout_direct_accuracy": 0.25,
+          "heldout_direct_error": 0.75,
+          "method": "leave-one-use-case-out Wilson selective risk control",
+          "min_automated_train": 8,
+          "n": 110,
+          "raw_semantic_accuracy": 0.4636363636363636,
+          "required_review_recall": 1.0,
+          "required_reviews": 20,
+          "review_rate": 0.9619047619047619,
+          "reviewed": 101,
+          "selective_n": 105,
+          "target_error_upper_95": 0.3,
+          "threshold_summary": {
+            "binary": {
+              "max": 1.0000001,
+              "median": 1.0000001,
+              "min": 1.0000001
+            },
+            "choice": {
+              "max": 1.0000001,
+              "median": 1.0000001,
+              "min": 0.6530681703278743
+            }
+          },
+          "use_cases": 40,
+          "wrong_automated": 3
+        },
+        "0.4": {
+          "automated": 39,
+          "automation_coverage": 0.37142857142857144,
+          "branch_accuracy_delta": -0.07272727272727272,
+          "caught_required_reviews": 14,
+          "controlled_branch_accuracy": 0.39090909090909093,
+          "heldout_direct_accuracy": 0.717948717948718,
+          "heldout_direct_error": 0.28205128205128205,
+          "method": "leave-one-use-case-out Wilson selective risk control",
+          "min_automated_train": 8,
+          "n": 110,
+          "raw_semantic_accuracy": 0.4636363636363636,
+          "required_review_recall": 0.7,
+          "required_reviews": 20,
+          "review_rate": 0.6285714285714286,
+          "reviewed": 66,
+          "selective_n": 105,
+          "target_error_upper_95": 0.4,
+          "threshold_summary": {
+            "binary": {
+              "max": 1.0000001,
+              "median": 1.0000001,
+              "min": 1.0000001
+            },
+            "choice": {
+              "max": 0.550155781528946,
+              "median": 0.5214582320834759,
+              "min": 0.5017894586945439
+            }
+          },
+          "use_cases": 40,
+          "wrong_automated": 11
+        }
+      }
+    }
+  },
+  "method": "leave-one-use-case-out Wilson upper bound",
+  "schema": "brida.reflexbench.public-fixture-selective-risk/v1alpha1"
+}

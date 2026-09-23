@@ -1,0 +1,51 @@
+{
+  "boundary": "Public Reflex product fixtures are regression/harness-development evidence, not an independent model benchmark. This artifact proves only the same-response deterministic policy contribution for the currently admitted Jev route on these fixtures.",
+  "claim_class": "product-regression-same-response-development-evidence",
+  "contract": {
+    "file": "system-one-contract-v1.md",
+    "name": "Reflex System One Contract v1",
+    "sha256": "bcef0299373d6dcc1756df7d831735adcaa61db050fd78144b88a070d6ad6dc7"
+  },
+  "engine": {
+    "authority": "current-admitted-route",
+    "id": "typesafe-jev",
+    "source_result": "jev-public110-vercel-paced.json",
+    "source_sha256": "cb3f154ab4d9ffc0f7ca0576b01d827c901084543843f60c9d89c4317c18a590"
+  },
+  "raw": {
+    "n": 110,
+    "semantic_accuracy": 0.9636363636363636,
+    "semantic_correct": 106
+  },
+  "reflex_core_v1": {
+    "bootstrap_delta": {
+      "bootstrap_mean_delta": 0.03629090909090909,
+      "ci95_high": 0.07272727272727272,
+      "ci95_low": 0.00909090909090909,
+      "iterations": 20000,
+      "n": 110,
+      "point_delta": 0.03636363636363636,
+      "seed": 20260921
+    },
+    "delta_vs_raw": 0.036363636363636376,
+    "harms": 0,
+    "intervention_rate": 0.03636363636363636,
+    "interventions": 4,
+    "operational_accuracy": 1.0,
+    "operational_correct": 110,
+    "rescues": 4
+  },
+  "same_response_invariant": {
+    "extra_model_calls": 0,
+    "model_specific_adapter": false,
+    "new_calibration_fit": false,
+    "order_ensemble": false,
+    "prompt_rewrite": false,
+    "raw_model_calls": 110,
+    "reflex_model_calls": 110,
+    "same_engine_response": true,
+    "same_questions": true,
+    "same_state": true
+  },
+  "schema": "brida.reflexbench.reflex-core-v1-value/v1alpha1"
+}

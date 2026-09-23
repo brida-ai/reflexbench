@@ -1,0 +1,82 @@
+{
+  "corpus_sha256": "06b87e1285bf0385478a0c48b2254d1925f8f98a45b215abce4a60ad08df98b7",
+  "engines": {
+    "jeff": {
+      "ci95_high": 0.09090909090909091,
+      "ci95_low": -0.01818181818181818,
+      "delta": 0.036363636363636376,
+      "harms": 3,
+      "optimized_accuracy": 0.5818181818181818,
+      "optimized_mode": "policy-only + reverse-average",
+      "optimized_operational_accuracy": 0.23636363636363636,
+      "optimized_p50_ms": 67.34583899378777,
+      "raw_accuracy": 0.5454545454545454,
+      "raw_operational_accuracy": 0.2636363636363636,
+      "raw_p50_ms": 34.095479059033096,
+      "rescues": 7,
+      "semantic_branch_flips": 10
+    },
+    "kev-0.8b": {
+      "ci95_high": 0.0,
+      "ci95_low": 0.0,
+      "delta": 0.0,
+      "harms": 0,
+      "optimized_accuracy": 0.7,
+      "optimized_mode": "policy-only; no ensemble",
+      "optimized_operational_accuracy": 0.5636363636363636,
+      "optimized_p50_ms": 54.39338099677116,
+      "raw_accuracy": 0.7,
+      "raw_operational_accuracy": 0.5636363636363636,
+      "raw_p50_ms": 49.24484505318105,
+      "rescues": 0,
+      "semantic_branch_flips": 0
+    },
+    "laya-base": {
+      "ci95_high": 0.0,
+      "ci95_low": 0.0,
+      "delta": 0.0,
+      "harms": 0,
+      "optimized_accuracy": 0.5818181818181818,
+      "optimized_mode": "policy-only; no ensemble",
+      "optimized_operational_accuracy": 0.2909090909090909,
+      "optimized_p50_ms": 67.94626801274717,
+      "raw_accuracy": 0.5818181818181818,
+      "raw_operational_accuracy": 0.2909090909090909,
+      "raw_p50_ms": 67.94053793419152,
+      "rescues": 0,
+      "semantic_branch_flips": 0
+    },
+    "laya-typed": {
+      "ci95_high": 0.06363636363636363,
+      "ci95_low": 0.0,
+      "delta": 0.027272727272727226,
+      "harms": 0,
+      "optimized_accuracy": 0.6545454545454545,
+      "optimized_mode": "all questions + reverse-average",
+      "optimized_operational_accuracy": 0.20909090909090908,
+      "optimized_p50_ms": 127.7678341139108,
+      "raw_accuracy": 0.6272727272727273,
+      "raw_operational_accuracy": 0.20909090909090908,
+      "raw_p50_ms": 62.99297290388495,
+      "rescues": 3,
+      "semantic_branch_flips": 4
+    },
+    "qwen-reflex-2b": {
+      "ci95_high": 0.14545454545454545,
+      "ci95_low": 0.01818181818181818,
+      "delta": 0.0818181818181819,
+      "harms": 2,
+      "optimized_accuracy": 0.7636363636363637,
+      "optimized_mode": "policy-only + reverse-average",
+      "optimized_operational_accuracy": 0.5181818181818182,
+      "optimized_p50_ms": 122.61382897850126,
+      "raw_accuracy": 0.6818181818181818,
+      "raw_operational_accuracy": 0.5636363636363636,
+      "raw_p50_ms": 97.23129298072308,
+      "rescues": 11,
+      "semantic_branch_flips": 14
+    }
+  },
+  "rows": 110,
+  "schema": "brida.reflexbench.harness-uplift/v1alpha1"
+}

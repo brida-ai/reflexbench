@@ -1,0 +1,182 @@
+{
+  "case_pack_rules": {
+    "case_classes": [
+      "clear",
+      "boundary",
+      "ambiguous"
+    ],
+    "case_pack_sha_locked_before_any_engine_inference": true,
+    "deterministic_facts_rule": "Arithmetic, dates, permissions, exact comparisons and other host-computable facts must be precomputed/represented as facts; cases must test the remaining bounded semantic judgment rather than ask the model to replace deterministic code.",
+    "expected_branch_locked_before_any_engine_inference": true,
+    "forbidden_case_fields": [
+      "questions",
+      "question",
+      "prompt",
+      "systemPrompt",
+      "model",
+      "engine",
+      "provider",
+      "adapter",
+      "temperature",
+      "answer",
+      "answers",
+      "probabilities",
+      "confidence",
+      "semanticBranch",
+      "operationalBranch",
+      "selectedProbability"
+    ],
+    "languages": [
+      "en",
+      "es"
+    ],
+    "minimum_cases_per_language_per_workflow": 15,
+    "minimum_total_cases": 150,
+    "model_output_guided_case_authoring_forbidden": true,
+    "private_v2_case_reuse_forbidden": true,
+    "public110_case_reuse_forbidden": true,
+    "required_case_fields": [
+      "id",
+      "useCase",
+      "language",
+      "caseClass",
+      "evidenceClass",
+      "state",
+      "expectedBranch",
+      "provenance"
+    ]
+  },
+  "contract": {
+    "file": "docs/research/reflex/reflexbench/system-one-contract-v1.md",
+    "name": "Reflex System One Contract v1",
+    "sha256": "bcef0299373d6dcc1756df7d831735adcaa61db050fd78144b88a070d6ad6dc7"
+  },
+  "evaluation": {
+    "core_layer": "same authority-question response passed through the frozen declarative policy",
+    "engine_request": "canonical Core v1 state + frozen recipe questions",
+    "extra_model_calls_for_core": 0,
+    "model_specific_prompt_rewrite_forbidden": true,
+    "model_specific_semantic_adapter_forbidden": true,
+    "primary_metrics": [
+      "raw_exact_branch_accuracy",
+      "core_exact_branch_accuracy",
+      "paired_delta",
+      "rescues",
+      "harms",
+      "interventions",
+      "bootstrap_delta_ci95",
+      "automation_coverage",
+      "direct_action_accuracy",
+      "review_rate"
+    ],
+    "raw_layer": "semantic branch derived from the authority question response without confidence intervention",
+    "required_slices": [
+      "workflow",
+      "policy_type",
+      "language",
+      "caseClass",
+      "evidenceClass"
+    ],
+    "same_response_required": true,
+    "transport_retry_policy": {
+      "backoff_ms": 2000.0,
+      "max_retries": 2,
+      "preserve_retry_ledger": true,
+      "request_semantics_must_be_identical": true,
+      "retryable_connection_errors": true,
+      "retryable_http_statuses": [
+        "429",
+        "500-599"
+      ],
+      "semantic_client_4xx_retried": false
+    }
+  },
+  "gate_identity": "core-v1-workflow-gate-v2",
+  "predeclared_gate": {
+    "bootstrap_ci95_lower_bound_must_be_nonnegative": true,
+    "completion_rate": 1.0,
+    "core_exact_branch_delta_must_be_positive": true,
+    "harms_must_not_exceed_rescues": true,
+    "note": "A failed gate remains authoritative evidence; thresholds/templates/cases may not be changed and rerun under the same gate identity.",
+    "same_response_invariant_must_hold": true
+  },
+  "publication_boundary": "Internal blind product gate. Passing does not imply model SOTA or authorize public release/production route changes.",
+  "recipe_registry": {
+    "repository": "brida-ai/reflex",
+    "revision": "8e2eafa413b1312ebc61c93ff4c6ebeb4c6d8ca4"
+  },
+  "schema": "brida.reflexbench.core-v1-workflow-gate-procedure/v1alpha1",
+  "selected_workflows": [
+    {
+      "authority_question_id": "needsReview",
+      "id": "document-invoice-review",
+      "minimum_cases": 30,
+      "minimum_cases_per_class": 10,
+      "operational_branches": [
+        "continue",
+        "review"
+      ],
+      "policy_type": "binary",
+      "question_count": 1,
+      "recipe_sha256": "33586c226c43352d79b13c9fcb7710979802fb155f90d4fdcf3f77c74a279b1f"
+    },
+    {
+      "authority_question_id": "relationship",
+      "id": "duplicate-report-match",
+      "minimum_cases": 30,
+      "minimum_cases_per_class": 10,
+      "operational_branches": [
+        "distinct",
+        "duplicate_candidate",
+        "review"
+      ],
+      "policy_type": "choice",
+      "question_count": 1,
+      "recipe_sha256": "1b830d02bff969c218c7eba5cd271dd0bb4c620ff674d24cfb53d96985388349"
+    },
+    {
+      "authority_question_id": "support",
+      "id": "research-claim-verification",
+      "minimum_cases": 30,
+      "minimum_cases_per_class": 10,
+      "operational_branches": [
+        "continue",
+        "stop",
+        "verify"
+      ],
+      "policy_type": "choice",
+      "question_count": 1,
+      "recipe_sha256": "9846b4c60ad120632b7afa4615d4de173cd696ae4c21f055622dd08b0543e85c"
+    },
+    {
+      "authority_question_id": "quality",
+      "id": "dataset-example-quality",
+      "minimum_cases": 30,
+      "minimum_cases_per_class": 10,
+      "operational_branches": [
+        "drop_candidate",
+        "keep_candidate",
+        "review"
+      ],
+      "policy_type": "score",
+      "question_count": 1,
+      "recipe_sha256": "d8b6fa68df794cfc23e4121791ea4f5d5ffcf70bce3582f3255dc18308aa1d50"
+    },
+    {
+      "authority_question_id": "reviewDepth",
+      "id": "change-review-risk",
+      "minimum_cases": 30,
+      "minimum_cases_per_class": 10,
+      "operational_branches": [
+        "focused_review",
+        "review",
+        "routine_review",
+        "specialist_review"
+      ],
+      "policy_type": "choice",
+      "question_count": 1,
+      "recipe_sha256": "b005b04cebce47ffd6ba5c96ab1a66c7895b1bfb15dafe2c1a63b9170a572591"
+    }
+  ],
+  "status": "frozen-before-case-pack-and-engine-inference"
+}

@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+title: "ReflexBench: Benchmarking System One and Typed Decision Models"
+message: "Cite the repository and exact benchmark version."
+type: software
+authors:
+  - family-names: "Navarro"
+    given-names: "Carlos"
+repository-code: "https://github.com/brida-ai/reflexbench"
+license: Apache-2.0
+version: "1.0.0"
+date-released: "2026-09-24"
+keywords:
+  - System One models
+  - typed decision models
+  - calibration
+  - Jev
+  - Laya
+  - AI evaluation

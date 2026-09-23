@@ -1,0 +1,47 @@
+{
+  "boundary": "Structural/blindness validation only; no engine inference or model-quality metric is computed here.",
+  "case_pack_sha256": "059208437813359a2cf47cab7238c7fe6d8e2f27b4b2d87337b3d2c809bafbea",
+  "class_counts": {
+    "change-review-risk:ambiguous": 10,
+    "change-review-risk:boundary": 10,
+    "change-review-risk:clear": 10,
+    "dataset-example-quality:ambiguous": 10,
+    "dataset-example-quality:boundary": 10,
+    "dataset-example-quality:clear": 10,
+    "document-invoice-review:ambiguous": 10,
+    "document-invoice-review:boundary": 10,
+    "document-invoice-review:clear": 10,
+    "duplicate-report-match:ambiguous": 10,
+    "duplicate-report-match:boundary": 10,
+    "duplicate-report-match:clear": 10,
+    "research-claim-verification:ambiguous": 10,
+    "research-claim-verification:boundary": 10,
+    "research-claim-verification:clear": 10
+  },
+  "failures": [],
+  "language_counts": {
+    "change-review-risk:en": 15,
+    "change-review-risk:es": 15,
+    "dataset-example-quality:en": 15,
+    "dataset-example-quality:es": 15,
+    "document-invoice-review:en": 15,
+    "document-invoice-review:es": 15,
+    "duplicate-report-match:en": 15,
+    "duplicate-report-match:es": 15,
+    "research-claim-verification:en": 15,
+    "research-claim-verification:es": 15
+  },
+  "prior_case_identity_collisions": 0,
+  "procedure_sha256": "048c7db3843562f028e328127f18bce65d32446cd15248b5d3c16c529874f715",
+  "rows": 150,
+  "schema": "brida.reflexbench.core-v1-workflow-case-validation/v1alpha1",
+  "unique_ids": 150,
+  "valid": true,
+  "workflows": {
+    "change-review-risk": 30,
+    "dataset-example-quality": 30,
+    "document-invoice-review": 30,
+    "duplicate-report-match": 30,
+    "research-claim-verification": 30
+  }
+}

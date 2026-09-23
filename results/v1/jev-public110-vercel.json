@@ -1,0 +1,1530 @@
+{
+  "ablation": {
+    "choice_ensemble": "none",
+    "native_permutations": null,
+    "question_mode": "all"
+  },
+  "by_difficulty": {
+    "fixture": {
+      "latency_ms": {
+        "mean": 342.3961035802896,
+        "p50": 307.8442349797115,
+        "p95": 436.71320797875524,
+        "p99": 512.0529200648889
+      },
+      "n": 29,
+      "operational_accuracy": 1.0,
+      "operational_correct": 29,
+      "review_or_uncertain": 1,
+      "semantic_accuracy": 0.9655172413793104,
+      "semantic_correct": 28
+    }
+  },
+  "by_policy_type": {
+    "choice": {
+      "latency_ms": {
+        "mean": 338.5980582634847,
+        "p50": 307.8442349797115,
+        "p95": 409.7728320630267,
+        "p99": 436.71320797875524
+      },
+      "n": 26,
+      "operational_accuracy": 1.0,
+      "operational_correct": 26,
+      "review_or_uncertain": 1,
+      "semantic_accuracy": 0.9615384615384616,
+      "semantic_correct": 25
+    },
+    "score": {
+      "latency_ms": {
+        "mean": 375.31249632593244,
+        "p50": 307.05471499823034,
+        "p95": 512.0529200648889,
+        "p99": 512.0529200648889
+      },
+      "n": 3,
+      "operational_accuracy": 1.0,
+      "operational_correct": 3,
+      "review_or_uncertain": 0,
+      "semantic_accuracy": 1.0,
+      "semantic_correct": 3
+    }
+  },
+  "by_use_case": {
+    "agent-progress-gate": {
+      "latency_ms": {
+        "mean": 358.13838348258287,
+        "p50": 307.0039839949459,
+        "p95": 409.27278297021985,
+        "p99": 409.27278297021985
+      },
+      "n": 2,
+      "operational_accuracy": 1.0,
+      "operational_correct": 2,
+      "review_or_uncertain": 0,
+      "semantic_accuracy": 1.0,
+      "semantic_correct": 2
+    },
+    "browser-action-risk": {
+      "latency_ms": {
+        "mean": 341.12795966211706,
+        "p50": 307.4010129785165,
+        "p95": 409.2798220226541,
+        "p99": 409.2798220226541
+      },
+      "n": 3,
+      "operational_accuracy": 1.0,
+      "operational_correct": 3,
+      "review_or_uncertain": 0,
+      "semantic_accuracy": 1.0,
+      "semantic_correct": 3
+    },
+    "catalog-listing-signals": {
+      "latency_ms": {
+        "mean": 299.9566606789206,
+        "p50": 307.8442349797115,
+        "p95": 309.6864210674539,
+        "p99": 309.6864210674539
+      },
+      "n": 3,
+      "operational_accuracy": 1.0,
+      "operational_correct": 3,
+      "review_or_uncertain": 0,
+      "semantic_accuracy": 1.0,
+      "semantic_correct": 3
+    },
+    "change-review-risk": {
+      "latency_ms": {
+        "mean": 317.81587400473654,
+        "p50": 306.71250401064754,
+        "p95": 328.91924399882555,
+        "p99": 328.91924399882555
+      },
+      "n": 2,
+      "operational_accuracy": 1.0,
+      "operational_correct": 2,
+      "review_or_uncertain": 0,
+      "semantic_accuracy": 1.0,
+      "semantic_correct": 2
+    },
+    "code-change-classification": {
+      "latency_ms": {
+        "mean": 307.1715587284416,
+        "p50": 307.95975297223777,
+        "p95": 364.75184198934585,
+        "p99": 364.75184198934585
+      },
+      "n": 4,
+      "operational_accuracy": 1.0,
+      "operational_correct": 4,
+      "review_or_uncertain": 0,
+      "semantic_accuracy": 1.0,
+      "semantic_correct": 4
+    },
+    "completion-evidence-gate": {
+      "latency_ms": {
+        "mean": 307.0692806504667,
+        "p50": 306.92189396359026,
+        "p95": 307.47922300361097,
+        "p99": 307.47922300361097
+      },
+      "n": 3,
+      "operational_accuracy": 1.0,
+      "operational_correct": 3,
+      "review_or_uncertain": 0,
+      "semantic_accuracy": 1.0,
+      "semantic_correct": 3
+    },
+    "content-policy-review": {
+      "latency_ms": {
+        "mean": 358.3609419874847,
+        "p50": 307.24888294935226,
+        "p95": 409.4730010256171,
+        "p99": 409.4730010256171
+      },
+      "n": 2,
+      "operational_accuracy": 1.0,
+      "operational_correct": 2,
+      "review_or_uncertain": 0,
+      "semantic_accuracy": 1.0,
+      "semantic_correct": 2
+    },
+    "content-quality-gate": {
+      "latency_ms": {
+        "mean": 375.31249632593244,
+        "p50": 307.05471499823034,
+        "p95": 512.0529200648889,
+        "p99": 512.0529200648889
+      },
+      "n": 3,
+      "operational_accuracy": 1.0,
+      "operational_correct": 3,
+      "review_or_uncertain": 0,
+      "semantic_accuracy": 1.0,
+      "semantic_correct": 3
+    },
+    "context-retention-gate": {
+      "latency_ms": {
+        "mean": 409.5662244944833,
+        "p50": 409.7728320630267,
+        "p95": 436.71320797875524,
+        "p99": 436.71320797875524
+      },
+      "n": 4,
+      "operational_accuracy": 1.0,
+      "operational_correct": 4,
+      "review_or_uncertain": 1,
+      "semantic_accuracy": 0.75,
+      "semantic_correct": 3
+    },
+    "conversation-turn-state": {
+      "latency_ms": {
+        "mean": 341.1687600115935,
+        "p50": 324.109829030931,
+        "p95": 392.32662797439843,
+        "p99": 392.32662797439843
+      },
+      "n": 3,
+      "operational_accuracy": 1.0,
+      "operational_correct": 3,
+      "review_or_uncertain": 0,
+      "semantic_accuracy": 1.0,
+      "semantic_correct": 3
+    }
+  },
+  "completion": {
+    "completed": 29,
+    "failed": 81,
+    "rate": 0.2636363636363636
+  },
+  "corpus": {
+    "path_name": "reflex-public-fixtures-8e2eafa.jsonl",
+    "rows": 110,
+    "sha256": "06b87e1285bf0385478a0c48b2254d1925f8f98a45b215abce4a60ad08df98b7"
+  },
+  "engine": {
+    "id": "jev-vercel",
+    "model": "typesafe-ai/jev",
+    "revision": "not-exposed@2026-09-21"
+  },
+  "failures": [
+    {
+      "case_id": "synthetic-ambiguous-backchannel",
+      "error": "System One HTTP 429: {\"error\":\"rate_limited\",\"name\":\"DecisionEvaluationProviderError\"}",
+      "error_type": "SystemOneHttpError",
+      "index": 29,
+      "use_case": "conversation-turn-state"
+    },
+    {
+      "case_id": "synthetic-outage",
+      "error": "System One HTTP 429: {\"error\":\"rate_limited\",\"name\":\"DecisionEvaluationProviderError\"}",
+      "error_type": "SystemOneHttpError",
+      "index": 30,
+      "use_case": "customer-support-ticket-triage"
+    },
+    {
+      "case_id": "synthetic-howto",
+      "error": "System One HTTP 429: {\"error\":\"rate_limited\",\"name\":\"DecisionEvaluationProviderError\"}",
+      "error_type": "SystemOneHttpError",
+      "index": 31,
+      "use_case": "customer-support-ticket-triage"
+    },
+    {
+      "case_id": "synthetic-clear-example",
+      "error": "System One HTTP 429: {\"error\":\"rate_limited\",\"name\":\"DecisionEvaluationProviderError\"}",
+      "error_type": "SystemOneHttpError",
+      "index": 32,
+      "use_case": "dataset-example-quality"
+    },
+    {
+      "case_id": "synthetic-contradictory-example",
+      "error": "System One HTTP 429: {\"error\":\"rate_limited\",\"name\":\"DecisionEvaluationProviderError\"}",
+      "error_type": "SystemOneHttpError",
+      "index": 33,
+      "use_case": "dataset-example-quality"
+    },
+    {
+      "case_id": "synthetic-clean-text",
+      "error": "System One HTTP 429: {\"error\":\"rate_limited\",\"name\":\"DecisionEvaluationProviderError\"}",
+      "error_type": "SystemOneHttpError",
+      "index": 34,
+      "use_case": "document-extraction-route"
+    },
+    {
+      "case_id": "synthetic-scan",
+      "error": "System One HTTP 429: {\"error\":\"rate_limited\",\"name\":\"DecisionEvaluationProviderError\"}",
+      "error_type": "SystemOneHttpError",
+      "index": 35,
+      "use_case": "document-extraction-route"
+    },
+    {
+      "case_id": "synthetic-mismatch",
+      "error": "System One HTTP 429: {\"error\":\"rate_limited\",\"name\":\"DecisionEvaluationProviderError\"}",
+      "error_type": "SystemOneHttpError",
+      "index": 36,
+      "use_case": "document-invoice-review"
+    },
+    {
+      "case_id": "synthetic-clean",
+      "error": "System One HTTP 429: {\"error\":\"rate_limited\",\"name\":\"DecisionEvaluationProviderError\"}",
+      "error_type": "SystemOneHttpError",
+      "index": 37,
+      "use_case": "document-invoice-review"
+    },
+    {
+      "case_id": "synthetic-same-upload-stall",
+      "error": "System One HTTP 429: {\"error\":\"rate_limited\",\"name\":\"DecisionEvaluationProviderError\"}",
+      "error_type": "SystemOneHttpError",
+      "index": 38,
+      "use_case": "duplicate-report-match"
+    },
+    {
+      "case_id": "synthetic-export-distinct",
+      "error": "System One HTTP 429: {\"error\":\"rate_limited\",\"name\":\"DecisionEvaluationProviderError\"}",
+      "error_type": "SystemOneHttpError",
+      "index": 39,
+      "use_case": "duplicate-report-match"
+    },
+    {
+      "case_id": "synthetic-overlapping-sync-symptoms",
+      "error": "System One HTTP 429: {\"error\":\"rate_limited\",\"name\":\"DecisionEvaluationProviderError\"}",
+      "error_type": "SystemOneHttpError",
+      "index": 40,
+      "use_case": "duplicate-report-match"
+    },
+    {
+      "case_id": "synthetic-successful-test-run",
+      "error": "System One HTTP 429: {\"error\":\"rate_limited\",\"name\":\"DecisionEvaluationProviderError\"}",
+      "error_type": "SystemOneHttpError",
+      "index": 41,
+      "use_case": "execution-failure-classification"
+    },
+    {
+      "case_id": "synthetic-network-reset",
+      "error": "System One HTTP 429: {\"error\":\"rate_limited\",\"name\":\"DecisionEvaluationProviderError\"}",
+      "error_type": "SystemOneHttpError",
+      "index": 42,
+      "use_case": "execution-failure-classification"
+    },
+    {
+      "case_id": "synthetic-port-in-use",
+      "error": "System One HTTP 429: {\"error\":\"rate_limited\",\"name\":\"DecisionEvaluationProviderError\"}",
+      "error_type": "SystemOneHttpError",
+      "index": 43,
+      "use_case": "execution-failure-classification"
+    },
+    {
+      "case_id": "synthetic-code-exception",
+      "error": "System One HTTP 429: {\"error\":\"rate_limited\",\"name\":\"DecisionEvaluationProviderError\"}",
+      "error_type": "SystemOneHttpError",
+      "index": 44,
+      "use_case": "execution-failure-classification"
+    },
+    {
+      "case_id": "synthetic-permission-denied",
+      "error": "System One HTTP 429: {\"error\":\"rate_limited\",\"name\":\"DecisionEvaluationProviderError\"}",
+      "error_type": "SystemOneHttpError",
+      "index": 45,
+      "use_case": "execution-failure-classification"
+    },
+    {
+      "case_id": "synthetic-invalid-argument",
+      "error": "System One HTTP 429: {\"error\":\"rate_limited\",\"name\":\"DecisionEvaluationProviderError\"}",
+      "error_type": "SystemOneHttpError",
+      "index": 46,
+      "use_case": "execution-failure-classification"
+    },
+    {
+      "case_id": "synthetic-opaque-failure",
+      "error": "System One HTTP 429: {\"error\":\"rate_limited\",\"name\":\"DecisionEvaluationProviderError\"}",
+      "error_type": "SystemOneHttpError",
+      "index": 47,
+      "use_case": "execution-failure-classification"
+    },
+    {
+      "case_id": "synthetic-advance",
+      "error": "System One HTTP 429: {\"error\":\"rate_limited\",\"name\":\"DecisionEvaluationProviderError\"}",
+      "error_type": "SystemOneHttpError",
+      "index": 48,
+      "use_case": "game-state-action"
+    },
+    {
+      "case_id": "synthetic-defend",
+      "error": "System One HTTP 429: {\"error\":\"rate_limited\",\"name\":\"DecisionEvaluationProviderError\"}",
+      "error_type": "SystemOneHttpError",
+      "index": 49,
+      "use_case": "game-state-action"
+    },
+    {
+      "case_id": "synthetic-recovered-retry",
+      "error": "System One HTTP 429: {\"error\":\"rate_limited\",\"name\":\"DecisionEvaluationProviderError\"}",
+      "error_type": "SystemOneHttpError",
+      "index": 50,
+      "use_case": "incident-signal-triage"
+    },
+    {
+      "case_id": "synthetic-active-login-impact",
+      "error": "System One HTTP 429: {\"error\":\"rate_limited\",\"name\":\"DecisionEvaluationProviderError\"}",
+      "error_type": "SystemOneHttpError",
+      "index": 51,
+      "use_case": "incident-signal-triage"
+    },
+    {
+      "case_id": "synthetic-routine-project-update",
+      "error": "System One HTTP 429: {\"error\":\"rate_limited\",\"name\":\"DecisionEvaluationProviderError\"}",
+      "error_type": "SystemOneHttpError",
+      "index": 52,
+      "use_case": "incoming-message-risk"
+    },
+    {
+      "case_id": "synthetic-credential-lure",
+      "error": "System One HTTP 429: {\"error\":\"rate_limited\",\"name\":\"DecisionEvaluationProviderError\"}",
+      "error_type": "SystemOneHttpError",
+      "index": 53,
+      "use_case": "incoming-message-risk"
+    },
+    {
+      "case_id": "synthetic-unusual-vendor-change",
+      "error": "System One HTTP 429: {\"error\":\"rate_limited\",\"name\":\"DecisionEvaluationProviderError\"}",
+      "error_type": "SystemOneHttpError",
+      "index": 54,
+      "use_case": "incoming-message-risk"
+    },
+    {
+      "case_id": "synthetic-fit",
+      "error": "System One HTTP 429: {\"error\":\"rate_limited\",\"name\":\"DecisionEvaluationProviderError\"}",
+      "error_type": "SystemOneHttpError",
+      "index": 55,
+      "use_case": "marketplace-job-fit"
+    },
+    {
+      "case_id": "synthetic-skip",
+      "error": "System One HTTP 429: {\"error\":\"rate_limited\",\"name\":\"DecisionEvaluationProviderError\"}",
+      "error_type": "SystemOneHttpError",
+      "index": 56,
+      "use_case": "marketplace-job-fit"
+    },
+    {
+      "case_id": "synthetic-durable-convention",
+      "error": "System One HTTP 429: {\"error\":\"rate_limited\",\"name\":\"DecisionEvaluationProviderError\"}",
+      "error_type": "SystemOneHttpError",
+      "index": 57,
+      "use_case": "memory-relevance-gate"
+    },
+    {
+      "case_id": "synthetic-transient-status",
+      "error": "System One HTTP 429: {\"error\":\"rate_limited\",\"name\":\"DecisionEvaluationProviderError\"}",
+      "error_type": "SystemOneHttpError",
+      "index": 58,
+      "use_case": "memory-relevance-gate"
+    },
+    {
+      "case_id": "synthetic-local-normalization",
+      "error": "System One HTTP 429: {\"error\":\"rate_limited\",\"name\":\"DecisionEvaluationProviderError\"}",
+      "error_type": "SystemOneHttpError",
+      "index": 59,
+      "use_case": "model-effort-routing"
+    },
+    {
+      "case_id": "synthetic-bounded-debugging",
+      "error": "System One HTTP 429: {\"error\":\"rate_limited\",\"name\":\"DecisionEvaluationProviderError\"}",
+      "error_type": "SystemOneHttpError",
+      "index": 60,
+      "use_case": "model-effort-routing"
+    },
+    {
+      "case_id": "synthetic-cross-component-migration",
+      "error": "System One HTTP 429: {\"error\":\"rate_limited\",\"name\":\"DecisionEvaluationProviderError\"}",
+      "error_type": "SystemOneHttpError",
+      "index": 61,
+      "use_case": "model-effort-routing"
+    },
+    {
+      "case_id": "synthetic-underspecified-request",
+      "error": "System One HTTP 429: {\"error\":\"rate_limited\",\"name\":\"DecisionEvaluationProviderError\"}",
+      "error_type": "SystemOneHttpError",
+      "index": 62,
+      "use_case": "model-effort-routing"
+    },
+    {
+      "case_id": "synthetic-routine-internal-update",
+      "error": "System One HTTP 429: {\"error\":\"rate_limited\",\"name\":\"DecisionEvaluationProviderError\"}",
+      "error_type": "SystemOneHttpError",
+      "index": 63,
+      "use_case": "outbound-message-risk"
+    },
+    {
+      "case_id": "synthetic-unapproved-delivery-promise",
+      "error": "System One HTTP 429: {\"error\":\"rate_limited\",\"name\":\"DecisionEvaluationProviderError\"}",
+      "error_type": "SystemOneHttpError",
+      "index": 64,
+      "use_case": "outbound-message-risk"
+    },
+    {
+      "case_id": "synthetic-confidential-pricing-leak",
+      "error": "System One HTTP 429: {\"error\":\"rate_limited\",\"name\":\"DecisionEvaluationProviderError\"}",
+      "error_type": "SystemOneHttpError",
+      "index": 65,
+      "use_case": "outbound-message-risk"
+    },
+    {
+      "case_id": "synthetic-primary-explanation",
+      "error": "System One HTTP 429: {\"error\":\"rate_limited\",\"name\":\"DecisionEvaluationProviderError\"}",
+      "error_type": "SystemOneHttpError",
+      "index": 66,
+      "use_case": "page-clutter-relevance"
+    },
+    {
+      "case_id": "synthetic-unrelated-community-box",
+      "error": "System One HTTP 429: {\"error\":\"rate_limited\",\"name\":\"DecisionEvaluationProviderError\"}",
+      "error_type": "SystemOneHttpError",
+      "index": 67,
+      "use_case": "page-clutter-relevance"
+    },
+    {
+      "case_id": "synthetic-unclear-related-card",
+      "error": "System One HTTP 429: {\"error\":\"rate_limited\",\"name\":\"DecisionEvaluationProviderError\"}",
+      "error_type": "SystemOneHttpError",
+      "index": 68,
+      "use_case": "page-clutter-relevance"
+    },
+    {
+      "case_id": "synthetic-unaffected-renderer",
+      "error": "System One HTTP 429: {\"error\":\"rate_limited\",\"name\":\"DecisionEvaluationProviderError\"}",
+      "error_type": "SystemOneHttpError",
+      "index": 69,
+      "use_case": "policy-change-impact"
+    },
+    {
+      "case_id": "synthetic-affected-export-service",
+      "error": "System One HTTP 429: {\"error\":\"rate_limited\",\"name\":\"DecisionEvaluationProviderError\"}",
+      "error_type": "SystemOneHttpError",
+      "index": 70,
+      "use_case": "policy-change-impact"
+    },
+    {
+      "case_id": "synthetic-ambiguous-export-ui",
+      "error": "System One HTTP 429: {\"error\":\"rate_limited\",\"name\":\"DecisionEvaluationProviderError\"}",
+      "error_type": "SystemOneHttpError",
+      "index": 71,
+      "use_case": "policy-change-impact"
+    },
+    {
+      "case_id": "synthetic-supported",
+      "error": "System One HTTP 429: {\"error\":\"rate_limited\",\"name\":\"DecisionEvaluationProviderError\"}",
+      "error_type": "SystemOneHttpError",
+      "index": 72,
+      "use_case": "research-claim-verification"
+    },
+    {
+      "case_id": "synthetic-unclear",
+      "error": "System One HTTP 429: {\"error\":\"rate_limited\",\"name\":\"DecisionEvaluationProviderError\"}",
+      "error_type": "SystemOneHttpError",
+      "index": 73,
+      "use_case": "research-claim-verification"
+    },
+    {
+      "case_id": "synthetic-unrelated-event",
+      "error": "System One HTTP 429: {\"error\":\"rate_limited\",\"name\":\"DecisionEvaluationProviderError\"}",
+      "error_type": "SystemOneHttpError",
+      "index": 74,
+      "use_case": "research-event-relevance"
+    },
+    {
+      "case_id": "synthetic-relevant-amendment",
+      "error": "System One HTTP 429: {\"error\":\"rate_limited\",\"name\":\"DecisionEvaluationProviderError\"}",
+      "error_type": "SystemOneHttpError",
+      "index": 75,
+      "use_case": "research-event-relevance"
+    },
+    {
+      "case_id": "synthetic-relevant",
+      "error": "System One HTTP 429: {\"error\":\"rate_limited\",\"name\":\"DecisionEvaluationProviderError\"}",
+      "error_type": "SystemOneHttpError",
+      "index": 76,
+      "use_case": "retrieval-relevance-gate"
+    },
+    {
+      "case_id": "synthetic-irrelevant",
+      "error": "System One HTTP 429: {\"error\":\"rate_limited\",\"name\":\"DecisionEvaluationProviderError\"}",
+      "error_type": "SystemOneHttpError",
+      "index": 77,
+      "use_case": "retrieval-relevance-gate"
+    },
+    {
+      "case_id": "synthetic-fit",
+      "error": "System One HTTP 429: {\"error\":\"rate_limited\",\"name\":\"DecisionEvaluationProviderError\"}",
+      "error_type": "SystemOneHttpError",
+      "index": 78,
+      "use_case": "sales-lead-fit"
+    },
+    {
+      "case_id": "synthetic-mismatch",
+      "error": "System One HTTP 429: {\"error\":\"rate_limited\",\"name\":\"DecisionEvaluationProviderError\"}",
+      "error_type": "SystemOneHttpError",
+      "index": 79,
+      "use_case": "sales-lead-fit"
+    },
+    {
+      "case_id": "synthetic-paraphrase",
+      "error": "System One HTTP 429: {\"error\":\"rate_limited\",\"name\":\"DecisionEvaluationProviderError\"}",
+      "error_type": "SystemOneHttpError",
+      "index": 80,
+      "use_case": "semantic-cache-reuse-gate"
+    },
+    {
+      "case_id": "synthetic-scope-change",
+      "error": "System One HTTP 429: {\"error\":\"rate_limited\",\"name\":\"DecisionEvaluationProviderError\"}",
+      "error_type": "SystemOneHttpError",
+      "index": 81,
+      "use_case": "semantic-cache-reuse-gate"
+    },
+    {
+      "case_id": "synthetic-editorial-paragraph",
+      "error": "System One HTTP 429: {\"error\":\"rate_limited\",\"name\":\"DecisionEvaluationProviderError\"}",
+      "error_type": "SystemOneHttpError",
+      "index": 82,
+      "use_case": "semantic-content-blocking"
+    },
+    {
+      "case_id": "synthetic-promotional-card",
+      "error": "System One HTTP 429: {\"error\":\"rate_limited\",\"name\":\"DecisionEvaluationProviderError\"}",
+      "error_type": "SystemOneHttpError",
+      "index": 83,
+      "use_case": "semantic-content-blocking"
+    },
+    {
+      "case_id": "synthetic-ambiguous-recommendation",
+      "error": "System One HTTP 429: {\"error\":\"rate_limited\",\"name\":\"DecisionEvaluationProviderError\"}",
+      "error_type": "SystemOneHttpError",
+      "index": 84,
+      "use_case": "semantic-content-blocking"
+    },
+    {
+      "case_id": "synthetic-consistent-deployment",
+      "error": "System One HTTP 429: {\"error\":\"rate_limited\",\"name\":\"DecisionEvaluationProviderError\"}",
+      "error_type": "SystemOneHttpError",
+      "index": 85,
+      "use_case": "semantic-data-consistency"
+    },
+    {
+      "case_id": "synthetic-semantic-contradiction",
+      "error": "System One HTTP 429: {\"error\":\"rate_limited\",\"name\":\"DecisionEvaluationProviderError\"}",
+      "error_type": "SystemOneHttpError",
+      "index": 86,
+      "use_case": "semantic-data-consistency"
+    },
+    {
+      "case_id": "synthetic-ambiguous-transition",
+      "error": "System One HTTP 429: {\"error\":\"rate_limited\",\"name\":\"DecisionEvaluationProviderError\"}",
+      "error_type": "SystemOneHttpError",
+      "index": 87,
+      "use_case": "semantic-data-consistency"
+    },
+    {
+      "case_id": "synthetic-clear-semantic-match",
+      "error": "System One HTTP 429: {\"error\":\"rate_limited\",\"name\":\"DecisionEvaluationProviderError\"}",
+      "error_type": "SystemOneHttpError",
+      "index": 88,
+      "use_case": "semantic-record-match"
+    },
+    {
+      "case_id": "synthetic-ambiguous-alias",
+      "error": "System One HTTP 429: {\"error\":\"rate_limited\",\"name\":\"DecisionEvaluationProviderError\"}",
+      "error_type": "SystemOneHttpError",
+      "index": 89,
+      "use_case": "semantic-record-match"
+    },
+    {
+      "case_id": "synthetic-hard-conflict",
+      "error": "System One HTTP 429: {\"error\":\"rate_limited\",\"name\":\"DecisionEvaluationProviderError\"}",
+      "error_type": "SystemOneHttpError",
+      "index": 90,
+      "use_case": "semantic-record-match"
+    },
+    {
+      "case_id": "synthetic-disguised-failure",
+      "error": "System One HTTP 429: {\"error\":\"rate_limited\",\"name\":\"DecisionEvaluationProviderError\"}",
+      "error_type": "SystemOneHttpError",
+      "index": 91,
+      "use_case": "semantic-response-health"
+    },
+    {
+      "case_id": "synthetic-normal-success",
+      "error": "System One HTTP 429: {\"error\":\"rate_limited\",\"name\":\"DecisionEvaluationProviderError\"}",
+      "error_type": "SystemOneHttpError",
+      "index": 92,
+      "use_case": "semantic-response-health"
+    },
+    {
+      "case_id": "synthetic-unresolved-acceptance",
+      "error": "System One HTTP 429: {\"error\":\"rate_limited\",\"name\":\"DecisionEvaluationProviderError\"}",
+      "error_type": "SystemOneHttpError",
+      "index": 93,
+      "use_case": "semantic-response-health"
+    },
+    {
+      "case_id": "synthetic-recoverable-message",
+      "error": "System One HTTP 429: {\"error\":\"rate_limited\",\"name\":\"DecisionEvaluationProviderError\"}",
+      "error_type": "SystemOneHttpError",
+      "index": 94,
+      "use_case": "semantic-rule-check"
+    },
+    {
+      "case_id": "synthetic-internal-error-leak",
+      "error": "System One HTTP 429: {\"error\":\"rate_limited\",\"name\":\"DecisionEvaluationProviderError\"}",
+      "error_type": "SystemOneHttpError",
+      "index": 95,
+      "use_case": "semantic-rule-check"
+    },
+    {
+      "case_id": "synthetic-vague-action-label",
+      "error": "System One HTTP 429: {\"error\":\"rate_limited\",\"name\":\"DecisionEvaluationProviderError\"}",
+      "error_type": "SystemOneHttpError",
+      "index": 96,
+      "use_case": "semantic-rule-check"
+    },
+    {
+      "case_id": "synthetic-reproducible-crash",
+      "error": "System One HTTP 429: {\"error\":\"rate_limited\",\"name\":\"DecisionEvaluationProviderError\"}",
+      "error_type": "SystemOneHttpError",
+      "index": 97,
+      "use_case": "software-issue-triage"
+    },
+    {
+      "case_id": "synthetic-vague-report",
+      "error": "System One HTTP 429: {\"error\":\"rate_limited\",\"name\":\"DecisionEvaluationProviderError\"}",
+      "error_type": "SystemOneHttpError",
+      "index": 98,
+      "use_case": "software-issue-triage"
+    },
+    {
+      "case_id": "synthetic-product-request",
+      "error": "System One HTTP 429: {\"error\":\"rate_limited\",\"name\":\"DecisionEvaluationProviderError\"}",
+      "error_type": "SystemOneHttpError",
+      "index": 99,
+      "use_case": "software-issue-triage"
+    },
+    {
+      "case_id": "synthetic-main-explanation",
+      "error": "System One HTTP 429: {\"error\":\"rate_limited\",\"name\":\"DecisionEvaluationProviderError\"}",
+      "error_type": "SystemOneHttpError",
+      "index": 100,
+      "use_case": "sponsor-segment-detection"
+    },
+    {
+      "case_id": "synthetic-sponsor-read",
+      "error": "System One HTTP 429: {\"error\":\"rate_limited\",\"name\":\"DecisionEvaluationProviderError\"}",
+      "error_type": "SystemOneHttpError",
+      "index": 101,
+      "use_case": "sponsor-segment-detection"
+    },
+    {
+      "case_id": "synthetic-review-unit-disclosure",
+      "error": "System One HTTP 429: {\"error\":\"rate_limited\",\"name\":\"DecisionEvaluationProviderError\"}",
+      "error_type": "SystemOneHttpError",
+      "index": 102,
+      "use_case": "sponsor-segment-detection"
+    },
+    {
+      "case_id": "synthetic-export-e2e",
+      "error": "System One HTTP 429: {\"error\":\"rate_limited\",\"name\":\"DecisionEvaluationProviderError\"}",
+      "error_type": "SystemOneHttpError",
+      "index": 103,
+      "use_case": "test-relevance-gate"
+    },
+    {
+      "case_id": "synthetic-avatar-unrelated",
+      "error": "System One HTTP 429: {\"error\":\"rate_limited\",\"name\":\"DecisionEvaluationProviderError\"}",
+      "error_type": "SystemOneHttpError",
+      "index": 104,
+      "use_case": "test-relevance-gate"
+    },
+    {
+      "case_id": "synthetic-insufficient-shared-helper",
+      "error": "System One HTTP 429: {\"error\":\"rate_limited\",\"name\":\"DecisionEvaluationProviderError\"}",
+      "error_type": "SystemOneHttpError",
+      "index": 105,
+      "use_case": "test-relevance-gate"
+    },
+    {
+      "case_id": "synthetic-routine",
+      "error": "System One HTTP 429: {\"error\":\"rate_limited\",\"name\":\"DecisionEvaluationProviderError\"}",
+      "error_type": "SystemOneHttpError",
+      "index": 106,
+      "use_case": "untrusted-input-risk"
+    },
+    {
+      "case_id": "synthetic-override",
+      "error": "System One HTTP 429: {\"error\":\"rate_limited\",\"name\":\"DecisionEvaluationProviderError\"}",
+      "error_type": "SystemOneHttpError",
+      "index": 107,
+      "use_case": "untrusted-input-risk"
+    },
+    {
+      "case_id": "synthetic-later",
+      "error": "System One HTTP 429: {\"error\":\"rate_limited\",\"name\":\"DecisionEvaluationProviderError\"}",
+      "error_type": "SystemOneHttpError",
+      "index": 108,
+      "use_case": "work-priority"
+    },
+    {
+      "case_id": "synthetic-overdue",
+      "error": "System One HTTP 429: {\"error\":\"rate_limited\",\"name\":\"DecisionEvaluationProviderError\"}",
+      "error_type": "SystemOneHttpError",
+      "index": 109,
+      "use_case": "work-priority"
+    }
+  ],
+  "registry": {
+    "custom_reflex_manifest_sha256": "8a23b8ed5c55b7c3a7f24de8639ec4f67b536c6eb2867130b754e755baf12b86",
+    "revision": "8e2eafa413b1312ebc61c93ff4c6ebeb4c6d8ca4",
+    "use_cases": 40
+  },
+  "rows": [
+    {
+      "answer": {
+        "choice": "progressing",
+        "probabilities": {
+          "progressing": 1.0,
+          "stalled": 0.0,
+          "unclear": 0.0
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-progress",
+      "difficulty": "fixture",
+      "ensemble_used": false,
+      "expected_branch": "continue_candidate",
+      "index": 0,
+      "latency_ms": 307.0039839949459,
+      "operational_branch": "continue_candidate",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 1.0,
+      "semantic_branch": "continue_candidate",
+      "semantic_correct": true,
+      "use_case": "agent-progress-gate"
+    },
+    {
+      "answer": {
+        "choice": "stalled",
+        "probabilities": {
+          "progressing": 0.0,
+          "stalled": 1.0,
+          "unclear": 0.0
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-stall",
+      "difficulty": "fixture",
+      "ensemble_used": false,
+      "expected_branch": "inspect",
+      "index": 1,
+      "latency_ms": 409.27278297021985,
+      "operational_branch": "inspect",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 1.0,
+      "semantic_branch": "inspect",
+      "semantic_correct": true,
+      "use_case": "agent-progress-gate"
+    },
+    {
+      "answer": {
+        "choice": "low",
+        "probabilities": {
+          "high": 0.0,
+          "low": 1.0,
+          "medium": 0.0
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-navigation",
+      "difficulty": "fixture",
+      "ensemble_used": false,
+      "expected_branch": "auto_candidate",
+      "index": 2,
+      "latency_ms": 307.4010129785165,
+      "operational_branch": "auto_candidate",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 1.0,
+      "semantic_branch": "auto_candidate",
+      "semantic_correct": true,
+      "use_case": "browser-action-risk"
+    },
+    {
+      "answer": {
+        "choice": "high",
+        "probabilities": {
+          "high": 1.0,
+          "low": 0.0,
+          "medium": 0.0
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-payment",
+      "difficulty": "fixture",
+      "ensemble_used": false,
+      "expected_branch": "block",
+      "index": 3,
+      "latency_ms": 306.70304398518056,
+      "operational_branch": "block",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 1.0,
+      "semantic_branch": "block",
+      "semantic_correct": true,
+      "use_case": "browser-action-risk"
+    },
+    {
+      "answer": {
+        "choice": "medium",
+        "probabilities": {
+          "high": 0.0,
+          "low": 0.0,
+          "medium": 1.0
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-profile-update",
+      "difficulty": "fixture",
+      "ensemble_used": false,
+      "expected_branch": "review",
+      "index": 4,
+      "latency_ms": 409.2798220226541,
+      "operational_branch": "review",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 1.0,
+      "semantic_branch": "review",
+      "semantic_correct": true,
+      "use_case": "browser-action-risk"
+    },
+    {
+      "answer": {
+        "choice": "physical_good",
+        "probabilities": {
+          "digital_product": 0.0,
+          "other": 0.0,
+          "physical_good": 1.0,
+          "service_or_event": 0.0
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-physical-mug",
+      "difficulty": "fixture",
+      "ensemble_used": false,
+      "expected_branch": "physical_candidate",
+      "index": 5,
+      "latency_ms": 307.8442349797115,
+      "operational_branch": "physical_candidate",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 1.0,
+      "semantic_branch": "physical_candidate",
+      "semantic_correct": true,
+      "use_case": "catalog-listing-signals"
+    },
+    {
+      "answer": {
+        "choice": "digital_product",
+        "probabilities": {
+          "digital_product": 1.0,
+          "other": 0.0,
+          "physical_good": 0.0,
+          "service_or_event": 0.0
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-digital-app",
+      "difficulty": "fixture",
+      "ensemble_used": false,
+      "expected_branch": "digital_candidate",
+      "index": 6,
+      "latency_ms": 309.6864210674539,
+      "operational_branch": "digital_candidate",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 1.0,
+      "semantic_branch": "digital_candidate",
+      "semantic_correct": true,
+      "use_case": "catalog-listing-signals"
+    },
+    {
+      "answer": {
+        "choice": "other",
+        "probabilities": {
+          "digital_product": 0.32,
+          "other": 0.65,
+          "physical_good": 0.01,
+          "service_or_event": 0.02
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-ambiguous-package",
+      "difficulty": "fixture",
+      "ensemble_used": false,
+      "expected_branch": "review",
+      "index": 7,
+      "latency_ms": 282.33932598959655,
+      "operational_branch": "review",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 0.65,
+      "semantic_branch": "review",
+      "semantic_correct": true,
+      "use_case": "catalog-listing-signals"
+    },
+    {
+      "answer": {
+        "choice": "routine",
+        "probabilities": {
+          "focused": 0.0,
+          "routine": 1.0,
+          "specialist": 0.0
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-doc-copy",
+      "difficulty": "fixture",
+      "ensemble_used": false,
+      "expected_branch": "routine_review",
+      "index": 8,
+      "latency_ms": 328.91924399882555,
+      "operational_branch": "routine_review",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 1.0,
+      "semantic_branch": "routine_review",
+      "semantic_correct": true,
+      "use_case": "change-review-risk"
+    },
+    {
+      "answer": {
+        "choice": "specialist",
+        "probabilities": {
+          "focused": 0.0,
+          "routine": 0.0,
+          "specialist": 1.0
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-auth-boundary",
+      "difficulty": "fixture",
+      "ensemble_used": false,
+      "expected_branch": "specialist_review",
+      "index": 9,
+      "latency_ms": 306.71250401064754,
+      "operational_branch": "specialist_review",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 1.0,
+      "semantic_branch": "specialist_review",
+      "semantic_correct": true,
+      "use_case": "change-review-risk"
+    },
+    {
+      "answer": {
+        "choice": "bug_fix",
+        "probabilities": {
+          "bug_fix": 1.0,
+          "feature": 0.0,
+          "maintenance": 0.0,
+          "mixed_or_unclear": 0.0,
+          "security_sensitive": 0.0
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-parser-null-fix",
+      "difficulty": "fixture",
+      "ensemble_used": false,
+      "expected_branch": "bugfix_candidate",
+      "index": 10,
+      "latency_ms": 307.15579295065254,
+      "operational_branch": "bugfix_candidate",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 1.0,
+      "semantic_branch": "bugfix_candidate",
+      "semantic_correct": true,
+      "use_case": "code-change-classification"
+    },
+    {
+      "answer": {
+        "choice": "feature",
+        "probabilities": {
+          "bug_fix": 0.0,
+          "feature": 1.0,
+          "maintenance": 0.0,
+          "mixed_or_unclear": 0.0,
+          "security_sensitive": 0.0
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-new-export-format",
+      "difficulty": "fixture",
+      "ensemble_used": false,
+      "expected_branch": "feature_candidate",
+      "index": 11,
+      "latency_ms": 307.95975297223777,
+      "operational_branch": "feature_candidate",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 1.0,
+      "semantic_branch": "feature_candidate",
+      "semantic_correct": true,
+      "use_case": "code-change-classification"
+    },
+    {
+      "answer": {
+        "choice": "security_sensitive",
+        "probabilities": {
+          "bug_fix": 0.0,
+          "feature": 0.0,
+          "maintenance": 0.0,
+          "mixed_or_unclear": 0.0,
+          "security_sensitive": 1.0
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-auth-scope-change",
+      "difficulty": "fixture",
+      "ensemble_used": false,
+      "expected_branch": "security_review",
+      "index": 12,
+      "latency_ms": 248.81884700153023,
+      "operational_branch": "security_review",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 1.0,
+      "semantic_branch": "security_review",
+      "semantic_correct": true,
+      "use_case": "code-change-classification"
+    },
+    {
+      "answer": {
+        "choice": "maintenance",
+        "probabilities": {
+          "bug_fix": 0.0,
+          "feature": 0.0,
+          "maintenance": 1.0,
+          "mixed_or_unclear": 0.0,
+          "security_sensitive": 0.0
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-doc-cleanup",
+      "difficulty": "fixture",
+      "ensemble_used": false,
+      "expected_branch": "maintenance_candidate",
+      "index": 13,
+      "latency_ms": 364.75184198934585,
+      "operational_branch": "maintenance_candidate",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 1.0,
+      "semantic_branch": "maintenance_candidate",
+      "semantic_correct": true,
+      "use_case": "code-change-classification"
+    },
+    {
+      "answer": {
+        "choice": "verified_complete",
+        "probabilities": {
+          "incomplete": 0.01,
+          "unverified": 0.16,
+          "verified_complete": 0.83
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-verified-complete",
+      "difficulty": "fixture",
+      "ensemble_used": false,
+      "expected_branch": "completion_candidate",
+      "index": 14,
+      "latency_ms": 307.47922300361097,
+      "operational_branch": "completion_candidate",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 0.83,
+      "semantic_branch": "completion_candidate",
+      "semantic_correct": true,
+      "use_case": "completion-evidence-gate"
+    },
+    {
+      "answer": {
+        "choice": "incomplete",
+        "probabilities": {
+          "incomplete": 1.0,
+          "unverified": 0.0,
+          "verified_complete": 0.0
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-unfinished-check",
+      "difficulty": "fixture",
+      "ensemble_used": false,
+      "expected_branch": "resume_work",
+      "index": 15,
+      "latency_ms": 306.92189396359026,
+      "operational_branch": "resume_work",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 1.0,
+      "semantic_branch": "resume_work",
+      "semantic_correct": true,
+      "use_case": "completion-evidence-gate"
+    },
+    {
+      "answer": {
+        "choice": "unverified",
+        "probabilities": {
+          "incomplete": 0.01,
+          "unverified": 0.99,
+          "verified_complete": 0.0
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-unverified-evidence",
+      "difficulty": "fixture",
+      "ensemble_used": false,
+      "expected_branch": "review",
+      "index": 16,
+      "latency_ms": 306.8067249841988,
+      "operational_branch": "review",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 0.99,
+      "semantic_branch": "review",
+      "semantic_correct": true,
+      "use_case": "completion-evidence-gate"
+    },
+    {
+      "answer": {
+        "choice": "ordinary",
+        "probabilities": {
+          "ambiguous": 0.0,
+          "ordinary": 1.0,
+          "restricted": 0.0
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-product-question",
+      "difficulty": "fixture",
+      "ensemble_used": false,
+      "expected_branch": "ordinary_candidate",
+      "index": 17,
+      "latency_ms": 307.24888294935226,
+      "operational_branch": "ordinary_candidate",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 1.0,
+      "semantic_branch": "ordinary_candidate",
+      "semantic_correct": true,
+      "use_case": "content-policy-review"
+    },
+    {
+      "answer": {
+        "choice": "restricted",
+        "probabilities": {
+          "ambiguous": 0.0,
+          "ordinary": 0.0,
+          "restricted": 1.0
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-credential-phish",
+      "difficulty": "fixture",
+      "ensemble_used": false,
+      "expected_branch": "restricted_candidate",
+      "index": 18,
+      "latency_ms": 409.4730010256171,
+      "operational_branch": "restricted_candidate",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 1.0,
+      "semantic_branch": "restricted_candidate",
+      "semantic_correct": true,
+      "use_case": "content-policy-review"
+    },
+    {
+      "answer": {
+        "probabilities": {
+          "0": 0.0,
+          "1": 0.01,
+          "2": 0.02,
+          "3": 0.1,
+          "4": 0.87
+        },
+        "score": 3.83,
+        "type": "score"
+      },
+      "case_id": "synthetic-good",
+      "difficulty": "fixture",
+      "ensemble_used": false,
+      "expected_branch": "publish_candidate",
+      "index": 19,
+      "latency_ms": 306.8298539146781,
+      "operational_branch": "publish_candidate",
+      "operational_correct": true,
+      "policy_type": "score",
+      "selected_probability": null,
+      "semantic_branch": "publish_candidate",
+      "semantic_correct": true,
+      "use_case": "content-quality-gate"
+    },
+    {
+      "answer": {
+        "probabilities": {
+          "0": 0.41,
+          "1": 0.59,
+          "2": 0.0,
+          "3": 0.0,
+          "4": 0.0
+        },
+        "score": 0.59,
+        "type": "score"
+      },
+      "case_id": "synthetic-missing",
+      "difficulty": "fixture",
+      "ensemble_used": false,
+      "expected_branch": "reject",
+      "index": 20,
+      "latency_ms": 307.05471499823034,
+      "operational_branch": "reject",
+      "operational_correct": true,
+      "policy_type": "score",
+      "selected_probability": null,
+      "semantic_branch": "reject",
+      "semantic_correct": true,
+      "use_case": "content-quality-gate"
+    },
+    {
+      "answer": {
+        "probabilities": {
+          "0": 0.01,
+          "1": 0.86,
+          "2": 0.13,
+          "3": 0.0,
+          "4": 0.0
+        },
+        "score": 1.13,
+        "type": "score"
+      },
+      "case_id": "synthetic-major-omission",
+      "difficulty": "fixture",
+      "ensemble_used": false,
+      "expected_branch": "revise",
+      "index": 21,
+      "latency_ms": 512.0529200648889,
+      "operational_branch": "revise",
+      "operational_correct": true,
+      "policy_type": "score",
+      "selected_probability": null,
+      "semantic_branch": "revise",
+      "semantic_correct": true,
+      "use_case": "content-quality-gate"
+    },
+    {
+      "answer": {
+        "choice": "keep_verbatim",
+        "probabilities": {
+          "ambiguous": 0.0,
+          "compactable": 0.12,
+          "keep_verbatim": 0.84,
+          "low_value": 0.04
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-exact-validation-error",
+      "difficulty": "fixture",
+      "ensemble_used": false,
+      "expected_branch": "keep_candidate",
+      "index": 22,
+      "latency_ms": 436.71320797875524,
+      "operational_branch": "keep_candidate",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 0.84,
+      "semantic_branch": "keep_candidate",
+      "semantic_correct": true,
+      "use_case": "context-retention-gate"
+    },
+    {
+      "answer": {
+        "choice": "compactable",
+        "probabilities": {
+          "ambiguous": 0.0,
+          "compactable": 0.84,
+          "keep_verbatim": 0.11,
+          "low_value": 0.05
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-completed-investigation-summary",
+      "difficulty": "fixture",
+      "ensemble_used": false,
+      "expected_branch": "compact_candidate",
+      "index": 23,
+      "latency_ms": 382.3537959251553,
+      "operational_branch": "compact_candidate",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 0.84,
+      "semantic_branch": "compact_candidate",
+      "semantic_correct": true,
+      "use_case": "context-retention-gate"
+    },
+    {
+      "answer": {
+        "choice": "low_value",
+        "probabilities": {
+          "ambiguous": 0.0,
+          "compactable": 0.08,
+          "keep_verbatim": 0.01,
+          "low_value": 0.91
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-superseded-progress-note",
+      "difficulty": "fixture",
+      "ensemble_used": false,
+      "expected_branch": "drop_candidate",
+      "index": 24,
+      "latency_ms": 409.7728320630267,
+      "operational_branch": "drop_candidate",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 0.91,
+      "semantic_branch": "drop_candidate",
+      "semantic_correct": true,
+      "use_case": "context-retention-gate"
+    },
+    {
+      "answer": {
+        "choice": "compactable",
+        "probabilities": {
+          "ambiguous": 0.26,
+          "compactable": 0.47,
+          "keep_verbatim": 0.12,
+          "low_value": 0.15
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-unclear-design-note",
+      "difficulty": "fixture",
+      "ensemble_used": false,
+      "expected_branch": "review",
+      "index": 25,
+      "latency_ms": 409.42506201099604,
+      "operational_branch": "review",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 0.47,
+      "semantic_branch": "compact_candidate",
+      "semantic_correct": false,
+      "use_case": "context-retention-gate"
+    },
+    {
+      "answer": {
+        "choice": "incomplete",
+        "probabilities": {
+          "ambiguous": 0.0,
+          "barge_in": 0.0,
+          "complete_request": 0.0,
+          "incomplete": 1.0
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-incomplete-timer",
+      "difficulty": "fixture",
+      "ensemble_used": false,
+      "expected_branch": "continue_listening",
+      "index": 26,
+      "latency_ms": 307.0698230294511,
+      "operational_branch": "continue_listening",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 1.0,
+      "semantic_branch": "continue_listening",
+      "semantic_correct": true,
+      "use_case": "conversation-turn-state"
+    },
+    {
+      "answer": {
+        "choice": "complete_request",
+        "probabilities": {
+          "ambiguous": 0.0,
+          "barge_in": 0.0,
+          "complete_request": 1.0,
+          "incomplete": 0.0
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-complete-weather-question",
+      "difficulty": "fixture",
+      "ensemble_used": false,
+      "expected_branch": "respond_candidate",
+      "index": 27,
+      "latency_ms": 324.109829030931,
+      "operational_branch": "respond_candidate",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 1.0,
+      "semantic_branch": "respond_candidate",
+      "semantic_correct": true,
+      "use_case": "conversation-turn-state"
+    },
+    {
+      "answer": {
+        "choice": "barge_in",
+        "probabilities": {
+          "ambiguous": 0.0,
+          "barge_in": 1.0,
+          "complete_request": 0.0,
+          "incomplete": 0.0
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-explicit-interruption",
+      "difficulty": "fixture",
+      "ensemble_used": false,
+      "expected_branch": "barge_in_candidate",
+      "index": 28,
+      "latency_ms": 392.32662797439843,
+      "operational_branch": "barge_in_candidate",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 1.0,
+      "semantic_branch": "barge_in_candidate",
+      "semantic_correct": true,
+      "use_case": "conversation-turn-state"
+    }
+  ],
+  "run": {
+    "http_requests": 29
+  },
+  "schema": "brida.reflexbench.reflex-http-result/v1alpha1",
+  "summary": {
+    "latency_ms": {
+      "mean": 342.3961035802896,
+      "p50": 307.8442349797115,
+      "p95": 436.71320797875524,
+      "p99": 512.0529200648889
+    },
+    "n": 29,
+    "operational_accuracy": 1.0,
+    "operational_correct": 29,
+    "review_or_uncertain": 1,
+    "semantic_accuracy": 0.9655172413793104,
+    "semantic_correct": 28
+  },
+  "visibility": "private",
+  "warmup": {
+    "attempted": true,
+    "latency_ms": 1089.2920609330758,
+    "ok": true
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "by_cardinality": {
+    "10": {
+      "accuracy_all_cases": 1.0,
+      "accuracy_completed_only": 1.0,
+      "cases": 8,
+      "completed": 8,
+      "completion_rate": 1.0,
+      "failed": 0,
+      "failure_types": {},
+      "mean_ms": 53.61607910890598,
+      "p50_ms": 53.36929496843368,
+      "p95_ms": 55.99879194051027
+    },
+    "100": {
+      "accuracy_all_cases": 1.0,
+      "accuracy_completed_only": 1.0,
+      "cases": 8,
+      "completed": 8,
+      "completion_rate": 1.0,
+      "failed": 0,
+      "failure_types": {},
+      "mean_ms": 233.51022254792042,
+      "p50_ms": 233.86820999439806,
+      "p95_ms": 234.79901906102896
+    },
+    "2": {
+      "accuracy_all_cases": 1.0,
+      "accuracy_completed_only": 1.0,
+      "cases": 8,
+      "completed": 8,
+      "completion_rate": 1.0,
+      "failed": 0,
+      "failure_types": {},
+      "mean_ms": 47.178029621136375,
+      "p50_ms": 47.08985995966941,
+      "p95_ms": 49.51385804452002
+    },
+    "20": {
+      "accuracy_all_cases": 1.0,
+      "accuracy_completed_only": 1.0,
+      "cases": 8,
+      "completed": 8,
+      "completion_rate": 1.0,
+      "failed": 0,
+      "failure_types": {},
+      "mean_ms": 70.96321212884504,
+      "p50_ms": 69.71190101467073,
+      "p95_ms": 81.05181099381298
+    },
+    "255": {
+      "accuracy_all_cases": 1.0,
+      "accuracy_completed_only": 1.0,
+      "cases": 8,
+      "completed": 8,
+      "completion_rate": 1.0,
+      "failed": 0,
+      "failure_types": {},
+      "mean_ms": 564.381535485154,
+      "p50_ms": 564.6738159703091,
+      "p95_ms": 565.2187060331926
+    },
+    "4": {
+      "accuracy_all_cases": 1.0,
+      "accuracy_completed_only": 1.0,
+      "cases": 8,
+      "completed": 8,
+      "completion_rate": 1.0,
+      "failed": 0,
+      "failure_types": {},
+      "mean_ms": 50.61837412358727,
+      "p50_ms": 50.012076972052455,
+      "p95_ms": 57.45819990988821
+    },
+    "50": {
+      "accuracy_all_cases": 1.0,
+      "accuracy_completed_only": 1.0,
+      "cases": 8,
+      "completed": 8,
+      "completion_rate": 1.0,
+      "failed": 0,
+      "failure_types": {},
+      "mean_ms": 125.2964662417071,
+      "p50_ms": 124.73160296212882,
+      "p95_ms": 132.29904603213072
+    },
+    "77": {
+      "accuracy_all_cases": 1.0,
+      "accuracy_completed_only": 1.0,
+      "cases": 8,
+      "completed": 8,
+      "completion_rate": 1.0,
+      "failed": 0,
+      "failure_types": {},
+      "mean_ms": 178.0369588668691,
+      "p50_ms": 177.96682694461197,
+      "p95_ms": 179.53443701844662
+    }
+  },
+  "claim_class": "representational-capability-only-not-semantic-quality",
+  "engine": {
+    "id": "kev-0.8b",
+    "model": "kev-latest",
+    "revision": "e0bcf50153f1bda4ca6a8be5e12cbd5f9ebbce1c"
+  },
+  "max_fully_completed_k": 255,
+  "max_perfect_k": 255,
+  "schema": "brida.reflexbench.choice-cardinality-summary/v1alpha1",
+  "tasks_sha256": "c6d0903d3bdc1e6ea64d10b1b80bc0ce9efcea5b96ed6af7f2f81f09b0b87469"
+}

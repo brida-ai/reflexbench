@@ -1,0 +1,110 @@
+{
+  "by_cardinality": {
+    "10": {
+      "accuracy_all_cases": 1.0,
+      "accuracy_completed_only": 1.0,
+      "cases": 8,
+      "completed": 8,
+      "completion_rate": 1.0,
+      "failed": 0,
+      "failure_types": {},
+      "mean_ms": 341.43501488142647,
+      "p50_ms": 366.4782859850675,
+      "p95_ms": 417.51222196035087
+    },
+    "100": {
+      "accuracy_all_cases": 1.0,
+      "accuracy_completed_only": 1.0,
+      "cases": 8,
+      "completed": 8,
+      "completion_rate": 1.0,
+      "failed": 0,
+      "failure_types": {},
+      "mean_ms": 354.0798256290145,
+      "p50_ms": 361.82788002770394,
+      "p95_ms": 463.3503529476002
+    },
+    "2": {
+      "accuracy_all_cases": 1.0,
+      "accuracy_completed_only": 1.0,
+      "cases": 8,
+      "completed": 8,
+      "completion_rate": 1.0,
+      "failed": 0,
+      "failure_types": {},
+      "mean_ms": 367.0148256642278,
+      "p50_ms": 367.32975498307496,
+      "p95_ms": 417.5303120864555
+    },
+    "20": {
+      "accuracy_all_cases": 1.0,
+      "accuracy_completed_only": 1.0,
+      "cases": 8,
+      "completed": 8,
+      "completion_rate": 1.0,
+      "failed": 0,
+      "failure_types": {},
+      "mean_ms": 354.8591298604151,
+      "p50_ms": 367.39151598885655,
+      "p95_ms": 416.5587229654193
+    },
+    "255": {
+      "accuracy_all_cases": 1.0,
+      "accuracy_completed_only": 1.0,
+      "cases": 8,
+      "completed": 8,
+      "completion_rate": 1.0,
+      "failed": 0,
+      "failure_types": {},
+      "mean_ms": 546.1487670254428,
+      "p50_ms": 576.3952870620415,
+      "p95_ms": 723.5817910404876
+    },
+    "4": {
+      "accuracy_all_cases": 1.0,
+      "accuracy_completed_only": 1.0,
+      "cases": 8,
+      "completed": 8,
+      "completion_rate": 1.0,
+      "failed": 0,
+      "failure_types": {},
+      "mean_ms": 367.05436039483175,
+      "p50_ms": 368.35422401782125,
+      "p95_ms": 412.6604360062629
+    },
+    "50": {
+      "accuracy_all_cases": 1.0,
+      "accuracy_completed_only": 1.0,
+      "cases": 8,
+      "completed": 8,
+      "completion_rate": 1.0,
+      "failed": 0,
+      "failure_types": {},
+      "mean_ms": 366.57812452176586,
+      "p50_ms": 347.80490200500935,
+      "p95_ms": 488.13425202388316
+    },
+    "77": {
+      "accuracy_all_cases": 1.0,
+      "accuracy_completed_only": 1.0,
+      "cases": 8,
+      "completed": 8,
+      "completion_rate": 1.0,
+      "failed": 0,
+      "failure_types": {},
+      "mean_ms": 453.185013262555,
+      "p50_ms": 470.5082270083949,
+      "p95_ms": 588.3204559795558
+    }
+  },
+  "claim_class": "representational-capability-only-not-semantic-quality",
+  "engine": {
+    "id": "typesafe-jev",
+    "model": null,
+    "revision": "vercel-ai-gateway-dogfood-20260921"
+  },
+  "max_fully_completed_k": 255,
+  "max_perfect_k": 255,
+  "schema": "brida.reflexbench.choice-cardinality-summary/v1alpha1",
+  "tasks_sha256": "c6d0903d3bdc1e6ea64d10b1b80bc0ce9efcea5b96ed6af7f2f81f09b0b87469"
+}

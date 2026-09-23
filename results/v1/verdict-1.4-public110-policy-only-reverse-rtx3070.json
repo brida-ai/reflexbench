@@ -1,0 +1,3446 @@
+{
+  "ablation": {
+    "choice_ensemble": "reverse",
+    "inter_request_delay_ms": 0.0,
+    "native_permutations": null,
+    "question_mode": "policy-only"
+  },
+  "by_difficulty": {
+    "fixture": {
+      "latency_ms": {
+        "mean": 103.45069639998573,
+        "p50": 110.74242799077183,
+        "p95": 114.89959410391748,
+        "p99": 116.72265303786844
+      },
+      "n": 110,
+      "operational_accuracy": 0.23636363636363636,
+      "operational_correct": 26,
+      "review_or_uncertain": 78,
+      "semantic_accuracy": 0.4818181818181818,
+      "semantic_correct": 53
+    }
+  },
+  "by_policy_type": {
+    "binary": {
+      "latency_ms": {
+        "mean": 52.69388119922951,
+        "p50": 55.85939402226359,
+        "p95": 58.92987106926739,
+        "p99": 58.92987106926739
+      },
+      "n": 10,
+      "operational_accuracy": 0.1,
+      "operational_correct": 1,
+      "review_or_uncertain": 8,
+      "semantic_accuracy": 0.5,
+      "semantic_correct": 5
+    },
+    "choice": {
+      "latency_ms": {
+        "mean": 111.36048303083761,
+        "p50": 111.67676711920649,
+        "p95": 114.89959410391748,
+        "p99": 116.72265303786844
+      },
+      "n": 95,
+      "operational_accuracy": 0.25263157894736843,
+      "operational_correct": 24,
+      "review_or_uncertain": 70,
+      "semantic_accuracy": 0.49473684210526314,
+      "semantic_correct": 47
+    },
+    "score": {
+      "latency_ms": {
+        "mean": 54.678380815312266,
+        "p50": 54.86231506802142,
+        "p95": 56.8686630576849,
+        "p99": 56.8686630576849
+      },
+      "n": 5,
+      "operational_accuracy": 0.2,
+      "operational_correct": 1,
+      "review_or_uncertain": 0,
+      "semantic_accuracy": 0.2,
+      "semantic_correct": 1
+    }
+  },
+  "by_use_case": {
+    "agent-progress-gate": {
+      "latency_ms": {
+        "mean": 112.12839203653857,
+        "p50": 108.50177996326238,
+        "p95": 115.75500410981476,
+        "p99": 115.75500410981476
+      },
+      "n": 2,
+      "operational_accuracy": 0.0,
+      "operational_correct": 0,
+      "review_or_uncertain": 2,
+      "semantic_accuracy": 0.5,
+      "semantic_correct": 1
+    },
+    "browser-action-risk": {
+      "latency_ms": {
+        "mean": 110.41473492514342,
+        "p50": 110.64990889281034,
+        "p95": 110.7856979360804,
+        "p99": 110.7856979360804
+      },
+      "n": 3,
+      "operational_accuracy": 0.3333333333333333,
+      "operational_correct": 1,
+      "review_or_uncertain": 0,
+      "semantic_accuracy": 0.3333333333333333,
+      "semantic_correct": 1
+    },
+    "catalog-listing-signals": {
+      "latency_ms": {
+        "mean": 112.73227632045746,
+        "p50": 112.74048709310591,
+        "p95": 112.74620599579066,
+        "p99": 112.74620599579066
+      },
+      "n": 3,
+      "operational_accuracy": 0.6666666666666666,
+      "operational_correct": 2,
+      "review_or_uncertain": 1,
+      "semantic_accuracy": 1.0,
+      "semantic_correct": 3
+    },
+    "change-review-risk": {
+      "latency_ms": {
+        "mean": 111.27960286103189,
+        "p50": 109.83430885244161,
+        "p95": 112.72489686962217,
+        "p99": 112.72489686962217
+      },
+      "n": 2,
+      "operational_accuracy": 0.0,
+      "operational_correct": 0,
+      "review_or_uncertain": 2,
+      "semantic_accuracy": 0.5,
+      "semantic_correct": 1
+    },
+    "code-change-classification": {
+      "latency_ms": {
+        "mean": 113.26284849201329,
+        "p50": 112.81230603344738,
+        "p95": 116.72265303786844,
+        "p99": 116.72265303786844
+      },
+      "n": 4,
+      "operational_accuracy": 0.25,
+      "operational_correct": 1,
+      "review_or_uncertain": 3,
+      "semantic_accuracy": 1.0,
+      "semantic_correct": 4
+    },
+    "completion-evidence-gate": {
+      "latency_ms": {
+        "mean": 113.39743939849238,
+        "p50": 112.72649699822068,
+        "p95": 115.78905407804996,
+        "p99": 115.78905407804996
+      },
+      "n": 3,
+      "operational_accuracy": 0.3333333333333333,
+      "operational_correct": 1,
+      "review_or_uncertain": 3,
+      "semantic_accuracy": 0.3333333333333333,
+      "semantic_correct": 1
+    },
+    "content-policy-review": {
+      "latency_ms": {
+        "mean": 113.22971596382558,
+        "p50": 111.7425769334659,
+        "p95": 114.71685499418527,
+        "p99": 114.71685499418527
+      },
+      "n": 2,
+      "operational_accuracy": 0.0,
+      "operational_correct": 0,
+      "review_or_uncertain": 2,
+      "semantic_accuracy": 1.0,
+      "semantic_correct": 2
+    },
+    "content-quality-gate": {
+      "latency_ms": {
+        "mean": 53.88697531695167,
+        "p50": 53.903506021015346,
+        "p95": 54.88362396135926,
+        "p99": 54.88362396135926
+      },
+      "n": 3,
+      "operational_accuracy": 0.3333333333333333,
+      "operational_correct": 1,
+      "review_or_uncertain": 0,
+      "semantic_accuracy": 0.3333333333333333,
+      "semantic_correct": 1
+    },
+    "context-retention-gate": {
+      "latency_ms": {
+        "mean": 112.04159428598359,
+        "p50": 111.85506696347147,
+        "p95": 112.72200604435056,
+        "p99": 112.72200604435056
+      },
+      "n": 4,
+      "operational_accuracy": 0.25,
+      "operational_correct": 1,
+      "review_or_uncertain": 4,
+      "semantic_accuracy": 0.0,
+      "semantic_correct": 0
+    },
+    "conversation-turn-state": {
+      "latency_ms": {
+        "mean": 111.02891026530415,
+        "p50": 111.77521699573845,
+        "p95": 112.80553694814444,
+        "p99": 112.80553694814444
+      },
+      "n": 4,
+      "operational_accuracy": 0.25,
+      "operational_correct": 1,
+      "review_or_uncertain": 2,
+      "semantic_accuracy": 0.25,
+      "semantic_correct": 1
+    },
+    "customer-support-ticket-triage": {
+      "latency_ms": {
+        "mean": 107.85400553140789,
+        "p50": 105.91982200276107,
+        "p95": 109.78818906005472,
+        "p99": 109.78818906005472
+      },
+      "n": 2,
+      "operational_accuracy": 0.0,
+      "operational_correct": 0,
+      "review_or_uncertain": 2,
+      "semantic_accuracy": 0.0,
+      "semantic_correct": 0
+    },
+    "dataset-example-quality": {
+      "latency_ms": {
+        "mean": 55.86548906285316,
+        "p50": 54.86231506802142,
+        "p95": 56.8686630576849,
+        "p99": 56.8686630576849
+      },
+      "n": 2,
+      "operational_accuracy": 0.0,
+      "operational_correct": 0,
+      "review_or_uncertain": 0,
+      "semantic_accuracy": 0.0,
+      "semantic_correct": 0
+    },
+    "document-extraction-route": {
+      "latency_ms": {
+        "mean": 107.81910503283143,
+        "p50": 106.83531104587018,
+        "p95": 108.80289901979268,
+        "p99": 108.80289901979268
+      },
+      "n": 2,
+      "operational_accuracy": 0.5,
+      "operational_correct": 1,
+      "review_or_uncertain": 1,
+      "semantic_accuracy": 1.0,
+      "semantic_correct": 2
+    },
+    "document-invoice-review": {
+      "latency_ms": {
+        "mean": 55.38205901393667,
+        "p50": 54.91761502344161,
+        "p95": 55.846503004431725,
+        "p99": 55.846503004431725
+      },
+      "n": 2,
+      "operational_accuracy": 0.5,
+      "operational_correct": 1,
+      "review_or_uncertain": 0,
+      "semantic_accuracy": 0.5,
+      "semantic_correct": 1
+    },
+    "duplicate-report-match": {
+      "latency_ms": {
+        "mean": 111.46267763494204,
+        "p50": 110.696337884292,
+        "p95": 113.74283593613654,
+        "p99": 113.74283593613654
+      },
+      "n": 3,
+      "operational_accuracy": 0.3333333333333333,
+      "operational_correct": 1,
+      "review_or_uncertain": 1,
+      "semantic_accuracy": 0.6666666666666666,
+      "semantic_correct": 2
+    },
+    "execution-failure-classification": {
+      "latency_ms": {
+        "mean": 112.61705798096955,
+        "p50": 112.76419693604112,
+        "p95": 114.75174501538277,
+        "p99": 114.75174501538277
+      },
+      "n": 7,
+      "operational_accuracy": 0.14285714285714285,
+      "operational_correct": 1,
+      "review_or_uncertain": 7,
+      "semantic_accuracy": 0.7142857142857143,
+      "semantic_correct": 5
+    },
+    "game-state-action": {
+      "latency_ms": {
+        "mean": 108.78785944078118,
+        "p50": 108.75804896932095,
+        "p95": 108.8176699122414,
+        "p99": 108.8176699122414
+      },
+      "n": 2,
+      "operational_accuracy": 0.5,
+      "operational_correct": 1,
+      "review_or_uncertain": 1,
+      "semantic_accuracy": 0.5,
+      "semantic_correct": 1
+    },
+    "incident-signal-triage": {
+      "latency_ms": {
+        "mean": 109.2893245513551,
+        "p50": 108.78366010729223,
+        "p95": 109.79498899541795,
+        "p99": 109.79498899541795
+      },
+      "n": 2,
+      "operational_accuracy": 0.0,
+      "operational_correct": 0,
+      "review_or_uncertain": 2,
+      "semantic_accuracy": 0.5,
+      "semantic_correct": 1
+    },
+    "incoming-message-risk": {
+      "latency_ms": {
+        "mean": 112.43655299767852,
+        "p50": 112.76215605903417,
+        "p95": 113.00627596210688,
+        "p99": 113.00627596210688
+      },
+      "n": 3,
+      "operational_accuracy": 0.3333333333333333,
+      "operational_correct": 1,
+      "review_or_uncertain": 3,
+      "semantic_accuracy": 0.3333333333333333,
+      "semantic_correct": 1
+    },
+    "marketplace-job-fit": {
+      "latency_ms": {
+        "mean": 56.87556747579947,
+        "p50": 56.86706199776381,
+        "p95": 56.88407295383513,
+        "p99": 56.88407295383513
+      },
+      "n": 2,
+      "operational_accuracy": 0.0,
+      "operational_correct": 0,
+      "review_or_uncertain": 2,
+      "semantic_accuracy": 0.5,
+      "semantic_correct": 1
+    },
+    "memory-relevance-gate": {
+      "latency_ms": {
+        "mean": 108.77014504512772,
+        "p50": 108.74681000132114,
+        "p95": 108.7934800889343,
+        "p99": 108.7934800889343
+      },
+      "n": 2,
+      "operational_accuracy": 0.5,
+      "operational_correct": 1,
+      "review_or_uncertain": 1,
+      "semantic_accuracy": 1.0,
+      "semantic_correct": 2
+    },
+    "model-effort-routing": {
+      "latency_ms": {
+        "mean": 112.282491492806,
+        "p50": 114.74902497138828,
+        "p95": 114.79957401752472,
+        "p99": 114.79957401752472
+      },
+      "n": 4,
+      "operational_accuracy": 0.25,
+      "operational_correct": 1,
+      "review_or_uncertain": 4,
+      "semantic_accuracy": 0.25,
+      "semantic_correct": 1
+    },
+    "outbound-message-risk": {
+      "latency_ms": {
+        "mean": 113.42075265323122,
+        "p50": 113.74200496356934,
+        "p95": 113.82805602625012,
+        "p99": 113.82805602625012
+      },
+      "n": 3,
+      "operational_accuracy": 0.3333333333333333,
+      "operational_correct": 1,
+      "review_or_uncertain": 3,
+      "semantic_accuracy": 0.3333333333333333,
+      "semantic_correct": 1
+    },
+    "page-clutter-relevance": {
+      "latency_ms": {
+        "mean": 113.07375963466863,
+        "p50": 113.72093600220978,
+        "p95": 115.69313402287662,
+        "p99": 115.69313402287662
+      },
+      "n": 3,
+      "operational_accuracy": 0.3333333333333333,
+      "operational_correct": 1,
+      "review_or_uncertain": 2,
+      "semantic_accuracy": 0.0,
+      "semantic_correct": 0
+    },
+    "policy-change-impact": {
+      "latency_ms": {
+        "mean": 114.42334166107078,
+        "p50": 113.75445604790002,
+        "p95": 117.71823198068887,
+        "p99": 117.71823198068887
+      },
+      "n": 3,
+      "operational_accuracy": 0.3333333333333333,
+      "operational_correct": 1,
+      "review_or_uncertain": 0,
+      "semantic_accuracy": 0.3333333333333333,
+      "semantic_correct": 1
+    },
+    "research-claim-verification": {
+      "latency_ms": {
+        "mean": 114.26813557045534,
+        "p50": 113.78196603618562,
+        "p95": 114.75430510472506,
+        "p99": 114.75430510472506
+      },
+      "n": 2,
+      "operational_accuracy": 0.5,
+      "operational_correct": 1,
+      "review_or_uncertain": 2,
+      "semantic_accuracy": 0.5,
+      "semantic_correct": 1
+    },
+    "research-event-relevance": {
+      "latency_ms": {
+        "mean": 112.74360655806959,
+        "p50": 112.74114600382745,
+        "p95": 112.74606711231172,
+        "p99": 112.74606711231172
+      },
+      "n": 2,
+      "operational_accuracy": 0.0,
+      "operational_correct": 0,
+      "review_or_uncertain": 2,
+      "semantic_accuracy": 0.5,
+      "semantic_correct": 1
+    },
+    "retrieval-relevance-gate": {
+      "latency_ms": {
+        "mean": 56.87766300980002,
+        "p50": 55.85939402226359,
+        "p95": 57.89593199733645,
+        "p99": 57.89593199733645
+      },
+      "n": 2,
+      "operational_accuracy": 0.0,
+      "operational_correct": 0,
+      "review_or_uncertain": 2,
+      "semantic_accuracy": 0.5,
+      "semantic_correct": 1
+    },
+    "sales-lead-fit": {
+      "latency_ms": {
+        "mean": 35.41269549168646,
+        "p50": 15.68407693412155,
+        "p95": 55.14131404925138,
+        "p99": 55.14131404925138
+      },
+      "n": 2,
+      "operational_accuracy": 0.0,
+      "operational_correct": 0,
+      "review_or_uncertain": 2,
+      "semantic_accuracy": 0.5,
+      "semantic_correct": 1
+    },
+    "semantic-cache-reuse-gate": {
+      "latency_ms": {
+        "mean": 58.92142100492492,
+        "p50": 58.912970940582454,
+        "p95": 58.92987106926739,
+        "p99": 58.92987106926739
+      },
+      "n": 2,
+      "operational_accuracy": 0.0,
+      "operational_correct": 0,
+      "review_or_uncertain": 2,
+      "semantic_accuracy": 0.5,
+      "semantic_correct": 1
+    },
+    "semantic-content-blocking": {
+      "latency_ms": {
+        "mean": 111.82466067839414,
+        "p50": 110.80672906246036,
+        "p95": 114.89959410391748,
+        "p99": 114.89959410391748
+      },
+      "n": 3,
+      "operational_accuracy": 0.3333333333333333,
+      "operational_correct": 1,
+      "review_or_uncertain": 0,
+      "semantic_accuracy": 0.3333333333333333,
+      "semantic_correct": 1
+    },
+    "semantic-data-consistency": {
+      "latency_ms": {
+        "mean": 109.73871196620166,
+        "p50": 109.70303893554956,
+        "p95": 110.74242799077183,
+        "p99": 110.74242799077183
+      },
+      "n": 3,
+      "operational_accuracy": 0.3333333333333333,
+      "operational_correct": 1,
+      "review_or_uncertain": 3,
+      "semantic_accuracy": 0.3333333333333333,
+      "semantic_correct": 1
+    },
+    "semantic-record-match": {
+      "latency_ms": {
+        "mean": 109.81791540204237,
+        "p50": 108.83323906455189,
+        "p95": 112.80679609626532,
+        "p99": 112.80679609626532
+      },
+      "n": 3,
+      "operational_accuracy": 0.3333333333333333,
+      "operational_correct": 1,
+      "review_or_uncertain": 3,
+      "semantic_accuracy": 0.6666666666666666,
+      "semantic_correct": 2
+    },
+    "semantic-response-health": {
+      "latency_ms": {
+        "mean": 110.79222161788493,
+        "p50": 109.78473792783916,
+        "p95": 113.76538593322039,
+        "p99": 113.76538593322039
+      },
+      "n": 3,
+      "operational_accuracy": 0.3333333333333333,
+      "operational_correct": 1,
+      "review_or_uncertain": 2,
+      "semantic_accuracy": 1.0,
+      "semantic_correct": 3
+    },
+    "semantic-rule-check": {
+      "latency_ms": {
+        "mean": 109.11299936318149,
+        "p50": 108.71876904275268,
+        "p95": 110.78761797398329,
+        "p99": 110.78761797398329
+      },
+      "n": 3,
+      "operational_accuracy": 0.0,
+      "operational_correct": 0,
+      "review_or_uncertain": 3,
+      "semantic_accuracy": 0.3333333333333333,
+      "semantic_correct": 1
+    },
+    "software-issue-triage": {
+      "latency_ms": {
+        "mean": 108.79805272755523,
+        "p50": 108.76297007780522,
+        "p95": 109.7770279739052,
+        "p99": 109.7770279739052
+      },
+      "n": 3,
+      "operational_accuracy": 0.0,
+      "operational_correct": 0,
+      "review_or_uncertain": 3,
+      "semantic_accuracy": 0.3333333333333333,
+      "semantic_correct": 1
+    },
+    "sponsor-segment-detection": {
+      "latency_ms": {
+        "mean": 108.76571631524712,
+        "p50": 108.71045989915729,
+        "p95": 109.80235901661217,
+        "p99": 109.80235901661217
+      },
+      "n": 3,
+      "operational_accuracy": 0.0,
+      "operational_correct": 0,
+      "review_or_uncertain": 0,
+      "semantic_accuracy": 0.0,
+      "semantic_correct": 0
+    },
+    "test-relevance-gate": {
+      "latency_ms": {
+        "mean": 109.80924230534583,
+        "p50": 110.77391798608005,
+        "p95": 110.81511899828911,
+        "p99": 110.81511899828911
+      },
+      "n": 3,
+      "operational_accuracy": 0.3333333333333333,
+      "operational_correct": 1,
+      "review_or_uncertain": 3,
+      "semantic_accuracy": 0.3333333333333333,
+      "semantic_correct": 1
+    },
+    "untrusted-input-risk": {
+      "latency_ms": {
+        "mean": 113.75686596147716,
+        "p50": 113.73134597670287,
+        "p95": 113.78238594625145,
+        "p99": 113.78238594625145
+      },
+      "n": 2,
+      "operational_accuracy": 0.0,
+      "operational_correct": 0,
+      "review_or_uncertain": 2,
+      "semantic_accuracy": 1.0,
+      "semantic_correct": 2
+    },
+    "work-priority": {
+      "latency_ms": {
+        "mean": 108.27321000397205,
+        "p50": 107.76316106785089,
+        "p95": 108.78325894009322,
+        "p99": 108.78325894009322
+      },
+      "n": 2,
+      "operational_accuracy": 0.5,
+      "operational_correct": 1,
+      "review_or_uncertain": 1,
+      "semantic_accuracy": 1.0,
+      "semantic_correct": 2
+    }
+  },
+  "completion": {
+    "completed": 110,
+    "failed": 0,
+    "rate": 1.0
+  },
+  "corpus": {
+    "path_name": "reflex-public-fixtures-8e2eafa.jsonl",
+    "rows": 110,
+    "sha256": "06b87e1285bf0385478a0c48b2254d1925f8f98a45b215abce4a60ad08df98b7"
+  },
+  "engine": {
+    "id": "verdict-1.4",
+    "model": "openjev-verdict-1.4",
+    "revision": "bff28567cff463b833bf044f351a8b7945d53e07+8af2496eb63c7fa66d7d234e1f62629380030eb4"
+  },
+  "failures": [],
+  "registry": {
+    "custom_reflex_manifest_sha256": "8a23b8ed5c55b7c3a7f24de8639ec4f67b536c6eb2867130b754e755baf12b86",
+    "revision": "8e2eafa413b1312ebc61c93ff4c6ebeb4c6d8ca4",
+    "use_cases": 40
+  },
+  "rows": [
+    {
+      "answer": {
+        "choice": "stalled",
+        "confidence": 0.4128846680140086,
+        "probabilities": {
+          "progressing": 0.319161069756412,
+          "stalled": 0.4128846680140086,
+          "unclear": 0.26795426222957947
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-progress",
+      "difficulty": "fixture",
+      "ensemble_used": true,
+      "expected_branch": "continue_candidate",
+      "index": 0,
+      "latency_ms": 108.50177996326238,
+      "operational_branch": "review",
+      "operational_correct": false,
+      "policy_type": "choice",
+      "selected_probability": 0.4128846680140086,
+      "semantic_branch": "inspect",
+      "semantic_correct": false,
+      "use_case": "agent-progress-gate"
+    },
+    {
+      "answer": {
+        "choice": "stalled",
+        "confidence": 0.6552851217470841,
+        "probabilities": {
+          "progressing": 0.1275445571361573,
+          "stalled": 0.6552851217470841,
+          "unclear": 0.21717032111675869
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-stall",
+      "difficulty": "fixture",
+      "ensemble_used": true,
+      "expected_branch": "inspect",
+      "index": 1,
+      "latency_ms": 115.75500410981476,
+      "operational_branch": "review",
+      "operational_correct": false,
+      "policy_type": "choice",
+      "selected_probability": 0.6552851217470841,
+      "semantic_branch": "inspect",
+      "semantic_correct": true,
+      "use_case": "agent-progress-gate"
+    },
+    {
+      "answer": {
+        "choice": "medium",
+        "confidence": 0.5560852065581827,
+        "probabilities": {
+          "high": 0.15164966364356344,
+          "low": 0.29226512979825386,
+          "medium": 0.5560852065581827
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-navigation",
+      "difficulty": "fixture",
+      "ensemble_used": true,
+      "expected_branch": "auto_candidate",
+      "index": 2,
+      "latency_ms": 110.64990889281034,
+      "operational_branch": "review",
+      "operational_correct": false,
+      "policy_type": "choice",
+      "selected_probability": 0.5560852065581827,
+      "semantic_branch": "review",
+      "semantic_correct": false,
+      "use_case": "browser-action-risk"
+    },
+    {
+      "answer": {
+        "choice": "medium",
+        "confidence": 0.4307492228234624,
+        "probabilities": {
+          "high": 0.3029437826654343,
+          "low": 0.26630699451110323,
+          "medium": 0.4307492228234624
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-payment",
+      "difficulty": "fixture",
+      "ensemble_used": true,
+      "expected_branch": "block",
+      "index": 3,
+      "latency_ms": 110.7856979360804,
+      "operational_branch": "review",
+      "operational_correct": false,
+      "policy_type": "choice",
+      "selected_probability": 0.4307492228234624,
+      "semantic_branch": "review",
+      "semantic_correct": false,
+      "use_case": "browser-action-risk"
+    },
+    {
+      "answer": {
+        "choice": "medium",
+        "confidence": 0.7781998689310602,
+        "probabilities": {
+          "high": 0.11747661800482871,
+          "low": 0.1043235130641111,
+          "medium": 0.7781998689310602
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-profile-update",
+      "difficulty": "fixture",
+      "ensemble_used": true,
+      "expected_branch": "review",
+      "index": 4,
+      "latency_ms": 109.80859794653952,
+      "operational_branch": "review",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 0.7781998689310602,
+      "semantic_branch": "review",
+      "semantic_correct": true,
+      "use_case": "browser-action-risk"
+    },
+    {
+      "answer": {
+        "choice": "physical_good",
+        "confidence": 0.6221814114285753,
+        "probabilities": {
+          "digital_product": 0.0868428877713944,
+          "other": 0.2024284689897699,
+          "physical_good": 0.6221814114285753,
+          "service_or_event": 0.08854723181026045
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-physical-mug",
+      "difficulty": "fixture",
+      "ensemble_used": true,
+      "expected_branch": "physical_candidate",
+      "index": 5,
+      "latency_ms": 112.74048709310591,
+      "operational_branch": "review",
+      "operational_correct": false,
+      "policy_type": "choice",
+      "selected_probability": 0.6221814114285753,
+      "semantic_branch": "physical_candidate",
+      "semantic_correct": true,
+      "use_case": "catalog-listing-signals"
+    },
+    {
+      "answer": {
+        "choice": "digital_product",
+        "confidence": 0.8429224231992826,
+        "probabilities": {
+          "digital_product": 0.8429224231992826,
+          "other": 0.10727105793586553,
+          "physical_good": 0.014150148713117181,
+          "service_or_event": 0.035656370151734694
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-digital-app",
+      "difficulty": "fixture",
+      "ensemble_used": true,
+      "expected_branch": "digital_candidate",
+      "index": 6,
+      "latency_ms": 112.74620599579066,
+      "operational_branch": "digital_candidate",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 0.8429224231992826,
+      "semantic_branch": "digital_candidate",
+      "semantic_correct": true,
+      "use_case": "catalog-listing-signals"
+    },
+    {
+      "answer": {
+        "choice": "other",
+        "confidence": 0.4356390412537935,
+        "probabilities": {
+          "digital_product": 0.28534249439059767,
+          "other": 0.4356390412537935,
+          "physical_good": 0.07678763330528796,
+          "service_or_event": 0.20223083105032086
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-ambiguous-package",
+      "difficulty": "fixture",
+      "ensemble_used": true,
+      "expected_branch": "review",
+      "index": 7,
+      "latency_ms": 112.7101358724758,
+      "operational_branch": "review",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 0.4356390412537935,
+      "semantic_branch": "review",
+      "semantic_correct": true,
+      "use_case": "catalog-listing-signals"
+    },
+    {
+      "answer": {
+        "choice": "specialist",
+        "confidence": 0.4012237105664223,
+        "probabilities": {
+          "focused": 0.21472863803069003,
+          "routine": 0.38404765140288766,
+          "specialist": 0.4012237105664223
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-doc-copy",
+      "difficulty": "fixture",
+      "ensemble_used": true,
+      "expected_branch": "routine_review",
+      "index": 8,
+      "latency_ms": 112.72489686962217,
+      "operational_branch": "review",
+      "operational_correct": false,
+      "policy_type": "choice",
+      "selected_probability": 0.4012237105664223,
+      "semantic_branch": "specialist_review",
+      "semantic_correct": false,
+      "use_case": "change-review-risk"
+    },
+    {
+      "answer": {
+        "choice": "specialist",
+        "confidence": 0.5586030906981376,
+        "probabilities": {
+          "focused": 0.184725554653001,
+          "routine": 0.2566713546488613,
+          "specialist": 0.5586030906981376
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-auth-boundary",
+      "difficulty": "fixture",
+      "ensemble_used": true,
+      "expected_branch": "specialist_review",
+      "index": 9,
+      "latency_ms": 109.83430885244161,
+      "operational_branch": "review",
+      "operational_correct": false,
+      "policy_type": "choice",
+      "selected_probability": 0.5586030906981376,
+      "semantic_branch": "specialist_review",
+      "semantic_correct": true,
+      "use_case": "change-review-risk"
+    },
+    {
+      "answer": {
+        "choice": "bug_fix",
+        "confidence": 0.3048599820703745,
+        "probabilities": {
+          "bug_fix": 0.3048599820703745,
+          "feature": 0.11327797807828349,
+          "maintenance": 0.2942458090851343,
+          "mixed_or_unclear": 0.1803291138575695,
+          "security_sensitive": 0.10728711690863812
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-parser-null-fix",
+      "difficulty": "fixture",
+      "ensemble_used": true,
+      "expected_branch": "bugfix_candidate",
+      "index": 10,
+      "latency_ms": 111.74119694624096,
+      "operational_branch": "review",
+      "operational_correct": false,
+      "policy_type": "choice",
+      "selected_probability": 0.3048599820703745,
+      "semantic_branch": "bugfix_candidate",
+      "semantic_correct": true,
+      "use_case": "code-change-classification"
+    },
+    {
+      "answer": {
+        "choice": "feature",
+        "confidence": 0.6224705235672073,
+        "probabilities": {
+          "bug_fix": 0.04323947068330682,
+          "feature": 0.6224705235672073,
+          "maintenance": 0.16964021383266106,
+          "mixed_or_unclear": 0.10606281610235328,
+          "security_sensitive": 0.05858697581447143
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-new-export-format",
+      "difficulty": "fixture",
+      "ensemble_used": true,
+      "expected_branch": "feature_candidate",
+      "index": 11,
+      "latency_ms": 112.81230603344738,
+      "operational_branch": "review",
+      "operational_correct": false,
+      "policy_type": "choice",
+      "selected_probability": 0.6224705235672073,
+      "semantic_branch": "feature_candidate",
+      "semantic_correct": true,
+      "use_case": "code-change-classification"
+    },
+    {
+      "answer": {
+        "choice": "security_sensitive",
+        "confidence": 0.5766001493592592,
+        "probabilities": {
+          "bug_fix": 0.1011497322008155,
+          "feature": 0.048318094182355685,
+          "maintenance": 0.1563707517549186,
+          "mixed_or_unclear": 0.11756127250265104,
+          "security_sensitive": 0.5766001493592592
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-auth-scope-change",
+      "difficulty": "fixture",
+      "ensemble_used": true,
+      "expected_branch": "security_review",
+      "index": 12,
+      "latency_ms": 111.77523795049638,
+      "operational_branch": "review",
+      "operational_correct": false,
+      "policy_type": "choice",
+      "selected_probability": 0.5766001493592592,
+      "semantic_branch": "security_review",
+      "semantic_correct": true,
+      "use_case": "code-change-classification"
+    },
+    {
+      "answer": {
+        "choice": "maintenance",
+        "confidence": 0.8444140979350838,
+        "probabilities": {
+          "bug_fix": 0.042916658952782766,
+          "feature": 0.015292693237164775,
+          "maintenance": 0.8444140979350838,
+          "mixed_or_unclear": 0.046081726882201586,
+          "security_sensitive": 0.05129482299276707
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-doc-cleanup",
+      "difficulty": "fixture",
+      "ensemble_used": true,
+      "expected_branch": "maintenance_candidate",
+      "index": 13,
+      "latency_ms": 116.72265303786844,
+      "operational_branch": "maintenance_candidate",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 0.8444140979350838,
+      "semantic_branch": "maintenance_candidate",
+      "semantic_correct": true,
+      "use_case": "code-change-classification"
+    },
+    {
+      "answer": {
+        "choice": "verified_complete",
+        "confidence": 0.7096763068437896,
+        "probabilities": {
+          "incomplete": 0.13308808023013863,
+          "unverified": 0.15723561292607177,
+          "verified_complete": 0.7096763068437896
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-verified-complete",
+      "difficulty": "fixture",
+      "ensemble_used": true,
+      "expected_branch": "completion_candidate",
+      "index": 14,
+      "latency_ms": 111.67676711920649,
+      "operational_branch": "review",
+      "operational_correct": false,
+      "policy_type": "choice",
+      "selected_probability": 0.7096763068437896,
+      "semantic_branch": "completion_candidate",
+      "semantic_correct": true,
+      "use_case": "completion-evidence-gate"
+    },
+    {
+      "answer": {
+        "choice": "verified_complete",
+        "confidence": 0.3676372362170732,
+        "probabilities": {
+          "incomplete": 0.3355360391742891,
+          "unverified": 0.2968267246086377,
+          "verified_complete": 0.3676372362170732
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-unfinished-check",
+      "difficulty": "fixture",
+      "ensemble_used": true,
+      "expected_branch": "resume_work",
+      "index": 15,
+      "latency_ms": 115.78905407804996,
+      "operational_branch": "review",
+      "operational_correct": false,
+      "policy_type": "choice",
+      "selected_probability": 0.3676372362170732,
+      "semantic_branch": "completion_candidate",
+      "semantic_correct": false,
+      "use_case": "completion-evidence-gate"
+    },
+    {
+      "answer": {
+        "choice": "verified_complete",
+        "confidence": 0.5241720603403662,
+        "probabilities": {
+          "incomplete": 0.15530327173411176,
+          "unverified": 0.3205246679255221,
+          "verified_complete": 0.5241720603403662
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-unverified-evidence",
+      "difficulty": "fixture",
+      "ensemble_used": true,
+      "expected_branch": "review",
+      "index": 16,
+      "latency_ms": 112.72649699822068,
+      "operational_branch": "review",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 0.5241720603403662,
+      "semantic_branch": "completion_candidate",
+      "semantic_correct": false,
+      "use_case": "completion-evidence-gate"
+    },
+    {
+      "answer": {
+        "choice": "ordinary",
+        "confidence": 0.4893691246648031,
+        "probabilities": {
+          "ambiguous": 0.1410362288995615,
+          "ordinary": 0.4893691246648031,
+          "restricted": 0.36959464643563544
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-product-question",
+      "difficulty": "fixture",
+      "ensemble_used": true,
+      "expected_branch": "ordinary_candidate",
+      "index": 17,
+      "latency_ms": 111.7425769334659,
+      "operational_branch": "policy_review",
+      "operational_correct": false,
+      "policy_type": "choice",
+      "selected_probability": 0.4893691246648031,
+      "semantic_branch": "ordinary_candidate",
+      "semantic_correct": true,
+      "use_case": "content-policy-review"
+    },
+    {
+      "answer": {
+        "choice": "restricted",
+        "confidence": 0.4778771955750606,
+        "probabilities": {
+          "ambiguous": 0.11889561414535244,
+          "ordinary": 0.403227190279587,
+          "restricted": 0.4778771955750606
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-credential-phish",
+      "difficulty": "fixture",
+      "ensemble_used": true,
+      "expected_branch": "restricted_candidate",
+      "index": 18,
+      "latency_ms": 114.71685499418527,
+      "operational_branch": "policy_review",
+      "operational_correct": false,
+      "policy_type": "choice",
+      "selected_probability": 0.4778771955750606,
+      "semantic_branch": "restricted_candidate",
+      "semantic_correct": true,
+      "use_case": "content-policy-review"
+    },
+    {
+      "answer": {
+        "confidence": 0.5668785762440299,
+        "probabilities": {
+          "0": 0.12056894261295532,
+          "1": 0.047330701146107684,
+          "2": 0.07373689597588327,
+          "3": 0.5668785762440299,
+          "4": 0.19148488402102376
+        },
+        "score": 2.6613797579140592,
+        "type": "score"
+      },
+      "case_id": "synthetic-good",
+      "difficulty": "fixture",
+      "ensemble_used": false,
+      "expected_branch": "publish_candidate",
+      "index": 19,
+      "latency_ms": 53.903506021015346,
+      "operational_branch": "revise",
+      "operational_correct": false,
+      "policy_type": "score",
+      "selected_probability": null,
+      "semantic_branch": "revise",
+      "semantic_correct": false,
+      "use_case": "content-quality-gate"
+    },
+    {
+      "answer": {
+        "confidence": 0.5425356862207333,
+        "probabilities": {
+          "0": 0.12050853478487508,
+          "1": 0.04117299999149977,
+          "2": 0.09929051541907358,
+          "3": 0.5425356862207333,
+          "4": 0.19649226358381816
+        },
+        "score": 2.6533301438271195,
+        "type": "score"
+      },
+      "case_id": "synthetic-missing",
+      "difficulty": "fixture",
+      "ensemble_used": false,
+      "expected_branch": "reject",
+      "index": 20,
+      "latency_ms": 52.87379596848041,
+      "operational_branch": "revise",
+      "operational_correct": false,
+      "policy_type": "score",
+      "selected_probability": null,
+      "semantic_branch": "revise",
+      "semantic_correct": false,
+      "use_case": "content-quality-gate"
+    },
+    {
+      "answer": {
+        "confidence": 0.710096909744309,
+        "probabilities": {
+          "0": 0.11114895570683471,
+          "1": 0.03633699143628715,
+          "2": 0.06439774029504312,
+          "3": 0.710096909744309,
+          "4": 0.07801940281752613
+        },
+        "score": 2.607500812529405,
+        "type": "score"
+      },
+      "case_id": "synthetic-major-omission",
+      "difficulty": "fixture",
+      "ensemble_used": false,
+      "expected_branch": "revise",
+      "index": 21,
+      "latency_ms": 54.88362396135926,
+      "operational_branch": "revise",
+      "operational_correct": true,
+      "policy_type": "score",
+      "selected_probability": null,
+      "semantic_branch": "revise",
+      "semantic_correct": true,
+      "use_case": "content-quality-gate"
+    },
+    {
+      "answer": {
+        "choice": "low_value",
+        "confidence": 0.32698439437533844,
+        "probabilities": {
+          "ambiguous": 0.2076833824462161,
+          "compactable": 0.28070135477201935,
+          "keep_verbatim": 0.18463086840642612,
+          "low_value": 0.32698439437533844
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-exact-validation-error",
+      "difficulty": "fixture",
+      "ensemble_used": true,
+      "expected_branch": "keep_candidate",
+      "index": 22,
+      "latency_ms": 111.85506696347147,
+      "operational_branch": "review",
+      "operational_correct": false,
+      "policy_type": "choice",
+      "selected_probability": 0.32698439437533844,
+      "semantic_branch": "drop_candidate",
+      "semantic_correct": false,
+      "use_case": "context-retention-gate"
+    },
+    {
+      "answer": {
+        "choice": "low_value",
+        "confidence": 0.30634283834652065,
+        "probabilities": {
+          "ambiguous": 0.2259434923438578,
+          "compactable": 0.297136687938142,
+          "keep_verbatim": 0.17057698137147947,
+          "low_value": 0.30634283834652065
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-completed-investigation-summary",
+      "difficulty": "fixture",
+      "ensemble_used": true,
+      "expected_branch": "compact_candidate",
+      "index": 23,
+      "latency_ms": 112.72200604435056,
+      "operational_branch": "review",
+      "operational_correct": false,
+      "policy_type": "choice",
+      "selected_probability": 0.30634283834652065,
+      "semantic_branch": "drop_candidate",
+      "semantic_correct": false,
+      "use_case": "context-retention-gate"
+    },
+    {
+      "answer": {
+        "choice": "compactable",
+        "confidence": 0.3295631298467656,
+        "probabilities": {
+          "ambiguous": 0.20425037768707388,
+          "compactable": 0.3295631298467656,
+          "keep_verbatim": 0.1963925605899728,
+          "low_value": 0.2697939318761877
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-superseded-progress-note",
+      "difficulty": "fixture",
+      "ensemble_used": true,
+      "expected_branch": "drop_candidate",
+      "index": 24,
+      "latency_ms": 111.7916270159185,
+      "operational_branch": "review",
+      "operational_correct": false,
+      "policy_type": "choice",
+      "selected_probability": 0.3295631298467656,
+      "semantic_branch": "compact_candidate",
+      "semantic_correct": false,
+      "use_case": "context-retention-gate"
+    },
+    {
+      "answer": {
+        "choice": "compactable",
+        "confidence": 0.3783001247999911,
+        "probabilities": {
+          "ambiguous": 0.1895440092826085,
+          "compactable": 0.3783001247999911,
+          "keep_verbatim": 0.12250794053607945,
+          "low_value": 0.309647925381321
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-unclear-design-note",
+      "difficulty": "fixture",
+      "ensemble_used": true,
+      "expected_branch": "review",
+      "index": 25,
+      "latency_ms": 111.79767712019384,
+      "operational_branch": "review",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 0.3783001247999911,
+      "semantic_branch": "compact_candidate",
+      "semantic_correct": false,
+      "use_case": "context-retention-gate"
+    },
+    {
+      "answer": {
+        "choice": "ambiguous",
+        "confidence": 0.3624798264627591,
+        "probabilities": {
+          "ambiguous": 0.3624798264627591,
+          "barge_in": 0.31082660928439587,
+          "complete_request": 0.20254164056262638,
+          "incomplete": 0.12415192369021874
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-incomplete-timer",
+      "difficulty": "fixture",
+      "ensemble_used": true,
+      "expected_branch": "continue_listening",
+      "index": 26,
+      "latency_ms": 112.80553694814444,
+      "operational_branch": "review",
+      "operational_correct": false,
+      "policy_type": "choice",
+      "selected_probability": 0.3624798264627591,
+      "semantic_branch": "review",
+      "semantic_correct": false,
+      "use_case": "conversation-turn-state"
+    },
+    {
+      "answer": {
+        "choice": "ambiguous",
+        "confidence": 0.3573164615964286,
+        "probabilities": {
+          "ambiguous": 0.3573164615964286,
+          "barge_in": 0.2814278290038483,
+          "complete_request": 0.2359731867172751,
+          "incomplete": 0.125282522682448
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-complete-weather-question",
+      "difficulty": "fixture",
+      "ensemble_used": true,
+      "expected_branch": "respond_candidate",
+      "index": 27,
+      "latency_ms": 111.77521699573845,
+      "operational_branch": "review",
+      "operational_correct": false,
+      "policy_type": "choice",
+      "selected_probability": 0.3573164615964286,
+      "semantic_branch": "review",
+      "semantic_correct": false,
+      "use_case": "conversation-turn-state"
+    },
+    {
+      "answer": {
+        "choice": "barge_in",
+        "confidence": 0.5842434598551269,
+        "probabilities": {
+          "ambiguous": 0.1677281672194456,
+          "barge_in": 0.5842434598551269,
+          "complete_request": 0.15625434760788856,
+          "incomplete": 0.09177402531753892
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-explicit-interruption",
+      "difficulty": "fixture",
+      "ensemble_used": true,
+      "expected_branch": "barge_in_candidate",
+      "index": 28,
+      "latency_ms": 111.73482704907656,
+      "operational_branch": "review",
+      "operational_correct": false,
+      "policy_type": "choice",
+      "selected_probability": 0.5842434598551269,
+      "semantic_branch": "barge_in_candidate",
+      "semantic_correct": true,
+      "use_case": "conversation-turn-state"
+    },
+    {
+      "answer": {
+        "choice": "barge_in",
+        "confidence": 0.3836129832458293,
+        "probabilities": {
+          "ambiguous": 0.20843739655847762,
+          "barge_in": 0.3836129832458293,
+          "complete_request": 0.2330179283401874,
+          "incomplete": 0.17493169185550564
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-ambiguous-backchannel",
+      "difficulty": "fixture",
+      "ensemble_used": true,
+      "expected_branch": "review",
+      "index": 29,
+      "latency_ms": 107.80006006825715,
+      "operational_branch": "review",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 0.3836129832458293,
+      "semantic_branch": "barge_in_candidate",
+      "semantic_correct": false,
+      "use_case": "conversation-turn-state"
+    },
+    {
+      "answer": {
+        "choice": "standard_queue",
+        "confidence": 0.4060900030545969,
+        "probabilities": {
+          "self_serve": 0.3185851571658989,
+          "standard_queue": 0.4060900030545969,
+          "urgent_human": 0.2753248397795042
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-outage",
+      "difficulty": "fixture",
+      "ensemble_used": true,
+      "expected_branch": "escalate",
+      "index": 30,
+      "latency_ms": 105.91982200276107,
+      "operational_branch": "review",
+      "operational_correct": false,
+      "policy_type": "choice",
+      "selected_probability": 0.4060900030545969,
+      "semantic_branch": "queue",
+      "semantic_correct": false,
+      "use_case": "customer-support-ticket-triage"
+    },
+    {
+      "answer": {
+        "choice": "standard_queue",
+        "confidence": 0.47345744404983836,
+        "probabilities": {
+          "self_serve": 0.4353849146690034,
+          "standard_queue": 0.47345744404983836,
+          "urgent_human": 0.09115764128115819
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-howto",
+      "difficulty": "fixture",
+      "ensemble_used": true,
+      "expected_branch": "self_serve",
+      "index": 31,
+      "latency_ms": 109.78818906005472,
+      "operational_branch": "review",
+      "operational_correct": false,
+      "policy_type": "choice",
+      "selected_probability": 0.47345744404983836,
+      "semantic_branch": "queue",
+      "semantic_correct": false,
+      "use_case": "customer-support-ticket-triage"
+    },
+    {
+      "answer": {
+        "confidence": 0.8071953662750284,
+        "probabilities": {
+          "0": 0.029852452398561467,
+          "1": 0.020597463902646333,
+          "2": 0.044077504312644795,
+          "3": 0.8071953662750284,
+          "4": 0.09827721311111907
+        },
+        "score": 2.923447423797498,
+        "type": "score"
+      },
+      "case_id": "synthetic-clear-example",
+      "difficulty": "fixture",
+      "ensemble_used": false,
+      "expected_branch": "keep_candidate",
+      "index": 32,
+      "latency_ms": 54.86231506802142,
+      "operational_branch": "review",
+      "operational_correct": false,
+      "policy_type": "score",
+      "selected_probability": null,
+      "semantic_branch": "review",
+      "semantic_correct": false,
+      "use_case": "dataset-example-quality"
+    },
+    {
+      "answer": {
+        "confidence": 0.8186986796178225,
+        "probabilities": {
+          "0": 0.032656662285180736,
+          "1": 0.022986830609050216,
+          "2": 0.03623374058586987,
+          "3": 0.8186986796178225,
+          "4": 0.0894240869020766
+        },
+        "score": 2.9092466982425638,
+        "type": "score"
+      },
+      "case_id": "synthetic-contradictory-example",
+      "difficulty": "fixture",
+      "ensemble_used": false,
+      "expected_branch": "drop_candidate",
+      "index": 33,
+      "latency_ms": 56.8686630576849,
+      "operational_branch": "review",
+      "operational_correct": false,
+      "policy_type": "score",
+      "selected_probability": null,
+      "semantic_branch": "review",
+      "semantic_correct": false,
+      "use_case": "dataset-example-quality"
+    },
+    {
+      "answer": {
+        "choice": "clean_text",
+        "confidence": 0.8239038689575398,
+        "probabilities": {
+          "clean_text": 0.8239038689575398,
+          "ocr_candidate": 0.09188516823833517,
+          "review": 0.08421096280412511
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-clean-text",
+      "difficulty": "fixture",
+      "ensemble_used": true,
+      "expected_branch": "continue_local",
+      "index": 34,
+      "latency_ms": 108.80289901979268,
+      "operational_branch": "continue_local",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 0.8239038689575398,
+      "semantic_branch": "continue_local",
+      "semantic_correct": true,
+      "use_case": "document-extraction-route"
+    },
+    {
+      "answer": {
+        "choice": "ocr_candidate",
+        "confidence": 0.5748040294919559,
+        "probabilities": {
+          "clean_text": 0.1974900874192809,
+          "ocr_candidate": 0.5748040294919559,
+          "review": 0.22770588308876322
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-scan",
+      "difficulty": "fixture",
+      "ensemble_used": true,
+      "expected_branch": "try_ocr",
+      "index": 35,
+      "latency_ms": 106.83531104587018,
+      "operational_branch": "review",
+      "operational_correct": false,
+      "policy_type": "choice",
+      "selected_probability": 0.5748040294919559,
+      "semantic_branch": "try_ocr",
+      "semantic_correct": true,
+      "use_case": "document-extraction-route"
+    },
+    {
+      "answer": {
+        "confidence": 0.5194917716214609,
+        "noul": 0.5194917716214609,
+        "type": "noul"
+      },
+      "case_id": "synthetic-mismatch",
+      "difficulty": "fixture",
+      "ensemble_used": false,
+      "expected_branch": "review",
+      "index": 36,
+      "latency_ms": 54.91761502344161,
+      "operational_branch": "review",
+      "operational_correct": true,
+      "policy_type": "binary",
+      "selected_probability": 0.5194917716214609,
+      "semantic_branch": "review",
+      "semantic_correct": true,
+      "use_case": "document-invoice-review"
+    },
+    {
+      "answer": {
+        "confidence": 0.5191537854456416,
+        "noul": 0.5191537854456416,
+        "type": "noul"
+      },
+      "case_id": "synthetic-clean",
+      "difficulty": "fixture",
+      "ensemble_used": false,
+      "expected_branch": "continue",
+      "index": 37,
+      "latency_ms": 55.846503004431725,
+      "operational_branch": "review",
+      "operational_correct": false,
+      "policy_type": "binary",
+      "selected_probability": 0.5191537854456416,
+      "semantic_branch": "review",
+      "semantic_correct": false,
+      "use_case": "document-invoice-review"
+    },
+    {
+      "answer": {
+        "choice": "same_problem",
+        "confidence": 0.4188516014878496,
+        "probabilities": {
+          "ambiguous": 0.4111390515611163,
+          "different_problem": 0.1700093469510341,
+          "same_problem": 0.4188516014878496
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-same-upload-stall",
+      "difficulty": "fixture",
+      "ensemble_used": true,
+      "expected_branch": "duplicate_candidate",
+      "index": 38,
+      "latency_ms": 113.74283593613654,
+      "operational_branch": "review",
+      "operational_correct": false,
+      "policy_type": "choice",
+      "selected_probability": 0.4188516014878496,
+      "semantic_branch": "duplicate_candidate",
+      "semantic_correct": true,
+      "use_case": "duplicate-report-match"
+    },
+    {
+      "answer": {
+        "choice": "ambiguous",
+        "confidence": 0.44406511161728707,
+        "probabilities": {
+          "ambiguous": 0.44406511161728707,
+          "different_problem": 0.1554105047661497,
+          "same_problem": 0.4005243836165633
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-export-distinct",
+      "difficulty": "fixture",
+      "ensemble_used": true,
+      "expected_branch": "distinct",
+      "index": 39,
+      "latency_ms": 109.94885908439755,
+      "operational_branch": "review",
+      "operational_correct": false,
+      "policy_type": "choice",
+      "selected_probability": 0.44406511161728707,
+      "semantic_branch": "review",
+      "semantic_correct": false,
+      "use_case": "duplicate-report-match"
+    },
+    {
+      "answer": {
+        "choice": "ambiguous",
+        "confidence": 0.4619023232548139,
+        "probabilities": {
+          "ambiguous": 0.4619023232548139,
+          "different_problem": 0.12551330487269885,
+          "same_problem": 0.4125843718724872
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-overlapping-sync-symptoms",
+      "difficulty": "fixture",
+      "ensemble_used": true,
+      "expected_branch": "review",
+      "index": 40,
+      "latency_ms": 110.696337884292,
+      "operational_branch": "review",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 0.4619023232548139,
+      "semantic_branch": "review",
+      "semantic_correct": true,
+      "use_case": "duplicate-report-match"
+    },
+    {
+      "answer": {
+        "choice": "no_failure",
+        "confidence": 0.25744905851157673,
+        "probabilities": {
+          "code_bug": 0.1604385710427761,
+          "environment": 0.12246819189618433,
+          "invalid_input": 0.11571315678469077,
+          "no_failure": 0.25744905851157673,
+          "permission": 0.10727540226882548,
+          "transient": 0.13748794031273381,
+          "unclear": 0.09916767918321276
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-successful-test-run",
+      "difficulty": "fixture",
+      "ensemble_used": true,
+      "expected_branch": "no_failure_candidate",
+      "index": 41,
+      "latency_ms": 114.75174501538277,
+      "operational_branch": "review",
+      "operational_correct": false,
+      "policy_type": "choice",
+      "selected_probability": 0.25744905851157673,
+      "semantic_branch": "no_failure_candidate",
+      "semantic_correct": true,
+      "use_case": "execution-failure-classification"
+    },
+    {
+      "answer": {
+        "choice": "transient",
+        "confidence": 0.2820733674337725,
+        "probabilities": {
+          "code_bug": 0.1694110381888555,
+          "environment": 0.1136380901793144,
+          "invalid_input": 0.10322312992132161,
+          "no_failure": 0.1358588829259316,
+          "permission": 0.10385738772117376,
+          "transient": 0.2820733674337725,
+          "unclear": 0.09193810362963065
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-network-reset",
+      "difficulty": "fixture",
+      "ensemble_used": true,
+      "expected_branch": "transient_candidate",
+      "index": 42,
+      "latency_ms": 112.7297660568729,
+      "operational_branch": "review",
+      "operational_correct": false,
+      "policy_type": "choice",
+      "selected_probability": 0.2820733674337725,
+      "semantic_branch": "transient_candidate",
+      "semantic_correct": true,
+      "use_case": "execution-failure-classification"
+    },
+    {
+      "answer": {
+        "choice": "code_bug",
+        "confidence": 0.19981780563507032,
+        "probabilities": {
+          "code_bug": 0.19981780563507032,
+          "environment": 0.14664806520379073,
+          "invalid_input": 0.14310745990635035,
+          "no_failure": 0.11495148438192311,
+          "permission": 0.13210661068744334,
+          "transient": 0.17756855615181888,
+          "unclear": 0.08580001803360336
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-port-in-use",
+      "difficulty": "fixture",
+      "ensemble_used": true,
+      "expected_branch": "environment_candidate",
+      "index": 43,
+      "latency_ms": 112.76419693604112,
+      "operational_branch": "review",
+      "operational_correct": false,
+      "policy_type": "choice",
+      "selected_probability": 0.19981780563507032,
+      "semantic_branch": "code_candidate",
+      "semantic_correct": false,
+      "use_case": "execution-failure-classification"
+    },
+    {
+      "answer": {
+        "choice": "code_bug",
+        "confidence": 0.2567120140742042,
+        "probabilities": {
+          "code_bug": 0.2567120140742042,
+          "environment": 0.11067616549427908,
+          "invalid_input": 0.18861923094475008,
+          "no_failure": 0.14918278257079443,
+          "permission": 0.08978862424685558,
+          "transient": 0.11115693234643853,
+          "unclear": 0.09386425032267806
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-code-exception",
+      "difficulty": "fixture",
+      "ensemble_used": true,
+      "expected_branch": "code_candidate",
+      "index": 44,
+      "latency_ms": 110.81014794763178,
+      "operational_branch": "review",
+      "operational_correct": false,
+      "policy_type": "choice",
+      "selected_probability": 0.2567120140742042,
+      "semantic_branch": "code_candidate",
+      "semantic_correct": true,
+      "use_case": "execution-failure-classification"
+    },
+    {
+      "answer": {
+        "choice": "permission",
+        "confidence": 0.7129522484824442,
+        "probabilities": {
+          "code_bug": 0.06067803578703508,
+          "environment": 0.04124174467578297,
+          "invalid_input": 0.044756660776462245,
+          "no_failure": 0.05687067986649482,
+          "permission": 0.7129522484824442,
+          "transient": 0.05097314415075327,
+          "unclear": 0.032527486261027486
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-permission-denied",
+      "difficulty": "fixture",
+      "ensemble_used": true,
+      "expected_branch": "permission_candidate",
+      "index": 45,
+      "latency_ms": 113.80727600771934,
+      "operational_branch": "review",
+      "operational_correct": false,
+      "policy_type": "choice",
+      "selected_probability": 0.7129522484824442,
+      "semantic_branch": "permission_candidate",
+      "semantic_correct": true,
+      "use_case": "execution-failure-classification"
+    },
+    {
+      "answer": {
+        "choice": "invalid_input",
+        "confidence": 0.4811405829016876,
+        "probabilities": {
+          "code_bug": 0.134194979339575,
+          "environment": 0.07205412919363727,
+          "invalid_input": 0.4811405829016876,
+          "no_failure": 0.0914009712979859,
+          "permission": 0.07270590874204977,
+          "transient": 0.08546429113104498,
+          "unclear": 0.06303913739401948
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-invalid-argument",
+      "difficulty": "fixture",
+      "ensemble_used": true,
+      "expected_branch": "input_candidate",
+      "index": 46,
+      "latency_ms": 114.68162492383271,
+      "operational_branch": "review",
+      "operational_correct": false,
+      "policy_type": "choice",
+      "selected_probability": 0.4811405829016876,
+      "semantic_branch": "input_candidate",
+      "semantic_correct": true,
+      "use_case": "execution-failure-classification"
+    },
+    {
+      "answer": {
+        "choice": "code_bug",
+        "confidence": 0.1783792425510315,
+        "probabilities": {
+          "code_bug": 0.1783792425510315,
+          "environment": 0.13695414760729768,
+          "invalid_input": 0.12723743580133862,
+          "no_failure": 0.17012451570542508,
+          "permission": 0.118972374208968,
+          "transient": 0.16233187811773842,
+          "unclear": 0.10600040600820076
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-opaque-failure",
+      "difficulty": "fixture",
+      "ensemble_used": true,
+      "expected_branch": "review",
+      "index": 47,
+      "latency_ms": 108.77464897930622,
+      "operational_branch": "review",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 0.1783792425510315,
+      "semantic_branch": "code_candidate",
+      "semantic_correct": false,
+      "use_case": "execution-failure-classification"
+    },
+    {
+      "answer": {
+        "choice": "defend",
+        "confidence": 0.42845735254679945,
+        "probabilities": {
+          "advance": 0.40177647454857146,
+          "defend": 0.42845735254679945,
+          "hold": 0.11984577304234698,
+          "retreat": 0.04992039986228221
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-advance",
+      "difficulty": "fixture",
+      "ensemble_used": true,
+      "expected_branch": "advance_candidate",
+      "index": 48,
+      "latency_ms": 108.8176699122414,
+      "operational_branch": "review",
+      "operational_correct": false,
+      "policy_type": "choice",
+      "selected_probability": 0.42845735254679945,
+      "semantic_branch": "defend_candidate",
+      "semantic_correct": false,
+      "use_case": "game-state-action"
+    },
+    {
+      "answer": {
+        "choice": "defend",
+        "confidence": 0.803705680950966,
+        "probabilities": {
+          "advance": 0.10853009491362499,
+          "defend": 0.803705680950966,
+          "hold": 0.06120591899325588,
+          "retreat": 0.026558305142153227
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-defend",
+      "difficulty": "fixture",
+      "ensemble_used": true,
+      "expected_branch": "defend_candidate",
+      "index": 49,
+      "latency_ms": 108.75804896932095,
+      "operational_branch": "defend_candidate",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 0.803705680950966,
+      "semantic_branch": "defend_candidate",
+      "semantic_correct": true,
+      "use_case": "game-state-action"
+    },
+    {
+      "answer": {
+        "choice": "routine",
+        "confidence": 0.6617635730412204,
+        "probabilities": {
+          "escalate": 0.1421967597580418,
+          "investigate": 0.19603966720073782,
+          "routine": 0.6617635730412204
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-recovered-retry",
+      "difficulty": "fixture",
+      "ensemble_used": true,
+      "expected_branch": "observe",
+      "index": 50,
+      "latency_ms": 109.79498899541795,
+      "operational_branch": "review",
+      "operational_correct": false,
+      "policy_type": "choice",
+      "selected_probability": 0.6617635730412204,
+      "semantic_branch": "observe",
+      "semantic_correct": true,
+      "use_case": "incident-signal-triage"
+    },
+    {
+      "answer": {
+        "choice": "routine",
+        "confidence": 0.3623567716156255,
+        "probabilities": {
+          "escalate": 0.2787365001299337,
+          "investigate": 0.35890672825444087,
+          "routine": 0.3623567716156255
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-active-login-impact",
+      "difficulty": "fixture",
+      "ensemble_used": true,
+      "expected_branch": "human_attention",
+      "index": 51,
+      "latency_ms": 108.78366010729223,
+      "operational_branch": "review",
+      "operational_correct": false,
+      "policy_type": "choice",
+      "selected_probability": 0.3623567716156255,
+      "semantic_branch": "observe",
+      "semantic_correct": false,
+      "use_case": "incident-signal-triage"
+    },
+    {
+      "answer": {
+        "choice": "routine",
+        "confidence": 0.5747956403717034,
+        "probabilities": {
+          "high_risk": 0.09398920986474808,
+          "routine": 0.5747956403717034,
+          "suspicious": 0.3312151497635485
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-routine-project-update",
+      "difficulty": "fixture",
+      "ensemble_used": true,
+      "expected_branch": "routine_candidate",
+      "index": 52,
+      "latency_ms": 113.00627596210688,
+      "operational_branch": "security_review",
+      "operational_correct": false,
+      "policy_type": "choice",
+      "selected_probability": 0.5747956403717034,
+      "semantic_branch": "routine_candidate",
+      "semantic_correct": true,
+      "use_case": "incoming-message-risk"
+    },
+    {
+      "answer": {
+        "choice": "routine",
+        "confidence": 0.5030873224735912,
+        "probabilities": {
+          "high_risk": 0.12213128133863016,
+          "routine": 0.5030873224735912,
+          "suspicious": 0.3747813961877786
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-credential-lure",
+      "difficulty": "fixture",
+      "ensemble_used": true,
+      "expected_branch": "high_risk_candidate",
+      "index": 53,
+      "latency_ms": 111.5412269718945,
+      "operational_branch": "security_review",
+      "operational_correct": false,
+      "policy_type": "choice",
+      "selected_probability": 0.5030873224735912,
+      "semantic_branch": "routine_candidate",
+      "semantic_correct": false,
+      "use_case": "incoming-message-risk"
+    },
+    {
+      "answer": {
+        "choice": "routine",
+        "confidence": 0.4854470351586671,
+        "probabilities": {
+          "high_risk": 0.1190884567900469,
+          "routine": 0.4854470351586671,
+          "suspicious": 0.39546450805128597
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-unusual-vendor-change",
+      "difficulty": "fixture",
+      "ensemble_used": true,
+      "expected_branch": "security_review",
+      "index": 54,
+      "latency_ms": 112.76215605903417,
+      "operational_branch": "security_review",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 0.4854470351586671,
+      "semantic_branch": "routine_candidate",
+      "semantic_correct": false,
+      "use_case": "incoming-message-risk"
+    },
+    {
+      "answer": {
+        "confidence": 0.6300787211912857,
+        "noul": 0.6300787211912857,
+        "type": "noul"
+      },
+      "case_id": "synthetic-fit",
+      "difficulty": "fixture",
+      "ensemble_used": false,
+      "expected_branch": "bid_candidate",
+      "index": 55,
+      "latency_ms": 56.88407295383513,
+      "operational_branch": "review",
+      "operational_correct": false,
+      "policy_type": "binary",
+      "selected_probability": 0.6300787211912857,
+      "semantic_branch": "bid_candidate",
+      "semantic_correct": true,
+      "use_case": "marketplace-job-fit"
+    },
+    {
+      "answer": {
+        "confidence": 0.6254394327327225,
+        "noul": 0.6254394327327225,
+        "type": "noul"
+      },
+      "case_id": "synthetic-skip",
+      "difficulty": "fixture",
+      "ensemble_used": false,
+      "expected_branch": "skip",
+      "index": 56,
+      "latency_ms": 56.86706199776381,
+      "operational_branch": "review",
+      "operational_correct": false,
+      "policy_type": "binary",
+      "selected_probability": 0.6254394327327225,
+      "semantic_branch": "bid_candidate",
+      "semantic_correct": false,
+      "use_case": "marketplace-job-fit"
+    },
+    {
+      "answer": {
+        "choice": "durable",
+        "confidence": 0.7906431562934827,
+        "probabilities": {
+          "durable": 0.7906431562934827,
+          "transient": 0.08298152096762845,
+          "unclear": 0.1263753227388889
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-durable-convention",
+      "difficulty": "fixture",
+      "ensemble_used": true,
+      "expected_branch": "store_candidate",
+      "index": 57,
+      "latency_ms": 108.74681000132114,
+      "operational_branch": "store_candidate",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 0.7906431562934827,
+      "semantic_branch": "store_candidate",
+      "semantic_correct": true,
+      "use_case": "memory-relevance-gate"
+    },
+    {
+      "answer": {
+        "choice": "transient",
+        "confidence": 0.40291056731987657,
+        "probabilities": {
+          "durable": 0.35255130936042967,
+          "transient": 0.40291056731987657,
+          "unclear": 0.24453812331969377
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-transient-status",
+      "difficulty": "fixture",
+      "ensemble_used": true,
+      "expected_branch": "ignore",
+      "index": 58,
+      "latency_ms": 108.7934800889343,
+      "operational_branch": "review",
+      "operational_correct": false,
+      "policy_type": "choice",
+      "selected_probability": 0.40291056731987657,
+      "semantic_branch": "ignore",
+      "semantic_correct": true,
+      "use_case": "memory-relevance-gate"
+    },
+    {
+      "answer": {
+        "choice": "balanced",
+        "confidence": 0.34984043310643714,
+        "probabilities": {
+          "balanced": 0.34984043310643714,
+          "deep": 0.1456241113111609,
+          "fast": 0.25765177513057114,
+          "unclear": 0.2468836804518308
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-local-normalization",
+      "difficulty": "fixture",
+      "ensemble_used": true,
+      "expected_branch": "fast_candidate",
+      "index": 59,
+      "latency_ms": 109.8117979709059,
+      "operational_branch": "review",
+      "operational_correct": false,
+      "policy_type": "choice",
+      "selected_probability": 0.34984043310643714,
+      "semantic_branch": "balanced_candidate",
+      "semantic_correct": false,
+      "use_case": "model-effort-routing"
+    },
+    {
+      "answer": {
+        "choice": "balanced",
+        "confidence": 0.40175649880882963,
+        "probabilities": {
+          "balanced": 0.40175649880882963,
+          "deep": 0.12284423334533609,
+          "fast": 0.29801150571157353,
+          "unclear": 0.1773877621342608
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-bounded-debugging",
+      "difficulty": "fixture",
+      "ensemble_used": true,
+      "expected_branch": "balanced_candidate",
+      "index": 60,
+      "latency_ms": 109.76956901140511,
+      "operational_branch": "review",
+      "operational_correct": false,
+      "policy_type": "choice",
+      "selected_probability": 0.40175649880882963,
+      "semantic_branch": "balanced_candidate",
+      "semantic_correct": true,
+      "use_case": "model-effort-routing"
+    },
+    {
+      "answer": {
+        "choice": "balanced",
+        "confidence": 0.3463137925492813,
+        "probabilities": {
+          "balanced": 0.3463137925492813,
+          "deep": 0.1949747494901797,
+          "fast": 0.19834005237014268,
+          "unclear": 0.2603714055903964
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-cross-component-migration",
+      "difficulty": "fixture",
+      "ensemble_used": true,
+      "expected_branch": "deep_candidate",
+      "index": 61,
+      "latency_ms": 114.79957401752472,
+      "operational_branch": "review",
+      "operational_correct": false,
+      "policy_type": "choice",
+      "selected_probability": 0.3463137925492813,
+      "semantic_branch": "balanced_candidate",
+      "semantic_correct": false,
+      "use_case": "model-effort-routing"
+    },
+    {
+      "answer": {
+        "choice": "balanced",
+        "confidence": 0.3230231752150522,
+        "probabilities": {
+          "balanced": 0.3230231752150522,
+          "deep": 0.1628909376277084,
+          "fast": 0.2380103268734317,
+          "unclear": 0.27607556028380775
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-underspecified-request",
+      "difficulty": "fixture",
+      "ensemble_used": true,
+      "expected_branch": "review",
+      "index": 62,
+      "latency_ms": 114.74902497138828,
+      "operational_branch": "review",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 0.3230231752150522,
+      "semantic_branch": "balanced_candidate",
+      "semantic_correct": false,
+      "use_case": "model-effort-routing"
+    },
+    {
+      "answer": {
+        "choice": "ordinary",
+        "confidence": 0.6331591015803841,
+        "probabilities": {
+          "caution": 0.17232908802152863,
+          "ordinary": 0.6331591015803841,
+          "protected": 0.19451181039808724
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-routine-internal-update",
+      "difficulty": "fixture",
+      "ensemble_used": true,
+      "expected_branch": "send_candidate",
+      "index": 63,
+      "latency_ms": 113.74200496356934,
+      "operational_branch": "review",
+      "operational_correct": false,
+      "policy_type": "choice",
+      "selected_probability": 0.6331591015803841,
+      "semantic_branch": "send_candidate",
+      "semantic_correct": true,
+      "use_case": "outbound-message-risk"
+    },
+    {
+      "answer": {
+        "choice": "ordinary",
+        "confidence": 0.6489182411361393,
+        "probabilities": {
+          "caution": 0.16149082788923688,
+          "ordinary": 0.6489182411361393,
+          "protected": 0.18959093097462387
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-unapproved-delivery-promise",
+      "difficulty": "fixture",
+      "ensemble_used": true,
+      "expected_branch": "review",
+      "index": 64,
+      "latency_ms": 112.6921969698742,
+      "operational_branch": "review",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 0.6489182411361393,
+      "semantic_branch": "send_candidate",
+      "semantic_correct": false,
+      "use_case": "outbound-message-risk"
+    },
+    {
+      "answer": {
+        "choice": "ordinary",
+        "confidence": 0.619685141776871,
+        "probabilities": {
+          "caution": 0.15510616664596674,
+          "ordinary": 0.619685141776871,
+          "protected": 0.22520869157716236
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-confidential-pricing-leak",
+      "difficulty": "fixture",
+      "ensemble_used": true,
+      "expected_branch": "block_candidate",
+      "index": 65,
+      "latency_ms": 113.82805602625012,
+      "operational_branch": "review",
+      "operational_correct": false,
+      "policy_type": "choice",
+      "selected_probability": 0.619685141776871,
+      "semantic_branch": "send_candidate",
+      "semantic_correct": false,
+      "use_case": "outbound-message-risk"
+    },
+    {
+      "answer": {
+        "choice": "ambiguous",
+        "confidence": 0.4461657549751986,
+        "probabilities": {
+          "ambiguous": 0.4461657549751986,
+          "nonessential": 0.13897276792331825,
+          "useful": 0.41486147710148313
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-primary-explanation",
+      "difficulty": "fixture",
+      "ensemble_used": true,
+      "expected_branch": "keep_candidate",
+      "index": 66,
+      "latency_ms": 113.72093600220978,
+      "operational_branch": "review",
+      "operational_correct": false,
+      "policy_type": "choice",
+      "selected_probability": 0.4461657549751986,
+      "semantic_branch": "review",
+      "semantic_correct": false,
+      "use_case": "page-clutter-relevance"
+    },
+    {
+      "answer": {
+        "choice": "useful",
+        "confidence": 0.4665003763058747,
+        "probabilities": {
+          "ambiguous": 0.42478612603499843,
+          "nonessential": 0.1087134976591268,
+          "useful": 0.4665003763058747
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-unrelated-community-box",
+      "difficulty": "fixture",
+      "ensemble_used": true,
+      "expected_branch": "hide_candidate",
+      "index": 67,
+      "latency_ms": 115.69313402287662,
+      "operational_branch": "review",
+      "operational_correct": false,
+      "policy_type": "choice",
+      "selected_probability": 0.4665003763058747,
+      "semantic_branch": "keep_candidate",
+      "semantic_correct": false,
+      "use_case": "page-clutter-relevance"
+    },
+    {
+      "answer": {
+        "choice": "useful",
+        "confidence": 0.45092758564279634,
+        "probabilities": {
+          "ambiguous": 0.4401078571855206,
+          "nonessential": 0.10896455717168313,
+          "useful": 0.45092758564279634
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-unclear-related-card",
+      "difficulty": "fixture",
+      "ensemble_used": true,
+      "expected_branch": "review",
+      "index": 68,
+      "latency_ms": 109.80720887891948,
+      "operational_branch": "review",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 0.45092758564279634,
+      "semantic_branch": "keep_candidate",
+      "semantic_correct": false,
+      "use_case": "page-clutter-relevance"
+    },
+    {
+      "answer": {
+        "choice": "unclear",
+        "confidence": 0.5162132311206494,
+        "probabilities": {
+          "affected": 0.24462535630852686,
+          "unaffected": 0.2391614125708238,
+          "unclear": 0.5162132311206494
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-unaffected-renderer",
+      "difficulty": "fixture",
+      "ensemble_used": true,
+      "expected_branch": "no_change_candidate",
+      "index": 69,
+      "latency_ms": 111.79733695462346,
+      "operational_branch": "review",
+      "operational_correct": false,
+      "policy_type": "choice",
+      "selected_probability": 0.5162132311206494,
+      "semantic_branch": "review",
+      "semantic_correct": false,
+      "use_case": "policy-change-impact"
+    },
+    {
+      "answer": {
+        "choice": "unclear",
+        "confidence": 0.47392540417889767,
+        "probabilities": {
+          "affected": 0.29187320184012844,
+          "unaffected": 0.23420139398097384,
+          "unclear": 0.47392540417889767
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-affected-export-service",
+      "difficulty": "fixture",
+      "ensemble_used": true,
+      "expected_branch": "impact_review",
+      "index": 70,
+      "latency_ms": 113.75445604790002,
+      "operational_branch": "review",
+      "operational_correct": false,
+      "policy_type": "choice",
+      "selected_probability": 0.47392540417889767,
+      "semantic_branch": "review",
+      "semantic_correct": false,
+      "use_case": "policy-change-impact"
+    },
+    {
+      "answer": {
+        "choice": "unclear",
+        "confidence": 0.5886353909570889,
+        "probabilities": {
+          "affected": 0.21339477739068957,
+          "unaffected": 0.19796983165222157,
+          "unclear": 0.5886353909570889
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-ambiguous-export-ui",
+      "difficulty": "fixture",
+      "ensemble_used": true,
+      "expected_branch": "review",
+      "index": 71,
+      "latency_ms": 117.71823198068887,
+      "operational_branch": "review",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 0.5886353909570889,
+      "semantic_branch": "review",
+      "semantic_correct": true,
+      "use_case": "policy-change-impact"
+    },
+    {
+      "answer": {
+        "choice": "supported",
+        "confidence": 0.3683600524850614,
+        "probabilities": {
+          "contradicted": 0.32280119898136683,
+          "supported": 0.3683600524850614,
+          "unclear": 0.3088387485335718
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-supported",
+      "difficulty": "fixture",
+      "ensemble_used": true,
+      "expected_branch": "continue",
+      "index": 72,
+      "latency_ms": 114.75430510472506,
+      "operational_branch": "verify",
+      "operational_correct": false,
+      "policy_type": "choice",
+      "selected_probability": 0.3683600524850614,
+      "semantic_branch": "continue",
+      "semantic_correct": true,
+      "use_case": "research-claim-verification"
+    },
+    {
+      "answer": {
+        "choice": "supported",
+        "confidence": 0.3882854705415722,
+        "probabilities": {
+          "contradicted": 0.3233551650236782,
+          "supported": 0.3882854705415722,
+          "unclear": 0.28835936443474963
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-unclear",
+      "difficulty": "fixture",
+      "ensemble_used": true,
+      "expected_branch": "verify",
+      "index": 73,
+      "latency_ms": 113.78196603618562,
+      "operational_branch": "verify",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 0.3882854705415722,
+      "semantic_branch": "continue",
+      "semantic_correct": false,
+      "use_case": "research-claim-verification"
+    },
+    {
+      "answer": {
+        "choice": "relevant",
+        "confidence": 0.39685549533659736,
+        "probabilities": {
+          "irrelevant": 0.359679676893362,
+          "relevant": 0.39685549533659736,
+          "urgent": 0.24346482777004064
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-unrelated-event",
+      "difficulty": "fixture",
+      "ensemble_used": true,
+      "expected_branch": "ignore",
+      "index": 74,
+      "latency_ms": 112.74114600382745,
+      "operational_branch": "review",
+      "operational_correct": false,
+      "policy_type": "choice",
+      "selected_probability": 0.39685549533659736,
+      "semantic_branch": "research_candidate",
+      "semantic_correct": false,
+      "use_case": "research-event-relevance"
+    },
+    {
+      "answer": {
+        "choice": "relevant",
+        "confidence": 0.4309133899591495,
+        "probabilities": {
+          "irrelevant": 0.3121869526709318,
+          "relevant": 0.4309133899591495,
+          "urgent": 0.2568996573699186
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-relevant-amendment",
+      "difficulty": "fixture",
+      "ensemble_used": true,
+      "expected_branch": "research_candidate",
+      "index": 75,
+      "latency_ms": 112.74606711231172,
+      "operational_branch": "review",
+      "operational_correct": false,
+      "policy_type": "choice",
+      "selected_probability": 0.4309133899591495,
+      "semantic_branch": "research_candidate",
+      "semantic_correct": true,
+      "use_case": "research-event-relevance"
+    },
+    {
+      "answer": {
+        "confidence": 0.6394013883603502,
+        "noul": 0.6394013883603502,
+        "type": "noul"
+      },
+      "case_id": "synthetic-relevant",
+      "difficulty": "fixture",
+      "ensemble_used": false,
+      "expected_branch": "include_candidate",
+      "index": 76,
+      "latency_ms": 57.89593199733645,
+      "operational_branch": "review",
+      "operational_correct": false,
+      "policy_type": "binary",
+      "selected_probability": 0.6394013883603502,
+      "semantic_branch": "include_candidate",
+      "semantic_correct": true,
+      "use_case": "retrieval-relevance-gate"
+    },
+    {
+      "answer": {
+        "confidence": 0.6370728911162568,
+        "noul": 0.6370728911162568,
+        "type": "noul"
+      },
+      "case_id": "synthetic-irrelevant",
+      "difficulty": "fixture",
+      "ensemble_used": false,
+      "expected_branch": "discard",
+      "index": 77,
+      "latency_ms": 55.85939402226359,
+      "operational_branch": "review",
+      "operational_correct": false,
+      "policy_type": "binary",
+      "selected_probability": 0.6370728911162568,
+      "semantic_branch": "include_candidate",
+      "semantic_correct": false,
+      "use_case": "retrieval-relevance-gate"
+    },
+    {
+      "answer": {
+        "confidence": 0.6253515237550844,
+        "noul": 0.6253515237550844,
+        "type": "noul"
+      },
+      "case_id": "synthetic-fit",
+      "difficulty": "fixture",
+      "ensemble_used": false,
+      "expected_branch": "qualified",
+      "index": 78,
+      "latency_ms": 15.68407693412155,
+      "operational_branch": "review",
+      "operational_correct": false,
+      "policy_type": "binary",
+      "selected_probability": 0.6253515237550844,
+      "semantic_branch": "qualified",
+      "semantic_correct": true,
+      "use_case": "sales-lead-fit"
+    },
+    {
+      "answer": {
+        "confidence": 0.6084043567101136,
+        "noul": 0.6084043567101136,
+        "type": "noul"
+      },
+      "case_id": "synthetic-mismatch",
+      "difficulty": "fixture",
+      "ensemble_used": false,
+      "expected_branch": "ignore",
+      "index": 79,
+      "latency_ms": 55.14131404925138,
+      "operational_branch": "review",
+      "operational_correct": false,
+      "policy_type": "binary",
+      "selected_probability": 0.6084043567101136,
+      "semantic_branch": "qualified",
+      "semantic_correct": false,
+      "use_case": "sales-lead-fit"
+    },
+    {
+      "answer": {
+        "confidence": 0.6223829874512773,
+        "noul": 0.6223829874512773,
+        "type": "noul"
+      },
+      "case_id": "synthetic-paraphrase",
+      "difficulty": "fixture",
+      "ensemble_used": false,
+      "expected_branch": "reuse_candidate",
+      "index": 80,
+      "latency_ms": 58.912970940582454,
+      "operational_branch": "review",
+      "operational_correct": false,
+      "policy_type": "binary",
+      "selected_probability": 0.6223829874512773,
+      "semantic_branch": "reuse_candidate",
+      "semantic_correct": true,
+      "use_case": "semantic-cache-reuse-gate"
+    },
+    {
+      "answer": {
+        "confidence": 0.6334925790270847,
+        "noul": 0.6334925790270847,
+        "type": "noul"
+      },
+      "case_id": "synthetic-scope-change",
+      "difficulty": "fixture",
+      "ensemble_used": false,
+      "expected_branch": "miss",
+      "index": 81,
+      "latency_ms": 58.92987106926739,
+      "operational_branch": "review",
+      "operational_correct": false,
+      "policy_type": "binary",
+      "selected_probability": 0.6334925790270847,
+      "semantic_branch": "reuse_candidate",
+      "semantic_correct": false,
+      "use_case": "semantic-cache-reuse-gate"
+    },
+    {
+      "answer": {
+        "choice": "ambiguous",
+        "confidence": 0.4997365990405339,
+        "probabilities": {
+          "ambiguous": 0.4997365990405339,
+          "ordinary": 0.3050058399711336,
+          "promotional": 0.19525756098833247
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-editorial-paragraph",
+      "difficulty": "fixture",
+      "ensemble_used": true,
+      "expected_branch": "keep_candidate",
+      "index": 82,
+      "latency_ms": 110.80672906246036,
+      "operational_branch": "review",
+      "operational_correct": false,
+      "policy_type": "choice",
+      "selected_probability": 0.4997365990405339,
+      "semantic_branch": "review",
+      "semantic_correct": false,
+      "use_case": "semantic-content-blocking"
+    },
+    {
+      "answer": {
+        "choice": "ambiguous",
+        "confidence": 0.4860715151751777,
+        "probabilities": {
+          "ambiguous": 0.4860715151751777,
+          "ordinary": 0.2850335035794655,
+          "promotional": 0.22889498124535684
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-promotional-card",
+      "difficulty": "fixture",
+      "ensemble_used": true,
+      "expected_branch": "hide_candidate",
+      "index": 83,
+      "latency_ms": 109.76765886880457,
+      "operational_branch": "review",
+      "operational_correct": false,
+      "policy_type": "choice",
+      "selected_probability": 0.4860715151751777,
+      "semantic_branch": "review",
+      "semantic_correct": false,
+      "use_case": "semantic-content-blocking"
+    },
+    {
+      "answer": {
+        "choice": "ambiguous",
+        "confidence": 0.4237708374690853,
+        "probabilities": {
+          "ambiguous": 0.4237708374690853,
+          "ordinary": 0.38629434494641046,
+          "promotional": 0.1899348175845043
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-ambiguous-recommendation",
+      "difficulty": "fixture",
+      "ensemble_used": true,
+      "expected_branch": "review",
+      "index": 84,
+      "latency_ms": 114.89959410391748,
+      "operational_branch": "review",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 0.4237708374690853,
+      "semantic_branch": "review",
+      "semantic_correct": true,
+      "use_case": "semantic-content-blocking"
+    },
+    {
+      "answer": {
+        "choice": "consistent",
+        "confidence": 0.6556715429029404,
+        "probabilities": {
+          "consistent": 0.6556715429029404,
+          "inconsistent": 0.17382412766488442,
+          "unclear": 0.1705043294321752
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-consistent-deployment",
+      "difficulty": "fixture",
+      "ensemble_used": true,
+      "expected_branch": "continue_candidate",
+      "index": 85,
+      "latency_ms": 109.70303893554956,
+      "operational_branch": "review",
+      "operational_correct": false,
+      "policy_type": "choice",
+      "selected_probability": 0.6556715429029404,
+      "semantic_branch": "continue_candidate",
+      "semantic_correct": true,
+      "use_case": "semantic-data-consistency"
+    },
+    {
+      "answer": {
+        "choice": "consistent",
+        "confidence": 0.5488307987464592,
+        "probabilities": {
+          "consistent": 0.5488307987464592,
+          "inconsistent": 0.24086350003163026,
+          "unclear": 0.21030570122191056
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-semantic-contradiction",
+      "difficulty": "fixture",
+      "ensemble_used": true,
+      "expected_branch": "exception_review",
+      "index": 86,
+      "latency_ms": 110.74242799077183,
+      "operational_branch": "review",
+      "operational_correct": false,
+      "policy_type": "choice",
+      "selected_probability": 0.5488307987464592,
+      "semantic_branch": "continue_candidate",
+      "semantic_correct": false,
+      "use_case": "semantic-data-consistency"
+    },
+    {
+      "answer": {
+        "choice": "consistent",
+        "confidence": 0.48595160863484704,
+        "probabilities": {
+          "consistent": 0.48595160863484704,
+          "inconsistent": 0.32257942858619904,
+          "unclear": 0.19146896277895392
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-ambiguous-transition",
+      "difficulty": "fixture",
+      "ensemble_used": true,
+      "expected_branch": "review",
+      "index": 87,
+      "latency_ms": 108.7706689722836,
+      "operational_branch": "review",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 0.48595160863484704,
+      "semantic_branch": "continue_candidate",
+      "semantic_correct": false,
+      "use_case": "semantic-data-consistency"
+    },
+    {
+      "answer": {
+        "choice": "same_entity",
+        "confidence": 0.6709310785090108,
+        "probabilities": {
+          "different_entity": 0.2151868201686386,
+          "insufficient": 0.1138821013223507,
+          "same_entity": 0.6709310785090108
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-clear-semantic-match",
+      "difficulty": "fixture",
+      "ensemble_used": true,
+      "expected_branch": "match_candidate",
+      "index": 88,
+      "latency_ms": 107.8137110453099,
+      "operational_branch": "review",
+      "operational_correct": false,
+      "policy_type": "choice",
+      "selected_probability": 0.6709310785090108,
+      "semantic_branch": "match_candidate",
+      "semantic_correct": true,
+      "use_case": "semantic-record-match"
+    },
+    {
+      "answer": {
+        "choice": "same_entity",
+        "confidence": 0.6443543941273076,
+        "probabilities": {
+          "different_entity": 0.2097146938756523,
+          "insufficient": 0.14593091199704022,
+          "same_entity": 0.6443543941273076
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-ambiguous-alias",
+      "difficulty": "fixture",
+      "ensemble_used": true,
+      "expected_branch": "review",
+      "index": 89,
+      "latency_ms": 108.83323906455189,
+      "operational_branch": "review",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 0.6443543941273076,
+      "semantic_branch": "match_candidate",
+      "semantic_correct": false,
+      "use_case": "semantic-record-match"
+    },
+    {
+      "answer": {
+        "choice": "different_entity",
+        "confidence": 0.44879391810324276,
+        "probabilities": {
+          "different_entity": 0.44879391810324276,
+          "insufficient": 0.1243789863469818,
+          "same_entity": 0.42682709554977544
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-hard-conflict",
+      "difficulty": "fixture",
+      "ensemble_used": true,
+      "expected_branch": "different",
+      "index": 90,
+      "latency_ms": 112.80679609626532,
+      "operational_branch": "review",
+      "operational_correct": false,
+      "policy_type": "choice",
+      "selected_probability": 0.44879391810324276,
+      "semantic_branch": "different",
+      "semantic_correct": true,
+      "use_case": "semantic-record-match"
+    },
+    {
+      "answer": {
+        "choice": "failed",
+        "confidence": 0.6273436284859386,
+        "probabilities": {
+          "completed": 0.17210161640330707,
+          "failed": 0.6273436284859386,
+          "unresolved": 0.20055475511075432
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-disguised-failure",
+      "difficulty": "fixture",
+      "ensemble_used": true,
+      "expected_branch": "failure_review",
+      "index": 91,
+      "latency_ms": 113.76538593322039,
+      "operational_branch": "review",
+      "operational_correct": false,
+      "policy_type": "choice",
+      "selected_probability": 0.6273436284859386,
+      "semantic_branch": "failure_review",
+      "semantic_correct": true,
+      "use_case": "semantic-response-health"
+    },
+    {
+      "answer": {
+        "choice": "completed",
+        "confidence": 0.5230727343979094,
+        "probabilities": {
+          "completed": 0.5230727343979094,
+          "failed": 0.2159585915482934,
+          "unresolved": 0.2609686740537973
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-normal-success",
+      "difficulty": "fixture",
+      "ensemble_used": true,
+      "expected_branch": "continue_candidate",
+      "index": 92,
+      "latency_ms": 109.78473792783916,
+      "operational_branch": "review",
+      "operational_correct": false,
+      "policy_type": "choice",
+      "selected_probability": 0.5230727343979094,
+      "semantic_branch": "continue_candidate",
+      "semantic_correct": true,
+      "use_case": "semantic-response-health"
+    },
+    {
+      "answer": {
+        "choice": "unresolved",
+        "confidence": 0.5060715482985567,
+        "probabilities": {
+          "completed": 0.2191467234945625,
+          "failed": 0.27478172820688074,
+          "unresolved": 0.5060715482985567
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-unresolved-acceptance",
+      "difficulty": "fixture",
+      "ensemble_used": true,
+      "expected_branch": "review",
+      "index": 93,
+      "latency_ms": 108.82654099259526,
+      "operational_branch": "review",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 0.5060715482985567,
+      "semantic_branch": "review",
+      "semantic_correct": true,
+      "use_case": "semantic-response-health"
+    },
+    {
+      "answer": {
+        "choice": "satisfies",
+        "confidence": 0.6466101563395461,
+        "probabilities": {
+          "satisfies": 0.6466101563395461,
+          "unclear": 0.12867461176754352,
+          "violates": 0.22471523189291032
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-recoverable-message",
+      "difficulty": "fixture",
+      "ensemble_used": true,
+      "expected_branch": "pass_candidate",
+      "index": 94,
+      "latency_ms": 108.71876904275268,
+      "operational_branch": "review",
+      "operational_correct": false,
+      "policy_type": "choice",
+      "selected_probability": 0.6466101563395461,
+      "semantic_branch": "pass_candidate",
+      "semantic_correct": true,
+      "use_case": "semantic-rule-check"
+    },
+    {
+      "answer": {
+        "choice": "satisfies",
+        "confidence": 0.6098687304005339,
+        "probabilities": {
+          "satisfies": 0.6098687304005339,
+          "unclear": 0.12908683767973395,
+          "violates": 0.2610444319197321
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-internal-error-leak",
+      "difficulty": "fixture",
+      "ensemble_used": true,
+      "expected_branch": "violation_candidate",
+      "index": 95,
+      "latency_ms": 107.8326110728085,
+      "operational_branch": "review",
+      "operational_correct": false,
+      "policy_type": "choice",
+      "selected_probability": 0.6098687304005339,
+      "semantic_branch": "pass_candidate",
+      "semantic_correct": false,
+      "use_case": "semantic-rule-check"
+    },
+    {
+      "answer": {
+        "choice": "satisfies",
+        "confidence": 0.7920110921590813,
+        "probabilities": {
+          "satisfies": 0.7920110921590813,
+          "unclear": 0.10134028032612871,
+          "violates": 0.10664862751479008
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-vague-action-label",
+      "difficulty": "fixture",
+      "ensemble_used": true,
+      "expected_branch": "violation_candidate",
+      "index": 96,
+      "latency_ms": 110.78761797398329,
+      "operational_branch": "review",
+      "operational_correct": false,
+      "policy_type": "choice",
+      "selected_probability": 0.7920110921590813,
+      "semantic_branch": "pass_candidate",
+      "semantic_correct": false,
+      "use_case": "semantic-rule-check"
+    },
+    {
+      "answer": {
+        "choice": "backlog",
+        "confidence": 0.25854661494400977,
+        "probabilities": {
+          "ask_author": 0.16079796850269484,
+          "backlog": 0.25854661494400977,
+          "close_review": 0.17782542785570968,
+          "investigate": 0.20544049067469863,
+          "product_decision": 0.19738949802288716
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-reproducible-crash",
+      "difficulty": "fixture",
+      "ensemble_used": true,
+      "expected_branch": "investigate_candidate",
+      "index": 97,
+      "latency_ms": 109.7770279739052,
+      "operational_branch": "human_triage",
+      "operational_correct": false,
+      "policy_type": "choice",
+      "selected_probability": 0.25854661494400977,
+      "semantic_branch": "backlog_candidate",
+      "semantic_correct": false,
+      "use_case": "software-issue-triage"
+    },
+    {
+      "answer": {
+        "choice": "backlog",
+        "confidence": 0.26969362384678397,
+        "probabilities": {
+          "ask_author": 0.17727075375726797,
+          "backlog": 0.26969362384678397,
+          "close_review": 0.22529516024528065,
+          "investigate": 0.14041951726367327,
+          "product_decision": 0.18732094488699413
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-vague-report",
+      "difficulty": "fixture",
+      "ensemble_used": true,
+      "expected_branch": "ask_author_candidate",
+      "index": 98,
+      "latency_ms": 108.76297007780522,
+      "operational_branch": "human_triage",
+      "operational_correct": false,
+      "policy_type": "choice",
+      "selected_probability": 0.26969362384678397,
+      "semantic_branch": "backlog_candidate",
+      "semantic_correct": false,
+      "use_case": "software-issue-triage"
+    },
+    {
+      "answer": {
+        "choice": "product_decision",
+        "confidence": 0.39022752407189937,
+        "probabilities": {
+          "ask_author": 0.16519493585770983,
+          "backlog": 0.22236420039328825,
+          "close_review": 0.14032110962567662,
+          "investigate": 0.08189223005142601,
+          "product_decision": 0.39022752407189937
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-product-request",
+      "difficulty": "fixture",
+      "ensemble_used": true,
+      "expected_branch": "decision_review",
+      "index": 99,
+      "latency_ms": 107.85416013095528,
+      "operational_branch": "human_triage",
+      "operational_correct": false,
+      "policy_type": "choice",
+      "selected_probability": 0.39022752407189937,
+      "semantic_branch": "decision_review",
+      "semantic_correct": true,
+      "use_case": "software-issue-triage"
+    },
+    {
+      "answer": {
+        "choice": "ambiguous",
+        "confidence": 0.49762363445015645,
+        "probabilities": {
+          "ambiguous": 0.49762363445015645,
+          "primary": 0.250300874716258,
+          "sponsorship": 0.25207549083358555
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-main-explanation",
+      "difficulty": "fixture",
+      "ensemble_used": true,
+      "expected_branch": "keep_candidate",
+      "index": 100,
+      "latency_ms": 109.80235901661217,
+      "operational_branch": "review",
+      "operational_correct": false,
+      "policy_type": "choice",
+      "selected_probability": 0.49762363445015645,
+      "semantic_branch": "review",
+      "semantic_correct": false,
+      "use_case": "sponsor-segment-detection"
+    },
+    {
+      "answer": {
+        "choice": "ambiguous",
+        "confidence": 0.48158805093099855,
+        "probabilities": {
+          "ambiguous": 0.48158805093099855,
+          "primary": 0.22782055464433637,
+          "sponsorship": 0.2905913944246651
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-sponsor-read",
+      "difficulty": "fixture",
+      "ensemble_used": true,
+      "expected_branch": "skip_candidate",
+      "index": 101,
+      "latency_ms": 107.7843300299719,
+      "operational_branch": "review",
+      "operational_correct": false,
+      "policy_type": "choice",
+      "selected_probability": 0.48158805093099855,
+      "semantic_branch": "review",
+      "semantic_correct": false,
+      "use_case": "sponsor-segment-detection"
+    },
+    {
+      "answer": {
+        "choice": "ambiguous",
+        "confidence": 0.5431212603504103,
+        "probabilities": {
+          "ambiguous": 0.5431212603504103,
+          "primary": 0.20851339232185878,
+          "sponsorship": 0.2483653473277309
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-review-unit-disclosure",
+      "difficulty": "fixture",
+      "ensemble_used": true,
+      "expected_branch": "keep_candidate",
+      "index": 102,
+      "latency_ms": 108.71045989915729,
+      "operational_branch": "review",
+      "operational_correct": false,
+      "policy_type": "choice",
+      "selected_probability": 0.5431212603504103,
+      "semantic_branch": "review",
+      "semantic_correct": false,
+      "use_case": "sponsor-segment-detection"
+    },
+    {
+      "answer": {
+        "choice": "relevant",
+        "confidence": 0.6555925430793865,
+        "probabilities": {
+          "ambiguous": 0.15763649158995063,
+          "relevant": 0.6555925430793865,
+          "unrelated": 0.18677096533066284
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-export-e2e",
+      "difficulty": "fixture",
+      "ensemble_used": true,
+      "expected_branch": "run_candidate",
+      "index": 103,
+      "latency_ms": 110.77391798608005,
+      "operational_branch": "review",
+      "operational_correct": false,
+      "policy_type": "choice",
+      "selected_probability": 0.6555925430793865,
+      "semantic_branch": "run_candidate",
+      "semantic_correct": true,
+      "use_case": "test-relevance-gate"
+    },
+    {
+      "answer": {
+        "choice": "relevant",
+        "confidence": 0.6880199170909373,
+        "probabilities": {
+          "ambiguous": 0.1430223392854379,
+          "relevant": 0.6880199170909373,
+          "unrelated": 0.16895774362362476
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-avatar-unrelated",
+      "difficulty": "fixture",
+      "ensemble_used": true,
+      "expected_branch": "low_priority_candidate",
+      "index": 104,
+      "latency_ms": 107.83868993166834,
+      "operational_branch": "review",
+      "operational_correct": false,
+      "policy_type": "choice",
+      "selected_probability": 0.6880199170909373,
+      "semantic_branch": "run_candidate",
+      "semantic_correct": false,
+      "use_case": "test-relevance-gate"
+    },
+    {
+      "answer": {
+        "choice": "relevant",
+        "confidence": 0.6288206786394138,
+        "probabilities": {
+          "ambiguous": 0.1284508790058948,
+          "relevant": 0.6288206786394138,
+          "unrelated": 0.24272844235469138
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-insufficient-shared-helper",
+      "difficulty": "fixture",
+      "ensemble_used": true,
+      "expected_branch": "review",
+      "index": 105,
+      "latency_ms": 110.81511899828911,
+      "operational_branch": "review",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 0.6288206786394138,
+      "semantic_branch": "run_candidate",
+      "semantic_correct": false,
+      "use_case": "test-relevance-gate"
+    },
+    {
+      "answer": {
+        "choice": "routine",
+        "confidence": 0.6006982040911671,
+        "probabilities": {
+          "instruction_override": 0.22073842285449186,
+          "protected_context_request": 0.178563373054341,
+          "routine": 0.6006982040911671
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-routine",
+      "difficulty": "fixture",
+      "ensemble_used": true,
+      "expected_branch": "continue_candidate",
+      "index": 106,
+      "latency_ms": 113.78238594625145,
+      "operational_branch": "review",
+      "operational_correct": false,
+      "policy_type": "choice",
+      "selected_probability": 0.6006982040911671,
+      "semantic_branch": "continue_candidate",
+      "semantic_correct": true,
+      "use_case": "untrusted-input-risk"
+    },
+    {
+      "answer": {
+        "choice": "instruction_override",
+        "confidence": 0.5496427397845545,
+        "probabilities": {
+          "instruction_override": 0.5496427397845545,
+          "protected_context_request": 0.12543176857134591,
+          "routine": 0.3249254916440997
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-override",
+      "difficulty": "fixture",
+      "ensemble_used": true,
+      "expected_branch": "isolate_review",
+      "index": 107,
+      "latency_ms": 113.73134597670287,
+      "operational_branch": "review",
+      "operational_correct": false,
+      "policy_type": "choice",
+      "selected_probability": 0.5496427397845545,
+      "semantic_branch": "isolate_review",
+      "semantic_correct": true,
+      "use_case": "untrusted-input-risk"
+    },
+    {
+      "answer": {
+        "choice": "later",
+        "confidence": 0.5971220780770833,
+        "probabilities": {
+          "escalate": 0.2556400915054531,
+          "later": 0.5971220780770833,
+          "now": 0.14723783041746363
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-later",
+      "difficulty": "fixture",
+      "ensemble_used": true,
+      "expected_branch": "defer",
+      "index": 108,
+      "latency_ms": 108.78325894009322,
+      "operational_branch": "human_attention",
+      "operational_correct": false,
+      "policy_type": "choice",
+      "selected_probability": 0.5971220780770833,
+      "semantic_branch": "defer",
+      "semantic_correct": true,
+      "use_case": "work-priority"
+    },
+    {
+      "answer": {
+        "choice": "escalate",
+        "confidence": 0.8297674888228312,
+        "probabilities": {
+          "escalate": 0.8297674888228312,
+          "later": 0.09631582227631294,
+          "now": 0.07391668890085593
+        },
+        "type": "choice"
+      },
+      "case_id": "synthetic-overdue",
+      "difficulty": "fixture",
+      "ensemble_used": true,
+      "expected_branch": "human_attention",
+      "index": 109,
+      "latency_ms": 107.76316106785089,
+      "operational_branch": "human_attention",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 0.8297674888228312,
+      "semantic_branch": "human_attention",
+      "semantic_correct": true,
+      "use_case": "work-priority"
+    }
+  ],
+  "run": {
+    "http_requests": 205
+  },
+  "schema": "brida.reflexbench.reflex-http-result/v1alpha1",
+  "summary": {
+    "latency_ms": {
+      "mean": 103.45069639998573,
+      "p50": 110.74242799077183,
+      "p95": 114.89959410391748,
+      "p99": 116.72265303786844
+    },
+    "n": 110,
+    "operational_accuracy": 0.23636363636363636,
+    "operational_correct": 26,
+    "review_or_uncertain": 78,
+    "semantic_accuracy": 0.4818181818181818,
+    "semantic_correct": 53
+  },
+  "visibility": "private",
+  "warmup": {
+    "attempted": true,
+    "latency_ms": 15.636516036465764,
+    "ok": true
+  }
+}

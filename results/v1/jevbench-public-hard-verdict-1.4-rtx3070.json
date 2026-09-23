@@ -1,0 +1,2398 @@
+{
+  "benchmark": "JevBench public cohort",
+  "completion": {
+    "completed": 111,
+    "failed": 0,
+    "rate": 1.0
+  },
+  "engine": {
+    "id": "openjev-verdict-1.4",
+    "model": "openjev-verdict-1.4",
+    "revision": "bff28567cff463b833bf044f351a8b7945d53e07"
+  },
+  "failures": [],
+  "latency_ms": {
+    "mean": 63.63006241552465,
+    "p50": 63.96047200541943,
+    "p95": 68.80626804195344,
+    "p99": 69.68831701669842
+  },
+  "metrics": {
+    "accuracy": 0.36936936936936937,
+    "brier_hard_sum_classes": 0.700941810031449,
+    "ece": 0.1241721614028804,
+    "gold_label_counts": {
+      "0": 31,
+      "1": 46,
+      "2": 20,
+      "3": 12,
+      "4": 2
+    },
+    "label_space_count": 70,
+    "macro_f1": null,
+    "macro_f1_unavailable_reason": "aggregate class indices refer to heterogeneous label spaces",
+    "macro_f1_valid": false,
+    "n": 111,
+    "nll": 1.2052666894478183,
+    "score_mae": 0.6624021865687696,
+    "selective_accuracy": [
+      {
+        "accuracy": 0.36936936936936937,
+        "coverage": 1.0,
+        "n": 111,
+        "requested_coverage": 1.0,
+        "risk": 0.6306306306306306
+      },
+      {
+        "accuracy": 0.37,
+        "coverage": 0.9009009009009009,
+        "n": 100,
+        "requested_coverage": 0.9,
+        "risk": 0.63
+      },
+      {
+        "accuracy": 0.36904761904761907,
+        "coverage": 0.7567567567567568,
+        "n": 84,
+        "requested_coverage": 0.75,
+        "risk": 0.6309523809523809
+      },
+      {
+        "accuracy": 0.4107142857142857,
+        "coverage": 0.5045045045045045,
+        "n": 56,
+        "requested_coverage": 0.5,
+        "risk": 0.5892857142857143
+      },
+      {
+        "accuracy": 0.42857142857142855,
+        "coverage": 0.25225225225225223,
+        "n": 28,
+        "requested_coverage": 0.25,
+        "risk": 0.5714285714285714
+      }
+    ]
+  },
+  "metrics_revision": "2026-09-21-heterogeneous-label-space-f1-fix",
+  "rows": [
+    {
+      "confidence": 0.2923907130997181,
+      "correct": false,
+      "family": "long_policy",
+      "gold_index": 3,
+      "id": "hard-opus-a-long_policy-01",
+      "labels": [
+        "deny_vacancy_exclusion",
+        "deny_repeated_seepage",
+        "pay_subject_to_10000_sublimit",
+        "pay_subject_to_15000_sublimit",
+        "pay_full_estimate_less_deductible"
+      ],
+      "latency_ms": 69.20869706664234,
+      "predicted_index": 4,
+      "probabilities": [
+        0.08375940987170709,
+        0.12876642149345244,
+        0.2514215449200927,
+        0.24366191061502968,
+        0.2923907130997181
+      ],
+      "question_type": "choice"
+    },
+    {
+      "confidence": 0.5502581097542133,
+      "correct": false,
+      "family": "long_policy",
+      "gold_index": 3,
+      "id": "hard-opus-a-long_policy-04",
+      "labels": [
+        "budget_holder",
+        "department_head",
+        "vp_and_finance_director",
+        "cfo",
+        "executive_committee"
+      ],
+      "latency_ms": 66.84314901940525,
+      "predicted_index": 0,
+      "probabilities": [
+        0.5502581097542133,
+        0.16660399924059602,
+        0.13394870308784868,
+        0.07302057644914431,
+        0.0761686114681978
+      ],
+      "question_type": "choice"
+    },
+    {
+      "confidence": 0.45778973782826166,
+      "correct": false,
+      "family": "long_policy",
+      "gold_index": 1,
+      "id": "hard-opus-a-long_policy-08",
+      "labels": [
+        "full_repair_no_charge",
+        "parts_covered_labour_charged",
+        "pro_rata_replacement_credit",
+        "not_covered"
+      ],
+      "latency_ms": 65.90013997629285,
+      "predicted_index": 3,
+      "probabilities": [
+        0.274812571260855,
+        0.17897052983421233,
+        0.08842716107667108,
+        0.45778973782826166
+      ],
+      "question_type": "choice"
+    },
+    {
+      "confidence": 0.3905663029658374,
+      "correct": false,
+      "family": "long_policy",
+      "gold_index": 2,
+      "id": "hard-opus-a-long_policy-09",
+      "labels": [
+        "no_license_required",
+        "license_exception_lvs",
+        "license_required",
+        "shipment_prohibited"
+      ],
+      "latency_ms": 66.86725898180157,
+      "predicted_index": 3,
+      "probabilities": [
+        0.26057930964158277,
+        0.22065396799660644,
+        0.1282004193959734,
+        0.3905663029658374
+      ],
+      "question_type": "choice"
+    },
+    {
+      "confidence": 0.628874052523868,
+      "correct": true,
+      "family": "long_policy",
+      "gold_index": 1,
+      "id": "hard-opus-a-long_policy-11",
+      "labels": [
+        "no",
+        "yes"
+      ],
+      "latency_ms": 68.88118805363774,
+      "predicted_index": 1,
+      "probabilities": [
+        0.37112594747613203,
+        0.628874052523868
+      ],
+      "question_type": "noul"
+    },
+    {
+      "confidence": 0.5330748840811115,
+      "correct": true,
+      "family": "long_policy",
+      "gold_index": 1,
+      "id": "hard-opus-a-long_policy-13",
+      "labels": [
+        "no",
+        "yes"
+      ],
+      "latency_ms": 68.83861706592143,
+      "predicted_index": 1,
+      "probabilities": [
+        0.4669251159188885,
+        0.5330748840811115
+      ],
+      "question_type": "noul"
+    },
+    {
+      "confidence": 0.349914287336643,
+      "correct": false,
+      "family": "long_policy",
+      "gold_index": 2,
+      "id": "hard-opus-a-long_policy-17",
+      "labels": [
+        "security_incident_response",
+        "no_page_ticket_only",
+        "database_oncall",
+        "vendor_support",
+        "platform_oncall"
+      ],
+      "latency_ms": 68.79765703342855,
+      "predicted_index": 3,
+      "probabilities": [
+        0.33324620810163935,
+        0.054099766237737566,
+        0.15702748398715496,
+        0.349914287336643,
+        0.10571225433682509
+      ],
+      "question_type": "choice"
+    },
+    {
+      "confidence": 0.514282113513139,
+      "correct": true,
+      "family": "long_policy",
+      "gold_index": 0,
+      "id": "hard-opus-a-long_policy-19",
+      "labels": [
+        "no",
+        "yes"
+      ],
+      "latency_ms": 66.83651998173445,
+      "predicted_index": 0,
+      "probabilities": [
+        0.514282113513139,
+        0.48571788648686093
+      ],
+      "question_type": "noul"
+    },
+    {
+      "confidence": 0.586448936107257,
+      "correct": true,
+      "family": "probability",
+      "gold_index": 1,
+      "id": "hard-opus-a-probability-03",
+      "labels": [
+        "no",
+        "yes"
+      ],
+      "latency_ms": 64.8655709810555,
+      "predicted_index": 1,
+      "probabilities": [
+        0.413551063892743,
+        0.586448936107257
+      ],
+      "question_type": "noul"
+    },
+    {
+      "confidence": 0.3884076543901403,
+      "correct": false,
+      "family": "probability",
+      "gold_index": 1,
+      "id": "hard-opus-a-probability-04",
+      "labels": [
+        "early",
+        "on_time",
+        "late"
+      ],
+      "latency_ms": 64.90620109252632,
+      "predicted_index": 2,
+      "probabilities": [
+        0.27477922559557,
+        0.3368131200142897,
+        0.3884076543901403
+      ],
+      "question_type": "choice"
+    },
+    {
+      "confidence": 0.3985604083000932,
+      "correct": false,
+      "family": "probability",
+      "gold_index": 1,
+      "id": "hard-opus-a-probability-07",
+      "labels": [
+        "resolved_first_contact",
+        "escalated",
+        "reopened"
+      ],
+      "latency_ms": 64.90957096684724,
+      "predicted_index": 2,
+      "probabilities": [
+        0.2760589696889062,
+        0.3253806220110006,
+        0.3985604083000932
+      ],
+      "question_type": "choice"
+    },
+    {
+      "confidence": 0.6280758571716444,
+      "correct": false,
+      "family": "probability",
+      "gold_index": 0,
+      "id": "hard-opus-a-probability-08",
+      "labels": [
+        "no",
+        "yes"
+      ],
+      "latency_ms": 182.9879340948537,
+      "predicted_index": 1,
+      "probabilities": [
+        0.3719241428283556,
+        0.6280758571716444
+      ],
+      "question_type": "noul"
+    },
+    {
+      "confidence": 0.5890132676098254,
+      "correct": true,
+      "family": "temporal_numeric",
+      "gold_index": 1,
+      "id": "hard-opus-a-temporal_numeric-03",
+      "labels": [
+        "no",
+        "yes"
+      ],
+      "latency_ms": 64.8629309143871,
+      "predicted_index": 1,
+      "probabilities": [
+        0.4109867323901746,
+        0.5890132676098254
+      ],
+      "question_type": "noul"
+    },
+    {
+      "confidence": 0.564396890010843,
+      "correct": true,
+      "family": "temporal_numeric",
+      "gold_index": 0,
+      "id": "hard-opus-a-temporal_numeric-06",
+      "labels": [
+        "no",
+        "yes"
+      ],
+      "latency_ms": 63.91693209297955,
+      "predicted_index": 0,
+      "probabilities": [
+        0.564396890010843,
+        0.43560310998915697
+      ],
+      "question_type": "noul"
+    },
+    {
+      "confidence": 0.5850985638040517,
+      "correct": false,
+      "family": "temporal_numeric",
+      "gold_index": 2,
+      "id": "hard-opus-a-temporal_numeric-07",
+      "labels": [
+        "sep_24",
+        "sep_25",
+        "sep_26",
+        "sep_27",
+        "sep_28"
+      ],
+      "latency_ms": 63.948921975679696,
+      "predicted_index": 4,
+      "probabilities": [
+        0.05191468475219458,
+        0.09834895444117409,
+        0.1751574047563068,
+        0.08948039224627281,
+        0.5850985638040517
+      ],
+      "question_type": "choice"
+    },
+    {
+      "confidence": 0.5328435255260329,
+      "correct": false,
+      "family": "temporal_numeric",
+      "gold_index": 0,
+      "id": "hard-opus-a-temporal_numeric-09",
+      "labels": [
+        "no",
+        "yes"
+      ],
+      "latency_ms": 63.90327191911638,
+      "predicted_index": 1,
+      "probabilities": [
+        0.46715647447396713,
+        0.5328435255260329
+      ],
+      "question_type": "noul"
+    },
+    {
+      "confidence": 0.3866767698361902,
+      "correct": false,
+      "family": "temporal_numeric",
+      "gold_index": 1,
+      "id": "hard-opus-a-temporal_numeric-12",
+      "labels": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "latency_ms": 63.93759197089821,
+      "predicted_index": 3,
+      "probabilities": [
+        0.20800670606244864,
+        0.19432807294613078,
+        0.2109884511552304,
+        0.3866767698361902
+      ],
+      "question_type": "score",
+      "score_error": 0.7763352847651623
+    },
+    {
+      "confidence": 0.4477762576371089,
+      "correct": false,
+      "family": "ambiguous",
+      "gold_index": 1,
+      "id": "hard-opus-b-ambiguous-02",
+      "labels": [
+        "cannot_determine",
+        "real_incident",
+        "false_positive"
+      ],
+      "latency_ms": 63.99080099072307,
+      "predicted_index": 2,
+      "probabilities": [
+        0.19076838251950815,
+        0.36145535984338306,
+        0.4477762576371089
+      ],
+      "question_type": "choice"
+    },
+    {
+      "confidence": 0.3805043583298608,
+      "correct": true,
+      "family": "ambiguous",
+      "gold_index": 1,
+      "id": "hard-opus-b-ambiguous-03",
+      "labels": [
+        "within_limitation",
+        "time_barred",
+        "insufficient_information"
+      ],
+      "latency_ms": 63.82849195506424,
+      "predicted_index": 1,
+      "probabilities": [
+        0.3245156848909966,
+        0.3805043583298608,
+        0.2949799567791426
+      ],
+      "question_type": "choice"
+    },
+    {
+      "confidence": 0.4051067591650016,
+      "correct": true,
+      "family": "ambiguous",
+      "gold_index": 0,
+      "id": "hard-opus-b-ambiguous-07",
+      "labels": [
+        "within_policy",
+        "over_limit",
+        "insufficient_information"
+      ],
+      "latency_ms": 62.918433104641736,
+      "predicted_index": 0,
+      "probabilities": [
+        0.4051067591650016,
+        0.3557370796262328,
+        0.2391561612087656
+      ],
+      "question_type": "choice"
+    },
+    {
+      "confidence": 0.6151917692972281,
+      "correct": false,
+      "family": "ambiguous",
+      "gold_index": 0,
+      "id": "hard-opus-b-ambiguous-09",
+      "labels": [
+        "legitimate",
+        "compromised",
+        "inconclusive"
+      ],
+      "latency_ms": 63.96047200541943,
+      "predicted_index": 1,
+      "probabilities": [
+        0.19108623715930229,
+        0.6151917692972281,
+        0.1937219935434697
+      ],
+      "question_type": "choice"
+    },
+    {
+      "confidence": 0.35966616577967686,
+      "correct": false,
+      "family": "ambiguous",
+      "gold_index": 0,
+      "id": "hard-opus-b-ambiguous-10",
+      "labels": [
+        "ask_user_which_alex",
+        "send_to_alex_moreno",
+        "send_to_alexandra_lind"
+      ],
+      "latency_ms": 65.87789999321103,
+      "predicted_index": 2,
+      "probabilities": [
+        0.2987629272523337,
+        0.3415709069679894,
+        0.35966616577967686
+      ],
+      "question_type": "choice"
+    },
+    {
+      "confidence": 0.3979757208173156,
+      "correct": false,
+      "family": "ambiguous",
+      "gold_index": 2,
+      "id": "hard-opus-b-ambiguous-11",
+      "labels": [
+        "grade_correct",
+        "grade_should_be_higher",
+        "cannot_determine"
+      ],
+      "latency_ms": 58.92595602199435,
+      "predicted_index": 1,
+      "probabilities": [
+        0.37753372123911205,
+        0.3979757208173156,
+        0.2244905579435723
+      ],
+      "question_type": "choice"
+    },
+    {
+      "confidence": 0.525772000774043,
+      "correct": false,
+      "family": "ambiguous",
+      "gold_index": 0,
+      "id": "hard-opus-b-ambiguous-13",
+      "labels": [
+        "cannot_determine",
+        "charge_platform_team",
+        "charge_data_team",
+        "split_50_50"
+      ],
+      "latency_ms": 63.9284219359979,
+      "predicted_index": 3,
+      "probabilities": [
+        0.22597110263730094,
+        0.11327314894990467,
+        0.13498374763875137,
+        0.525772000774043
+      ],
+      "question_type": "choice"
+    },
+    {
+      "confidence": 0.34059369174628384,
+      "correct": false,
+      "family": "multi_hop",
+      "gold_index": 2,
+      "id": "hard-opus-b-multi_hop-03",
+      "labels": [
+        "tier1_team_lead",
+        "tier2_department_head",
+        "tier3_cfo",
+        "tier4_board"
+      ],
+      "latency_ms": 65.8982100430876,
+      "predicted_index": 3,
+      "probabilities": [
+        0.18795923814591897,
+        0.17921585986088315,
+        0.292231210246914,
+        0.34059369174628384
+      ],
+      "question_type": "choice"
+    },
+    {
+      "confidence": 0.6679604770574247,
+      "correct": false,
+      "family": "multi_hop",
+      "gold_index": 2,
+      "id": "hard-opus-b-multi_hop-04",
+      "labels": [
+        "no_page_ticket_only",
+        "ana",
+        "bjorn",
+        "chen",
+        "dmitri",
+        "esra"
+      ],
+      "latency_ms": 65.90956007130444,
+      "predicted_index": 0,
+      "probabilities": [
+        0.6679604770574247,
+        0.09760363272038734,
+        0.03938212384718802,
+        0.03750470443279831,
+        0.0534432970624906,
+        0.10410576487971103
+      ],
+      "question_type": "choice"
+    },
+    {
+      "confidence": 0.4236223700226529,
+      "correct": false,
+      "family": "multi_hop",
+      "gold_index": 2,
+      "id": "hard-opus-b-multi_hop-05",
+      "labels": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "latency_ms": 65.87579008191824,
+      "predicted_index": 0,
+      "probabilities": [
+        0.4236223700226529,
+        0.1518283774004589,
+        0.12437882993407468,
+        0.1596685256313271,
+        0.1405018970114864
+      ],
+      "question_type": "score",
+      "score_error": 0.5584007977914647
+    },
+    {
+      "confidence": 0.2827303016454302,
+      "correct": false,
+      "family": "multi_hop",
+      "gold_index": 2,
+      "id": "hard-opus-b-multi_hop-07",
+      "labels": [
+        "no_credit",
+        "credit_10_percent",
+        "credit_20_percent",
+        "credit_25_percent",
+        "credit_50_percent",
+        "credit_full_month"
+      ],
+      "latency_ms": 65.88499003555626,
+      "predicted_index": 0,
+      "probabilities": [
+        0.2827303016454302,
+        0.06828012114690299,
+        0.2735059726151802,
+        0.06177002230682397,
+        0.09136768320941434,
+        0.22234589907624835
+      ],
+      "question_type": "choice"
+    },
+    {
+      "confidence": 0.5124090691770834,
+      "correct": false,
+      "family": "multi_hop",
+      "gold_index": 0,
+      "id": "hard-opus-b-multi_hop-08",
+      "labels": [
+        "no",
+        "yes"
+      ],
+      "latency_ms": 65.88326010387391,
+      "predicted_index": 1,
+      "probabilities": [
+        0.4875909308229166,
+        0.5124090691770834
+      ],
+      "question_type": "noul"
+    },
+    {
+      "confidence": 0.39870104020917907,
+      "correct": false,
+      "family": "probability",
+      "gold_index": 1,
+      "id": "hard-opus-b-probability-01",
+      "labels": [
+        "customer_wins",
+        "merchant_wins",
+        "customer_withdraws"
+      ],
+      "latency_ms": 65.96383999567479,
+      "predicted_index": 0,
+      "probabilities": [
+        0.39870104020917907,
+        0.3204280324670933,
+        0.2808709273237277
+      ],
+      "question_type": "choice"
+    },
+    {
+      "confidence": 0.43715993633435596,
+      "correct": false,
+      "family": "probability",
+      "gold_index": 1,
+      "id": "hard-opus-b-probability-02",
+      "labels": [
+        "bad_push",
+        "upstream_provider",
+        "database_hardware"
+      ],
+      "latency_ms": 61.855854000896215,
+      "predicted_index": 0,
+      "probabilities": [
+        0.43715993633435596,
+        0.21864721958075234,
+        0.3441928440848917
+      ],
+      "question_type": "choice"
+    },
+    {
+      "confidence": 0.5775169491743871,
+      "correct": true,
+      "family": "probability",
+      "gold_index": 1,
+      "id": "hard-opus-b-probability-03",
+      "labels": [
+        "no",
+        "yes"
+      ],
+      "latency_ms": 65.83239999599755,
+      "predicted_index": 1,
+      "probabilities": [
+        0.4224830508256129,
+        0.5775169491743871
+      ],
+      "question_type": "noul"
+    },
+    {
+      "confidence": 0.40971337736211794,
+      "correct": true,
+      "family": "probability",
+      "gold_index": 2,
+      "id": "hard-opus-b-probability-04",
+      "labels": [
+        "no_show",
+        "late_cancellation",
+        "attended"
+      ],
+      "latency_ms": 63.93642199691385,
+      "predicted_index": 2,
+      "probabilities": [
+        0.28864748503218196,
+        0.30163913760570005,
+        0.40971337736211794
+      ],
+      "question_type": "choice"
+    },
+    {
+      "confidence": 0.5143702647784725,
+      "correct": true,
+      "family": "probability",
+      "gold_index": 2,
+      "id": "hard-opus-b-probability-06",
+      "labels": [
+        "overturned",
+        "modified",
+        "upheld"
+      ],
+      "latency_ms": 64.95035090483725,
+      "predicted_index": 2,
+      "probabilities": [
+        0.2684851665160253,
+        0.21714456870550222,
+        0.5143702647784725
+      ],
+      "question_type": "choice"
+    },
+    {
+      "confidence": 0.2953525486961763,
+      "correct": true,
+      "family": "tradeoff",
+      "gold_index": 2,
+      "id": "hard-opus-b-tradeoff-01",
+      "labels": [
+        "escalate_to_security",
+        "page_oncall",
+        "escalate_to_engineering",
+        "process_refund",
+        "send_kb_article"
+      ],
+      "latency_ms": 64.83486003708094,
+      "predicted_index": 2,
+      "probabilities": [
+        0.19967879740709193,
+        0.07765891305745612,
+        0.2953525486961763,
+        0.2482274955884102,
+        0.17908224525086547
+      ],
+      "question_type": "choice"
+    },
+    {
+      "confidence": 0.4515368038098429,
+      "correct": false,
+      "family": "tradeoff",
+      "gold_index": 1,
+      "id": "hard-opus-b-tradeoff-03",
+      "labels": [
+        "order_a",
+        "order_b",
+        "order_c",
+        "order_d"
+      ],
+      "latency_ms": 63.91948298551142,
+      "predicted_index": 0,
+      "probabilities": [
+        0.4515368038098429,
+        0.40407988519774635,
+        0.06955378595799402,
+        0.07482952503441667
+      ],
+      "question_type": "choice"
+    },
+    {
+      "confidence": 0.5436946831453775,
+      "correct": true,
+      "family": "tradeoff",
+      "gold_index": 1,
+      "id": "hard-opus-b-tradeoff-06",
+      "labels": [
+        "no",
+        "yes"
+      ],
+      "latency_ms": 64.91744099184871,
+      "predicted_index": 1,
+      "probabilities": [
+        0.4563053168546225,
+        0.5436946831453775
+      ],
+      "question_type": "noul"
+    },
+    {
+      "confidence": 0.24364959951121595,
+      "correct": false,
+      "family": "tradeoff",
+      "gold_index": 4,
+      "id": "hard-opus-b-tradeoff-07",
+      "labels": [
+        "out_of_scope",
+        "p3_backlog",
+        "p2_fix_30d",
+        "p1_fix_7d",
+        "p0_fix_24h"
+      ],
+      "latency_ms": 65.08122093509883,
+      "predicted_index": 2,
+      "probabilities": [
+        0.2173100795562582,
+        0.1074038191636032,
+        0.24364959951121595,
+        0.21076934719895982,
+        0.22086715456996286
+      ],
+      "question_type": "choice"
+    },
+    {
+      "confidence": 0.5220966483909852,
+      "correct": false,
+      "family": "tradeoff",
+      "gold_index": 1,
+      "id": "hard-opus-b-tradeoff-08",
+      "labels": [
+        "no",
+        "yes"
+      ],
+      "latency_ms": 63.75389196909964,
+      "predicted_index": 0,
+      "probabilities": [
+        0.5220966483909852,
+        0.4779033516090148
+      ],
+      "question_type": "noul"
+    },
+    {
+      "confidence": 0.40249513283719945,
+      "correct": true,
+      "family": "tradeoff",
+      "gold_index": 1,
+      "id": "hard-opus-b-tradeoff-12",
+      "labels": [
+        "wait_for_inspection",
+        "refund_now",
+        "offer_store_credit",
+        "escalate_to_fraud_team",
+        "deny_refund"
+      ],
+      "latency_ms": 63.9331319835037,
+      "predicted_index": 1,
+      "probabilities": [
+        0.22434032758422154,
+        0.40249513283719945,
+        0.034839811742614905,
+        0.16083750675154415,
+        0.17748722108441992
+      ],
+      "question_type": "choice"
+    },
+    {
+      "confidence": 0.6600360402151088,
+      "correct": true,
+      "family": "long_policy",
+      "gold_index": 2,
+      "id": "hard-opus-c-long_policy-02",
+      "labels": [
+        "erase_all",
+        "restrict_all_pending_legal_hold",
+        "erase_but_retain_transaction_records",
+        "reject_unverified_request",
+        "erase_marketing_only"
+      ],
+      "latency_ms": 66.87248905654997,
+      "predicted_index": 2,
+      "probabilities": [
+        0.10978874747569503,
+        0.12112435866861933,
+        0.6600360402151088,
+        0.037448613499690746,
+        0.07160224014088618
+      ],
+      "question_type": "choice"
+    },
+    {
+      "confidence": 0.4759274193379834,
+      "correct": false,
+      "family": "long_policy",
+      "gold_index": 4,
+      "id": "hard-opus-c-long_policy-03",
+      "labels": [
+        "eur_0",
+        "eur_150",
+        "eur_200",
+        "eur_300",
+        "eur_400",
+        "eur_600"
+      ],
+      "latency_ms": 66.89402903430164,
+      "predicted_index": 0,
+      "probabilities": [
+        0.4759274193379834,
+        0.10914970833002716,
+        0.0772836108835339,
+        0.12629614603983663,
+        0.10793092207752002,
+        0.10341219333109886
+      ],
+      "question_type": "choice"
+    },
+    {
+      "confidence": 0.5861998641920275,
+      "correct": true,
+      "family": "long_policy",
+      "gold_index": 1,
+      "id": "hard-opus-c-long_policy-04",
+      "labels": [
+        "no",
+        "yes"
+      ],
+      "latency_ms": 68.87894799001515,
+      "predicted_index": 1,
+      "probabilities": [
+        0.4138001358079725,
+        0.5861998641920275
+      ],
+      "question_type": "noul"
+    },
+    {
+      "confidence": 0.5054917655838823,
+      "correct": false,
+      "family": "long_policy",
+      "gold_index": 1,
+      "id": "hard-opus-c-long_policy-05",
+      "labels": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "latency_ms": 69.68831701669842,
+      "predicted_index": 0,
+      "probabilities": [
+        0.5054917655838823,
+        0.19204640593990976,
+        0.08309811068296294,
+        0.21936371779324496
+      ],
+      "question_type": "score",
+      "score_error": 0.016333780685570565
+    },
+    {
+      "confidence": 0.457333577241859,
+      "correct": false,
+      "family": "long_policy",
+      "gold_index": 1,
+      "id": "hard-opus-c-long_policy-08",
+      "labels": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "latency_ms": 66.85023999307305,
+      "predicted_index": 3,
+      "probabilities": [
+        0.1756136709239303,
+        0.1425553027166481,
+        0.22449744911756253,
+        0.457333577241859
+      ],
+      "question_type": "score",
+      "score_error": 0.9635509326773504
+    },
+    {
+      "confidence": 0.35394089271960005,
+      "correct": true,
+      "family": "long_policy",
+      "gold_index": 1,
+      "id": "hard-opus-c-long_policy-10",
+      "labels": [
+        "full_credit",
+        "credit_minus_restocking_fee",
+        "repair_or_replace_only",
+        "reject_return"
+      ],
+      "latency_ms": 66.8876999989152,
+      "predicted_index": 1,
+      "probabilities": [
+        0.2590550613030588,
+        0.35394089271960005,
+        0.20241437474201868,
+        0.18458967123532255
+      ],
+      "question_type": "choice"
+    },
+    {
+      "confidence": 0.5742658208794966,
+      "correct": false,
+      "family": "long_policy",
+      "gold_index": 0,
+      "id": "hard-opus-c-long_policy-11",
+      "labels": [
+        "no",
+        "yes"
+      ],
+      "latency_ms": 66.83212995994836,
+      "predicted_index": 1,
+      "probabilities": [
+        0.4257341791205034,
+        0.5742658208794966
+      ],
+      "question_type": "noul"
+    },
+    {
+      "confidence": 0.3691091523702461,
+      "correct": false,
+      "family": "probability",
+      "gold_index": 2,
+      "id": "hard-opus-c-probability-03",
+      "labels": [
+        "halvorsen_polymer",
+        "ortega_seal_works",
+        "kuznets_technik"
+      ],
+      "latency_ms": 63.920401968061924,
+      "predicted_index": 1,
+      "probabilities": [
+        0.34122496092024024,
+        0.3691091523702461,
+        0.2896658867095136
+      ],
+      "question_type": "choice"
+    },
+    {
+      "confidence": 0.5579584956865918,
+      "correct": true,
+      "family": "temporal_numeric",
+      "gold_index": 1,
+      "id": "hard-opus-c-temporal_numeric-02",
+      "labels": [
+        "no",
+        "yes"
+      ],
+      "latency_ms": 64.98603092040867,
+      "predicted_index": 1,
+      "probabilities": [
+        0.44204150431340816,
+        0.5579584956865918
+      ],
+      "question_type": "noul"
+    },
+    {
+      "confidence": 0.33239690425073937,
+      "correct": false,
+      "family": "temporal_numeric",
+      "gold_index": 0,
+      "id": "hard-opus-c-temporal_numeric-03",
+      "labels": [
+        "eur_692_00",
+        "eur_617_00",
+        "eur_688_00",
+        "eur_693_90",
+        "eur_812_00"
+      ],
+      "latency_ms": 64.82323107775301,
+      "predicted_index": 2,
+      "probabilities": [
+        0.2807605971372728,
+        0.08869423402081786,
+        0.33239690425073937,
+        0.17467614508024185,
+        0.12347211951092815
+      ],
+      "question_type": "choice"
+    },
+    {
+      "confidence": 0.37945388080983067,
+      "correct": true,
+      "family": "temporal_numeric",
+      "gold_index": 3,
+      "id": "hard-opus-c-temporal_numeric-04",
+      "labels": [
+        "usd_2222_50",
+        "usd_2303_01",
+        "usd_2303_33",
+        "usd_2335_00",
+        "usd_2340_00"
+      ],
+      "latency_ms": 64.91000100504607,
+      "predicted_index": 3,
+      "probabilities": [
+        0.13194232738214776,
+        0.12942845295916938,
+        0.13516845019719362,
+        0.37945388080983067,
+        0.22400688865165855
+      ],
+      "question_type": "choice"
+    },
+    {
+      "confidence": 0.3823835524049866,
+      "correct": false,
+      "family": "temporal_numeric",
+      "gold_index": 3,
+      "id": "hard-opus-c-temporal_numeric-06",
+      "labels": [
+        "sep_15_office_chair",
+        "sep_16_taxi",
+        "sep_17_parking",
+        "sep_18_book_set",
+        "sep_21_client_dinner",
+        "none_declined"
+      ],
+      "latency_ms": 63.948862021788955,
+      "predicted_index": 5,
+      "probabilities": [
+        0.04525607069476993,
+        0.1609020243962462,
+        0.05875823002198294,
+        0.29813685320285566,
+        0.0545632692791587,
+        0.3823835524049866
+      ],
+      "question_type": "choice"
+    },
+    {
+      "confidence": 0.32413376780065256,
+      "correct": false,
+      "family": "temporal_numeric",
+      "gold_index": 1,
+      "id": "hard-opus-c-temporal_numeric-08",
+      "labels": [
+        "eur_506_06",
+        "eur_498_81",
+        "eur_513_69",
+        "eur_497_40",
+        "eur_532_01"
+      ],
+      "latency_ms": 64.87415195442736,
+      "predicted_index": 2,
+      "probabilities": [
+        0.17020222683426658,
+        0.19046086730388814,
+        0.32413376780065256,
+        0.11698298506668298,
+        0.1982201529945098
+      ],
+      "question_type": "choice"
+    },
+    {
+      "confidence": 0.45091510769600374,
+      "correct": true,
+      "family": "temporal_numeric",
+      "gold_index": 2,
+      "id": "hard-opus-c-temporal_numeric-12",
+      "labels": [
+        "covered",
+        "expired_24_month_term",
+        "expired_30_month_cap"
+      ],
+      "latency_ms": 63.91182099469006,
+      "predicted_index": 2,
+      "probabilities": [
+        0.3321074633064032,
+        0.21697742899759304,
+        0.45091510769600374
+      ],
+      "question_type": "choice"
+    },
+    {
+      "confidence": 0.3608696860254265,
+      "correct": true,
+      "family": "adversarial",
+      "gold_index": 1,
+      "id": "hard-sol-a-adversarial-01",
+      "labels": [
+        "grant_access",
+        "deny_missing_approval",
+        "deny_inactive_user",
+        "grant_owner_exception"
+      ],
+      "latency_ms": 54.94506098330021,
+      "predicted_index": 1,
+      "probabilities": [
+        0.06072070157893322,
+        0.3608696860254265,
+        0.24438541110561604,
+        0.3340242012900243
+      ],
+      "question_type": "choice"
+    },
+    {
+      "confidence": 0.5063694202970304,
+      "correct": true,
+      "family": "adversarial",
+      "gold_index": 0,
+      "id": "hard-sol-a-adversarial-06",
+      "labels": [
+        "no",
+        "yes"
+      ],
+      "latency_ms": 54.92825002875179,
+      "predicted_index": 0,
+      "probabilities": [
+        0.5063694202970304,
+        0.4936305797029696
+      ],
+      "question_type": "noul"
+    },
+    {
+      "confidence": 0.4635042639124839,
+      "correct": false,
+      "family": "adversarial",
+      "gold_index": 0,
+      "id": "hard-sol-a-adversarial-07",
+      "labels": [
+        "retain_until_2031",
+        "delete_now",
+        "retain_indefinitely",
+        "needs_signature_review"
+      ],
+      "latency_ms": 53.93538100179285,
+      "predicted_index": 1,
+      "probabilities": [
+        0.08196808779246723,
+        0.4635042639124839,
+        0.1756041782849975,
+        0.27892347001005147
+      ],
+      "question_type": "choice"
+    },
+    {
+      "confidence": 0.5342634810338222,
+      "correct": true,
+      "family": "adversarial",
+      "gold_index": 1,
+      "id": "hard-sol-a-adversarial-08",
+      "labels": [
+        "no",
+        "yes"
+      ],
+      "latency_ms": 54.95033005718142,
+      "predicted_index": 1,
+      "probabilities": [
+        0.46573651896617785,
+        0.5342634810338222
+      ],
+      "question_type": "noul"
+    },
+    {
+      "confidence": 0.4678478148549911,
+      "correct": true,
+      "family": "adversarial",
+      "gold_index": 2,
+      "id": "hard-sol-a-adversarial-09",
+      "labels": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "latency_ms": 53.93406096845865,
+      "predicted_index": 2,
+      "probabilities": [
+        0.10407174858069757,
+        0.1968216947209716,
+        0.4678478148549911,
+        0.23125874184333972
+      ],
+      "question_type": "score",
+      "score_error": 0.17370645003902707
+    },
+    {
+      "confidence": 0.4380642083154442,
+      "correct": true,
+      "family": "adversarial",
+      "gold_index": 0,
+      "id": "hard-sol-a-adversarial-11",
+      "labels": [
+        "standard_research",
+        "ethics_review",
+        "major_grants",
+        "manual_hold"
+      ],
+      "latency_ms": 54.97268994804472,
+      "predicted_index": 0,
+      "probabilities": [
+        0.4380642083154442,
+        0.14062122312061148,
+        0.26771650421837867,
+        0.15359806434556564
+      ],
+      "question_type": "choice"
+    },
+    {
+      "confidence": 0.4486575176830209,
+      "correct": true,
+      "family": "multi_hop",
+      "gold_index": 1,
+      "id": "hard-sol-a-multi_hop-01",
+      "labels": [
+        "reject_tier",
+        "accept_s2_dusk",
+        "reject_cutoff",
+        "reroute_s3"
+      ],
+      "latency_ms": 67.74287892039865,
+      "predicted_index": 1,
+      "probabilities": [
+        0.05453185410368471,
+        0.4486575176830209,
+        0.21885862963085195,
+        0.27795199858244246
+      ],
+      "question_type": "choice"
+    },
+    {
+      "confidence": 0.47299921179999077,
+      "correct": false,
+      "family": "multi_hop",
+      "gold_index": 2,
+      "id": "hard-sol-a-multi_hop-02",
+      "labels": [
+        "heron_q2",
+        "insufficient_information",
+        "security_primary",
+        "executive_bridge"
+      ],
+      "latency_ms": 65.89248997624964,
+      "predicted_index": 0,
+      "probabilities": [
+        0.47299921179999077,
+        0.10993212858888705,
+        0.3069790591184827,
+        0.11008960049263952
+      ],
+      "question_type": "choice"
+    },
+    {
+      "confidence": 0.3168522702189173,
+      "correct": false,
+      "family": "multi_hop",
+      "gold_index": 3,
+      "id": "hard-sol-a-multi_hop-05",
+      "labels": [
+        "pay_manager_approved",
+        "require_finance_board",
+        "reject_category",
+        "require_director"
+      ],
+      "latency_ms": 65.85875991731882,
+      "predicted_index": 0,
+      "probabilities": [
+        0.3168522702189173,
+        0.19925351222976043,
+        0.2326882197958589,
+        0.2512059977554634
+      ],
+      "question_type": "choice"
+    },
+    {
+      "confidence": 0.4332784539917554,
+      "correct": false,
+      "family": "multi_hop",
+      "gold_index": 2,
+      "id": "hard-sol-a-multi_hop-07",
+      "labels": [
+        "manual_equivalency",
+        "deny_score",
+        "admit",
+        "deny_prerequisite"
+      ],
+      "latency_ms": 65.87743002455682,
+      "predicted_index": 3,
+      "probabilities": [
+        0.3057662349229614,
+        0.11632810178254623,
+        0.14462720930273704,
+        0.4332784539917554
+      ],
+      "question_type": "choice"
+    },
+    {
+      "confidence": 0.635615151872273,
+      "correct": false,
+      "family": "multi_hop",
+      "gold_index": 3,
+      "id": "hard-sol-a-multi_hop-08",
+      "labels": [
+        "safety_shutdown",
+        "local_maintenance",
+        "insufficient_log",
+        "central_engineering"
+      ],
+      "latency_ms": 65.90465107001364,
+      "predicted_index": 0,
+      "probabilities": [
+        0.635615151872273,
+        0.08276062100484918,
+        0.09403307329322914,
+        0.18759115382964875
+      ],
+      "question_type": "choice"
+    },
+    {
+      "confidence": 0.4775875710287556,
+      "correct": false,
+      "family": "multi_hop",
+      "gold_index": 1,
+      "id": "hard-sol-a-multi_hop-09",
+      "labels": [
+        "confirm_l3",
+        "require_steward",
+        "switch_l4",
+        "reject_capacity"
+      ],
+      "latency_ms": 66.8786489404738,
+      "predicted_index": 0,
+      "probabilities": [
+        0.4775875710287556,
+        0.10874260605836081,
+        0.20746874487490297,
+        0.2062010780379806
+      ],
+      "question_type": "choice"
+    },
+    {
+      "confidence": 0.41293996567200647,
+      "correct": false,
+      "family": "multi_hop",
+      "gold_index": 3,
+      "id": "hard-sol-a-multi_hop-10",
+      "labels": [
+        "deny_sensitive",
+        "needs_field_review",
+        "reduce_to_30_days",
+        "approve_45_days"
+      ],
+      "latency_ms": 66.81455892976373,
+      "predicted_index": 1,
+      "probabilities": [
+        0.21528794523130199,
+        0.41293996567200647,
+        0.13351328910677684,
+        0.23825879998991475
+      ],
+      "question_type": "choice"
+    },
+    {
+      "confidence": 0.31377012918062636,
+      "correct": false,
+      "family": "multi_hop",
+      "gold_index": 3,
+      "id": "hard-sol-a-multi_hop-12",
+      "labels": [
+        "wrong_issue_class",
+        "expired",
+        "covered_recurrence",
+        "needs_authentication"
+      ],
+      "latency_ms": 65.9009899245575,
+      "predicted_index": 2,
+      "probabilities": [
+        0.1919037067551915,
+        0.18098493290184275,
+        0.31377012918062636,
+        0.3133412311623394
+      ],
+      "question_type": "choice"
+    },
+    {
+      "confidence": 0.5269359660168765,
+      "correct": false,
+      "family": "trap",
+      "gold_index": 0,
+      "id": "hard-sol-a-trap-02",
+      "labels": [
+        "no",
+        "yes"
+      ],
+      "latency_ms": 59.930055984295905,
+      "predicted_index": 1,
+      "probabilities": [
+        0.47306403398312347,
+        0.5269359660168765
+      ],
+      "question_type": "noul"
+    },
+    {
+      "confidence": 0.5644262861843927,
+      "correct": true,
+      "family": "trap",
+      "gold_index": 0,
+      "id": "hard-sol-a-trap-04",
+      "labels": [
+        "no",
+        "yes"
+      ],
+      "latency_ms": 55.919328937307,
+      "predicted_index": 0,
+      "probabilities": [
+        0.5644262861843927,
+        0.4355737138156072
+      ],
+      "question_type": "noul"
+    },
+    {
+      "confidence": 0.3665744801123742,
+      "correct": false,
+      "family": "trap",
+      "gold_index": 0,
+      "id": "hard-sol-a-trap-05",
+      "labels": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "latency_ms": 56.865738006308675,
+      "predicted_index": 2,
+      "probabilities": [
+        0.27753652442864174,
+        0.15736503657382891,
+        0.3665744801123742,
+        0.1985239588851552
+      ],
+      "question_type": "score",
+      "score_error": 1.486085873454043
+    },
+    {
+      "confidence": 0.33058040026258645,
+      "correct": false,
+      "family": "trap",
+      "gold_index": 1,
+      "id": "hard-sol-a-trap-06",
+      "labels": [
+        "close_confirmed",
+        "keep_open_unresolved",
+        "close_agent_verified",
+        "await_internal_metrics"
+      ],
+      "latency_ms": 55.87092903442681,
+      "predicted_index": 2,
+      "probabilities": [
+        0.14785587273728606,
+        0.22426165344200574,
+        0.33058040026258645,
+        0.2973020735581217
+      ],
+      "question_type": "choice"
+    },
+    {
+      "confidence": 0.4080797758652394,
+      "correct": false,
+      "family": "trap",
+      "gold_index": 1,
+      "id": "hard-sol-a-trap-08",
+      "labels": [
+        "on_time",
+        "late",
+        "indeterminate",
+        "canceled"
+      ],
+      "latency_ms": 53.947911015711725,
+      "predicted_index": 0,
+      "probabilities": [
+        0.4080797758652394,
+        0.20014201036894522,
+        0.27883933850952747,
+        0.11293887525628794
+      ],
+      "question_type": "choice"
+    },
+    {
+      "confidence": 0.35953260700343337,
+      "correct": false,
+      "family": "trap",
+      "gold_index": 2,
+      "id": "hard-sol-a-trap-10",
+      "labels": [
+        "ready_one_review",
+        "ready_two_reviews",
+        "blocked_second_review",
+        "blocked_failed_test"
+      ],
+      "latency_ms": 53.91374102327973,
+      "predicted_index": 3,
+      "probabilities": [
+        0.13110486882262198,
+        0.2267450591356103,
+        0.28261746503833446,
+        0.35953260700343337
+      ],
+      "question_type": "choice"
+    },
+    {
+      "confidence": 0.5564462054705632,
+      "correct": false,
+      "family": "trap",
+      "gold_index": 0,
+      "id": "hard-sol-a-trap-13",
+      "labels": [
+        "no",
+        "yes"
+      ],
+      "latency_ms": 54.91846101358533,
+      "predicted_index": 1,
+      "probabilities": [
+        0.4435537945294368,
+        0.5564462054705632
+      ],
+      "question_type": "noul"
+    },
+    {
+      "confidence": 0.5023308520320882,
+      "correct": true,
+      "family": "trap",
+      "gold_index": 0,
+      "id": "hard-sol-a-trap-15",
+      "labels": [
+        "no",
+        "yes"
+      ],
+      "latency_ms": 57.96973698306829,
+      "predicted_index": 0,
+      "probabilities": [
+        0.5023308520320882,
+        0.49766914796791184
+      ],
+      "question_type": "noul"
+    },
+    {
+      "confidence": 0.6451138791076027,
+      "correct": true,
+      "family": "judge_hard",
+      "gold_index": 1,
+      "id": "hard-sol-b-judge_hard-01",
+      "labels": [
+        "no",
+        "yes"
+      ],
+      "latency_ms": 58.88855701778084,
+      "predicted_index": 1,
+      "probabilities": [
+        0.35488612089239735,
+        0.6451138791076027
+      ],
+      "question_type": "noul"
+    },
+    {
+      "confidence": 0.649195417754497,
+      "correct": false,
+      "family": "judge_hard",
+      "gold_index": 0,
+      "id": "hard-sol-b-judge_hard-02",
+      "labels": [
+        "no",
+        "yes"
+      ],
+      "latency_ms": 56.88245897181332,
+      "predicted_index": 1,
+      "probabilities": [
+        0.35080458224550304,
+        0.649195417754497
+      ],
+      "question_type": "noul"
+    },
+    {
+      "confidence": 0.6485254707267312,
+      "correct": true,
+      "family": "judge_hard",
+      "gold_index": 1,
+      "id": "hard-sol-b-judge_hard-05",
+      "labels": [
+        "no",
+        "yes"
+      ],
+      "latency_ms": 57.889957097359,
+      "predicted_index": 1,
+      "probabilities": [
+        0.35147452927326883,
+        0.6485254707267312
+      ],
+      "question_type": "noul"
+    },
+    {
+      "confidence": 0.6906174024142298,
+      "correct": false,
+      "family": "judge_hard",
+      "gold_index": 0,
+      "id": "hard-sol-b-judge_hard-08",
+      "labels": [
+        "no",
+        "yes"
+      ],
+      "latency_ms": 54.90848992485553,
+      "predicted_index": 1,
+      "probabilities": [
+        0.30938259758577025,
+        0.6906174024142298
+      ],
+      "question_type": "noul"
+    },
+    {
+      "confidence": 0.6833614171921455,
+      "correct": false,
+      "family": "judge_hard",
+      "gold_index": 0,
+      "id": "hard-sol-b-judge_hard-10",
+      "labels": [
+        "no",
+        "yes"
+      ],
+      "latency_ms": 56.96883797645569,
+      "predicted_index": 1,
+      "probabilities": [
+        0.3166385828078545,
+        0.6833614171921455
+      ],
+      "question_type": "noul"
+    },
+    {
+      "confidence": 0.6587265981958184,
+      "correct": false,
+      "family": "judge_hard",
+      "gold_index": 0,
+      "id": "hard-sol-b-judge_hard-14",
+      "labels": [
+        "no",
+        "yes"
+      ],
+      "latency_ms": 57.90158803574741,
+      "predicted_index": 1,
+      "probabilities": [
+        0.34127340180418164,
+        0.6587265981958184
+      ],
+      "question_type": "noul"
+    },
+    {
+      "confidence": 0.6871160220225927,
+      "correct": true,
+      "family": "judge_hard",
+      "gold_index": 1,
+      "id": "hard-sol-b-judge_hard-15",
+      "labels": [
+        "no",
+        "yes"
+      ],
+      "latency_ms": 56.9230280816555,
+      "predicted_index": 1,
+      "probabilities": [
+        0.3128839779774073,
+        0.6871160220225927
+      ],
+      "question_type": "noul"
+    },
+    {
+      "confidence": 0.7142652572678706,
+      "correct": false,
+      "family": "judge_hard",
+      "gold_index": 0,
+      "id": "hard-sol-b-judge_hard-18",
+      "labels": [
+        "no",
+        "yes"
+      ],
+      "latency_ms": 55.86673901416361,
+      "predicted_index": 1,
+      "probabilities": [
+        0.2857347427321294,
+        0.7142652572678706
+      ],
+      "question_type": "noul"
+    },
+    {
+      "confidence": 0.4820472214771602,
+      "correct": false,
+      "family": "long_policy",
+      "gold_index": 3,
+      "id": "hard-sol-b-long_policy-01",
+      "labels": [
+        "approve_all",
+        "approve_meals_only",
+        "approve_lodging_only",
+        "reject_entire_claim"
+      ],
+      "latency_ms": 67.86430801730603,
+      "predicted_index": 2,
+      "probabilities": [
+        0.21350520361425615,
+        0.21654209085250167,
+        0.4820472214771602,
+        0.08790548405608202
+      ],
+      "question_type": "choice"
+    },
+    {
+      "confidence": 0.4315084351499936,
+      "correct": false,
+      "family": "long_policy",
+      "gold_index": 3,
+      "id": "hard-sol-b-long_policy-02",
+      "labels": [
+        "analytics_owner_only",
+        "privacy_only",
+        "privacy_and_security",
+        "deny_current_export"
+      ],
+      "latency_ms": 66.92092993762344,
+      "predicted_index": 2,
+      "probabilities": [
+        0.23457795933938924,
+        0.14846289168964447,
+        0.4315084351499936,
+        0.18545071382097275
+      ],
+      "question_type": "choice"
+    },
+    {
+      "confidence": 0.46756334638891256,
+      "correct": false,
+      "family": "long_policy",
+      "gold_index": 1,
+      "id": "hard-sol-b-long_policy-05",
+      "labels": [
+        "delete_everything",
+        "delete_profile_omar_april_and_table",
+        "delete_only_profile",
+        "delete_nothing"
+      ],
+      "latency_ms": 67.78087897691876,
+      "predicted_index": 2,
+      "probabilities": [
+        0.12293113475910951,
+        0.2888888377318397,
+        0.46756334638891256,
+        0.12061668112013818
+      ],
+      "question_type": "choice"
+    },
+    {
+      "confidence": 0.7454013316659346,
+      "correct": false,
+      "family": "long_policy",
+      "gold_index": 1,
+      "id": "hard-sol-b-long_policy-06",
+      "labels": [
+        "harbor_neighbors",
+        "east_ward",
+        "river_arts",
+        "no_award"
+      ],
+      "latency_ms": 67.81958800274879,
+      "predicted_index": 0,
+      "probabilities": [
+        0.7454013316659346,
+        0.06526152220745596,
+        0.03844099197229696,
+        0.15089615415431248
+      ],
+      "question_type": "choice"
+    },
+    {
+      "confidence": 0.3136811086542054,
+      "correct": true,
+      "family": "routing_hard",
+      "gold_index": 1,
+      "id": "hard-sol-b-routing_hard-01",
+      "labels": [
+        "spreadsheet_formula",
+        "office_file_repair",
+        "data_pipeline",
+        "desktop_support",
+        "finance_review"
+      ],
+      "latency_ms": 55.914329015649855,
+      "predicted_index": 1,
+      "probabilities": [
+        0.18400850659842624,
+        0.3136811086542054,
+        0.21385028152474317,
+        0.16955151163846802,
+        0.11890859158415719
+      ],
+      "question_type": "choice"
+    },
+    {
+      "confidence": 0.38198038966177056,
+      "correct": true,
+      "family": "routing_hard",
+      "gold_index": 1,
+      "id": "hard-sol-b-routing_hard-02",
+      "labels": [
+        "payment_disputes",
+        "ledger_reconciliation",
+        "mobile_app",
+        "customer_support",
+        "fraud_review"
+      ],
+      "latency_ms": 54.887969978153706,
+      "predicted_index": 1,
+      "probabilities": [
+        0.3128344601085095,
+        0.38198038966177056,
+        0.04941891081519269,
+        0.17865626099097456,
+        0.07710997842355266
+      ],
+      "question_type": "choice"
+    },
+    {
+      "confidence": 0.4756317649244915,
+      "correct": false,
+      "family": "routing_hard",
+      "gold_index": 1,
+      "id": "hard-sol-b-routing_hard-03",
+      "labels": [
+        "authoritative_dns",
+        "network_dns",
+        "tls_certificates",
+        "api_platform",
+        "endpoint_devices"
+      ],
+      "latency_ms": 55.93220901209861,
+      "predicted_index": 3,
+      "probabilities": [
+        0.16233075913493067,
+        0.12422206665820516,
+        0.09753426441357549,
+        0.4756317649244915,
+        0.14028114486879725
+      ],
+      "question_type": "choice"
+    },
+    {
+      "confidence": 0.2829209973960765,
+      "correct": false,
+      "family": "routing_hard",
+      "gold_index": 1,
+      "id": "hard-sol-b-routing_hard-07",
+      "labels": [
+        "code_signing",
+        "release_notarization",
+        "macos_runtime",
+        "ci_infrastructure",
+        "endpoint_security"
+      ],
+      "latency_ms": 55.94821902923286,
+      "predicted_index": 2,
+      "probabilities": [
+        0.1712161926011683,
+        0.2482524499095521,
+        0.2829209973960765,
+        0.15454234059323235,
+        0.14306801949997072
+      ],
+      "question_type": "choice"
+    },
+    {
+      "confidence": 0.23953574567783226,
+      "correct": true,
+      "family": "routing_hard",
+      "gold_index": 1,
+      "id": "hard-sol-b-routing_hard-09",
+      "labels": [
+        "vpn_network",
+        "source_access",
+        "git_client",
+        "repository_admin",
+        "identity_login"
+      ],
+      "latency_ms": 55.88445998728275,
+      "predicted_index": 1,
+      "probabilities": [
+        0.1408109431067148,
+        0.23953574567783226,
+        0.2315624979001343,
+        0.1518132133659801,
+        0.23627759994933853
+      ],
+      "question_type": "choice"
+    },
+    {
+      "confidence": 0.45805228999168635,
+      "correct": false,
+      "family": "temporal_numeric",
+      "gold_index": 2,
+      "id": "hard-sol-b-temporal_numeric-01",
+      "labels": [
+        "before_open",
+        "within_window",
+        "late_by_under_2h",
+        "late_by_2h_or_more"
+      ],
+      "latency_ms": 53.94182994496077,
+      "predicted_index": 1,
+      "probabilities": [
+        0.28542262720041983,
+        0.45805228999168635,
+        0.12101024247525563,
+        0.13551484033263828
+      ],
+      "question_type": "choice"
+    },
+    {
+      "confidence": 0.5430614811825272,
+      "correct": false,
+      "family": "temporal_numeric",
+      "gold_index": 3,
+      "id": "hard-sol-b-temporal_numeric-02",
+      "labels": [
+        "at_least_100gb_below",
+        "under_100gb_below",
+        "exactly_equal",
+        "over_limit"
+      ],
+      "latency_ms": 53.90911200083792,
+      "predicted_index": 2,
+      "probabilities": [
+        0.13802835174374367,
+        0.10019109047489805,
+        0.5430614811825272,
+        0.21871907659883108
+      ],
+      "question_type": "choice"
+    },
+    {
+      "confidence": 0.3157051962299716,
+      "correct": true,
+      "family": "temporal_numeric",
+      "gold_index": 1,
+      "id": "hard-sol-b-temporal_numeric-03",
+      "labels": [
+        "6_credits",
+        "9_credits",
+        "12_credits",
+        "15_credits"
+      ],
+      "latency_ms": 56.915967958047986,
+      "predicted_index": 1,
+      "probabilities": [
+        0.2749705405171168,
+        0.3157051962299716,
+        0.22606613887297158,
+        0.1832581243799401
+      ],
+      "question_type": "choice"
+    },
+    {
+      "confidence": 0.3644872732547235,
+      "correct": true,
+      "family": "temporal_numeric",
+      "gold_index": 0,
+      "id": "hard-sol-b-temporal_numeric-04",
+      "labels": [
+        "pass",
+        "narrow_fail",
+        "clear_fail"
+      ],
+      "latency_ms": 52.904081996530294,
+      "predicted_index": 0,
+      "probabilities": [
+        0.3644872732547235,
+        0.34213991094710944,
+        0.293372815798167
+      ],
+      "question_type": "choice"
+    },
+    {
+      "confidence": 0.60077668954015,
+      "correct": false,
+      "family": "judge_hard",
+      "gold_index": 0,
+      "id": "hard-sol-c-judge_hard-03",
+      "labels": [
+        "no",
+        "yes"
+      ],
+      "latency_ms": 63.936152029782534,
+      "predicted_index": 1,
+      "probabilities": [
+        0.39922331045985004,
+        0.60077668954015
+      ],
+      "question_type": "noul"
+    },
+    {
+      "confidence": 0.608942718501418,
+      "correct": true,
+      "family": "judge_hard",
+      "gold_index": 1,
+      "id": "hard-sol-c-judge_hard-05",
+      "labels": [
+        "no",
+        "yes"
+      ],
+      "latency_ms": 59.95839601382613,
+      "predicted_index": 1,
+      "probabilities": [
+        0.391057281498582,
+        0.608942718501418
+      ],
+      "question_type": "noul"
+    },
+    {
+      "confidence": 0.5851120220455263,
+      "correct": false,
+      "family": "judge_hard",
+      "gold_index": 0,
+      "id": "hard-sol-c-judge_hard-07",
+      "labels": [
+        "no",
+        "yes"
+      ],
+      "latency_ms": 59.97278599534184,
+      "predicted_index": 1,
+      "probabilities": [
+        0.41488797795447374,
+        0.5851120220455263
+      ],
+      "question_type": "noul"
+    },
+    {
+      "confidence": 0.600197572081581,
+      "correct": false,
+      "family": "judge_hard",
+      "gold_index": 0,
+      "id": "hard-sol-c-judge_hard-08",
+      "labels": [
+        "no",
+        "yes"
+      ],
+      "latency_ms": 60.87440508417785,
+      "predicted_index": 1,
+      "probabilities": [
+        0.399802427918419,
+        0.600197572081581
+      ],
+      "question_type": "noul"
+    },
+    {
+      "confidence": 0.586721372622156,
+      "correct": true,
+      "family": "judge_hard",
+      "gold_index": 1,
+      "id": "hard-sol-c-judge_hard-09",
+      "labels": [
+        "no",
+        "yes"
+      ],
+      "latency_ms": 60.85635500494391,
+      "predicted_index": 1,
+      "probabilities": [
+        0.41327862737784404,
+        0.586721372622156
+      ],
+      "question_type": "noul"
+    },
+    {
+      "confidence": 0.6045431862801367,
+      "correct": true,
+      "family": "judge_hard",
+      "gold_index": 1,
+      "id": "hard-sol-c-judge_hard-10",
+      "labels": [
+        "no",
+        "yes"
+      ],
+      "latency_ms": 59.924005065113306,
+      "predicted_index": 1,
+      "probabilities": [
+        0.3954568137198633,
+        0.6045431862801367
+      ],
+      "question_type": "noul"
+    },
+    {
+      "confidence": 0.5635667939827649,
+      "correct": false,
+      "family": "judge_hard",
+      "gold_index": 0,
+      "id": "hard-sol-c-judge_hard-11",
+      "labels": [
+        "no",
+        "yes"
+      ],
+      "latency_ms": 63.96749196574092,
+      "predicted_index": 1,
+      "probabilities": [
+        0.4364332060172351,
+        0.5635667939827649
+      ],
+      "question_type": "noul"
+    },
+    {
+      "confidence": 0.5917721539996798,
+      "correct": false,
+      "family": "judge_hard",
+      "gold_index": 0,
+      "id": "hard-sol-c-judge_hard-13",
+      "labels": [
+        "no",
+        "yes"
+      ],
+      "latency_ms": 60.87834504432976,
+      "predicted_index": 1,
+      "probabilities": [
+        0.40822784600032025,
+        0.5917721539996798
+      ],
+      "question_type": "noul"
+    },
+    {
+      "confidence": 0.5512087673809821,
+      "correct": true,
+      "family": "judge_hard",
+      "gold_index": 1,
+      "id": "hard-sol-c-judge_hard-15",
+      "labels": [
+        "no",
+        "yes"
+      ],
+      "latency_ms": 59.89600589964539,
+      "predicted_index": 1,
+      "probabilities": [
+        0.4487912326190179,
+        0.5512087673809821
+      ],
+      "question_type": "noul"
+    },
+    {
+      "confidence": 0.4537870788285715,
+      "correct": false,
+      "family": "multi_hop",
+      "gold_index": 3,
+      "id": "hard-sol-c-multi_hop-07",
+      "labels": [
+        "reject_draw",
+        "release_draw",
+        "partial_release",
+        "programme_review"
+      ],
+      "latency_ms": 66.8752989731729,
+      "predicted_index": 1,
+      "probabilities": [
+        0.1030899447194038,
+        0.4537870788285715,
+        0.20006740671846734,
+        0.24305556973355738
+      ],
+      "question_type": "choice"
+    },
+    {
+      "confidence": 0.6466004292194446,
+      "correct": false,
+      "family": "multi_hop",
+      "gold_index": 0,
+      "id": "hard-sol-c-multi_hop-09",
+      "labels": [
+        "bus_substitution",
+        "call_fen_cross",
+        "pass_fen_cross",
+        "terminate_oakmere"
+      ],
+      "latency_ms": 65.90034998953342,
+      "predicted_index": 3,
+      "probabilities": [
+        0.1066789094770525,
+        0.13955786132171835,
+        0.1071627999817845,
+        0.6466004292194446
+      ],
+      "question_type": "choice"
+    },
+    {
+      "confidence": 0.344690763468374,
+      "correct": false,
+      "family": "multi_hop",
+      "gold_index": 2,
+      "id": "hard-sol-c-multi_hop-11",
+      "labels": [
+        "documentation_needed",
+        "coverage_confirmed",
+        "coverage_excluded",
+        "adjuster_referral"
+      ],
+      "latency_ms": 67.97002803068608,
+      "predicted_index": 1,
+      "probabilities": [
+        0.2613605190922643,
+        0.344690763468374,
+        0.18614722232945397,
+        0.20780149510990764
+      ],
+      "question_type": "choice"
+    },
+    {
+      "confidence": 0.4001154270543445,
+      "correct": true,
+      "family": "multi_hop",
+      "gold_index": 1,
+      "id": "hard-sol-c-multi_hop-12",
+      "labels": [
+        "digital_copy_only",
+        "conservation_hold",
+        "deny_request",
+        "supervised_delivery"
+      ],
+      "latency_ms": 65.84373000077903,
+      "predicted_index": 1,
+      "probabilities": [
+        0.12911301839030961,
+        0.4001154270543445,
+        0.08587346688492033,
+        0.3848980876704256
+      ],
+      "question_type": "choice"
+    },
+    {
+      "confidence": 0.47646791370848945,
+      "correct": false,
+      "family": "multi_hop",
+      "gold_index": 1,
+      "id": "hard-sol-c-multi_hop-13",
+      "labels": [
+        "scrap_lot",
+        "normal_release",
+        "rework",
+        "engineering_review"
+      ],
+      "latency_ms": 68.80626804195344,
+      "predicted_index": 0,
+      "probabilities": [
+        0.47646791370848945,
+        0.181700673410397,
+        0.14198528064858565,
+        0.199846132232528
+      ],
+      "question_type": "choice"
+    }
+  ],
+  "schema": "brida.reflexbench.external-http-result/v1alpha1",
+  "tasks": 111,
+  "tasks_sha256": "89e9e6becb33ed88c1de7d42dcc87531b2fb64cfaef4e1986faf7c37b3f80ebb"
+}

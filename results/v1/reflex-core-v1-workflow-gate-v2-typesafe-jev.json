@@ -1,0 +1,5324 @@
+{
+  "ablation": {
+    "choice_ensemble": "none",
+    "inter_request_delay_ms": 1800.0,
+    "native_permutations": null,
+    "question_mode": "all",
+    "transport_retries": 2,
+    "transport_retry_backoff_ms": 2000.0
+  },
+  "by_case_class": {
+    "ambiguous": {
+      "latency_ms": {
+        "mean": 364.4330549402366,
+        "p50": 353.052641999966,
+        "p95": 453.7578669987852,
+        "p99": 526.0146319997148
+      },
+      "n": 50,
+      "operational_accuracy": 0.7,
+      "operational_correct": 35,
+      "review_or_uncertain": 5,
+      "semantic_accuracy": 0.6,
+      "semantic_correct": 30
+    },
+    "boundary": {
+      "latency_ms": {
+        "mean": 390.4230899200047,
+        "p50": 360.90549399887095,
+        "p95": 469.9531810001645,
+        "p99": 1066.9691779985442
+      },
+      "n": 50,
+      "operational_accuracy": 0.8,
+      "operational_correct": 40,
+      "review_or_uncertain": 5,
+      "semantic_accuracy": 0.7,
+      "semantic_correct": 35
+    },
+    "clear": {
+      "latency_ms": {
+        "mean": 368.9738144201692,
+        "p50": 353.88648099979036,
+        "p95": 503.3997160026047,
+        "p99": 555.4812699992908
+      },
+      "n": 50,
+      "operational_accuracy": 0.96,
+      "operational_correct": 48,
+      "review_or_uncertain": 2,
+      "semantic_accuracy": 1.0,
+      "semantic_correct": 50
+    }
+  },
+  "by_difficulty": {
+    "ambiguous": {
+      "latency_ms": {
+        "mean": 364.4330549402366,
+        "p50": 353.052641999966,
+        "p95": 453.7578669987852,
+        "p99": 526.0146319997148
+      },
+      "n": 50,
+      "operational_accuracy": 0.7,
+      "operational_correct": 35,
+      "review_or_uncertain": 5,
+      "semantic_accuracy": 0.6,
+      "semantic_correct": 30
+    },
+    "boundary": {
+      "latency_ms": {
+        "mean": 390.4230899200047,
+        "p50": 360.90549399887095,
+        "p95": 469.9531810001645,
+        "p99": 1066.9691779985442
+      },
+      "n": 50,
+      "operational_accuracy": 0.8,
+      "operational_correct": 40,
+      "review_or_uncertain": 5,
+      "semantic_accuracy": 0.7,
+      "semantic_correct": 35
+    },
+    "clear": {
+      "latency_ms": {
+        "mean": 368.9738144201692,
+        "p50": 353.88648099979036,
+        "p95": 503.3997160026047,
+        "p99": 555.4812699992908
+      },
+      "n": 50,
+      "operational_accuracy": 0.96,
+      "operational_correct": 48,
+      "review_or_uncertain": 2,
+      "semantic_accuracy": 1.0,
+      "semantic_correct": 50
+    }
+  },
+  "by_evidence_class": {
+    "blind_synthetic_workflow_replication": {
+      "latency_ms": {
+        "mean": 374.6099864268035,
+        "p50": 354.4309909993899,
+        "p95": 469.9531810001645,
+        "p99": 669.8117619998811
+      },
+      "n": 150,
+      "operational_accuracy": 0.82,
+      "operational_correct": 123,
+      "review_or_uncertain": 12,
+      "semantic_accuracy": 0.7666666666666667,
+      "semantic_correct": 115
+    }
+  },
+  "by_language": {
+    "en": {
+      "latency_ms": {
+        "mean": 365.2408065869531,
+        "p50": 354.0426920008031,
+        "p95": 469.41817100014305,
+        "p99": 503.3997160026047
+      },
+      "n": 75,
+      "operational_accuracy": 0.8133333333333334,
+      "operational_correct": 61,
+      "review_or_uncertain": 6,
+      "semantic_accuracy": 0.76,
+      "semantic_correct": 57
+    },
+    "es": {
+      "latency_ms": {
+        "mean": 383.9791662666539,
+        "p50": 360.0540949992137,
+        "p95": 453.48806800029706,
+        "p99": 669.8117619998811
+      },
+      "n": 75,
+      "operational_accuracy": 0.8266666666666667,
+      "operational_correct": 62,
+      "review_or_uncertain": 6,
+      "semantic_accuracy": 0.7733333333333333,
+      "semantic_correct": 58
+    }
+  },
+  "by_policy_type": {
+    "binary": {
+      "latency_ms": {
+        "mean": 397.0171544668119,
+        "p50": 367.6311769995664,
+        "p95": 475.1060850030626,
+        "p99": 669.8117619998811
+      },
+      "n": 30,
+      "operational_accuracy": 1.0,
+      "operational_correct": 30,
+      "review_or_uncertain": 0,
+      "semantic_accuracy": 1.0,
+      "semantic_correct": 30
+    },
+    "choice": {
+      "latency_ms": {
+        "mean": 371.20818858897513,
+        "p50": 351.93548400275176,
+        "p95": 469.9531810001645,
+        "p99": 555.4812699992908
+      },
+      "n": 90,
+      "operational_accuracy": 0.8222222222222222,
+      "operational_correct": 74,
+      "review_or_uncertain": 12,
+      "semantic_accuracy": 0.7333333333333333,
+      "semantic_correct": 66
+    },
+    "score": {
+      "latency_ms": {
+        "mean": 362.40821190028026,
+        "p50": 349.537866000901,
+        "p95": 452.94098899830715,
+        "p99": 554.9160320006195
+      },
+      "n": 30,
+      "operational_accuracy": 0.6333333333333333,
+      "operational_correct": 19,
+      "review_or_uncertain": 0,
+      "semantic_accuracy": 0.6333333333333333,
+      "semantic_correct": 19
+    }
+  },
+  "by_use_case": {
+    "change-review-risk": {
+      "latency_ms": {
+        "mean": 392.37828490004176,
+        "p50": 348.5063549996994,
+        "p95": 555.4812699992908,
+        "p99": 1066.9691779985442
+      },
+      "n": 30,
+      "operational_accuracy": 0.5666666666666667,
+      "operational_correct": 17,
+      "review_or_uncertain": 11,
+      "semantic_accuracy": 0.3333333333333333,
+      "semantic_correct": 10
+    },
+    "dataset-example-quality": {
+      "latency_ms": {
+        "mean": 362.40821190028026,
+        "p50": 349.537866000901,
+        "p95": 452.94098899830715,
+        "p99": 554.9160320006195
+      },
+      "n": 30,
+      "operational_accuracy": 0.6333333333333333,
+      "operational_correct": 19,
+      "review_or_uncertain": 0,
+      "semantic_accuracy": 0.6333333333333333,
+      "semantic_correct": 19
+    },
+    "document-invoice-review": {
+      "latency_ms": {
+        "mean": 397.0171544668119,
+        "p50": 367.6311769995664,
+        "p95": 475.1060850030626,
+        "p99": 669.8117619998811
+      },
+      "n": 30,
+      "operational_accuracy": 1.0,
+      "operational_correct": 30,
+      "review_or_uncertain": 0,
+      "semantic_accuracy": 1.0,
+      "semantic_correct": 30
+    },
+    "duplicate-report-match": {
+      "latency_ms": {
+        "mean": 373.6384006332325,
+        "p50": 362.9671419985243,
+        "p95": 453.0740180016437,
+        "p99": 469.41817100014305
+      },
+      "n": 30,
+      "operational_accuracy": 0.9,
+      "operational_correct": 27,
+      "review_or_uncertain": 1,
+      "semantic_accuracy": 0.8666666666666667,
+      "semantic_correct": 26
+    },
+    "research-claim-verification": {
+      "latency_ms": {
+        "mean": 347.6078802336512,
+        "p50": 349.2564959997253,
+        "p95": 402.92778000002727,
+        "p99": 452.5714679984958
+      },
+      "n": 30,
+      "operational_accuracy": 1.0,
+      "operational_correct": 30,
+      "review_or_uncertain": 0,
+      "semantic_accuracy": 1.0,
+      "semantic_correct": 30
+    }
+  },
+  "completion": {
+    "completed": 150,
+    "failed": 0,
+    "rate": 1.0
+  },
+  "corpus": {
+    "path_name": "reflex-core-v1-workflow-gate-v2.jsonl",
+    "rows": 150,
+    "sha256": "059208437813359a2cf47cab7238c7fe6d8e2f27b4b2d87337b3d2c809bafbea"
+  },
+  "engine": {
+    "id": "typesafe-jev",
+    "model": "typesafe-ai/jev",
+    "revision": "not-exposed@2026-09-22"
+  },
+  "failures": [],
+  "registry": {
+    "custom_reflex_manifest_sha256": "807d41f757849806409928da0c451ea2e1078a579535840679ab9317ea6a5d62",
+    "revision": "8e2eafa413b1312ebc61c93ff4c6ebeb4c6d8ca4",
+    "use_cases": 5
+  },
+  "rows": [
+    {
+      "answer": {
+        "noul": 0.06,
+        "type": "noul"
+      },
+      "case_id": "document-invoice-review-replication-01-en",
+      "difficulty": "clear",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow_replication",
+      "expected_branch": "continue",
+      "index": 0,
+      "language": "en",
+      "latency_ms": 433.4846780002408,
+      "operational_branch": "continue",
+      "operational_correct": true,
+      "policy_type": "binary",
+      "selected_probability": 0.94,
+      "semantic_branch": "continue",
+      "semantic_correct": true,
+      "transport": {
+        "primary": {
+          "attempts": 1,
+          "retries_used": 0,
+          "retry_statuses": []
+        },
+        "secondary": null
+      },
+      "use_case": "document-invoice-review"
+    },
+    {
+      "answer": {
+        "noul": 0.06,
+        "type": "noul"
+      },
+      "case_id": "document-invoice-review-replication-01-es",
+      "difficulty": "clear",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow_replication",
+      "expected_branch": "continue",
+      "index": 1,
+      "language": "es",
+      "latency_ms": 350.07259500343935,
+      "operational_branch": "continue",
+      "operational_correct": true,
+      "policy_type": "binary",
+      "selected_probability": 0.94,
+      "semantic_branch": "continue",
+      "semantic_correct": true,
+      "transport": {
+        "primary": {
+          "attempts": 1,
+          "retries_used": 0,
+          "retry_statuses": []
+        },
+        "secondary": null
+      },
+      "use_case": "document-invoice-review"
+    },
+    {
+      "answer": {
+        "noul": 0.07,
+        "type": "noul"
+      },
+      "case_id": "document-invoice-review-replication-02-en",
+      "difficulty": "clear",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow_replication",
+      "expected_branch": "continue",
+      "index": 2,
+      "language": "en",
+      "latency_ms": 350.632614998176,
+      "operational_branch": "continue",
+      "operational_correct": true,
+      "policy_type": "binary",
+      "selected_probability": 0.9299999999999999,
+      "semantic_branch": "continue",
+      "semantic_correct": true,
+      "transport": {
+        "primary": {
+          "attempts": 1,
+          "retries_used": 0,
+          "retry_statuses": []
+        },
+        "secondary": null
+      },
+      "use_case": "document-invoice-review"
+    },
+    {
+      "answer": {
+        "noul": 0.07,
+        "type": "noul"
+      },
+      "case_id": "document-invoice-review-replication-02-es",
+      "difficulty": "clear",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow_replication",
+      "expected_branch": "continue",
+      "index": 3,
+      "language": "es",
+      "latency_ms": 451.71526899866876,
+      "operational_branch": "continue",
+      "operational_correct": true,
+      "policy_type": "binary",
+      "selected_probability": 0.9299999999999999,
+      "semantic_branch": "continue",
+      "semantic_correct": true,
+      "transport": {
+        "primary": {
+          "attempts": 1,
+          "retries_used": 0,
+          "retry_statuses": []
+        },
+        "secondary": null
+      },
+      "use_case": "document-invoice-review"
+    },
+    {
+      "answer": {
+        "noul": 0.96,
+        "type": "noul"
+      },
+      "case_id": "document-invoice-review-replication-03-en",
+      "difficulty": "clear",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow_replication",
+      "expected_branch": "review",
+      "index": 4,
+      "language": "en",
+      "latency_ms": 316.70104099976015,
+      "operational_branch": "review",
+      "operational_correct": true,
+      "policy_type": "binary",
+      "selected_probability": 0.96,
+      "semantic_branch": "review",
+      "semantic_correct": true,
+      "transport": {
+        "primary": {
+          "attempts": 1,
+          "retries_used": 0,
+          "retry_statuses": []
+        },
+        "secondary": null
+      },
+      "use_case": "document-invoice-review"
+    },
+    {
+      "answer": {
+        "noul": 0.96,
+        "type": "noul"
+      },
+      "case_id": "document-invoice-review-replication-03-es",
+      "difficulty": "clear",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow_replication",
+      "expected_branch": "review",
+      "index": 5,
+      "language": "es",
+      "latency_ms": 361.17604299943196,
+      "operational_branch": "review",
+      "operational_correct": true,
+      "policy_type": "binary",
+      "selected_probability": 0.96,
+      "semantic_branch": "review",
+      "semantic_correct": true,
+      "transport": {
+        "primary": {
+          "attempts": 1,
+          "retries_used": 0,
+          "retry_statuses": []
+        },
+        "secondary": null
+      },
+      "use_case": "document-invoice-review"
+    },
+    {
+      "answer": {
+        "noul": 0.97,
+        "type": "noul"
+      },
+      "case_id": "document-invoice-review-replication-04-en",
+      "difficulty": "clear",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow_replication",
+      "expected_branch": "review",
+      "index": 6,
+      "language": "en",
+      "latency_ms": 475.1060850030626,
+      "operational_branch": "review",
+      "operational_correct": true,
+      "policy_type": "binary",
+      "selected_probability": 0.97,
+      "semantic_branch": "review",
+      "semantic_correct": true,
+      "transport": {
+        "primary": {
+          "attempts": 1,
+          "retries_used": 0,
+          "retry_statuses": []
+        },
+        "secondary": null
+      },
+      "use_case": "document-invoice-review"
+    },
+    {
+      "answer": {
+        "noul": 0.96,
+        "type": "noul"
+      },
+      "case_id": "document-invoice-review-replication-04-es",
+      "difficulty": "clear",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow_replication",
+      "expected_branch": "review",
+      "index": 7,
+      "language": "es",
+      "latency_ms": 334.66708199921413,
+      "operational_branch": "review",
+      "operational_correct": true,
+      "policy_type": "binary",
+      "selected_probability": 0.96,
+      "semantic_branch": "review",
+      "semantic_correct": true,
+      "transport": {
+        "primary": {
+          "attempts": 1,
+          "retries_used": 0,
+          "retry_statuses": []
+        },
+        "secondary": null
+      },
+      "use_case": "document-invoice-review"
+    },
+    {
+      "answer": {
+        "noul": 0.89,
+        "type": "noul"
+      },
+      "case_id": "document-invoice-review-replication-05-en",
+      "difficulty": "clear",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow_replication",
+      "expected_branch": "review",
+      "index": 8,
+      "language": "en",
+      "latency_ms": 368.85986600100296,
+      "operational_branch": "review",
+      "operational_correct": true,
+      "policy_type": "binary",
+      "selected_probability": 0.89,
+      "semantic_branch": "review",
+      "semantic_correct": true,
+      "transport": {
+        "primary": {
+          "attempts": 1,
+          "retries_used": 0,
+          "retry_statuses": []
+        },
+        "secondary": null
+      },
+      "use_case": "document-invoice-review"
+    },
+    {
+      "answer": {
+        "noul": 0.9,
+        "type": "noul"
+      },
+      "case_id": "document-invoice-review-replication-05-es",
+      "difficulty": "clear",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow_replication",
+      "expected_branch": "review",
+      "index": 9,
+      "language": "es",
+      "latency_ms": 453.48806800029706,
+      "operational_branch": "review",
+      "operational_correct": true,
+      "policy_type": "binary",
+      "selected_probability": 0.9,
+      "semantic_branch": "review",
+      "semantic_correct": true,
+      "transport": {
+        "primary": {
+          "attempts": 1,
+          "retries_used": 0,
+          "retry_statuses": []
+        },
+        "secondary": null
+      },
+      "use_case": "document-invoice-review"
+    },
+    {
+      "answer": {
+        "noul": 0.93,
+        "type": "noul"
+      },
+      "case_id": "document-invoice-review-replication-06-en",
+      "difficulty": "boundary",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow_replication",
+      "expected_branch": "review",
+      "index": 10,
+      "language": "en",
+      "latency_ms": 461.23061899925233,
+      "operational_branch": "review",
+      "operational_correct": true,
+      "policy_type": "binary",
+      "selected_probability": 0.93,
+      "semantic_branch": "review",
+      "semantic_correct": true,
+      "transport": {
+        "primary": {
+          "attempts": 1,
+          "retries_used": 0,
+          "retry_statuses": []
+        },
+        "secondary": null
+      },
+      "use_case": "document-invoice-review"
+    },
+    {
+      "answer": {
+        "noul": 0.91,
+        "type": "noul"
+      },
+      "case_id": "document-invoice-review-replication-06-es",
+      "difficulty": "boundary",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow_replication",
+      "expected_branch": "review",
+      "index": 11,
+      "language": "es",
+      "latency_ms": 439.2309229988314,
+      "operational_branch": "review",
+      "operational_correct": true,
+      "policy_type": "binary",
+      "selected_probability": 0.91,
+      "semantic_branch": "review",
+      "semantic_correct": true,
+      "transport": {
+        "primary": {
+          "attempts": 1,
+          "retries_used": 0,
+          "retry_statuses": []
+        },
+        "secondary": null
+      },
+      "use_case": "document-invoice-review"
+    },
+    {
+      "answer": {
+        "noul": 0.9,
+        "type": "noul"
+      },
+      "case_id": "document-invoice-review-replication-07-en",
+      "difficulty": "boundary",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow_replication",
+      "expected_branch": "review",
+      "index": 12,
+      "language": "en",
+      "latency_ms": 350.05426600037026,
+      "operational_branch": "review",
+      "operational_correct": true,
+      "policy_type": "binary",
+      "selected_probability": 0.9,
+      "semantic_branch": "review",
+      "semantic_correct": true,
+      "transport": {
+        "primary": {
+          "attempts": 1,
+          "retries_used": 0,
+          "retry_statuses": []
+        },
+        "secondary": null
+      },
+      "use_case": "document-invoice-review"
+    },
+    {
+      "answer": {
+        "noul": 0.89,
+        "type": "noul"
+      },
+      "case_id": "document-invoice-review-replication-07-es",
+      "difficulty": "boundary",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow_replication",
+      "expected_branch": "review",
+      "index": 13,
+      "language": "es",
+      "latency_ms": 349.8896559976856,
+      "operational_branch": "review",
+      "operational_correct": true,
+      "policy_type": "binary",
+      "selected_probability": 0.89,
+      "semantic_branch": "review",
+      "semantic_correct": true,
+      "transport": {
+        "primary": {
+          "attempts": 1,
+          "retries_used": 0,
+          "retry_statuses": []
+        },
+        "secondary": null
+      },
+      "use_case": "document-invoice-review"
+    },
+    {
+      "answer": {
+        "noul": 0.73,
+        "type": "noul"
+      },
+      "case_id": "document-invoice-review-replication-08-en",
+      "difficulty": "boundary",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow_replication",
+      "expected_branch": "review",
+      "index": 14,
+      "language": "en",
+      "latency_ms": 456.3823950011283,
+      "operational_branch": "review",
+      "operational_correct": true,
+      "policy_type": "binary",
+      "selected_probability": 0.73,
+      "semantic_branch": "review",
+      "semantic_correct": true,
+      "transport": {
+        "primary": {
+          "attempts": 1,
+          "retries_used": 0,
+          "retry_statuses": []
+        },
+        "secondary": null
+      },
+      "use_case": "document-invoice-review"
+    },
+    {
+      "answer": {
+        "noul": 0.74,
+        "type": "noul"
+      },
+      "case_id": "document-invoice-review-replication-08-es",
+      "difficulty": "boundary",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow_replication",
+      "expected_branch": "review",
+      "index": 15,
+      "language": "es",
+      "latency_ms": 436.1230149988842,
+      "operational_branch": "review",
+      "operational_correct": true,
+      "policy_type": "binary",
+      "selected_probability": 0.74,
+      "semantic_branch": "review",
+      "semantic_correct": true,
+      "transport": {
+        "primary": {
+          "attempts": 1,
+          "retries_used": 0,
+          "retry_statuses": []
+        },
+        "secondary": null
+      },
+      "use_case": "document-invoice-review"
+    },
+    {
+      "answer": {
+        "noul": 0.9,
+        "type": "noul"
+      },
+      "case_id": "document-invoice-review-replication-09-en",
+      "difficulty": "boundary",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow_replication",
+      "expected_branch": "review",
+      "index": 16,
+      "language": "en",
+      "latency_ms": 349.01205700225546,
+      "operational_branch": "review",
+      "operational_correct": true,
+      "policy_type": "binary",
+      "selected_probability": 0.9,
+      "semantic_branch": "review",
+      "semantic_correct": true,
+      "transport": {
+        "primary": {
+          "attempts": 1,
+          "retries_used": 0,
+          "retry_statuses": []
+        },
+        "secondary": null
+      },
+      "use_case": "document-invoice-review"
+    },
+    {
+      "answer": {
+        "noul": 0.89,
+        "type": "noul"
+      },
+      "case_id": "document-invoice-review-replication-09-es",
+      "difficulty": "boundary",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow_replication",
+      "expected_branch": "review",
+      "index": 17,
+      "language": "es",
+      "latency_ms": 360.90549399887095,
+      "operational_branch": "review",
+      "operational_correct": true,
+      "policy_type": "binary",
+      "selected_probability": 0.89,
+      "semantic_branch": "review",
+      "semantic_correct": true,
+      "transport": {
+        "primary": {
+          "attempts": 1,
+          "retries_used": 0,
+          "retry_statuses": []
+        },
+        "secondary": null
+      },
+      "use_case": "document-invoice-review"
+    },
+    {
+      "answer": {
+        "noul": 0.9,
+        "type": "noul"
+      },
+      "case_id": "document-invoice-review-replication-10-en",
+      "difficulty": "boundary",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow_replication",
+      "expected_branch": "review",
+      "index": 18,
+      "language": "en",
+      "latency_ms": 367.6311769995664,
+      "operational_branch": "review",
+      "operational_correct": true,
+      "policy_type": "binary",
+      "selected_probability": 0.9,
+      "semantic_branch": "review",
+      "semantic_correct": true,
+      "transport": {
+        "primary": {
+          "attempts": 1,
+          "retries_used": 0,
+          "retry_statuses": []
+        },
+        "secondary": null
+      },
+      "use_case": "document-invoice-review"
+    },
+    {
+      "answer": {
+        "noul": 0.9,
+        "type": "noul"
+      },
+      "case_id": "document-invoice-review-replication-10-es",
+      "difficulty": "boundary",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow_replication",
+      "expected_branch": "review",
+      "index": 19,
+      "language": "es",
+      "latency_ms": 669.8117619998811,
+      "operational_branch": "review",
+      "operational_correct": true,
+      "policy_type": "binary",
+      "selected_probability": 0.9,
+      "semantic_branch": "review",
+      "semantic_correct": true,
+      "transport": {
+        "primary": {
+          "attempts": 1,
+          "retries_used": 0,
+          "retry_statuses": []
+        },
+        "secondary": null
+      },
+      "use_case": "document-invoice-review"
+    },
+    {
+      "answer": {
+        "noul": 0.92,
+        "type": "noul"
+      },
+      "case_id": "document-invoice-review-replication-11-en",
+      "difficulty": "ambiguous",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow_replication",
+      "expected_branch": "review",
+      "index": 20,
+      "language": "en",
+      "latency_ms": 320.58438600142836,
+      "operational_branch": "review",
+      "operational_correct": true,
+      "policy_type": "binary",
+      "selected_probability": 0.92,
+      "semantic_branch": "review",
+      "semantic_correct": true,
+      "transport": {
+        "primary": {
+          "attempts": 1,
+          "retries_used": 0,
+          "retry_statuses": []
+        },
+        "secondary": null
+      },
+      "use_case": "document-invoice-review"
+    },
+    {
+      "answer": {
+        "noul": 0.91,
+        "type": "noul"
+      },
+      "case_id": "document-invoice-review-replication-11-es",
+      "difficulty": "ambiguous",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow_replication",
+      "expected_branch": "review",
+      "index": 21,
+      "language": "es",
+      "latency_ms": 388.6620449993643,
+      "operational_branch": "review",
+      "operational_correct": true,
+      "policy_type": "binary",
+      "selected_probability": 0.91,
+      "semantic_branch": "review",
+      "semantic_correct": true,
+      "transport": {
+        "primary": {
+          "attempts": 1,
+          "retries_used": 0,
+          "retry_statuses": []
+        },
+        "secondary": null
+      },
+      "use_case": "document-invoice-review"
+    },
+    {
+      "answer": {
+        "noul": 0.92,
+        "type": "noul"
+      },
+      "case_id": "document-invoice-review-replication-12-en",
+      "difficulty": "ambiguous",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow_replication",
+      "expected_branch": "review",
+      "index": 22,
+      "language": "en",
+      "latency_ms": 351.1079640011303,
+      "operational_branch": "review",
+      "operational_correct": true,
+      "policy_type": "binary",
+      "selected_probability": 0.92,
+      "semantic_branch": "review",
+      "semantic_correct": true,
+      "transport": {
+        "primary": {
+          "attempts": 1,
+          "retries_used": 0,
+          "retry_statuses": []
+        },
+        "secondary": null
+      },
+      "use_case": "document-invoice-review"
+    },
+    {
+      "answer": {
+        "noul": 0.89,
+        "type": "noul"
+      },
+      "case_id": "document-invoice-review-replication-12-es",
+      "difficulty": "ambiguous",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow_replication",
+      "expected_branch": "review",
+      "index": 23,
+      "language": "es",
+      "latency_ms": 409.6332029985206,
+      "operational_branch": "review",
+      "operational_correct": true,
+      "policy_type": "binary",
+      "selected_probability": 0.89,
+      "semantic_branch": "review",
+      "semantic_correct": true,
+      "transport": {
+        "primary": {
+          "attempts": 1,
+          "retries_used": 0,
+          "retry_statuses": []
+        },
+        "secondary": null
+      },
+      "use_case": "document-invoice-review"
+    },
+    {
+      "answer": {
+        "noul": 0.77,
+        "type": "noul"
+      },
+      "case_id": "document-invoice-review-replication-13-en",
+      "difficulty": "ambiguous",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow_replication",
+      "expected_branch": "review",
+      "index": 24,
+      "language": "en",
+      "latency_ms": 453.7578669987852,
+      "operational_branch": "review",
+      "operational_correct": true,
+      "policy_type": "binary",
+      "selected_probability": 0.77,
+      "semantic_branch": "review",
+      "semantic_correct": true,
+      "transport": {
+        "primary": {
+          "attempts": 1,
+          "retries_used": 0,
+          "retry_statuses": []
+        },
+        "secondary": null
+      },
+      "use_case": "document-invoice-review"
+    },
+    {
+      "answer": {
+        "noul": 0.78,
+        "type": "noul"
+      },
+      "case_id": "document-invoice-review-replication-13-es",
+      "difficulty": "ambiguous",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow_replication",
+      "expected_branch": "review",
+      "index": 25,
+      "language": "es",
+      "latency_ms": 329.2409370005771,
+      "operational_branch": "review",
+      "operational_correct": true,
+      "policy_type": "binary",
+      "selected_probability": 0.78,
+      "semantic_branch": "review",
+      "semantic_correct": true,
+      "transport": {
+        "primary": {
+          "attempts": 1,
+          "retries_used": 0,
+          "retry_statuses": []
+        },
+        "secondary": null
+      },
+      "use_case": "document-invoice-review"
+    },
+    {
+      "answer": {
+        "noul": 0.91,
+        "type": "noul"
+      },
+      "case_id": "document-invoice-review-replication-14-en",
+      "difficulty": "ambiguous",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow_replication",
+      "expected_branch": "review",
+      "index": 26,
+      "language": "en",
+      "latency_ms": 291.0592570005974,
+      "operational_branch": "review",
+      "operational_correct": true,
+      "policy_type": "binary",
+      "selected_probability": 0.91,
+      "semantic_branch": "review",
+      "semantic_correct": true,
+      "transport": {
+        "primary": {
+          "attempts": 1,
+          "retries_used": 0,
+          "retry_statuses": []
+        },
+        "secondary": null
+      },
+      "use_case": "document-invoice-review"
+    },
+    {
+      "answer": {
+        "noul": 0.92,
+        "type": "noul"
+      },
+      "case_id": "document-invoice-review-replication-14-es",
+      "difficulty": "ambiguous",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow_replication",
+      "expected_branch": "review",
+      "index": 27,
+      "language": "es",
+      "latency_ms": 426.348646000406,
+      "operational_branch": "review",
+      "operational_correct": true,
+      "policy_type": "binary",
+      "selected_probability": 0.92,
+      "semantic_branch": "review",
+      "semantic_correct": true,
+      "transport": {
+        "primary": {
+          "attempts": 1,
+          "retries_used": 0,
+          "retry_statuses": []
+        },
+        "secondary": null
+      },
+      "use_case": "document-invoice-review"
+    },
+    {
+      "answer": {
+        "noul": 0.87,
+        "type": "noul"
+      },
+      "case_id": "document-invoice-review-replication-15-en",
+      "difficulty": "ambiguous",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow_replication",
+      "expected_branch": "review",
+      "index": 28,
+      "language": "en",
+      "latency_ms": 356.41803900216473,
+      "operational_branch": "review",
+      "operational_correct": true,
+      "policy_type": "binary",
+      "selected_probability": 0.87,
+      "semantic_branch": "review",
+      "semantic_correct": true,
+      "transport": {
+        "primary": {
+          "attempts": 1,
+          "retries_used": 0,
+          "retry_statuses": []
+        },
+        "secondary": null
+      },
+      "use_case": "document-invoice-review"
+    },
+    {
+      "answer": {
+        "noul": 0.86,
+        "type": "noul"
+      },
+      "case_id": "document-invoice-review-replication-15-es",
+      "difficulty": "ambiguous",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow_replication",
+      "expected_branch": "review",
+      "index": 29,
+      "language": "es",
+      "latency_ms": 447.5275840013637,
+      "operational_branch": "review",
+      "operational_correct": true,
+      "policy_type": "binary",
+      "selected_probability": 0.86,
+      "semantic_branch": "review",
+      "semantic_correct": true,
+      "transport": {
+        "primary": {
+          "attempts": 1,
+          "retries_used": 0,
+          "retry_statuses": []
+        },
+        "secondary": null
+      },
+      "use_case": "document-invoice-review"
+    },
+    {
+      "answer": {
+        "choice": "same_problem",
+        "probabilities": {
+          "ambiguous": 0.0,
+          "different_problem": 0.0,
+          "same_problem": 1.0
+        },
+        "type": "choice"
+      },
+      "case_id": "duplicate-report-match-replication-01-en",
+      "difficulty": "clear",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow_replication",
+      "expected_branch": "duplicate_candidate",
+      "index": 30,
+      "language": "en",
+      "latency_ms": 348.77536700150813,
+      "operational_branch": "duplicate_candidate",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 1.0,
+      "semantic_branch": "duplicate_candidate",
+      "semantic_correct": true,
+      "transport": {
+        "primary": {
+          "attempts": 1,
+          "retries_used": 0,
+          "retry_statuses": []
+        },
+        "secondary": null
+      },
+      "use_case": "duplicate-report-match"
+    },
+    {
+      "answer": {
+        "choice": "same_problem",
+        "probabilities": {
+          "ambiguous": 0.0,
+          "different_problem": 0.0,
+          "same_problem": 1.0
+        },
+        "type": "choice"
+      },
+      "case_id": "duplicate-report-match-replication-01-es",
+      "difficulty": "clear",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow_replication",
+      "expected_branch": "duplicate_candidate",
+      "index": 31,
+      "language": "es",
+      "latency_ms": 405.54805699866847,
+      "operational_branch": "duplicate_candidate",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 1.0,
+      "semantic_branch": "duplicate_candidate",
+      "semantic_correct": true,
+      "transport": {
+        "primary": {
+          "attempts": 1,
+          "retries_used": 0,
+          "retry_statuses": []
+        },
+        "secondary": null
+      },
+      "use_case": "duplicate-report-match"
+    },
+    {
+      "answer": {
+        "choice": "same_problem",
+        "probabilities": {
+          "ambiguous": 0.0,
+          "different_problem": 0.0,
+          "same_problem": 1.0
+        },
+        "type": "choice"
+      },
+      "case_id": "duplicate-report-match-replication-02-en",
+      "difficulty": "clear",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow_replication",
+      "expected_branch": "duplicate_candidate",
+      "index": 32,
+      "language": "en",
+      "latency_ms": 398.1646450010885,
+      "operational_branch": "duplicate_candidate",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 1.0,
+      "semantic_branch": "duplicate_candidate",
+      "semantic_correct": true,
+      "transport": {
+        "primary": {
+          "attempts": 1,
+          "retries_used": 0,
+          "retry_statuses": []
+        },
+        "secondary": null
+      },
+      "use_case": "duplicate-report-match"
+    },
+    {
+      "answer": {
+        "choice": "same_problem",
+        "probabilities": {
+          "ambiguous": 0.0,
+          "different_problem": 0.0,
+          "same_problem": 1.0
+        },
+        "type": "choice"
+      },
+      "case_id": "duplicate-report-match-replication-02-es",
+      "difficulty": "clear",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow_replication",
+      "expected_branch": "duplicate_candidate",
+      "index": 33,
+      "language": "es",
+      "latency_ms": 450.812371000211,
+      "operational_branch": "duplicate_candidate",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 1.0,
+      "semantic_branch": "duplicate_candidate",
+      "semantic_correct": true,
+      "transport": {
+        "primary": {
+          "attempts": 1,
+          "retries_used": 0,
+          "retry_statuses": []
+        },
+        "secondary": null
+      },
+      "use_case": "duplicate-report-match"
+    },
+    {
+      "answer": {
+        "choice": "different_problem",
+        "probabilities": {
+          "ambiguous": 0.02,
+          "different_problem": 0.98,
+          "same_problem": 0.0
+        },
+        "type": "choice"
+      },
+      "case_id": "duplicate-report-match-replication-03-en",
+      "difficulty": "clear",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow_replication",
+      "expected_branch": "distinct",
+      "index": 34,
+      "language": "en",
+      "latency_ms": 348.23823799888487,
+      "operational_branch": "distinct",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 0.98,
+      "semantic_branch": "distinct",
+      "semantic_correct": true,
+      "transport": {
+        "primary": {
+          "attempts": 1,
+          "retries_used": 0,
+          "retry_statuses": []
+        },
+        "secondary": null
+      },
+      "use_case": "duplicate-report-match"
+    },
+    {
+      "answer": {
+        "choice": "different_problem",
+        "probabilities": {
+          "ambiguous": 0.02,
+          "different_problem": 0.98,
+          "same_problem": 0.0
+        },
+        "type": "choice"
+      },
+      "case_id": "duplicate-report-match-replication-03-es",
+      "difficulty": "clear",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow_replication",
+      "expected_branch": "distinct",
+      "index": 35,
+      "language": "es",
+      "latency_ms": 371.84281299778377,
+      "operational_branch": "distinct",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 0.98,
+      "semantic_branch": "distinct",
+      "semantic_correct": true,
+      "transport": {
+        "primary": {
+          "attempts": 1,
+          "retries_used": 0,
+          "retry_statuses": []
+        },
+        "secondary": null
+      },
+      "use_case": "duplicate-report-match"
+    },
+    {
+      "answer": {
+        "choice": "different_problem",
+        "probabilities": {
+          "ambiguous": 0.0,
+          "different_problem": 1.0,
+          "same_problem": 0.0
+        },
+        "type": "choice"
+      },
+      "case_id": "duplicate-report-match-replication-04-en",
+      "difficulty": "clear",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow_replication",
+      "expected_branch": "distinct",
+      "index": 36,
+      "language": "en",
+      "latency_ms": 362.9671419985243,
+      "operational_branch": "distinct",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 1.0,
+      "semantic_branch": "distinct",
+      "semantic_correct": true,
+      "transport": {
+        "primary": {
+          "attempts": 1,
+          "retries_used": 0,
+          "retry_statuses": []
+        },
+        "secondary": null
+      },
+      "use_case": "duplicate-report-match"
+    },
+    {
+      "answer": {
+        "choice": "different_problem",
+        "probabilities": {
+          "ambiguous": 0.01,
+          "different_problem": 0.99,
+          "same_problem": 0.0
+        },
+        "type": "choice"
+      },
+      "case_id": "duplicate-report-match-replication-04-es",
+      "difficulty": "clear",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow_replication",
+      "expected_branch": "distinct",
+      "index": 37,
+      "language": "es",
+      "latency_ms": 312.257444998977,
+      "operational_branch": "distinct",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 0.99,
+      "semantic_branch": "distinct",
+      "semantic_correct": true,
+      "transport": {
+        "primary": {
+          "attempts": 1,
+          "retries_used": 0,
+          "retry_statuses": []
+        },
+        "secondary": null
+      },
+      "use_case": "duplicate-report-match"
+    },
+    {
+      "answer": {
+        "choice": "different_problem",
+        "probabilities": {
+          "ambiguous": 0.0,
+          "different_problem": 1.0,
+          "same_problem": 0.0
+        },
+        "type": "choice"
+      },
+      "case_id": "duplicate-report-match-replication-05-en",
+      "difficulty": "clear",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow_replication",
+      "expected_branch": "distinct",
+      "index": 38,
+      "language": "en",
+      "latency_ms": 364.4816300002276,
+      "operational_branch": "distinct",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 1.0,
+      "semantic_branch": "distinct",
+      "semantic_correct": true,
+      "transport": {
+        "primary": {
+          "attempts": 1,
+          "retries_used": 0,
+          "retry_statuses": []
+        },
+        "secondary": null
+      },
+      "use_case": "duplicate-report-match"
+    },
+    {
+      "answer": {
+        "choice": "different_problem",
+        "probabilities": {
+          "ambiguous": 0.0,
+          "different_problem": 1.0,
+          "same_problem": 0.0
+        },
+        "type": "choice"
+      },
+      "case_id": "duplicate-report-match-replication-05-es",
+      "difficulty": "clear",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow_replication",
+      "expected_branch": "distinct",
+      "index": 39,
+      "language": "es",
+      "latency_ms": 320.04096699893125,
+      "operational_branch": "distinct",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 1.0,
+      "semantic_branch": "distinct",
+      "semantic_correct": true,
+      "transport": {
+        "primary": {
+          "attempts": 1,
+          "retries_used": 0,
+          "retry_statuses": []
+        },
+        "secondary": null
+      },
+      "use_case": "duplicate-report-match"
+    },
+    {
+      "answer": {
+        "choice": "ambiguous",
+        "probabilities": {
+          "ambiguous": 0.6,
+          "different_problem": 0.01,
+          "same_problem": 0.39
+        },
+        "type": "choice"
+      },
+      "case_id": "duplicate-report-match-replication-06-en",
+      "difficulty": "boundary",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow_replication",
+      "expected_branch": "review",
+      "index": 40,
+      "language": "en",
+      "latency_ms": 364.75625099774334,
+      "operational_branch": "review",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 0.6,
+      "semantic_branch": "review",
+      "semantic_correct": true,
+      "transport": {
+        "primary": {
+          "attempts": 1,
+          "retries_used": 0,
+          "retry_statuses": []
+        },
+        "secondary": null
+      },
+      "use_case": "duplicate-report-match"
+    },
+    {
+      "answer": {
+        "choice": "ambiguous",
+        "probabilities": {
+          "ambiguous": 0.56,
+          "different_problem": 0.02,
+          "same_problem": 0.42
+        },
+        "type": "choice"
+      },
+      "case_id": "duplicate-report-match-replication-06-es",
+      "difficulty": "boundary",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow_replication",
+      "expected_branch": "review",
+      "index": 41,
+      "language": "es",
+      "latency_ms": 321.6874950012425,
+      "operational_branch": "review",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 0.56,
+      "semantic_branch": "review",
+      "semantic_correct": true,
+      "transport": {
+        "primary": {
+          "attempts": 1,
+          "retries_used": 0,
+          "retry_statuses": []
+        },
+        "secondary": null
+      },
+      "use_case": "duplicate-report-match"
+    },
+    {
+      "answer": {
+        "choice": "ambiguous",
+        "probabilities": {
+          "ambiguous": 0.86,
+          "different_problem": 0.01,
+          "same_problem": 0.13
+        },
+        "type": "choice"
+      },
+      "case_id": "duplicate-report-match-replication-07-en",
+      "difficulty": "boundary",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow_replication",
+      "expected_branch": "review",
+      "index": 42,
+      "language": "en",
+      "latency_ms": 379.30669500201475,
+      "operational_branch": "review",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 0.86,
+      "semantic_branch": "review",
+      "semantic_correct": true,
+      "transport": {
+        "primary": {
+          "attempts": 1,
+          "retries_used": 0,
+          "retry_statuses": []
+        },
+        "secondary": null
+      },
+      "use_case": "duplicate-report-match"
+    },
+    {
+      "answer": {
+        "choice": "ambiguous",
+        "probabilities": {
+          "ambiguous": 0.91,
+          "different_problem": 0.01,
+          "same_problem": 0.08
+        },
+        "type": "choice"
+      },
+      "case_id": "duplicate-report-match-replication-07-es",
+      "difficulty": "boundary",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow_replication",
+      "expected_branch": "review",
+      "index": 43,
+      "language": "es",
+      "latency_ms": 351.93548400275176,
+      "operational_branch": "review",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 0.91,
+      "semantic_branch": "review",
+      "semantic_correct": true,
+      "transport": {
+        "primary": {
+          "attempts": 1,
+          "retries_used": 0,
+          "retry_statuses": []
+        },
+        "secondary": null
+      },
+      "use_case": "duplicate-report-match"
+    },
+    {
+      "answer": {
+        "choice": "ambiguous",
+        "probabilities": {
+          "ambiguous": 0.71,
+          "different_problem": 0.01,
+          "same_problem": 0.28
+        },
+        "type": "choice"
+      },
+      "case_id": "duplicate-report-match-replication-08-en",
+      "difficulty": "boundary",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow_replication",
+      "expected_branch": "review",
+      "index": 44,
+      "language": "en",
+      "latency_ms": 447.50495399784995,
+      "operational_branch": "review",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 0.71,
+      "semantic_branch": "review",
+      "semantic_correct": true,
+      "transport": {
+        "primary": {
+          "attempts": 1,
+          "retries_used": 0,
+          "retry_statuses": []
+        },
+        "secondary": null
+      },
+      "use_case": "duplicate-report-match"
+    },
+    {
+      "answer": {
+        "choice": "ambiguous",
+        "probabilities": {
+          "ambiguous": 0.71,
+          "different_problem": 0.01,
+          "same_problem": 0.28
+        },
+        "type": "choice"
+      },
+      "case_id": "duplicate-report-match-replication-08-es",
+      "difficulty": "boundary",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow_replication",
+      "expected_branch": "review",
+      "index": 45,
+      "language": "es",
+      "latency_ms": 298.72008900201763,
+      "operational_branch": "review",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 0.71,
+      "semantic_branch": "review",
+      "semantic_correct": true,
+      "transport": {
+        "primary": {
+          "attempts": 1,
+          "retries_used": 0,
+          "retry_statuses": []
+        },
+        "secondary": null
+      },
+      "use_case": "duplicate-report-match"
+    },
+    {
+      "answer": {
+        "choice": "same_problem",
+        "probabilities": {
+          "ambiguous": 0.05,
+          "different_problem": 0.0,
+          "same_problem": 0.95
+        },
+        "type": "choice"
+      },
+      "case_id": "duplicate-report-match-replication-09-en",
+      "difficulty": "boundary",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow_replication",
+      "expected_branch": "review",
+      "index": 46,
+      "language": "en",
+      "latency_ms": 297.9266699985601,
+      "operational_branch": "duplicate_candidate",
+      "operational_correct": false,
+      "policy_type": "choice",
+      "selected_probability": 0.95,
+      "semantic_branch": "duplicate_candidate",
+      "semantic_correct": false,
+      "transport": {
+        "primary": {
+          "attempts": 1,
+          "retries_used": 0,
+          "retry_statuses": []
+        },
+        "secondary": null
+      },
+      "use_case": "duplicate-report-match"
+    },
+    {
+      "answer": {
+        "choice": "same_problem",
+        "probabilities": {
+          "ambiguous": 0.12,
+          "different_problem": 0.0,
+          "same_problem": 0.88
+        },
+        "type": "choice"
+      },
+      "case_id": "duplicate-report-match-replication-09-es",
+      "difficulty": "boundary",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow_replication",
+      "expected_branch": "review",
+      "index": 47,
+      "language": "es",
+      "latency_ms": 453.0740180016437,
+      "operational_branch": "duplicate_candidate",
+      "operational_correct": false,
+      "policy_type": "choice",
+      "selected_probability": 0.88,
+      "semantic_branch": "duplicate_candidate",
+      "semantic_correct": false,
+      "transport": {
+        "primary": {
+          "attempts": 1,
+          "retries_used": 0,
+          "retry_statuses": []
+        },
+        "secondary": null
+      },
+      "use_case": "duplicate-report-match"
+    },
+    {
+      "answer": {
+        "choice": "ambiguous",
+        "probabilities": {
+          "ambiguous": 0.72,
+          "different_problem": 0.01,
+          "same_problem": 0.27
+        },
+        "type": "choice"
+      },
+      "case_id": "duplicate-report-match-replication-10-en",
+      "difficulty": "boundary",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow_replication",
+      "expected_branch": "review",
+      "index": 48,
+      "language": "en",
+      "latency_ms": 452.7702589984983,
+      "operational_branch": "review",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 0.72,
+      "semantic_branch": "review",
+      "semantic_correct": true,
+      "transport": {
+        "primary": {
+          "attempts": 1,
+          "retries_used": 0,
+          "retry_statuses": []
+        },
+        "secondary": null
+      },
+      "use_case": "duplicate-report-match"
+    },
+    {
+      "answer": {
+        "choice": "ambiguous",
+        "probabilities": {
+          "ambiguous": 0.65,
+          "different_problem": 0.01,
+          "same_problem": 0.34
+        },
+        "type": "choice"
+      },
+      "case_id": "duplicate-report-match-replication-10-es",
+      "difficulty": "boundary",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow_replication",
+      "expected_branch": "review",
+      "index": 49,
+      "language": "es",
+      "latency_ms": 349.4878659985261,
+      "operational_branch": "review",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 0.65,
+      "semantic_branch": "review",
+      "semantic_correct": true,
+      "transport": {
+        "primary": {
+          "attempts": 1,
+          "retries_used": 0,
+          "retry_statuses": []
+        },
+        "secondary": null
+      },
+      "use_case": "duplicate-report-match"
+    },
+    {
+      "answer": {
+        "choice": "ambiguous",
+        "probabilities": {
+          "ambiguous": 0.87,
+          "different_problem": 0.04,
+          "same_problem": 0.09
+        },
+        "type": "choice"
+      },
+      "case_id": "duplicate-report-match-replication-11-en",
+      "difficulty": "ambiguous",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow_replication",
+      "expected_branch": "review",
+      "index": 50,
+      "language": "en",
+      "latency_ms": 452.5505389974569,
+      "operational_branch": "review",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 0.87,
+      "semantic_branch": "review",
+      "semantic_correct": true,
+      "transport": {
+        "primary": {
+          "attempts": 1,
+          "retries_used": 0,
+          "retry_statuses": []
+        },
+        "secondary": null
+      },
+      "use_case": "duplicate-report-match"
+    },
+    {
+      "answer": {
+        "choice": "ambiguous",
+        "probabilities": {
+          "ambiguous": 0.85,
+          "different_problem": 0.06,
+          "same_problem": 0.09
+        },
+        "type": "choice"
+      },
+      "case_id": "duplicate-report-match-replication-11-es",
+      "difficulty": "ambiguous",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow_replication",
+      "expected_branch": "review",
+      "index": 51,
+      "language": "es",
+      "latency_ms": 453.04621800096356,
+      "operational_branch": "review",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 0.85,
+      "semantic_branch": "review",
+      "semantic_correct": true,
+      "transport": {
+        "primary": {
+          "attempts": 1,
+          "retries_used": 0,
+          "retry_statuses": []
+        },
+        "secondary": null
+      },
+      "use_case": "duplicate-report-match"
+    },
+    {
+      "answer": {
+        "choice": "ambiguous",
+        "probabilities": {
+          "ambiguous": 0.81,
+          "different_problem": 0.02,
+          "same_problem": 0.17
+        },
+        "type": "choice"
+      },
+      "case_id": "duplicate-report-match-replication-12-en",
+      "difficulty": "ambiguous",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow_replication",
+      "expected_branch": "review",
+      "index": 52,
+      "language": "en",
+      "latency_ms": 281.45588700135704,
+      "operational_branch": "review",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 0.81,
+      "semantic_branch": "review",
+      "semantic_correct": true,
+      "transport": {
+        "primary": {
+          "attempts": 1,
+          "retries_used": 0,
+          "retry_statuses": []
+        },
+        "secondary": null
+      },
+      "use_case": "duplicate-report-match"
+    },
+    {
+      "answer": {
+        "choice": "ambiguous",
+        "probabilities": {
+          "ambiguous": 0.61,
+          "different_problem": 0.01,
+          "same_problem": 0.38
+        },
+        "type": "choice"
+      },
+      "case_id": "duplicate-report-match-replication-12-es",
+      "difficulty": "ambiguous",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow_replication",
+      "expected_branch": "review",
+      "index": 53,
+      "language": "es",
+      "latency_ms": 322.3040539996873,
+      "operational_branch": "review",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 0.61,
+      "semantic_branch": "review",
+      "semantic_correct": true,
+      "transport": {
+        "primary": {
+          "attempts": 1,
+          "retries_used": 0,
+          "retry_statuses": []
+        },
+        "secondary": null
+      },
+      "use_case": "duplicate-report-match"
+    },
+    {
+      "answer": {
+        "choice": "ambiguous",
+        "probabilities": {
+          "ambiguous": 0.93,
+          "different_problem": 0.0,
+          "same_problem": 0.07
+        },
+        "type": "choice"
+      },
+      "case_id": "duplicate-report-match-replication-13-en",
+      "difficulty": "ambiguous",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow_replication",
+      "expected_branch": "review",
+      "index": 54,
+      "language": "en",
+      "latency_ms": 354.0426920008031,
+      "operational_branch": "review",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 0.93,
+      "semantic_branch": "review",
+      "semantic_correct": true,
+      "transport": {
+        "primary": {
+          "attempts": 1,
+          "retries_used": 0,
+          "retry_statuses": []
+        },
+        "secondary": null
+      },
+      "use_case": "duplicate-report-match"
+    },
+    {
+      "answer": {
+        "choice": "ambiguous",
+        "probabilities": {
+          "ambiguous": 0.77,
+          "different_problem": 0.0,
+          "same_problem": 0.23
+        },
+        "type": "choice"
+      },
+      "case_id": "duplicate-report-match-replication-13-es",
+      "difficulty": "ambiguous",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow_replication",
+      "expected_branch": "review",
+      "index": 55,
+      "language": "es",
+      "latency_ms": 424.96623800252564,
+      "operational_branch": "review",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 0.77,
+      "semantic_branch": "review",
+      "semantic_correct": true,
+      "transport": {
+        "primary": {
+          "attempts": 1,
+          "retries_used": 0,
+          "retry_statuses": []
+        },
+        "secondary": null
+      },
+      "use_case": "duplicate-report-match"
+    },
+    {
+      "answer": {
+        "choice": "same_problem",
+        "probabilities": {
+          "ambiguous": 0.17,
+          "different_problem": 0.0,
+          "same_problem": 0.83
+        },
+        "type": "choice"
+      },
+      "case_id": "duplicate-report-match-replication-14-en",
+      "difficulty": "ambiguous",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow_replication",
+      "expected_branch": "review",
+      "index": 56,
+      "language": "en",
+      "latency_ms": 469.41817100014305,
+      "operational_branch": "review",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 0.83,
+      "semantic_branch": "duplicate_candidate",
+      "semantic_correct": false,
+      "transport": {
+        "primary": {
+          "attempts": 1,
+          "retries_used": 0,
+          "retry_statuses": []
+        },
+        "secondary": null
+      },
+      "use_case": "duplicate-report-match"
+    },
+    {
+      "answer": {
+        "choice": "same_problem",
+        "probabilities": {
+          "ambiguous": 0.13,
+          "different_problem": 0.0,
+          "same_problem": 0.87
+        },
+        "type": "choice"
+      },
+      "case_id": "duplicate-report-match-replication-14-es",
+      "difficulty": "ambiguous",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow_replication",
+      "expected_branch": "review",
+      "index": 57,
+      "language": "es",
+      "latency_ms": 333.0349829993793,
+      "operational_branch": "duplicate_candidate",
+      "operational_correct": false,
+      "policy_type": "choice",
+      "selected_probability": 0.87,
+      "semantic_branch": "duplicate_candidate",
+      "semantic_correct": false,
+      "transport": {
+        "primary": {
+          "attempts": 1,
+          "retries_used": 0,
+          "retry_statuses": []
+        },
+        "secondary": null
+      },
+      "use_case": "duplicate-report-match"
+    },
+    {
+      "answer": {
+        "choice": "ambiguous",
+        "probabilities": {
+          "ambiguous": 0.86,
+          "different_problem": 0.0,
+          "same_problem": 0.14
+        },
+        "type": "choice"
+      },
+      "case_id": "duplicate-report-match-replication-15-en",
+      "difficulty": "ambiguous",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow_replication",
+      "expected_branch": "review",
+      "index": 58,
+      "language": "en",
+      "latency_ms": 367.627146999439,
+      "operational_branch": "review",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 0.86,
+      "semantic_branch": "review",
+      "semantic_correct": true,
+      "transport": {
+        "primary": {
+          "attempts": 1,
+          "retries_used": 0,
+          "retry_statuses": []
+        },
+        "secondary": null
+      },
+      "use_case": "duplicate-report-match"
+    },
+    {
+      "answer": {
+        "choice": "ambiguous",
+        "probabilities": {
+          "ambiguous": 0.73,
+          "different_problem": 0.0,
+          "same_problem": 0.27
+        },
+        "type": "choice"
+      },
+      "case_id": "duplicate-report-match-replication-15-es",
+      "difficulty": "ambiguous",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow_replication",
+      "expected_branch": "review",
+      "index": 59,
+      "language": "es",
+      "latency_ms": 350.4076339995663,
+      "operational_branch": "review",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 0.73,
+      "semantic_branch": "review",
+      "semantic_correct": true,
+      "transport": {
+        "primary": {
+          "attempts": 1,
+          "retries_used": 0,
+          "retry_statuses": []
+        },
+        "secondary": null
+      },
+      "use_case": "duplicate-report-match"
+    },
+    {
+      "answer": {
+        "choice": "supported",
+        "probabilities": {
+          "contradicted": 0.0,
+          "supported": 1.0,
+          "unclear": 0.0
+        },
+        "type": "choice"
+      },
+      "case_id": "research-claim-verification-replication-01-en",
+      "difficulty": "clear",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow_replication",
+      "expected_branch": "continue",
+      "index": 60,
+      "language": "en",
+      "latency_ms": 383.28906100286986,
+      "operational_branch": "continue",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 1.0,
+      "semantic_branch": "continue",
+      "semantic_correct": true,
+      "transport": {
+        "primary": {
+          "attempts": 1,
+          "retries_used": 0,
+          "retry_statuses": []
+        },
+        "secondary": null
+      },
+      "use_case": "research-claim-verification"
+    },
+    {
+      "answer": {
+        "choice": "supported",
+        "probabilities": {
+          "contradicted": 0.0,
+          "supported": 1.0,
+          "unclear": 0.0
+        },
+        "type": "choice"
+      },
+      "case_id": "research-claim-verification-replication-01-es",
+      "difficulty": "clear",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow_replication",
+      "expected_branch": "continue",
+      "index": 61,
+      "language": "es",
+      "latency_ms": 366.85779800245655,
+      "operational_branch": "continue",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 1.0,
+      "semantic_branch": "continue",
+      "semantic_correct": true,
+      "transport": {
+        "primary": {
+          "attempts": 1,
+          "retries_used": 0,
+          "retry_statuses": []
+        },
+        "secondary": null
+      },
+      "use_case": "research-claim-verification"
+    },
+    {
+      "answer": {
+        "choice": "supported",
+        "probabilities": {
+          "contradicted": 0.0,
+          "supported": 1.0,
+          "unclear": 0.0
+        },
+        "type": "choice"
+      },
+      "case_id": "research-claim-verification-replication-02-en",
+      "difficulty": "clear",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow_replication",
+      "expected_branch": "continue",
+      "index": 62,
+      "language": "en",
+      "latency_ms": 310.8131160006451,
+      "operational_branch": "continue",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 1.0,
+      "semantic_branch": "continue",
+      "semantic_correct": true,
+      "transport": {
+        "primary": {
+          "attempts": 1,
+          "retries_used": 0,
+          "retry_statuses": []
+        },
+        "secondary": null
+      },
+      "use_case": "research-claim-verification"
+    },
+    {
+      "answer": {
+        "choice": "supported",
+        "probabilities": {
+          "contradicted": 0.0,
+          "supported": 1.0,
+          "unclear": 0.0
+        },
+        "type": "choice"
+      },
+      "case_id": "research-claim-verification-replication-02-es",
+      "difficulty": "clear",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow_replication",
+      "expected_branch": "continue",
+      "index": 63,
+      "language": "es",
+      "latency_ms": 302.81686399757746,
+      "operational_branch": "continue",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 1.0,
+      "semantic_branch": "continue",
+      "semantic_correct": true,
+      "transport": {
+        "primary": {
+          "attempts": 1,
+          "retries_used": 0,
+          "retry_statuses": []
+        },
+        "secondary": null
+      },
+      "use_case": "research-claim-verification"
+    },
+    {
+      "answer": {
+        "choice": "contradicted",
+        "probabilities": {
+          "contradicted": 1.0,
+          "supported": 0.0,
+          "unclear": 0.0
+        },
+        "type": "choice"
+      },
+      "case_id": "research-claim-verification-replication-03-en",
+      "difficulty": "clear",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow_replication",
+      "expected_branch": "stop",
+      "index": 64,
+      "language": "en",
+      "latency_ms": 334.99746099914773,
+      "operational_branch": "stop",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 1.0,
+      "semantic_branch": "stop",
+      "semantic_correct": true,
+      "transport": {
+        "primary": {
+          "attempts": 1,
+          "retries_used": 0,
+          "retry_statuses": []
+        },
+        "secondary": null
+      },
+      "use_case": "research-claim-verification"
+    },
+    {
+      "answer": {
+        "choice": "contradicted",
+        "probabilities": {
+          "contradicted": 1.0,
+          "supported": 0.0,
+          "unclear": 0.0
+        },
+        "type": "choice"
+      },
+      "case_id": "research-claim-verification-replication-03-es",
+      "difficulty": "clear",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow_replication",
+      "expected_branch": "stop",
+      "index": 65,
+      "language": "es",
+      "latency_ms": 358.0842270021094,
+      "operational_branch": "stop",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 1.0,
+      "semantic_branch": "stop",
+      "semantic_correct": true,
+      "transport": {
+        "primary": {
+          "attempts": 1,
+          "retries_used": 0,
+          "retry_statuses": []
+        },
+        "secondary": null
+      },
+      "use_case": "research-claim-verification"
+    },
+    {
+      "answer": {
+        "choice": "contradicted",
+        "probabilities": {
+          "contradicted": 1.0,
+          "supported": 0.0,
+          "unclear": 0.0
+        },
+        "type": "choice"
+      },
+      "case_id": "research-claim-verification-replication-04-en",
+      "difficulty": "clear",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow_replication",
+      "expected_branch": "stop",
+      "index": 66,
+      "language": "en",
+      "latency_ms": 354.4309909993899,
+      "operational_branch": "stop",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 1.0,
+      "semantic_branch": "stop",
+      "semantic_correct": true,
+      "transport": {
+        "primary": {
+          "attempts": 1,
+          "retries_used": 0,
+          "retry_statuses": []
+        },
+        "secondary": null
+      },
+      "use_case": "research-claim-verification"
+    },
+    {
+      "answer": {
+        "choice": "contradicted",
+        "probabilities": {
+          "contradicted": 1.0,
+          "supported": 0.0,
+          "unclear": 0.0
+        },
+        "type": "choice"
+      },
+      "case_id": "research-claim-verification-replication-04-es",
+      "difficulty": "clear",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow_replication",
+      "expected_branch": "stop",
+      "index": 67,
+      "language": "es",
+      "latency_ms": 303.96435299917357,
+      "operational_branch": "stop",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 1.0,
+      "semantic_branch": "stop",
+      "semantic_correct": true,
+      "transport": {
+        "primary": {
+          "attempts": 1,
+          "retries_used": 0,
+          "retry_statuses": []
+        },
+        "secondary": null
+      },
+      "use_case": "research-claim-verification"
+    },
+    {
+      "answer": {
+        "choice": "supported",
+        "probabilities": {
+          "contradicted": 0.0,
+          "supported": 1.0,
+          "unclear": 0.0
+        },
+        "type": "choice"
+      },
+      "case_id": "research-claim-verification-replication-05-en",
+      "difficulty": "clear",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow_replication",
+      "expected_branch": "continue",
+      "index": 68,
+      "language": "en",
+      "latency_ms": 334.52227099769516,
+      "operational_branch": "continue",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 1.0,
+      "semantic_branch": "continue",
+      "semantic_correct": true,
+      "transport": {
+        "primary": {
+          "attempts": 1,
+          "retries_used": 0,
+          "retry_statuses": []
+        },
+        "secondary": null
+      },
+      "use_case": "research-claim-verification"
+    },
+    {
+      "answer": {
+        "choice": "supported",
+        "probabilities": {
+          "contradicted": 0.0,
+          "supported": 1.0,
+          "unclear": 0.0
+        },
+        "type": "choice"
+      },
+      "case_id": "research-claim-verification-replication-05-es",
+      "difficulty": "clear",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow_replication",
+      "expected_branch": "continue",
+      "index": 69,
+      "language": "es",
+      "latency_ms": 349.9695159989642,
+      "operational_branch": "continue",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 1.0,
+      "semantic_branch": "continue",
+      "semantic_correct": true,
+      "transport": {
+        "primary": {
+          "attempts": 1,
+          "retries_used": 0,
+          "retry_statuses": []
+        },
+        "secondary": null
+      },
+      "use_case": "research-claim-verification"
+    },
+    {
+      "answer": {
+        "choice": "unclear",
+        "probabilities": {
+          "contradicted": 0.0,
+          "supported": 0.0,
+          "unclear": 1.0
+        },
+        "type": "choice"
+      },
+      "case_id": "research-claim-verification-replication-06-en",
+      "difficulty": "boundary",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow_replication",
+      "expected_branch": "verify",
+      "index": 70,
+      "language": "en",
+      "latency_ms": 303.8666740030749,
+      "operational_branch": "verify",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 1.0,
+      "semantic_branch": "verify",
+      "semantic_correct": true,
+      "transport": {
+        "primary": {
+          "attempts": 1,
+          "retries_used": 0,
+          "retry_statuses": []
+        },
+        "secondary": null
+      },
+      "use_case": "research-claim-verification"
+    },
+    {
+      "answer": {
+        "choice": "unclear",
+        "probabilities": {
+          "contradicted": 0.0,
+          "supported": 0.0,
+          "unclear": 1.0
+        },
+        "type": "choice"
+      },
+      "case_id": "research-claim-verification-replication-06-es",
+      "difficulty": "boundary",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow_replication",
+      "expected_branch": "verify",
+      "index": 71,
+      "language": "es",
+      "latency_ms": 297.3854299998493,
+      "operational_branch": "verify",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 1.0,
+      "semantic_branch": "verify",
+      "semantic_correct": true,
+      "transport": {
+        "primary": {
+          "attempts": 1,
+          "retries_used": 0,
+          "retry_statuses": []
+        },
+        "secondary": null
+      },
+      "use_case": "research-claim-verification"
+    },
+    {
+      "answer": {
+        "choice": "unclear",
+        "probabilities": {
+          "contradicted": 0.0,
+          "supported": 0.0,
+          "unclear": 1.0
+        },
+        "type": "choice"
+      },
+      "case_id": "research-claim-verification-replication-07-en",
+      "difficulty": "boundary",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow_replication",
+      "expected_branch": "verify",
+      "index": 72,
+      "language": "en",
+      "latency_ms": 347.6310680016468,
+      "operational_branch": "verify",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 1.0,
+      "semantic_branch": "verify",
+      "semantic_correct": true,
+      "transport": {
+        "primary": {
+          "attempts": 1,
+          "retries_used": 0,
+          "retry_statuses": []
+        },
+        "secondary": null
+      },
+      "use_case": "research-claim-verification"
+    },
+    {
+      "answer": {
+        "choice": "unclear",
+        "probabilities": {
+          "contradicted": 0.0,
+          "supported": 0.0,
+          "unclear": 1.0
+        },
+        "type": "choice"
+      },
+      "case_id": "research-claim-verification-replication-07-es",
+      "difficulty": "boundary",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow_replication",
+      "expected_branch": "verify",
+      "index": 73,
+      "language": "es",
+      "latency_ms": 452.5714679984958,
+      "operational_branch": "verify",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 1.0,
+      "semantic_branch": "verify",
+      "semantic_correct": true,
+      "transport": {
+        "primary": {
+          "attempts": 1,
+          "retries_used": 0,
+          "retry_statuses": []
+        },
+        "secondary": null
+      },
+      "use_case": "research-claim-verification"
+    },
+    {
+      "answer": {
+        "choice": "unclear",
+        "probabilities": {
+          "contradicted": 0.0,
+          "supported": 0.0,
+          "unclear": 1.0
+        },
+        "type": "choice"
+      },
+      "case_id": "research-claim-verification-replication-08-en",
+      "difficulty": "boundary",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow_replication",
+      "expected_branch": "verify",
+      "index": 74,
+      "language": "en",
+      "latency_ms": 328.79000800312497,
+      "operational_branch": "verify",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 1.0,
+      "semantic_branch": "verify",
+      "semantic_correct": true,
+      "transport": {
+        "primary": {
+          "attempts": 1,
+          "retries_used": 0,
+          "retry_statuses": []
+        },
+        "secondary": null
+      },
+      "use_case": "research-claim-verification"
+    },
+    {
+      "answer": {
+        "choice": "unclear",
+        "probabilities": {
+          "contradicted": 0.0,
+          "supported": 0.01,
+          "unclear": 0.99
+        },
+        "type": "choice"
+      },
+      "case_id": "research-claim-verification-replication-08-es",
+      "difficulty": "boundary",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow_replication",
+      "expected_branch": "verify",
+      "index": 75,
+      "language": "es",
+      "latency_ms": 372.6745409985597,
+      "operational_branch": "verify",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 0.99,
+      "semantic_branch": "verify",
+      "semantic_correct": true,
+      "transport": {
+        "primary": {
+          "attempts": 1,
+          "retries_used": 0,
+          "retry_statuses": []
+        },
+        "secondary": null
+      },
+      "use_case": "research-claim-verification"
+    },
+    {
+      "answer": {
+        "choice": "unclear",
+        "probabilities": {
+          "contradicted": 0.0,
+          "supported": 0.0,
+          "unclear": 1.0
+        },
+        "type": "choice"
+      },
+      "case_id": "research-claim-verification-replication-09-en",
+      "difficulty": "boundary",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow_replication",
+      "expected_branch": "verify",
+      "index": 76,
+      "language": "en",
+      "latency_ms": 349.2564959997253,
+      "operational_branch": "verify",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 1.0,
+      "semantic_branch": "verify",
+      "semantic_correct": true,
+      "transport": {
+        "primary": {
+          "attempts": 1,
+          "retries_used": 0,
+          "retry_statuses": []
+        },
+        "secondary": null
+      },
+      "use_case": "research-claim-verification"
+    },
+    {
+      "answer": {
+        "choice": "unclear",
+        "probabilities": {
+          "contradicted": 0.01,
+          "supported": 0.0,
+          "unclear": 0.99
+        },
+        "type": "choice"
+      },
+      "case_id": "research-claim-verification-replication-09-es",
+      "difficulty": "boundary",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow_replication",
+      "expected_branch": "verify",
+      "index": 77,
+      "language": "es",
+      "latency_ms": 360.0540949992137,
+      "operational_branch": "verify",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 0.99,
+      "semantic_branch": "verify",
+      "semantic_correct": true,
+      "transport": {
+        "primary": {
+          "attempts": 1,
+          "retries_used": 0,
+          "retry_statuses": []
+        },
+        "secondary": null
+      },
+      "use_case": "research-claim-verification"
+    },
+    {
+      "answer": {
+        "choice": "unclear",
+        "probabilities": {
+          "contradicted": 0.19,
+          "supported": 0.0,
+          "unclear": 0.81
+        },
+        "type": "choice"
+      },
+      "case_id": "research-claim-verification-replication-10-en",
+      "difficulty": "boundary",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow_replication",
+      "expected_branch": "verify",
+      "index": 78,
+      "language": "en",
+      "latency_ms": 320.14127600268694,
+      "operational_branch": "verify",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 0.81,
+      "semantic_branch": "verify",
+      "semantic_correct": true,
+      "transport": {
+        "primary": {
+          "attempts": 1,
+          "retries_used": 0,
+          "retry_statuses": []
+        },
+        "secondary": null
+      },
+      "use_case": "research-claim-verification"
+    },
+    {
+      "answer": {
+        "choice": "unclear",
+        "probabilities": {
+          "contradicted": 0.4,
+          "supported": 0.0,
+          "unclear": 0.6
+        },
+        "type": "choice"
+      },
+      "case_id": "research-claim-verification-replication-10-es",
+      "difficulty": "boundary",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow_replication",
+      "expected_branch": "verify",
+      "index": 79,
+      "language": "es",
+      "latency_ms": 369.2409260002023,
+      "operational_branch": "verify",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 0.6,
+      "semantic_branch": "verify",
+      "semantic_correct": true,
+      "transport": {
+        "primary": {
+          "attempts": 1,
+          "retries_used": 0,
+          "retry_statuses": []
+        },
+        "secondary": null
+      },
+      "use_case": "research-claim-verification"
+    },
+    {
+      "answer": {
+        "choice": "unclear",
+        "probabilities": {
+          "contradicted": 0.0,
+          "supported": 0.0,
+          "unclear": 1.0
+        },
+        "type": "choice"
+      },
+      "case_id": "research-claim-verification-replication-11-en",
+      "difficulty": "ambiguous",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow_replication",
+      "expected_branch": "verify",
+      "index": 80,
+      "language": "en",
+      "latency_ms": 297.7793099998962,
+      "operational_branch": "verify",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 1.0,
+      "semantic_branch": "verify",
+      "semantic_correct": true,
+      "transport": {
+        "primary": {
+          "attempts": 1,
+          "retries_used": 0,
+          "retry_statuses": []
+        },
+        "secondary": null
+      },
+      "use_case": "research-claim-verification"
+    },
+    {
+      "answer": {
+        "choice": "unclear",
+        "probabilities": {
+          "contradicted": 0.01,
+          "supported": 0.0,
+          "unclear": 0.99
+        },
+        "type": "choice"
+      },
+      "case_id": "research-claim-verification-replication-11-es",
+      "difficulty": "ambiguous",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow_replication",
+      "expected_branch": "verify",
+      "index": 81,
+      "language": "es",
+      "latency_ms": 402.92778000002727,
+      "operational_branch": "verify",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 0.99,
+      "semantic_branch": "verify",
+      "semantic_correct": true,
+      "transport": {
+        "primary": {
+          "attempts": 1,
+          "retries_used": 0,
+          "retry_statuses": []
+        },
+        "secondary": null
+      },
+      "use_case": "research-claim-verification"
+    },
+    {
+      "answer": {
+        "choice": "unclear",
+        "probabilities": {
+          "contradicted": 0.0,
+          "supported": 0.0,
+          "unclear": 1.0
+        },
+        "type": "choice"
+      },
+      "case_id": "research-claim-verification-replication-12-en",
+      "difficulty": "ambiguous",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow_replication",
+      "expected_branch": "verify",
+      "index": 82,
+      "language": "en",
+      "latency_ms": 304.313832999469,
+      "operational_branch": "verify",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 1.0,
+      "semantic_branch": "verify",
+      "semantic_correct": true,
+      "transport": {
+        "primary": {
+          "attempts": 1,
+          "retries_used": 0,
+          "retry_statuses": []
+        },
+        "secondary": null
+      },
+      "use_case": "research-claim-verification"
+    },
+    {
+      "answer": {
+        "choice": "unclear",
+        "probabilities": {
+          "contradicted": 0.0,
+          "supported": 0.0,
+          "unclear": 1.0
+        },
+        "type": "choice"
+      },
+      "case_id": "research-claim-verification-replication-12-es",
+      "difficulty": "ambiguous",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow_replication",
+      "expected_branch": "verify",
+      "index": 83,
+      "language": "es",
+      "latency_ms": 396.73112699892954,
+      "operational_branch": "verify",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 1.0,
+      "semantic_branch": "verify",
+      "semantic_correct": true,
+      "transport": {
+        "primary": {
+          "attempts": 1,
+          "retries_used": 0,
+          "retry_statuses": []
+        },
+        "secondary": null
+      },
+      "use_case": "research-claim-verification"
+    },
+    {
+      "answer": {
+        "choice": "unclear",
+        "probabilities": {
+          "contradicted": 0.0,
+          "supported": 0.0,
+          "unclear": 1.0
+        },
+        "type": "choice"
+      },
+      "case_id": "research-claim-verification-replication-13-en",
+      "difficulty": "ambiguous",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow_replication",
+      "expected_branch": "verify",
+      "index": 84,
+      "language": "en",
+      "latency_ms": 302.63762500180746,
+      "operational_branch": "verify",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 1.0,
+      "semantic_branch": "verify",
+      "semantic_correct": true,
+      "transport": {
+        "primary": {
+          "attempts": 1,
+          "retries_used": 0,
+          "retry_statuses": []
+        },
+        "secondary": null
+      },
+      "use_case": "research-claim-verification"
+    },
+    {
+      "answer": {
+        "choice": "unclear",
+        "probabilities": {
+          "contradicted": 0.01,
+          "supported": 0.0,
+          "unclear": 0.99
+        },
+        "type": "choice"
+      },
+      "case_id": "research-claim-verification-replication-13-es",
+      "difficulty": "ambiguous",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow_replication",
+      "expected_branch": "verify",
+      "index": 85,
+      "language": "es",
+      "latency_ms": 397.36505600012606,
+      "operational_branch": "verify",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 0.99,
+      "semantic_branch": "verify",
+      "semantic_correct": true,
+      "transport": {
+        "primary": {
+          "attempts": 1,
+          "retries_used": 0,
+          "retry_statuses": []
+        },
+        "secondary": null
+      },
+      "use_case": "research-claim-verification"
+    },
+    {
+      "answer": {
+        "choice": "unclear",
+        "probabilities": {
+          "contradicted": 0.0,
+          "supported": 0.01,
+          "unclear": 0.99
+        },
+        "type": "choice"
+      },
+      "case_id": "research-claim-verification-replication-14-en",
+      "difficulty": "ambiguous",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow_replication",
+      "expected_branch": "verify",
+      "index": 86,
+      "language": "en",
+      "latency_ms": 281.0989569989033,
+      "operational_branch": "verify",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 0.99,
+      "semantic_branch": "verify",
+      "semantic_correct": true,
+      "transport": {
+        "primary": {
+          "attempts": 1,
+          "retries_used": 0,
+          "retry_statuses": []
+        },
+        "secondary": null
+      },
+      "use_case": "research-claim-verification"
+    },
+    {
+      "answer": {
+        "choice": "unclear",
+        "probabilities": {
+          "contradicted": 0.0,
+          "supported": 0.01,
+          "unclear": 0.99
+        },
+        "type": "choice"
+      },
+      "case_id": "research-claim-verification-replication-14-es",
+      "difficulty": "ambiguous",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow_replication",
+      "expected_branch": "verify",
+      "index": 87,
+      "language": "es",
+      "latency_ms": 399.9877230016864,
+      "operational_branch": "verify",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 0.99,
+      "semantic_branch": "verify",
+      "semantic_correct": true,
+      "transport": {
+        "primary": {
+          "attempts": 1,
+          "retries_used": 0,
+          "retry_statuses": []
+        },
+        "secondary": null
+      },
+      "use_case": "research-claim-verification"
+    },
+    {
+      "answer": {
+        "choice": "unclear",
+        "probabilities": {
+          "contradicted": 0.0,
+          "supported": 0.0,
+          "unclear": 1.0
+        },
+        "type": "choice"
+      },
+      "case_id": "research-claim-verification-replication-15-en",
+      "difficulty": "ambiguous",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow_replication",
+      "expected_branch": "verify",
+      "index": 88,
+      "language": "en",
+      "latency_ms": 368.7518460028514,
+      "operational_branch": "verify",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 1.0,
+      "semantic_branch": "verify",
+      "semantic_correct": true,
+      "transport": {
+        "primary": {
+          "attempts": 1,
+          "retries_used": 0,
+          "retry_statuses": []
+        },
+        "secondary": null
+      },
+      "use_case": "research-claim-verification"
+    },
+    {
+      "answer": {
+        "choice": "unclear",
+        "probabilities": {
+          "contradicted": 0.0,
+          "supported": 0.0,
+          "unclear": 1.0
+        },
+        "type": "choice"
+      },
+      "case_id": "research-claim-verification-replication-15-es",
+      "difficulty": "ambiguous",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow_replication",
+      "expected_branch": "verify",
+      "index": 89,
+      "language": "es",
+      "latency_ms": 375.28550999923027,
+      "operational_branch": "verify",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 1.0,
+      "semantic_branch": "verify",
+      "semantic_correct": true,
+      "transport": {
+        "primary": {
+          "attempts": 1,
+          "retries_used": 0,
+          "retry_statuses": []
+        },
+        "secondary": null
+      },
+      "use_case": "research-claim-verification"
+    },
+    {
+      "answer": {
+        "probabilities": {
+          "0": 0.0,
+          "1": 0.0,
+          "2": 0.0,
+          "3": 0.05,
+          "4": 0.95
+        },
+        "score": 3.93,
+        "type": "score"
+      },
+      "case_id": "dataset-example-quality-replication-01-en",
+      "difficulty": "clear",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow_replication",
+      "expected_branch": "keep_candidate",
+      "index": 90,
+      "language": "en",
+      "latency_ms": 330.66626700019697,
+      "operational_branch": "keep_candidate",
+      "operational_correct": true,
+      "policy_type": "score",
+      "selected_probability": null,
+      "semantic_branch": "keep_candidate",
+      "semantic_correct": true,
+      "transport": {
+        "primary": {
+          "attempts": 1,
+          "retries_used": 0,
+          "retry_statuses": []
+        },
+        "secondary": null
+      },
+      "use_case": "dataset-example-quality"
+    },
+    {
+      "answer": {
+        "probabilities": {
+          "0": 0.0,
+          "1": 0.0,
+          "2": 0.0,
+          "3": 0.05,
+          "4": 0.95
+        },
+        "score": 3.93,
+        "type": "score"
+      },
+      "case_id": "dataset-example-quality-replication-01-es",
+      "difficulty": "clear",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow_replication",
+      "expected_branch": "keep_candidate",
+      "index": 91,
+      "language": "es",
+      "latency_ms": 334.82692200050224,
+      "operational_branch": "keep_candidate",
+      "operational_correct": true,
+      "policy_type": "score",
+      "selected_probability": null,
+      "semantic_branch": "keep_candidate",
+      "semantic_correct": true,
+      "transport": {
+        "primary": {
+          "attempts": 1,
+          "retries_used": 0,
+          "retry_statuses": []
+        },
+        "secondary": null
+      },
+      "use_case": "dataset-example-quality"
+    },
+    {
+      "answer": {
+        "probabilities": {
+          "0": 0.0,
+          "1": 0.01,
+          "2": 0.02,
+          "3": 0.1,
+          "4": 0.87
+        },
+        "score": 3.81,
+        "type": "score"
+      },
+      "case_id": "dataset-example-quality-replication-02-en",
+      "difficulty": "clear",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow_replication",
+      "expected_branch": "keep_candidate",
+      "index": 92,
+      "language": "en",
+      "latency_ms": 364.0975409980456,
+      "operational_branch": "keep_candidate",
+      "operational_correct": true,
+      "policy_type": "score",
+      "selected_probability": null,
+      "semantic_branch": "keep_candidate",
+      "semantic_correct": true,
+      "transport": {
+        "primary": {
+          "attempts": 1,
+          "retries_used": 0,
+          "retry_statuses": []
+        },
+        "secondary": null
+      },
+      "use_case": "dataset-example-quality"
+    },
+    {
+      "answer": {
+        "probabilities": {
+          "0": 0.0,
+          "1": 0.0,
+          "2": 0.0,
+          "3": 0.06,
+          "4": 0.94
+        },
+        "score": 3.92,
+        "type": "score"
+      },
+      "case_id": "dataset-example-quality-replication-02-es",
+      "difficulty": "clear",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow_replication",
+      "expected_branch": "keep_candidate",
+      "index": 93,
+      "language": "es",
+      "latency_ms": 342.52481300063664,
+      "operational_branch": "keep_candidate",
+      "operational_correct": true,
+      "policy_type": "score",
+      "selected_probability": null,
+      "semantic_branch": "keep_candidate",
+      "semantic_correct": true,
+      "transport": {
+        "primary": {
+          "attempts": 1,
+          "retries_used": 0,
+          "retry_statuses": []
+        },
+        "secondary": null
+      },
+      "use_case": "dataset-example-quality"
+    },
+    {
+      "answer": {
+        "probabilities": {
+          "0": 0.08,
+          "1": 0.92,
+          "2": 0.0,
+          "3": 0.0,
+          "4": 0.0
+        },
+        "score": 0.94,
+        "type": "score"
+      },
+      "case_id": "dataset-example-quality-replication-03-en",
+      "difficulty": "clear",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow_replication",
+      "expected_branch": "drop_candidate",
+      "index": 94,
+      "language": "en",
+      "latency_ms": 353.88648099979036,
+      "operational_branch": "drop_candidate",
+      "operational_correct": true,
+      "policy_type": "score",
+      "selected_probability": null,
+      "semantic_branch": "drop_candidate",
+      "semantic_correct": true,
+      "transport": {
+        "primary": {
+          "attempts": 1,
+          "retries_used": 0,
+          "retry_statuses": []
+        },
+        "secondary": null
+      },
+      "use_case": "dataset-example-quality"
+    },
+    {
+      "answer": {
+        "probabilities": {
+          "0": 0.15,
+          "1": 0.85,
+          "2": 0.0,
+          "3": 0.0,
+          "4": 0.0
+        },
+        "score": 0.87,
+        "type": "score"
+      },
+      "case_id": "dataset-example-quality-replication-03-es",
+      "difficulty": "clear",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow_replication",
+      "expected_branch": "drop_candidate",
+      "index": 95,
+      "language": "es",
+      "latency_ms": 321.0630460016546,
+      "operational_branch": "drop_candidate",
+      "operational_correct": true,
+      "policy_type": "score",
+      "selected_probability": null,
+      "semantic_branch": "drop_candidate",
+      "semantic_correct": true,
+      "transport": {
+        "primary": {
+          "attempts": 1,
+          "retries_used": 0,
+          "retry_statuses": []
+        },
+        "secondary": null
+      },
+      "use_case": "dataset-example-quality"
+    },
+    {
+      "answer": {
+        "probabilities": {
+          "0": 0.03,
+          "1": 0.87,
+          "2": 0.03,
+          "3": 0.05,
+          "4": 0.02
+        },
+        "score": 1.15,
+        "type": "score"
+      },
+      "case_id": "dataset-example-quality-replication-04-en",
+      "difficulty": "clear",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow_replication",
+      "expected_branch": "drop_candidate",
+      "index": 96,
+      "language": "en",
+      "latency_ms": 324.992812002165,
+      "operational_branch": "drop_candidate",
+      "operational_correct": true,
+      "policy_type": "score",
+      "selected_probability": null,
+      "semantic_branch": "drop_candidate",
+      "semantic_correct": true,
+      "transport": {
+        "primary": {
+          "attempts": 1,
+          "retries_used": 0,
+          "retry_statuses": []
+        },
+        "secondary": null
+      },
+      "use_case": "dataset-example-quality"
+    },
+    {
+      "answer": {
+        "probabilities": {
+          "0": 0.04,
+          "1": 0.88,
+          "2": 0.02,
+          "3": 0.04,
+          "4": 0.02
+        },
+        "score": 1.1,
+        "type": "score"
+      },
+      "case_id": "dataset-example-quality-replication-04-es",
+      "difficulty": "clear",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow_replication",
+      "expected_branch": "drop_candidate",
+      "index": 97,
+      "language": "es",
+      "latency_ms": 403.86783000212745,
+      "operational_branch": "drop_candidate",
+      "operational_correct": true,
+      "policy_type": "score",
+      "selected_probability": null,
+      "semantic_branch": "drop_candidate",
+      "semantic_correct": true,
+      "transport": {
+        "primary": {
+          "attempts": 1,
+          "retries_used": 0,
+          "retry_statuses": []
+        },
+        "secondary": null
+      },
+      "use_case": "dataset-example-quality"
+    },
+    {
+      "answer": {
+        "probabilities": {
+          "0": 0.0,
+          "1": 0.0,
+          "2": 0.0,
+          "3": 0.05,
+          "4": 0.95
+        },
+        "score": 3.93,
+        "type": "score"
+      },
+      "case_id": "dataset-example-quality-replication-05-en",
+      "difficulty": "clear",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow_replication",
+      "expected_branch": "keep_candidate",
+      "index": 98,
+      "language": "en",
+      "latency_ms": 554.9160320006195,
+      "operational_branch": "keep_candidate",
+      "operational_correct": true,
+      "policy_type": "score",
+      "selected_probability": null,
+      "semantic_branch": "keep_candidate",
+      "semantic_correct": true,
+      "transport": {
+        "primary": {
+          "attempts": 1,
+          "retries_used": 0,
+          "retry_statuses": []
+        },
+        "secondary": null
+      },
+      "use_case": "dataset-example-quality"
+    },
+    {
+      "answer": {
+        "probabilities": {
+          "0": 0.0,
+          "1": 0.0,
+          "2": 0.0,
+          "3": 0.03,
+          "4": 0.97
+        },
+        "score": 3.95,
+        "type": "score"
+      },
+      "case_id": "dataset-example-quality-replication-05-es",
+      "difficulty": "clear",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow_replication",
+      "expected_branch": "keep_candidate",
+      "index": 99,
+      "language": "es",
+      "latency_ms": 315.4032910024398,
+      "operational_branch": "keep_candidate",
+      "operational_correct": true,
+      "policy_type": "score",
+      "selected_probability": null,
+      "semantic_branch": "keep_candidate",
+      "semantic_correct": true,
+      "transport": {
+        "primary": {
+          "attempts": 1,
+          "retries_used": 0,
+          "retry_statuses": []
+        },
+        "secondary": null
+      },
+      "use_case": "dataset-example-quality"
+    },
+    {
+      "answer": {
+        "probabilities": {
+          "0": 0.0,
+          "1": 0.02,
+          "2": 0.6,
+          "3": 0.34,
+          "4": 0.04
+        },
+        "score": 2.39,
+        "type": "score"
+      },
+      "case_id": "dataset-example-quality-replication-06-en",
+      "difficulty": "boundary",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow_replication",
+      "expected_branch": "review",
+      "index": 100,
+      "language": "en",
+      "latency_ms": 287.22005099916714,
+      "operational_branch": "review",
+      "operational_correct": true,
+      "policy_type": "score",
+      "selected_probability": null,
+      "semantic_branch": "review",
+      "semantic_correct": true,
+      "transport": {
+        "primary": {
+          "attempts": 1,
+          "retries_used": 0,
+          "retry_statuses": []
+        },
+        "secondary": null
+      },
+      "use_case": "dataset-example-quality"
+    },
+    {
+      "answer": {
+        "probabilities": {
+          "0": 0.0,
+          "1": 0.04,
+          "2": 0.8,
+          "3": 0.15,
+          "4": 0.01
+        },
+        "score": 2.13,
+        "type": "score"
+      },
+      "case_id": "dataset-example-quality-replication-06-es",
+      "difficulty": "boundary",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow_replication",
+      "expected_branch": "review",
+      "index": 101,
+      "language": "es",
+      "latency_ms": 322.6867339981254,
+      "operational_branch": "review",
+      "operational_correct": true,
+      "policy_type": "score",
+      "selected_probability": null,
+      "semantic_branch": "review",
+      "semantic_correct": true,
+      "transport": {
+        "primary": {
+          "attempts": 1,
+          "retries_used": 0,
+          "retry_statuses": []
+        },
+        "secondary": null
+      },
+      "use_case": "dataset-example-quality"
+    },
+    {
+      "answer": {
+        "probabilities": {
+          "0": 0.01,
+          "1": 0.32,
+          "2": 0.48,
+          "3": 0.16,
+          "4": 0.03
+        },
+        "score": 1.88,
+        "type": "score"
+      },
+      "case_id": "dataset-example-quality-replication-07-en",
+      "difficulty": "boundary",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow_replication",
+      "expected_branch": "review",
+      "index": 102,
+      "language": "en",
+      "latency_ms": 389.8379339989333,
+      "operational_branch": "drop_candidate",
+      "operational_correct": false,
+      "policy_type": "score",
+      "selected_probability": null,
+      "semantic_branch": "drop_candidate",
+      "semantic_correct": false,
+      "transport": {
+        "primary": {
+          "attempts": 1,
+          "retries_used": 0,
+          "retry_statuses": []
+        },
+        "secondary": null
+      },
+      "use_case": "dataset-example-quality"
+    },
+    {
+      "answer": {
+        "probabilities": {
+          "0": 0.0,
+          "1": 0.18,
+          "2": 0.63,
+          "3": 0.17,
+          "4": 0.02
+        },
+        "score": 2.03,
+        "type": "score"
+      },
+      "case_id": "dataset-example-quality-replication-07-es",
+      "difficulty": "boundary",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow_replication",
+      "expected_branch": "review",
+      "index": 103,
+      "language": "es",
+      "latency_ms": 377.4453469995933,
+      "operational_branch": "review",
+      "operational_correct": true,
+      "policy_type": "score",
+      "selected_probability": null,
+      "semantic_branch": "review",
+      "semantic_correct": true,
+      "transport": {
+        "primary": {
+          "attempts": 1,
+          "retries_used": 0,
+          "retry_statuses": []
+        },
+        "secondary": null
+      },
+      "use_case": "dataset-example-quality"
+    },
+    {
+      "answer": {
+        "probabilities": {
+          "0": 0.0,
+          "1": 0.09,
+          "2": 0.58,
+          "3": 0.3,
+          "4": 0.03
+        },
+        "score": 2.26,
+        "type": "score"
+      },
+      "case_id": "dataset-example-quality-replication-08-en",
+      "difficulty": "boundary",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow_replication",
+      "expected_branch": "review",
+      "index": 104,
+      "language": "en",
+      "latency_ms": 428.2943139987765,
+      "operational_branch": "review",
+      "operational_correct": true,
+      "policy_type": "score",
+      "selected_probability": null,
+      "semantic_branch": "review",
+      "semantic_correct": true,
+      "transport": {
+        "primary": {
+          "attempts": 1,
+          "retries_used": 0,
+          "retry_statuses": []
+        },
+        "secondary": null
+      },
+      "use_case": "dataset-example-quality"
+    },
+    {
+      "answer": {
+        "probabilities": {
+          "0": 0.0,
+          "1": 0.11,
+          "2": 0.6,
+          "3": 0.26,
+          "4": 0.03
+        },
+        "score": 2.2,
+        "type": "score"
+      },
+      "case_id": "dataset-example-quality-replication-08-es",
+      "difficulty": "boundary",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow_replication",
+      "expected_branch": "review",
+      "index": 105,
+      "language": "es",
+      "latency_ms": 288.4425789998204,
+      "operational_branch": "review",
+      "operational_correct": true,
+      "policy_type": "score",
+      "selected_probability": null,
+      "semantic_branch": "review",
+      "semantic_correct": true,
+      "transport": {
+        "primary": {
+          "attempts": 1,
+          "retries_used": 0,
+          "retry_statuses": []
+        },
+        "secondary": null
+      },
+      "use_case": "dataset-example-quality"
+    },
+    {
+      "answer": {
+        "probabilities": {
+          "0": 0.0,
+          "1": 0.04,
+          "2": 0.91,
+          "3": 0.05,
+          "4": 0.0
+        },
+        "score": 2.01,
+        "type": "score"
+      },
+      "case_id": "dataset-example-quality-replication-09-en",
+      "difficulty": "boundary",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow_replication",
+      "expected_branch": "review",
+      "index": 106,
+      "language": "en",
+      "latency_ms": 320.74313500197604,
+      "operational_branch": "review",
+      "operational_correct": true,
+      "policy_type": "score",
+      "selected_probability": null,
+      "semantic_branch": "review",
+      "semantic_correct": true,
+      "transport": {
+        "primary": {
+          "attempts": 1,
+          "retries_used": 0,
+          "retry_statuses": []
+        },
+        "secondary": null
+      },
+      "use_case": "dataset-example-quality"
+    },
+    {
+      "answer": {
+        "probabilities": {
+          "0": 0.0,
+          "1": 0.07,
+          "2": 0.88,
+          "3": 0.05,
+          "4": 0.0
+        },
+        "score": 1.99,
+        "type": "score"
+      },
+      "case_id": "dataset-example-quality-replication-09-es",
+      "difficulty": "boundary",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow_replication",
+      "expected_branch": "review",
+      "index": 107,
+      "language": "es",
+      "latency_ms": 400.33253300134675,
+      "operational_branch": "drop_candidate",
+      "operational_correct": false,
+      "policy_type": "score",
+      "selected_probability": null,
+      "semantic_branch": "drop_candidate",
+      "semantic_correct": false,
+      "transport": {
+        "primary": {
+          "attempts": 1,
+          "retries_used": 0,
+          "retry_statuses": []
+        },
+        "secondary": null
+      },
+      "use_case": "dataset-example-quality"
+    },
+    {
+      "answer": {
+        "probabilities": {
+          "0": 0.01,
+          "1": 0.64,
+          "2": 0.17,
+          "3": 0.13,
+          "4": 0.05
+        },
+        "score": 1.58,
+        "type": "score"
+      },
+      "case_id": "dataset-example-quality-replication-10-en",
+      "difficulty": "boundary",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow_replication",
+      "expected_branch": "review",
+      "index": 108,
+      "language": "en",
+      "latency_ms": 370.0401639980555,
+      "operational_branch": "drop_candidate",
+      "operational_correct": false,
+      "policy_type": "score",
+      "selected_probability": null,
+      "semantic_branch": "drop_candidate",
+      "semantic_correct": false,
+      "transport": {
+        "primary": {
+          "attempts": 1,
+          "retries_used": 0,
+          "retry_statuses": []
+        },
+        "secondary": null
+      },
+      "use_case": "dataset-example-quality"
+    },
+    {
+      "answer": {
+        "probabilities": {
+          "0": 0.01,
+          "1": 0.43,
+          "2": 0.17,
+          "3": 0.27,
+          "4": 0.12
+        },
+        "score": 2.06,
+        "type": "score"
+      },
+      "case_id": "dataset-example-quality-replication-10-es",
+      "difficulty": "boundary",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow_replication",
+      "expected_branch": "review",
+      "index": 109,
+      "language": "es",
+      "latency_ms": 452.94098899830715,
+      "operational_branch": "review",
+      "operational_correct": true,
+      "policy_type": "score",
+      "selected_probability": null,
+      "semantic_branch": "review",
+      "semantic_correct": true,
+      "transport": {
+        "primary": {
+          "attempts": 1,
+          "retries_used": 0,
+          "retry_statuses": []
+        },
+        "secondary": null
+      },
+      "use_case": "dataset-example-quality"
+    },
+    {
+      "answer": {
+        "probabilities": {
+          "0": 0.04,
+          "1": 0.35,
+          "2": 0.58,
+          "3": 0.03,
+          "4": 0.0
+        },
+        "score": 1.61,
+        "type": "score"
+      },
+      "case_id": "dataset-example-quality-replication-11-en",
+      "difficulty": "ambiguous",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow_replication",
+      "expected_branch": "review",
+      "index": 110,
+      "language": "en",
+      "latency_ms": 353.052641999966,
+      "operational_branch": "drop_candidate",
+      "operational_correct": false,
+      "policy_type": "score",
+      "selected_probability": null,
+      "semantic_branch": "drop_candidate",
+      "semantic_correct": false,
+      "transport": {
+        "primary": {
+          "attempts": 1,
+          "retries_used": 0,
+          "retry_statuses": []
+        },
+        "secondary": null
+      },
+      "use_case": "dataset-example-quality"
+    },
+    {
+      "answer": {
+        "probabilities": {
+          "0": 0.04,
+          "1": 0.37,
+          "2": 0.49,
+          "3": 0.09,
+          "4": 0.01
+        },
+        "score": 1.66,
+        "type": "score"
+      },
+      "case_id": "dataset-example-quality-replication-11-es",
+      "difficulty": "ambiguous",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow_replication",
+      "expected_branch": "review",
+      "index": 111,
+      "language": "es",
+      "latency_ms": 450.6829500023741,
+      "operational_branch": "drop_candidate",
+      "operational_correct": false,
+      "policy_type": "score",
+      "selected_probability": null,
+      "semantic_branch": "drop_candidate",
+      "semantic_correct": false,
+      "transport": {
+        "primary": {
+          "attempts": 1,
+          "retries_used": 0,
+          "retry_statuses": []
+        },
+        "secondary": null
+      },
+      "use_case": "dataset-example-quality"
+    },
+    {
+      "answer": {
+        "probabilities": {
+          "0": 0.01,
+          "1": 0.25,
+          "2": 0.71,
+          "3": 0.03,
+          "4": 0.0
+        },
+        "score": 1.78,
+        "type": "score"
+      },
+      "case_id": "dataset-example-quality-replication-12-en",
+      "difficulty": "ambiguous",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow_replication",
+      "expected_branch": "review",
+      "index": 112,
+      "language": "en",
+      "latency_ms": 380.1889940004912,
+      "operational_branch": "drop_candidate",
+      "operational_correct": false,
+      "policy_type": "score",
+      "selected_probability": null,
+      "semantic_branch": "drop_candidate",
+      "semantic_correct": false,
+      "transport": {
+        "primary": {
+          "attempts": 1,
+          "retries_used": 0,
+          "retry_statuses": []
+        },
+        "secondary": null
+      },
+      "use_case": "dataset-example-quality"
+    },
+    {
+      "answer": {
+        "probabilities": {
+          "0": 0.01,
+          "1": 0.23,
+          "2": 0.73,
+          "3": 0.03,
+          "4": 0.0
+        },
+        "score": 1.78,
+        "type": "score"
+      },
+      "case_id": "dataset-example-quality-replication-12-es",
+      "difficulty": "ambiguous",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow_replication",
+      "expected_branch": "review",
+      "index": 113,
+      "language": "es",
+      "latency_ms": 296.7304120029439,
+      "operational_branch": "drop_candidate",
+      "operational_correct": false,
+      "policy_type": "score",
+      "selected_probability": null,
+      "semantic_branch": "drop_candidate",
+      "semantic_correct": false,
+      "transport": {
+        "primary": {
+          "attempts": 1,
+          "retries_used": 0,
+          "retry_statuses": []
+        },
+        "secondary": null
+      },
+      "use_case": "dataset-example-quality"
+    },
+    {
+      "answer": {
+        "probabilities": {
+          "0": 0.02,
+          "1": 0.58,
+          "2": 0.35,
+          "3": 0.04,
+          "4": 0.01
+        },
+        "score": 1.43,
+        "type": "score"
+      },
+      "case_id": "dataset-example-quality-replication-13-en",
+      "difficulty": "ambiguous",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow_replication",
+      "expected_branch": "review",
+      "index": 114,
+      "language": "en",
+      "latency_ms": 372.5106419988151,
+      "operational_branch": "drop_candidate",
+      "operational_correct": false,
+      "policy_type": "score",
+      "selected_probability": null,
+      "semantic_branch": "drop_candidate",
+      "semantic_correct": false,
+      "transport": {
+        "primary": {
+          "attempts": 1,
+          "retries_used": 0,
+          "retry_statuses": []
+        },
+        "secondary": null
+      },
+      "use_case": "dataset-example-quality"
+    },
+    {
+      "answer": {
+        "probabilities": {
+          "0": 0.03,
+          "1": 0.63,
+          "2": 0.3,
+          "3": 0.03,
+          "4": 0.01
+        },
+        "score": 1.35,
+        "type": "score"
+      },
+      "case_id": "dataset-example-quality-replication-13-es",
+      "difficulty": "ambiguous",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow_replication",
+      "expected_branch": "review",
+      "index": 115,
+      "language": "es",
+      "latency_ms": 349.537866000901,
+      "operational_branch": "drop_candidate",
+      "operational_correct": false,
+      "policy_type": "score",
+      "selected_probability": null,
+      "semantic_branch": "drop_candidate",
+      "semantic_correct": false,
+      "transport": {
+        "primary": {
+          "attempts": 1,
+          "retries_used": 0,
+          "retry_statuses": []
+        },
+        "secondary": null
+      },
+      "use_case": "dataset-example-quality"
+    },
+    {
+      "answer": {
+        "probabilities": {
+          "0": 0.01,
+          "1": 0.08,
+          "2": 0.62,
+          "3": 0.25,
+          "4": 0.04
+        },
+        "score": 2.24,
+        "type": "score"
+      },
+      "case_id": "dataset-example-quality-replication-14-en",
+      "difficulty": "ambiguous",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow_replication",
+      "expected_branch": "review",
+      "index": 116,
+      "language": "en",
+      "latency_ms": 297.59313000249676,
+      "operational_branch": "review",
+      "operational_correct": true,
+      "policy_type": "score",
+      "selected_probability": null,
+      "semantic_branch": "review",
+      "semantic_correct": true,
+      "transport": {
+        "primary": {
+          "attempts": 1,
+          "retries_used": 0,
+          "retry_statuses": []
+        },
+        "secondary": null
+      },
+      "use_case": "dataset-example-quality"
+    },
+    {
+      "answer": {
+        "probabilities": {
+          "0": 0.01,
+          "1": 0.12,
+          "2": 0.7,
+          "3": 0.15,
+          "4": 0.02
+        },
+        "score": 2.05,
+        "type": "score"
+      },
+      "case_id": "dataset-example-quality-replication-14-es",
+      "difficulty": "ambiguous",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow_replication",
+      "expected_branch": "review",
+      "index": 117,
+      "language": "es",
+      "latency_ms": 326.54369000010774,
+      "operational_branch": "review",
+      "operational_correct": true,
+      "policy_type": "score",
+      "selected_probability": null,
+      "semantic_branch": "review",
+      "semantic_correct": true,
+      "transport": {
+        "primary": {
+          "attempts": 1,
+          "retries_used": 0,
+          "retry_statuses": []
+        },
+        "secondary": null
+      },
+      "use_case": "dataset-example-quality"
+    },
+    {
+      "answer": {
+        "probabilities": {
+          "0": 0.04,
+          "1": 0.7,
+          "2": 0.12,
+          "3": 0.11,
+          "4": 0.03
+        },
+        "score": 1.38,
+        "type": "score"
+      },
+      "case_id": "dataset-example-quality-replication-15-en",
+      "difficulty": "ambiguous",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow_replication",
+      "expected_branch": "review",
+      "index": 118,
+      "language": "en",
+      "latency_ms": 427.13297400041483,
+      "operational_branch": "drop_candidate",
+      "operational_correct": false,
+      "policy_type": "score",
+      "selected_probability": null,
+      "semantic_branch": "drop_candidate",
+      "semantic_correct": false,
+      "transport": {
+        "primary": {
+          "attempts": 1,
+          "retries_used": 0,
+          "retry_statuses": []
+        },
+        "secondary": null
+      },
+      "use_case": "dataset-example-quality"
+    },
+    {
+      "answer": {
+        "probabilities": {
+          "0": 0.03,
+          "1": 0.73,
+          "2": 0.11,
+          "3": 0.11,
+          "4": 0.02
+        },
+        "score": 1.38,
+        "type": "score"
+      },
+      "case_id": "dataset-example-quality-replication-15-es",
+      "difficulty": "ambiguous",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow_replication",
+      "expected_branch": "review",
+      "index": 119,
+      "language": "es",
+      "latency_ms": 334.04424199761706,
+      "operational_branch": "drop_candidate",
+      "operational_correct": false,
+      "policy_type": "score",
+      "selected_probability": null,
+      "semantic_branch": "drop_candidate",
+      "semantic_correct": false,
+      "transport": {
+        "primary": {
+          "attempts": 1,
+          "retries_used": 0,
+          "retry_statuses": []
+        },
+        "secondary": null
+      },
+      "use_case": "dataset-example-quality"
+    },
+    {
+      "answer": {
+        "choice": "routine",
+        "probabilities": {
+          "focused": 0.0,
+          "routine": 1.0,
+          "specialist": 0.0
+        },
+        "type": "choice"
+      },
+      "case_id": "change-review-risk-replication-01-en",
+      "difficulty": "clear",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow_replication",
+      "expected_branch": "routine_review",
+      "index": 120,
+      "language": "en",
+      "latency_ms": 365.7537289982429,
+      "operational_branch": "routine_review",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 1.0,
+      "semantic_branch": "routine_review",
+      "semantic_correct": true,
+      "transport": {
+        "primary": {
+          "attempts": 1,
+          "retries_used": 0,
+          "retry_statuses": []
+        },
+        "secondary": null
+      },
+      "use_case": "change-review-risk"
+    },
+    {
+      "answer": {
+        "choice": "routine",
+        "probabilities": {
+          "focused": 0.0,
+          "routine": 1.0,
+          "specialist": 0.0
+        },
+        "type": "choice"
+      },
+      "case_id": "change-review-risk-replication-01-es",
+      "difficulty": "clear",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow_replication",
+      "expected_branch": "routine_review",
+      "index": 121,
+      "language": "es",
+      "latency_ms": 299.33178699866403,
+      "operational_branch": "routine_review",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 1.0,
+      "semantic_branch": "routine_review",
+      "semantic_correct": true,
+      "transport": {
+        "primary": {
+          "attempts": 1,
+          "retries_used": 0,
+          "retry_statuses": []
+        },
+        "secondary": null
+      },
+      "use_case": "change-review-risk"
+    },
+    {
+      "answer": {
+        "choice": "routine",
+        "probabilities": {
+          "focused": 0.0,
+          "routine": 1.0,
+          "specialist": 0.0
+        },
+        "type": "choice"
+      },
+      "case_id": "change-review-risk-replication-02-en",
+      "difficulty": "clear",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow_replication",
+      "expected_branch": "routine_review",
+      "index": 122,
+      "language": "en",
+      "latency_ms": 503.3997160026047,
+      "operational_branch": "routine_review",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 1.0,
+      "semantic_branch": "routine_review",
+      "semantic_correct": true,
+      "transport": {
+        "primary": {
+          "attempts": 1,
+          "retries_used": 0,
+          "retry_statuses": []
+        },
+        "secondary": null
+      },
+      "use_case": "change-review-risk"
+    },
+    {
+      "answer": {
+        "choice": "routine",
+        "probabilities": {
+          "focused": 0.0,
+          "routine": 1.0,
+          "specialist": 0.0
+        },
+        "type": "choice"
+      },
+      "case_id": "change-review-risk-replication-02-es",
+      "difficulty": "clear",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow_replication",
+      "expected_branch": "routine_review",
+      "index": 123,
+      "language": "es",
+      "latency_ms": 309.38570700163837,
+      "operational_branch": "routine_review",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 1.0,
+      "semantic_branch": "routine_review",
+      "semantic_correct": true,
+      "transport": {
+        "primary": {
+          "attempts": 1,
+          "retries_used": 0,
+          "retry_statuses": []
+        },
+        "secondary": null
+      },
+      "use_case": "change-review-risk"
+    },
+    {
+      "answer": {
+        "choice": "focused",
+        "probabilities": {
+          "focused": 0.77,
+          "routine": 0.22,
+          "specialist": 0.01
+        },
+        "type": "choice"
+      },
+      "case_id": "change-review-risk-replication-03-en",
+      "difficulty": "clear",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow_replication",
+      "expected_branch": "focused_review",
+      "index": 124,
+      "language": "en",
+      "latency_ms": 390.56427200193866,
+      "operational_branch": "review",
+      "operational_correct": false,
+      "policy_type": "choice",
+      "selected_probability": 0.77,
+      "semantic_branch": "focused_review",
+      "semantic_correct": true,
+      "transport": {
+        "primary": {
+          "attempts": 1,
+          "retries_used": 0,
+          "retry_statuses": []
+        },
+        "secondary": null
+      },
+      "use_case": "change-review-risk"
+    },
+    {
+      "answer": {
+        "choice": "focused",
+        "probabilities": {
+          "focused": 0.78,
+          "routine": 0.2,
+          "specialist": 0.02
+        },
+        "type": "choice"
+      },
+      "case_id": "change-review-risk-replication-03-es",
+      "difficulty": "clear",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow_replication",
+      "expected_branch": "focused_review",
+      "index": 125,
+      "language": "es",
+      "latency_ms": 555.4812699992908,
+      "operational_branch": "review",
+      "operational_correct": false,
+      "policy_type": "choice",
+      "selected_probability": 0.78,
+      "semantic_branch": "focused_review",
+      "semantic_correct": true,
+      "transport": {
+        "primary": {
+          "attempts": 1,
+          "retries_used": 0,
+          "retry_statuses": []
+        },
+        "secondary": null
+      },
+      "use_case": "change-review-risk"
+    },
+    {
+      "answer": {
+        "choice": "specialist",
+        "probabilities": {
+          "focused": 0.0,
+          "routine": 0.0,
+          "specialist": 1.0
+        },
+        "type": "choice"
+      },
+      "case_id": "change-review-risk-replication-04-en",
+      "difficulty": "clear",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow_replication",
+      "expected_branch": "specialist_review",
+      "index": 126,
+      "language": "en",
+      "latency_ms": 360.29772400070215,
+      "operational_branch": "specialist_review",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 1.0,
+      "semantic_branch": "specialist_review",
+      "semantic_correct": true,
+      "transport": {
+        "primary": {
+          "attempts": 1,
+          "retries_used": 0,
+          "retry_statuses": []
+        },
+        "secondary": null
+      },
+      "use_case": "change-review-risk"
+    },
+    {
+      "answer": {
+        "choice": "specialist",
+        "probabilities": {
+          "focused": 0.0,
+          "routine": 0.0,
+          "specialist": 1.0
+        },
+        "type": "choice"
+      },
+      "case_id": "change-review-risk-replication-04-es",
+      "difficulty": "clear",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow_replication",
+      "expected_branch": "specialist_review",
+      "index": 127,
+      "language": "es",
+      "latency_ms": 339.04862700001104,
+      "operational_branch": "specialist_review",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 1.0,
+      "semantic_branch": "specialist_review",
+      "semantic_correct": true,
+      "transport": {
+        "primary": {
+          "attempts": 1,
+          "retries_used": 0,
+          "retry_statuses": []
+        },
+        "secondary": null
+      },
+      "use_case": "change-review-risk"
+    },
+    {
+      "answer": {
+        "choice": "specialist",
+        "probabilities": {
+          "focused": 0.0,
+          "routine": 0.0,
+          "specialist": 1.0
+        },
+        "type": "choice"
+      },
+      "case_id": "change-review-risk-replication-05-en",
+      "difficulty": "clear",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow_replication",
+      "expected_branch": "specialist_review",
+      "index": 128,
+      "language": "en",
+      "latency_ms": 310.51874599870644,
+      "operational_branch": "specialist_review",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 1.0,
+      "semantic_branch": "specialist_review",
+      "semantic_correct": true,
+      "transport": {
+        "primary": {
+          "attempts": 1,
+          "retries_used": 0,
+          "retry_statuses": []
+        },
+        "secondary": null
+      },
+      "use_case": "change-review-risk"
+    },
+    {
+      "answer": {
+        "choice": "specialist",
+        "probabilities": {
+          "focused": 0.0,
+          "routine": 0.0,
+          "specialist": 1.0
+        },
+        "type": "choice"
+      },
+      "case_id": "change-review-risk-replication-05-es",
+      "difficulty": "clear",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow_replication",
+      "expected_branch": "specialist_review",
+      "index": 129,
+      "language": "es",
+      "latency_ms": 389.8864330003562,
+      "operational_branch": "specialist_review",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 1.0,
+      "semantic_branch": "specialist_review",
+      "semantic_correct": true,
+      "transport": {
+        "primary": {
+          "attempts": 1,
+          "retries_used": 0,
+          "retry_statuses": []
+        },
+        "secondary": null
+      },
+      "use_case": "change-review-risk"
+    },
+    {
+      "answer": {
+        "choice": "specialist",
+        "probabilities": {
+          "focused": 0.19,
+          "routine": 0.0,
+          "specialist": 0.81
+        },
+        "type": "choice"
+      },
+      "case_id": "change-review-risk-replication-06-en",
+      "difficulty": "boundary",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow_replication",
+      "expected_branch": "review",
+      "index": 130,
+      "language": "en",
+      "latency_ms": 453.2765570002084,
+      "operational_branch": "review",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 0.81,
+      "semantic_branch": "specialist_review",
+      "semantic_correct": false,
+      "transport": {
+        "primary": {
+          "attempts": 1,
+          "retries_used": 0,
+          "retry_statuses": []
+        },
+        "secondary": null
+      },
+      "use_case": "change-review-risk"
+    },
+    {
+      "answer": {
+        "choice": "specialist",
+        "probabilities": {
+          "focused": 0.18,
+          "routine": 0.0,
+          "specialist": 0.82
+        },
+        "type": "choice"
+      },
+      "case_id": "change-review-risk-replication-06-es",
+      "difficulty": "boundary",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow_replication",
+      "expected_branch": "review",
+      "index": 131,
+      "language": "es",
+      "latency_ms": 1066.9691779985442,
+      "operational_branch": "specialist_review",
+      "operational_correct": false,
+      "policy_type": "choice",
+      "selected_probability": 0.82,
+      "semantic_branch": "specialist_review",
+      "semantic_correct": false,
+      "transport": {
+        "primary": {
+          "attempts": 1,
+          "retries_used": 0,
+          "retry_statuses": []
+        },
+        "secondary": null
+      },
+      "use_case": "change-review-risk"
+    },
+    {
+      "answer": {
+        "choice": "specialist",
+        "probabilities": {
+          "focused": 0.05,
+          "routine": 0.0,
+          "specialist": 0.95
+        },
+        "type": "choice"
+      },
+      "case_id": "change-review-risk-replication-07-en",
+      "difficulty": "boundary",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow_replication",
+      "expected_branch": "review",
+      "index": 132,
+      "language": "en",
+      "latency_ms": 350.1517350014183,
+      "operational_branch": "specialist_review",
+      "operational_correct": false,
+      "policy_type": "choice",
+      "selected_probability": 0.95,
+      "semantic_branch": "specialist_review",
+      "semantic_correct": false,
+      "transport": {
+        "primary": {
+          "attempts": 1,
+          "retries_used": 0,
+          "retry_statuses": []
+        },
+        "secondary": null
+      },
+      "use_case": "change-review-risk"
+    },
+    {
+      "answer": {
+        "choice": "specialist",
+        "probabilities": {
+          "focused": 0.03,
+          "routine": 0.0,
+          "specialist": 0.97
+        },
+        "type": "choice"
+      },
+      "case_id": "change-review-risk-replication-07-es",
+      "difficulty": "boundary",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow_replication",
+      "expected_branch": "review",
+      "index": 133,
+      "language": "es",
+      "latency_ms": 327.24258899907,
+      "operational_branch": "specialist_review",
+      "operational_correct": false,
+      "policy_type": "choice",
+      "selected_probability": 0.97,
+      "semantic_branch": "specialist_review",
+      "semantic_correct": false,
+      "transport": {
+        "primary": {
+          "attempts": 1,
+          "retries_used": 0,
+          "retry_statuses": []
+        },
+        "secondary": null
+      },
+      "use_case": "change-review-risk"
+    },
+    {
+      "answer": {
+        "choice": "focused",
+        "probabilities": {
+          "focused": 0.6,
+          "routine": 0.0,
+          "specialist": 0.4
+        },
+        "type": "choice"
+      },
+      "case_id": "change-review-risk-replication-08-en",
+      "difficulty": "boundary",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow_replication",
+      "expected_branch": "review",
+      "index": 134,
+      "language": "en",
+      "latency_ms": 391.2592320011754,
+      "operational_branch": "review",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 0.6,
+      "semantic_branch": "focused_review",
+      "semantic_correct": false,
+      "transport": {
+        "primary": {
+          "attempts": 1,
+          "retries_used": 0,
+          "retry_statuses": []
+        },
+        "secondary": null
+      },
+      "use_case": "change-review-risk"
+    },
+    {
+      "answer": {
+        "choice": "focused",
+        "probabilities": {
+          "focused": 0.66,
+          "routine": 0.0,
+          "specialist": 0.34
+        },
+        "type": "choice"
+      },
+      "case_id": "change-review-risk-replication-08-es",
+      "difficulty": "boundary",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow_replication",
+      "expected_branch": "review",
+      "index": 135,
+      "language": "es",
+      "latency_ms": 348.0882779986132,
+      "operational_branch": "review",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 0.66,
+      "semantic_branch": "focused_review",
+      "semantic_correct": false,
+      "transport": {
+        "primary": {
+          "attempts": 1,
+          "retries_used": 0,
+          "retry_statuses": []
+        },
+        "secondary": null
+      },
+      "use_case": "change-review-risk"
+    },
+    {
+      "answer": {
+        "choice": "specialist",
+        "probabilities": {
+          "focused": 0.03,
+          "routine": 0.0,
+          "specialist": 0.97
+        },
+        "type": "choice"
+      },
+      "case_id": "change-review-risk-replication-09-en",
+      "difficulty": "boundary",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow_replication",
+      "expected_branch": "review",
+      "index": 136,
+      "language": "en",
+      "latency_ms": 286.3376610002888,
+      "operational_branch": "specialist_review",
+      "operational_correct": false,
+      "policy_type": "choice",
+      "selected_probability": 0.97,
+      "semantic_branch": "specialist_review",
+      "semantic_correct": false,
+      "transport": {
+        "primary": {
+          "attempts": 1,
+          "retries_used": 0,
+          "retry_statuses": []
+        },
+        "secondary": null
+      },
+      "use_case": "change-review-risk"
+    },
+    {
+      "answer": {
+        "choice": "specialist",
+        "probabilities": {
+          "focused": 0.06,
+          "routine": 0.0,
+          "specialist": 0.94
+        },
+        "type": "choice"
+      },
+      "case_id": "change-review-risk-replication-09-es",
+      "difficulty": "boundary",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow_replication",
+      "expected_branch": "review",
+      "index": 137,
+      "language": "es",
+      "latency_ms": 332.0764740019513,
+      "operational_branch": "specialist_review",
+      "operational_correct": false,
+      "policy_type": "choice",
+      "selected_probability": 0.94,
+      "semantic_branch": "specialist_review",
+      "semantic_correct": false,
+      "transport": {
+        "primary": {
+          "attempts": 1,
+          "retries_used": 0,
+          "retry_statuses": []
+        },
+        "secondary": null
+      },
+      "use_case": "change-review-risk"
+    },
+    {
+      "answer": {
+        "choice": "focused",
+        "probabilities": {
+          "focused": 0.5,
+          "routine": 0.01,
+          "specialist": 0.49
+        },
+        "type": "choice"
+      },
+      "case_id": "change-review-risk-replication-10-en",
+      "difficulty": "boundary",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow_replication",
+      "expected_branch": "review",
+      "index": 138,
+      "language": "en",
+      "latency_ms": 469.9531810001645,
+      "operational_branch": "review",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 0.5,
+      "semantic_branch": "focused_review",
+      "semantic_correct": false,
+      "transport": {
+        "primary": {
+          "attempts": 1,
+          "retries_used": 0,
+          "retry_statuses": []
+        },
+        "secondary": null
+      },
+      "use_case": "change-review-risk"
+    },
+    {
+      "answer": {
+        "choice": "specialist",
+        "probabilities": {
+          "focused": 0.25,
+          "routine": 0.01,
+          "specialist": 0.74
+        },
+        "type": "choice"
+      },
+      "case_id": "change-review-risk-replication-10-es",
+      "difficulty": "boundary",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow_replication",
+      "expected_branch": "review",
+      "index": 139,
+      "language": "es",
+      "latency_ms": 398.76270400054636,
+      "operational_branch": "review",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 0.74,
+      "semantic_branch": "specialist_review",
+      "semantic_correct": false,
+      "transport": {
+        "primary": {
+          "attempts": 1,
+          "retries_used": 0,
+          "retry_statuses": []
+        },
+        "secondary": null
+      },
+      "use_case": "change-review-risk"
+    },
+    {
+      "answer": {
+        "choice": "focused",
+        "probabilities": {
+          "focused": 0.86,
+          "routine": 0.04,
+          "specialist": 0.1
+        },
+        "type": "choice"
+      },
+      "case_id": "change-review-risk-replication-11-en",
+      "difficulty": "ambiguous",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow_replication",
+      "expected_branch": "review",
+      "index": 140,
+      "language": "en",
+      "latency_ms": 371.69480200100224,
+      "operational_branch": "focused_review",
+      "operational_correct": false,
+      "policy_type": "choice",
+      "selected_probability": 0.86,
+      "semantic_branch": "focused_review",
+      "semantic_correct": false,
+      "transport": {
+        "primary": {
+          "attempts": 1,
+          "retries_used": 0,
+          "retry_statuses": []
+        },
+        "secondary": null
+      },
+      "use_case": "change-review-risk"
+    },
+    {
+      "answer": {
+        "choice": "focused",
+        "probabilities": {
+          "focused": 0.85,
+          "routine": 0.06,
+          "specialist": 0.09
+        },
+        "type": "choice"
+      },
+      "case_id": "change-review-risk-replication-11-es",
+      "difficulty": "ambiguous",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow_replication",
+      "expected_branch": "review",
+      "index": 141,
+      "language": "es",
+      "latency_ms": 430.6825019993994,
+      "operational_branch": "focused_review",
+      "operational_correct": false,
+      "policy_type": "choice",
+      "selected_probability": 0.85,
+      "semantic_branch": "focused_review",
+      "semantic_correct": false,
+      "transport": {
+        "primary": {
+          "attempts": 1,
+          "retries_used": 0,
+          "retry_statuses": []
+        },
+        "secondary": null
+      },
+      "use_case": "change-review-risk"
+    },
+    {
+      "answer": {
+        "choice": "specialist",
+        "probabilities": {
+          "focused": 0.0,
+          "routine": 0.0,
+          "specialist": 1.0
+        },
+        "type": "choice"
+      },
+      "case_id": "change-review-risk-replication-12-en",
+      "difficulty": "ambiguous",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow_replication",
+      "expected_branch": "review",
+      "index": 142,
+      "language": "en",
+      "latency_ms": 308.2340379987727,
+      "operational_branch": "specialist_review",
+      "operational_correct": false,
+      "policy_type": "choice",
+      "selected_probability": 1.0,
+      "semantic_branch": "specialist_review",
+      "semantic_correct": false,
+      "transport": {
+        "primary": {
+          "attempts": 1,
+          "retries_used": 0,
+          "retry_statuses": []
+        },
+        "secondary": null
+      },
+      "use_case": "change-review-risk"
+    },
+    {
+      "answer": {
+        "choice": "specialist",
+        "probabilities": {
+          "focused": 0.0,
+          "routine": 0.0,
+          "specialist": 1.0
+        },
+        "type": "choice"
+      },
+      "case_id": "change-review-risk-replication-12-es",
+      "difficulty": "ambiguous",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow_replication",
+      "expected_branch": "review",
+      "index": 143,
+      "language": "es",
+      "latency_ms": 319.613608000509,
+      "operational_branch": "specialist_review",
+      "operational_correct": false,
+      "policy_type": "choice",
+      "selected_probability": 1.0,
+      "semantic_branch": "specialist_review",
+      "semantic_correct": false,
+      "transport": {
+        "primary": {
+          "attempts": 1,
+          "retries_used": 0,
+          "retry_statuses": []
+        },
+        "secondary": null
+      },
+      "use_case": "change-review-risk"
+    },
+    {
+      "answer": {
+        "choice": "specialist",
+        "probabilities": {
+          "focused": 0.34,
+          "routine": 0.01,
+          "specialist": 0.65
+        },
+        "type": "choice"
+      },
+      "case_id": "change-review-risk-replication-13-en",
+      "difficulty": "ambiguous",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow_replication",
+      "expected_branch": "review",
+      "index": 144,
+      "language": "en",
+      "latency_ms": 301.32490699907066,
+      "operational_branch": "review",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 0.65,
+      "semantic_branch": "specialist_review",
+      "semantic_correct": false,
+      "transport": {
+        "primary": {
+          "attempts": 1,
+          "retries_used": 0,
+          "retry_statuses": []
+        },
+        "secondary": null
+      },
+      "use_case": "change-review-risk"
+    },
+    {
+      "answer": {
+        "choice": "focused",
+        "probabilities": {
+          "focused": 0.61,
+          "routine": 0.02,
+          "specialist": 0.37
+        },
+        "type": "choice"
+      },
+      "case_id": "change-review-risk-replication-13-es",
+      "difficulty": "ambiguous",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow_replication",
+      "expected_branch": "review",
+      "index": 145,
+      "language": "es",
+      "latency_ms": 273.40283499870566,
+      "operational_branch": "review",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 0.61,
+      "semantic_branch": "focused_review",
+      "semantic_correct": false,
+      "transport": {
+        "primary": {
+          "attempts": 1,
+          "retries_used": 0,
+          "retry_statuses": []
+        },
+        "secondary": null
+      },
+      "use_case": "change-review-risk"
+    },
+    {
+      "answer": {
+        "choice": "specialist",
+        "probabilities": {
+          "focused": 0.14,
+          "routine": 0.0,
+          "specialist": 0.86
+        },
+        "type": "choice"
+      },
+      "case_id": "change-review-risk-replication-14-en",
+      "difficulty": "ambiguous",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow_replication",
+      "expected_branch": "review",
+      "index": 146,
+      "language": "en",
+      "latency_ms": 348.5063549996994,
+      "operational_branch": "specialist_review",
+      "operational_correct": false,
+      "policy_type": "choice",
+      "selected_probability": 0.86,
+      "semantic_branch": "specialist_review",
+      "semantic_correct": false,
+      "transport": {
+        "primary": {
+          "attempts": 1,
+          "retries_used": 0,
+          "retry_statuses": []
+        },
+        "secondary": null
+      },
+      "use_case": "change-review-risk"
+    },
+    {
+      "answer": {
+        "choice": "focused",
+        "probabilities": {
+          "focused": 0.56,
+          "routine": 0.01,
+          "specialist": 0.43
+        },
+        "type": "choice"
+      },
+      "case_id": "change-review-risk-replication-14-es",
+      "difficulty": "ambiguous",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow_replication",
+      "expected_branch": "review",
+      "index": 147,
+      "language": "es",
+      "latency_ms": 331.80313399861916,
+      "operational_branch": "review",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 0.56,
+      "semantic_branch": "focused_review",
+      "semantic_correct": false,
+      "transport": {
+        "primary": {
+          "attempts": 1,
+          "retries_used": 0,
+          "retry_statuses": []
+        },
+        "secondary": null
+      },
+      "use_case": "change-review-risk"
+    },
+    {
+      "answer": {
+        "choice": "specialist",
+        "probabilities": {
+          "focused": 0.09,
+          "routine": 0.0,
+          "specialist": 0.91
+        },
+        "type": "choice"
+      },
+      "case_id": "change-review-risk-replication-15-en",
+      "difficulty": "ambiguous",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow_replication",
+      "expected_branch": "review",
+      "index": 148,
+      "language": "en",
+      "latency_ms": 312.2861340016243,
+      "operational_branch": "specialist_review",
+      "operational_correct": false,
+      "policy_type": "choice",
+      "selected_probability": 0.91,
+      "semantic_branch": "specialist_review",
+      "semantic_correct": false,
+      "transport": {
+        "primary": {
+          "attempts": 1,
+          "retries_used": 0,
+          "retry_statuses": []
+        },
+        "secondary": null
+      },
+      "use_case": "change-review-risk"
+    },
+    {
+      "answer": {
+        "choice": "specialist",
+        "probabilities": {
+          "focused": 0.31,
+          "routine": 0.02,
+          "specialist": 0.67
+        },
+        "type": "choice"
+      },
+      "case_id": "change-review-risk-replication-15-es",
+      "difficulty": "ambiguous",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow_replication",
+      "expected_branch": "review",
+      "index": 149,
+      "language": "es",
+      "latency_ms": 526.0146319997148,
+      "operational_branch": "review",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 0.67,
+      "semantic_branch": "specialist_review",
+      "semantic_correct": false,
+      "transport": {
+        "primary": {
+          "attempts": 1,
+          "retries_used": 0,
+          "retry_statuses": []
+        },
+        "secondary": null
+      },
+      "use_case": "change-review-risk"
+    }
+  ],
+  "run": {
+    "http_requests": 150,
+    "successful_decisions": 150,
+    "transport_retry_requests": 0
+  },
+  "schema": "brida.reflexbench.reflex-http-result/v1alpha1",
+  "summary": {
+    "latency_ms": {
+      "mean": 374.6099864268035,
+      "p50": 354.4309909993899,
+      "p95": 469.9531810001645,
+      "p99": 669.8117619998811
+    },
+    "n": 150,
+    "operational_accuracy": 0.82,
+    "operational_correct": 123,
+    "review_or_uncertain": 12,
+    "semantic_accuracy": 0.7666666666666667,
+    "semantic_correct": 115
+  },
+  "visibility": "private",
+  "warmup": {
+    "attempted": true,
+    "latency_ms": 1204.9559460028831,
+    "ok": true,
+    "transport": {
+      "attempts": 1,
+      "retries_used": 0,
+      "retry_statuses": []
+    }
+  }
+}

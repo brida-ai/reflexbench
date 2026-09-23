@@ -1,0 +1,17 @@
+{
+  "case_pack_file": "reflex-core-v1-workflow-gate-v2.jsonl",
+  "case_pack_sha256": "059208437813359a2cf47cab7238c7fe6d8e2f27b4b2d87337b3d2c809bafbea",
+  "evidenceClass": "blind_synthetic_workflow_replication",
+  "gate_identity": "core-v1-workflow-gate-v2",
+  "languages": [
+    "en",
+    "es"
+  ],
+  "model_outputs_observed_before_freeze": false,
+  "paired_scenarios": 75,
+  "procedure_file": "2026-09-22-reflex-core-v1-workflow-gate-v2-procedure.json",
+  "procedure_sha256": "048c7db3843562f028e328127f18bce65d32446cd15248b5d3c16c529874f715",
+  "rows": 150,
+  "schema": "brida.reflexbench.core-v1-workflow-case-pack/v1alpha1",
+  "status": "frozen-before-engine-inference"
+}

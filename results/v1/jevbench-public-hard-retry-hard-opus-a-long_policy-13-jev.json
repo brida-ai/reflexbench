@@ -1,0 +1,105 @@
+{
+  "ablation": {
+    "inter_request_delay_ms": 3500.0,
+    "native_permutations": null
+  },
+  "benchmark": "JevBench public cohort",
+  "completion": {
+    "completed": 1,
+    "failed": 0,
+    "rate": 1.0
+  },
+  "engine": {
+    "id": "typesafe-jev-hosted",
+    "model": "typesafe-ai/jev",
+    "revision": "not-exposed@2026-09-21"
+  },
+  "failures": [],
+  "latency_ms": {
+    "mean": 349.36336101964116,
+    "p50": 349.36336101964116,
+    "p95": 349.36336101964116,
+    "p99": 349.36336101964116
+  },
+  "metrics": {
+    "accuracy": 0.0,
+    "brier_hard_sum_classes": 1.0368,
+    "ece": 0.72,
+    "gold_label_counts": {
+      "1": 1
+    },
+    "label_space_count": 1,
+    "macro_f1": 0.0,
+    "macro_f1_unavailable_reason": null,
+    "macro_f1_valid": true,
+    "n": 1,
+    "nll": 1.2729656758128873,
+    "score_mae": null,
+    "selective_accuracy": [
+      {
+        "accuracy": 0.0,
+        "coverage": 1.0,
+        "n": 1,
+        "requested_coverage": 1.0,
+        "risk": 1.0
+      },
+      {
+        "accuracy": 0.0,
+        "coverage": 1.0,
+        "n": 1,
+        "requested_coverage": 0.9,
+        "risk": 1.0
+      },
+      {
+        "accuracy": 0.0,
+        "coverage": 1.0,
+        "n": 1,
+        "requested_coverage": 0.75,
+        "risk": 1.0
+      },
+      {
+        "accuracy": 0.0,
+        "coverage": 1.0,
+        "n": 1,
+        "requested_coverage": 0.5,
+        "risk": 1.0
+      },
+      {
+        "accuracy": 0.0,
+        "coverage": 1.0,
+        "n": 1,
+        "requested_coverage": 0.25,
+        "risk": 1.0
+      }
+    ]
+  },
+  "metrics_revision": "2026-09-21-heterogeneous-label-space-f1-fix",
+  "rows": [
+    {
+      "confidence": 0.72,
+      "correct": false,
+      "family": "long_policy",
+      "gold_index": 1,
+      "id": "hard-opus-a-long_policy-13",
+      "labels": [
+        "no",
+        "yes"
+      ],
+      "latency_ms": 349.36336101964116,
+      "predicted_index": 0,
+      "probabilities": [
+        0.72,
+        0.28
+      ],
+      "question_type": "noul"
+    }
+  ],
+  "schema": "brida.reflexbench.external-http-result/v1alpha1",
+  "tasks": 1,
+  "tasks_sha256": "a0f7f9e899c9a916d9588d03c86aaff342ae8e0625a2bb000882db26c64dc59c",
+  "warmup": {
+    "attempted": true,
+    "latency_ms": 557.8009840101004,
+    "ok": true
+  }
+}

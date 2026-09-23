@@ -1,0 +1,47 @@
+{
+  "boundary": "Structural/blindness validation only; no engine inference or model-quality metric is computed here.",
+  "case_pack_sha256": "f6b84150f3a626e61323383e1fed85615202be1dc6bef3f6682cbc9bf87bbec4",
+  "class_counts": {
+    "content-quality-gate:ambiguous": 10,
+    "content-quality-gate:boundary": 10,
+    "content-quality-gate:clear": 10,
+    "customer-support-ticket-triage:ambiguous": 10,
+    "customer-support-ticket-triage:boundary": 10,
+    "customer-support-ticket-triage:clear": 10,
+    "sales-lead-fit:ambiguous": 10,
+    "sales-lead-fit:boundary": 10,
+    "sales-lead-fit:clear": 10,
+    "semantic-data-consistency:ambiguous": 10,
+    "semantic-data-consistency:boundary": 10,
+    "semantic-data-consistency:clear": 10,
+    "software-issue-triage:ambiguous": 10,
+    "software-issue-triage:boundary": 10,
+    "software-issue-triage:clear": 10
+  },
+  "failures": [],
+  "language_counts": {
+    "content-quality-gate:en": 15,
+    "content-quality-gate:es": 15,
+    "customer-support-ticket-triage:en": 15,
+    "customer-support-ticket-triage:es": 15,
+    "sales-lead-fit:en": 15,
+    "sales-lead-fit:es": 15,
+    "semantic-data-consistency:en": 15,
+    "semantic-data-consistency:es": 15,
+    "software-issue-triage:en": 15,
+    "software-issue-triage:es": 15
+  },
+  "prior_case_identity_collisions": 0,
+  "procedure_sha256": "9f7c79c3ac7e735bcd42ae640b2155a35f5cff63b6c2e32f09da32283dbd4a66",
+  "rows": 150,
+  "schema": "brida.reflexbench.core-v1-workflow-case-validation/v1alpha1",
+  "unique_ids": 150,
+  "valid": true,
+  "workflows": {
+    "content-quality-gate": 30,
+    "customer-support-ticket-triage": 30,
+    "sales-lead-fit": 30,
+    "semantic-data-consistency": 30,
+    "software-issue-triage": 30
+  }
+}

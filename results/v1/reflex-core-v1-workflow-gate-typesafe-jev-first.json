@@ -1,0 +1,4160 @@
+{
+  "ablation": {
+    "choice_ensemble": "none",
+    "inter_request_delay_ms": 1800.0,
+    "native_permutations": null,
+    "question_mode": "all"
+  },
+  "by_case_class": {
+    "ambiguous": {
+      "latency_ms": {
+        "mean": 445.21808432635186,
+        "p50": 450.12843099902966,
+        "p95": 759.9072029988747,
+        "p99": 1066.4608070001123
+      },
+      "n": 49,
+      "operational_accuracy": 0.4897959183673469,
+      "operational_correct": 24,
+      "review_or_uncertain": 15,
+      "semantic_accuracy": 0.1836734693877551,
+      "semantic_correct": 9
+    },
+    "boundary": {
+      "latency_ms": {
+        "mean": 432.0874493800511,
+        "p50": 451.74697800030117,
+        "p95": 557.2847110015573,
+        "p99": 758.1492499994056
+      },
+      "n": 50,
+      "operational_accuracy": 0.48,
+      "operational_correct": 24,
+      "review_or_uncertain": 14,
+      "semantic_accuracy": 0.2,
+      "semantic_correct": 10
+    },
+    "clear": {
+      "latency_ms": {
+        "mean": 445.7775785200647,
+        "p50": 451.09034900087863,
+        "p95": 657.0056290001958,
+        "p99": 1066.1261080022086
+      },
+      "n": 50,
+      "operational_accuracy": 0.96,
+      "operational_correct": 48,
+      "review_or_uncertain": 0,
+      "semantic_accuracy": 0.96,
+      "semantic_correct": 48
+    }
+  },
+  "by_difficulty": {
+    "ambiguous": {
+      "latency_ms": {
+        "mean": 445.21808432635186,
+        "p50": 450.12843099902966,
+        "p95": 759.9072029988747,
+        "p99": 1066.4608070001123
+      },
+      "n": 49,
+      "operational_accuracy": 0.4897959183673469,
+      "operational_correct": 24,
+      "review_or_uncertain": 15,
+      "semantic_accuracy": 0.1836734693877551,
+      "semantic_correct": 9
+    },
+    "boundary": {
+      "latency_ms": {
+        "mean": 432.0874493800511,
+        "p50": 451.74697800030117,
+        "p95": 557.2847110015573,
+        "p99": 758.1492499994056
+      },
+      "n": 50,
+      "operational_accuracy": 0.48,
+      "operational_correct": 24,
+      "review_or_uncertain": 14,
+      "semantic_accuracy": 0.2,
+      "semantic_correct": 10
+    },
+    "clear": {
+      "latency_ms": {
+        "mean": 445.7775785200647,
+        "p50": 451.09034900087863,
+        "p95": 657.0056290001958,
+        "p99": 1066.1261080022086
+      },
+      "n": 50,
+      "operational_accuracy": 0.96,
+      "operational_correct": 48,
+      "review_or_uncertain": 0,
+      "semantic_accuracy": 0.96,
+      "semantic_correct": 48
+    }
+  },
+  "by_evidence_class": {
+    "blind_synthetic_workflow": {
+      "latency_ms": {
+        "mean": 440.9995807181009,
+        "p50": 451.347178001015,
+        "p95": 657.4929950002115,
+        "p99": 1066.1261080022086
+      },
+      "n": 149,
+      "operational_accuracy": 0.6442953020134228,
+      "operational_correct": 96,
+      "review_or_uncertain": 29,
+      "semantic_accuracy": 0.44966442953020136,
+      "semantic_correct": 67
+    }
+  },
+  "by_language": {
+    "en": {
+      "latency_ms": {
+        "mean": 446.8600737298992,
+        "p50": 451.9868060015142,
+        "p95": 557.2847110015573,
+        "p99": 759.9072029988747
+      },
+      "n": 74,
+      "operational_accuracy": 0.6486486486486487,
+      "operational_correct": 48,
+      "review_or_uncertain": 15,
+      "semantic_accuracy": 0.44594594594594594,
+      "semantic_correct": 33
+    },
+    "es": {
+      "latency_ms": {
+        "mean": 435.21722761312657,
+        "p50": 450.29517199873226,
+        "p95": 657.4929950002115,
+        "p99": 767.6423029988655
+      },
+      "n": 75,
+      "operational_accuracy": 0.64,
+      "operational_correct": 48,
+      "review_or_uncertain": 14,
+      "semantic_accuracy": 0.4533333333333333,
+      "semantic_correct": 34
+    }
+  },
+  "by_policy_type": {
+    "binary": {
+      "latency_ms": {
+        "mean": 417.5717426670114,
+        "p50": 433.3952960005263,
+        "p95": 555.4215770025621,
+        "p99": 557.2847110015573
+      },
+      "n": 30,
+      "operational_accuracy": 0.9,
+      "operational_correct": 27,
+      "review_or_uncertain": 17,
+      "semantic_accuracy": 0.3333333333333333,
+      "semantic_correct": 10
+    },
+    "choice": {
+      "latency_ms": {
+        "mean": 461.1532225953238,
+        "p50": 452.0733859972097,
+        "p95": 759.8798819999502,
+        "p99": 1066.1261080022086
+      },
+      "n": 89,
+      "operational_accuracy": 0.449438202247191,
+      "operational_correct": 40,
+      "review_or_uncertain": 12,
+      "semantic_accuracy": 0.3146067415730337,
+      "semantic_correct": 28
+    },
+    "score": {
+      "latency_ms": {
+        "mean": 404.63828120009566,
+        "p50": 393.1546809981228,
+        "p95": 479.6139790014422,
+        "p99": 555.8949660007784
+      },
+      "n": 30,
+      "operational_accuracy": 0.9666666666666667,
+      "operational_correct": 29,
+      "review_or_uncertain": 0,
+      "semantic_accuracy": 0.9666666666666667,
+      "semantic_correct": 29
+    }
+  },
+  "by_use_case": {
+    "content-quality-gate": {
+      "latency_ms": {
+        "mean": 404.63828120009566,
+        "p50": 393.1546809981228,
+        "p95": 479.6139790014422,
+        "p99": 555.8949660007784
+      },
+      "n": 30,
+      "operational_accuracy": 0.9666666666666667,
+      "operational_correct": 29,
+      "review_or_uncertain": 0,
+      "semantic_accuracy": 0.9666666666666667,
+      "semantic_correct": 29
+    },
+    "customer-support-ticket-triage": {
+      "latency_ms": {
+        "mean": 415.6916393443806,
+        "p50": 450.29517199873226,
+        "p95": 460.25120400008745,
+        "p99": 657.0056290001958
+      },
+      "n": 29,
+      "operational_accuracy": 0.4827586206896552,
+      "operational_correct": 14,
+      "review_or_uncertain": 4,
+      "semantic_accuracy": 0.3448275862068966,
+      "semantic_correct": 10
+    },
+    "sales-lead-fit": {
+      "latency_ms": {
+        "mean": 417.5717426670114,
+        "p50": 433.3952960005263,
+        "p95": 555.4215770025621,
+        "p99": 557.2847110015573
+      },
+      "n": 30,
+      "operational_accuracy": 0.9,
+      "operational_correct": 27,
+      "review_or_uncertain": 17,
+      "semantic_accuracy": 0.3333333333333333,
+      "semantic_correct": 10
+    },
+    "semantic-data-consistency": {
+      "latency_ms": {
+        "mean": 530.9076306330098,
+        "p50": 452.27516399972956,
+        "p95": 1066.1261080022086,
+        "p99": 1066.4608070001123
+      },
+      "n": 30,
+      "operational_accuracy": 0.5333333333333333,
+      "operational_correct": 16,
+      "review_or_uncertain": 6,
+      "semantic_accuracy": 0.3333333333333333,
+      "semantic_correct": 10
+    },
+    "software-issue-triage": {
+      "latency_ms": {
+        "mean": 435.3450117002164,
+        "p50": 450.12843099902966,
+        "p95": 555.8607749990188,
+        "p99": 758.0362699991383
+      },
+      "n": 30,
+      "operational_accuracy": 0.3333333333333333,
+      "operational_correct": 10,
+      "review_or_uncertain": 2,
+      "semantic_accuracy": 0.26666666666666666,
+      "semantic_correct": 8
+    }
+  },
+  "completion": {
+    "completed": 149,
+    "failed": 1,
+    "rate": 0.9933333333333333
+  },
+  "corpus": {
+    "path_name": "reflex-core-v1-workflow-gate-v1.jsonl",
+    "rows": 150,
+    "sha256": "f6b84150f3a626e61323383e1fed85615202be1dc6bef3f6682cbc9bf87bbec4"
+  },
+  "engine": {
+    "id": "typesafe-jev",
+    "model": "typesafe-ai/jev",
+    "revision": "not-exposed@2026-09-22"
+  },
+  "failures": [
+    {
+      "case_id": "customer-support-ticket-triage-blind-11-en",
+      "difficulty": "ambiguous",
+      "error": "System One HTTP 503: {\"error\":\"unavailable\",\"name\":\"DecisionEvaluationProviderError\"}",
+      "error_type": "SystemOneHttpError",
+      "evidence_class": "blind_synthetic_workflow",
+      "index": 50,
+      "language": "en",
+      "use_case": "customer-support-ticket-triage"
+    }
+  ],
+  "registry": {
+    "custom_reflex_manifest_sha256": "a0d21582d44ada9063b818e930a0d0d0dedfac56547d9fdb09825c13dd2a181e",
+    "revision": "8e2eafa413b1312ebc61c93ff4c6ebeb4c6d8ca4",
+    "use_cases": 5
+  },
+  "rows": [
+    {
+      "answer": {
+        "noul": 0.9,
+        "type": "noul"
+      },
+      "case_id": "sales-lead-fit-blind-01-en",
+      "difficulty": "clear",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow",
+      "expected_branch": "qualified",
+      "index": 0,
+      "language": "en",
+      "latency_ms": 433.3952960005263,
+      "operational_branch": "qualified",
+      "operational_correct": true,
+      "policy_type": "binary",
+      "selected_probability": 0.9,
+      "semantic_branch": "qualified",
+      "semantic_correct": true,
+      "use_case": "sales-lead-fit"
+    },
+    {
+      "answer": {
+        "noul": 0.91,
+        "type": "noul"
+      },
+      "case_id": "sales-lead-fit-blind-01-es",
+      "difficulty": "clear",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow",
+      "expected_branch": "qualified",
+      "index": 1,
+      "language": "es",
+      "latency_ms": 451.151318000484,
+      "operational_branch": "qualified",
+      "operational_correct": true,
+      "policy_type": "binary",
+      "selected_probability": 0.91,
+      "semantic_branch": "qualified",
+      "semantic_correct": true,
+      "use_case": "sales-lead-fit"
+    },
+    {
+      "answer": {
+        "noul": 0.91,
+        "type": "noul"
+      },
+      "case_id": "sales-lead-fit-blind-02-en",
+      "difficulty": "clear",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow",
+      "expected_branch": "qualified",
+      "index": 2,
+      "language": "en",
+      "latency_ms": 555.4215770025621,
+      "operational_branch": "qualified",
+      "operational_correct": true,
+      "policy_type": "binary",
+      "selected_probability": 0.91,
+      "semantic_branch": "qualified",
+      "semantic_correct": true,
+      "use_case": "sales-lead-fit"
+    },
+    {
+      "answer": {
+        "noul": 0.91,
+        "type": "noul"
+      },
+      "case_id": "sales-lead-fit-blind-02-es",
+      "difficulty": "clear",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow",
+      "expected_branch": "qualified",
+      "index": 3,
+      "language": "es",
+      "latency_ms": 553.7698640000599,
+      "operational_branch": "qualified",
+      "operational_correct": true,
+      "policy_type": "binary",
+      "selected_probability": 0.91,
+      "semantic_branch": "qualified",
+      "semantic_correct": true,
+      "use_case": "sales-lead-fit"
+    },
+    {
+      "answer": {
+        "noul": 0.89,
+        "type": "noul"
+      },
+      "case_id": "sales-lead-fit-blind-03-en",
+      "difficulty": "clear",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow",
+      "expected_branch": "qualified",
+      "index": 4,
+      "language": "en",
+      "latency_ms": 454.7831039999437,
+      "operational_branch": "qualified",
+      "operational_correct": true,
+      "policy_type": "binary",
+      "selected_probability": 0.89,
+      "semantic_branch": "qualified",
+      "semantic_correct": true,
+      "use_case": "sales-lead-fit"
+    },
+    {
+      "answer": {
+        "noul": 0.88,
+        "type": "noul"
+      },
+      "case_id": "sales-lead-fit-blind-03-es",
+      "difficulty": "clear",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow",
+      "expected_branch": "qualified",
+      "index": 5,
+      "language": "es",
+      "latency_ms": 314.0574839999317,
+      "operational_branch": "qualified",
+      "operational_correct": true,
+      "policy_type": "binary",
+      "selected_probability": 0.88,
+      "semantic_branch": "qualified",
+      "semantic_correct": true,
+      "use_case": "sales-lead-fit"
+    },
+    {
+      "answer": {
+        "noul": 0.02,
+        "type": "noul"
+      },
+      "case_id": "sales-lead-fit-blind-04-en",
+      "difficulty": "clear",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow",
+      "expected_branch": "ignore",
+      "index": 6,
+      "language": "en",
+      "latency_ms": 486.7445810014033,
+      "operational_branch": "ignore",
+      "operational_correct": true,
+      "policy_type": "binary",
+      "selected_probability": 0.98,
+      "semantic_branch": "ignore",
+      "semantic_correct": true,
+      "use_case": "sales-lead-fit"
+    },
+    {
+      "answer": {
+        "noul": 0.03,
+        "type": "noul"
+      },
+      "case_id": "sales-lead-fit-blind-04-es",
+      "difficulty": "clear",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow",
+      "expected_branch": "ignore",
+      "index": 7,
+      "language": "es",
+      "latency_ms": 390.3988919992116,
+      "operational_branch": "ignore",
+      "operational_correct": true,
+      "policy_type": "binary",
+      "selected_probability": 0.97,
+      "semantic_branch": "ignore",
+      "semantic_correct": true,
+      "use_case": "sales-lead-fit"
+    },
+    {
+      "answer": {
+        "noul": 0.03,
+        "type": "noul"
+      },
+      "case_id": "sales-lead-fit-blind-05-en",
+      "difficulty": "clear",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow",
+      "expected_branch": "ignore",
+      "index": 8,
+      "language": "en",
+      "latency_ms": 412.6317860027484,
+      "operational_branch": "ignore",
+      "operational_correct": true,
+      "policy_type": "binary",
+      "selected_probability": 0.97,
+      "semantic_branch": "ignore",
+      "semantic_correct": true,
+      "use_case": "sales-lead-fit"
+    },
+    {
+      "answer": {
+        "noul": 0.04,
+        "type": "noul"
+      },
+      "case_id": "sales-lead-fit-blind-05-es",
+      "difficulty": "clear",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow",
+      "expected_branch": "ignore",
+      "index": 9,
+      "language": "es",
+      "latency_ms": 451.09034900087863,
+      "operational_branch": "ignore",
+      "operational_correct": true,
+      "policy_type": "binary",
+      "selected_probability": 0.96,
+      "semantic_branch": "ignore",
+      "semantic_correct": true,
+      "use_case": "sales-lead-fit"
+    },
+    {
+      "answer": {
+        "noul": 0.4,
+        "type": "noul"
+      },
+      "case_id": "sales-lead-fit-blind-06-en",
+      "difficulty": "boundary",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow",
+      "expected_branch": "review",
+      "index": 10,
+      "language": "en",
+      "latency_ms": 557.2847110015573,
+      "operational_branch": "review",
+      "operational_correct": true,
+      "policy_type": "binary",
+      "selected_probability": 0.6,
+      "semantic_branch": "ignore",
+      "semantic_correct": false,
+      "use_case": "sales-lead-fit"
+    },
+    {
+      "answer": {
+        "noul": 0.51,
+        "type": "noul"
+      },
+      "case_id": "sales-lead-fit-blind-06-es",
+      "difficulty": "boundary",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow",
+      "expected_branch": "review",
+      "index": 11,
+      "language": "es",
+      "latency_ms": 347.41979599857586,
+      "operational_branch": "review",
+      "operational_correct": true,
+      "policy_type": "binary",
+      "selected_probability": 0.51,
+      "semantic_branch": "qualified",
+      "semantic_correct": false,
+      "use_case": "sales-lead-fit"
+    },
+    {
+      "answer": {
+        "noul": 0.52,
+        "type": "noul"
+      },
+      "case_id": "sales-lead-fit-blind-07-en",
+      "difficulty": "boundary",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow",
+      "expected_branch": "review",
+      "index": 12,
+      "language": "en",
+      "latency_ms": 350.28726600285154,
+      "operational_branch": "review",
+      "operational_correct": true,
+      "policy_type": "binary",
+      "selected_probability": 0.52,
+      "semantic_branch": "qualified",
+      "semantic_correct": false,
+      "use_case": "sales-lead-fit"
+    },
+    {
+      "answer": {
+        "noul": 0.42,
+        "type": "noul"
+      },
+      "case_id": "sales-lead-fit-blind-07-es",
+      "difficulty": "boundary",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow",
+      "expected_branch": "review",
+      "index": 13,
+      "language": "es",
+      "latency_ms": 452.67903299827594,
+      "operational_branch": "review",
+      "operational_correct": true,
+      "policy_type": "binary",
+      "selected_probability": 0.5800000000000001,
+      "semantic_branch": "ignore",
+      "semantic_correct": false,
+      "use_case": "sales-lead-fit"
+    },
+    {
+      "answer": {
+        "noul": 0.12,
+        "type": "noul"
+      },
+      "case_id": "sales-lead-fit-blind-08-en",
+      "difficulty": "boundary",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow",
+      "expected_branch": "review",
+      "index": 14,
+      "language": "en",
+      "latency_ms": 453.3886999997776,
+      "operational_branch": "ignore",
+      "operational_correct": false,
+      "policy_type": "binary",
+      "selected_probability": 0.88,
+      "semantic_branch": "ignore",
+      "semantic_correct": false,
+      "use_case": "sales-lead-fit"
+    },
+    {
+      "answer": {
+        "noul": 0.14,
+        "type": "noul"
+      },
+      "case_id": "sales-lead-fit-blind-08-es",
+      "difficulty": "boundary",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow",
+      "expected_branch": "review",
+      "index": 15,
+      "language": "es",
+      "latency_ms": 349.091039999621,
+      "operational_branch": "ignore",
+      "operational_correct": false,
+      "policy_type": "binary",
+      "selected_probability": 0.86,
+      "semantic_branch": "ignore",
+      "semantic_correct": false,
+      "use_case": "sales-lead-fit"
+    },
+    {
+      "answer": {
+        "noul": 0.62,
+        "type": "noul"
+      },
+      "case_id": "sales-lead-fit-blind-09-en",
+      "difficulty": "boundary",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow",
+      "expected_branch": "review",
+      "index": 16,
+      "language": "en",
+      "latency_ms": 452.16589499978,
+      "operational_branch": "review",
+      "operational_correct": true,
+      "policy_type": "binary",
+      "selected_probability": 0.62,
+      "semantic_branch": "qualified",
+      "semantic_correct": false,
+      "use_case": "sales-lead-fit"
+    },
+    {
+      "answer": {
+        "noul": 0.65,
+        "type": "noul"
+      },
+      "case_id": "sales-lead-fit-blind-09-es",
+      "difficulty": "boundary",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow",
+      "expected_branch": "review",
+      "index": 17,
+      "language": "es",
+      "latency_ms": 319.34455500231707,
+      "operational_branch": "review",
+      "operational_correct": true,
+      "policy_type": "binary",
+      "selected_probability": 0.65,
+      "semantic_branch": "qualified",
+      "semantic_correct": false,
+      "use_case": "sales-lead-fit"
+    },
+    {
+      "answer": {
+        "noul": 0.49,
+        "type": "noul"
+      },
+      "case_id": "sales-lead-fit-blind-10-en",
+      "difficulty": "boundary",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow",
+      "expected_branch": "review",
+      "index": 18,
+      "language": "en",
+      "latency_ms": 380.3358799996204,
+      "operational_branch": "review",
+      "operational_correct": true,
+      "policy_type": "binary",
+      "selected_probability": 0.51,
+      "semantic_branch": "ignore",
+      "semantic_correct": false,
+      "use_case": "sales-lead-fit"
+    },
+    {
+      "answer": {
+        "noul": 0.33,
+        "type": "noul"
+      },
+      "case_id": "sales-lead-fit-blind-10-es",
+      "difficulty": "boundary",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow",
+      "expected_branch": "review",
+      "index": 19,
+      "language": "es",
+      "latency_ms": 351.53728099976433,
+      "operational_branch": "review",
+      "operational_correct": true,
+      "policy_type": "binary",
+      "selected_probability": 0.6699999999999999,
+      "semantic_branch": "ignore",
+      "semantic_correct": false,
+      "use_case": "sales-lead-fit"
+    },
+    {
+      "answer": {
+        "noul": 0.32,
+        "type": "noul"
+      },
+      "case_id": "sales-lead-fit-blind-11-en",
+      "difficulty": "ambiguous",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow",
+      "expected_branch": "review",
+      "index": 20,
+      "language": "en",
+      "latency_ms": 454.45835500140674,
+      "operational_branch": "review",
+      "operational_correct": true,
+      "policy_type": "binary",
+      "selected_probability": 0.6799999999999999,
+      "semantic_branch": "ignore",
+      "semantic_correct": false,
+      "use_case": "sales-lead-fit"
+    },
+    {
+      "answer": {
+        "noul": 0.33,
+        "type": "noul"
+      },
+      "case_id": "sales-lead-fit-blind-11-es",
+      "difficulty": "ambiguous",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow",
+      "expected_branch": "review",
+      "index": 21,
+      "language": "es",
+      "latency_ms": 346.83098700043047,
+      "operational_branch": "review",
+      "operational_correct": true,
+      "policy_type": "binary",
+      "selected_probability": 0.6699999999999999,
+      "semantic_branch": "ignore",
+      "semantic_correct": false,
+      "use_case": "sales-lead-fit"
+    },
+    {
+      "answer": {
+        "noul": 0.59,
+        "type": "noul"
+      },
+      "case_id": "sales-lead-fit-blind-12-en",
+      "difficulty": "ambiguous",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow",
+      "expected_branch": "review",
+      "index": 22,
+      "language": "en",
+      "latency_ms": 367.0581110018247,
+      "operational_branch": "review",
+      "operational_correct": true,
+      "policy_type": "binary",
+      "selected_probability": 0.59,
+      "semantic_branch": "qualified",
+      "semantic_correct": false,
+      "use_case": "sales-lead-fit"
+    },
+    {
+      "answer": {
+        "noul": 0.54,
+        "type": "noul"
+      },
+      "case_id": "sales-lead-fit-blind-12-es",
+      "difficulty": "ambiguous",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow",
+      "expected_branch": "review",
+      "index": 23,
+      "language": "es",
+      "latency_ms": 436.2170360000164,
+      "operational_branch": "review",
+      "operational_correct": true,
+      "policy_type": "binary",
+      "selected_probability": 0.54,
+      "semantic_branch": "qualified",
+      "semantic_correct": false,
+      "use_case": "sales-lead-fit"
+    },
+    {
+      "answer": {
+        "noul": 0.66,
+        "type": "noul"
+      },
+      "case_id": "sales-lead-fit-blind-13-en",
+      "difficulty": "ambiguous",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow",
+      "expected_branch": "review",
+      "index": 24,
+      "language": "en",
+      "latency_ms": 348.9190000000235,
+      "operational_branch": "review",
+      "operational_correct": true,
+      "policy_type": "binary",
+      "selected_probability": 0.66,
+      "semantic_branch": "qualified",
+      "semantic_correct": false,
+      "use_case": "sales-lead-fit"
+    },
+    {
+      "answer": {
+        "noul": 0.71,
+        "type": "noul"
+      },
+      "case_id": "sales-lead-fit-blind-13-es",
+      "difficulty": "ambiguous",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow",
+      "expected_branch": "review",
+      "index": 25,
+      "language": "es",
+      "latency_ms": 349.4118679991516,
+      "operational_branch": "review",
+      "operational_correct": true,
+      "policy_type": "binary",
+      "selected_probability": 0.71,
+      "semantic_branch": "qualified",
+      "semantic_correct": false,
+      "use_case": "sales-lead-fit"
+    },
+    {
+      "answer": {
+        "noul": 0.77,
+        "type": "noul"
+      },
+      "case_id": "sales-lead-fit-blind-14-en",
+      "difficulty": "ambiguous",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow",
+      "expected_branch": "review",
+      "index": 26,
+      "language": "en",
+      "latency_ms": 465.127103998384,
+      "operational_branch": "review",
+      "operational_correct": true,
+      "policy_type": "binary",
+      "selected_probability": 0.77,
+      "semantic_branch": "qualified",
+      "semantic_correct": false,
+      "use_case": "sales-lead-fit"
+    },
+    {
+      "answer": {
+        "noul": 0.78,
+        "type": "noul"
+      },
+      "case_id": "sales-lead-fit-blind-14-es",
+      "difficulty": "ambiguous",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow",
+      "expected_branch": "review",
+      "index": 27,
+      "language": "es",
+      "latency_ms": 337.2929440010921,
+      "operational_branch": "review",
+      "operational_correct": true,
+      "policy_type": "binary",
+      "selected_probability": 0.78,
+      "semantic_branch": "qualified",
+      "semantic_correct": false,
+      "use_case": "sales-lead-fit"
+    },
+    {
+      "answer": {
+        "noul": 0.83,
+        "type": "noul"
+      },
+      "case_id": "sales-lead-fit-blind-15-en",
+      "difficulty": "ambiguous",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow",
+      "expected_branch": "review",
+      "index": 28,
+      "language": "en",
+      "latency_ms": 452.46447299723513,
+      "operational_branch": "qualified",
+      "operational_correct": false,
+      "policy_type": "binary",
+      "selected_probability": 0.83,
+      "semantic_branch": "qualified",
+      "semantic_correct": false,
+      "use_case": "sales-lead-fit"
+    },
+    {
+      "answer": {
+        "noul": 0.8,
+        "type": "noul"
+      },
+      "case_id": "sales-lead-fit-blind-15-es",
+      "difficulty": "ambiguous",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow",
+      "expected_branch": "review",
+      "index": 29,
+      "language": "es",
+      "latency_ms": 452.39399400088587,
+      "operational_branch": "review",
+      "operational_correct": true,
+      "policy_type": "binary",
+      "selected_probability": 0.8,
+      "semantic_branch": "qualified",
+      "semantic_correct": false,
+      "use_case": "sales-lead-fit"
+    },
+    {
+      "answer": {
+        "choice": "urgent_human",
+        "probabilities": {
+          "self_serve": 0.0,
+          "standard_queue": 0.0,
+          "urgent_human": 1.0
+        },
+        "type": "choice"
+      },
+      "case_id": "customer-support-ticket-triage-blind-01-en",
+      "difficulty": "clear",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow",
+      "expected_branch": "escalate",
+      "index": 30,
+      "language": "en",
+      "latency_ms": 452.2998539978289,
+      "operational_branch": "escalate",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 1.0,
+      "semantic_branch": "escalate",
+      "semantic_correct": true,
+      "use_case": "customer-support-ticket-triage"
+    },
+    {
+      "answer": {
+        "choice": "urgent_human",
+        "probabilities": {
+          "self_serve": 0.0,
+          "standard_queue": 0.0,
+          "urgent_human": 1.0
+        },
+        "type": "choice"
+      },
+      "case_id": "customer-support-ticket-triage-blind-01-es",
+      "difficulty": "clear",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow",
+      "expected_branch": "escalate",
+      "index": 31,
+      "language": "es",
+      "latency_ms": 460.25120400008745,
+      "operational_branch": "escalate",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 1.0,
+      "semantic_branch": "escalate",
+      "semantic_correct": true,
+      "use_case": "customer-support-ticket-triage"
+    },
+    {
+      "answer": {
+        "choice": "urgent_human",
+        "probabilities": {
+          "self_serve": 0.0,
+          "standard_queue": 0.0,
+          "urgent_human": 1.0
+        },
+        "type": "choice"
+      },
+      "case_id": "customer-support-ticket-triage-blind-02-en",
+      "difficulty": "clear",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow",
+      "expected_branch": "escalate",
+      "index": 32,
+      "language": "en",
+      "latency_ms": 343.15316500214976,
+      "operational_branch": "escalate",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 1.0,
+      "semantic_branch": "escalate",
+      "semantic_correct": true,
+      "use_case": "customer-support-ticket-triage"
+    },
+    {
+      "answer": {
+        "choice": "urgent_human",
+        "probabilities": {
+          "self_serve": 0.0,
+          "standard_queue": 0.0,
+          "urgent_human": 1.0
+        },
+        "type": "choice"
+      },
+      "case_id": "customer-support-ticket-triage-blind-02-es",
+      "difficulty": "clear",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow",
+      "expected_branch": "escalate",
+      "index": 33,
+      "language": "es",
+      "latency_ms": 304.5938799987198,
+      "operational_branch": "escalate",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 1.0,
+      "semantic_branch": "escalate",
+      "semantic_correct": true,
+      "use_case": "customer-support-ticket-triage"
+    },
+    {
+      "answer": {
+        "choice": "self_serve",
+        "probabilities": {
+          "self_serve": 1.0,
+          "standard_queue": 0.0,
+          "urgent_human": 0.0
+        },
+        "type": "choice"
+      },
+      "case_id": "customer-support-ticket-triage-blind-03-en",
+      "difficulty": "clear",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow",
+      "expected_branch": "self_serve",
+      "index": 34,
+      "language": "en",
+      "latency_ms": 394.11676799863926,
+      "operational_branch": "self_serve",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 1.0,
+      "semantic_branch": "self_serve",
+      "semantic_correct": true,
+      "use_case": "customer-support-ticket-triage"
+    },
+    {
+      "answer": {
+        "choice": "self_serve",
+        "probabilities": {
+          "self_serve": 1.0,
+          "standard_queue": 0.0,
+          "urgent_human": 0.0
+        },
+        "type": "choice"
+      },
+      "case_id": "customer-support-ticket-triage-blind-03-es",
+      "difficulty": "clear",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow",
+      "expected_branch": "self_serve",
+      "index": 35,
+      "language": "es",
+      "latency_ms": 453.00383100038744,
+      "operational_branch": "self_serve",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 1.0,
+      "semantic_branch": "self_serve",
+      "semantic_correct": true,
+      "use_case": "customer-support-ticket-triage"
+    },
+    {
+      "answer": {
+        "choice": "standard_queue",
+        "probabilities": {
+          "self_serve": 0.1,
+          "standard_queue": 0.9,
+          "urgent_human": 0.0
+        },
+        "type": "choice"
+      },
+      "case_id": "customer-support-ticket-triage-blind-04-en",
+      "difficulty": "clear",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow",
+      "expected_branch": "queue",
+      "index": 36,
+      "language": "en",
+      "latency_ms": 349.8901860002661,
+      "operational_branch": "queue",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 0.9,
+      "semantic_branch": "queue",
+      "semantic_correct": true,
+      "use_case": "customer-support-ticket-triage"
+    },
+    {
+      "answer": {
+        "choice": "standard_queue",
+        "probabilities": {
+          "self_serve": 0.05,
+          "standard_queue": 0.95,
+          "urgent_human": 0.0
+        },
+        "type": "choice"
+      },
+      "case_id": "customer-support-ticket-triage-blind-04-es",
+      "difficulty": "clear",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow",
+      "expected_branch": "queue",
+      "index": 37,
+      "language": "es",
+      "latency_ms": 657.0056290001958,
+      "operational_branch": "queue",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 0.95,
+      "semantic_branch": "queue",
+      "semantic_correct": true,
+      "use_case": "customer-support-ticket-triage"
+    },
+    {
+      "answer": {
+        "choice": "standard_queue",
+        "probabilities": {
+          "self_serve": 0.01,
+          "standard_queue": 0.99,
+          "urgent_human": 0.0
+        },
+        "type": "choice"
+      },
+      "case_id": "customer-support-ticket-triage-blind-05-en",
+      "difficulty": "clear",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow",
+      "expected_branch": "queue",
+      "index": 38,
+      "language": "en",
+      "latency_ms": 452.197463997436,
+      "operational_branch": "queue",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 0.99,
+      "semantic_branch": "queue",
+      "semantic_correct": true,
+      "use_case": "customer-support-ticket-triage"
+    },
+    {
+      "answer": {
+        "choice": "standard_queue",
+        "probabilities": {
+          "self_serve": 0.02,
+          "standard_queue": 0.98,
+          "urgent_human": 0.0
+        },
+        "type": "choice"
+      },
+      "case_id": "customer-support-ticket-triage-blind-05-es",
+      "difficulty": "clear",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow",
+      "expected_branch": "queue",
+      "index": 39,
+      "language": "es",
+      "latency_ms": 452.0803430023079,
+      "operational_branch": "queue",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 0.98,
+      "semantic_branch": "queue",
+      "semantic_correct": true,
+      "use_case": "customer-support-ticket-triage"
+    },
+    {
+      "answer": {
+        "choice": "standard_queue",
+        "probabilities": {
+          "self_serve": 0.0,
+          "standard_queue": 0.92,
+          "urgent_human": 0.08
+        },
+        "type": "choice"
+      },
+      "case_id": "customer-support-ticket-triage-blind-06-en",
+      "difficulty": "boundary",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow",
+      "expected_branch": "review",
+      "index": 40,
+      "language": "en",
+      "latency_ms": 452.4905319995014,
+      "operational_branch": "queue",
+      "operational_correct": false,
+      "policy_type": "choice",
+      "selected_probability": 0.92,
+      "semantic_branch": "queue",
+      "semantic_correct": false,
+      "use_case": "customer-support-ticket-triage"
+    },
+    {
+      "answer": {
+        "choice": "standard_queue",
+        "probabilities": {
+          "self_serve": 0.0,
+          "standard_queue": 0.78,
+          "urgent_human": 0.22
+        },
+        "type": "choice"
+      },
+      "case_id": "customer-support-ticket-triage-blind-06-es",
+      "difficulty": "boundary",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow",
+      "expected_branch": "review",
+      "index": 41,
+      "language": "es",
+      "latency_ms": 452.92179199896054,
+      "operational_branch": "queue",
+      "operational_correct": false,
+      "policy_type": "choice",
+      "selected_probability": 0.78,
+      "semantic_branch": "queue",
+      "semantic_correct": false,
+      "use_case": "customer-support-ticket-triage"
+    },
+    {
+      "answer": {
+        "choice": "urgent_human",
+        "probabilities": {
+          "self_serve": 0.0,
+          "standard_queue": 0.01,
+          "urgent_human": 0.99
+        },
+        "type": "choice"
+      },
+      "case_id": "customer-support-ticket-triage-blind-07-en",
+      "difficulty": "boundary",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow",
+      "expected_branch": "review",
+      "index": 42,
+      "language": "en",
+      "latency_ms": 452.23741399968276,
+      "operational_branch": "escalate",
+      "operational_correct": false,
+      "policy_type": "choice",
+      "selected_probability": 0.99,
+      "semantic_branch": "escalate",
+      "semantic_correct": false,
+      "use_case": "customer-support-ticket-triage"
+    },
+    {
+      "answer": {
+        "choice": "urgent_human",
+        "probabilities": {
+          "self_serve": 0.0,
+          "standard_queue": 0.0,
+          "urgent_human": 1.0
+        },
+        "type": "choice"
+      },
+      "case_id": "customer-support-ticket-triage-blind-07-es",
+      "difficulty": "boundary",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow",
+      "expected_branch": "review",
+      "index": 43,
+      "language": "es",
+      "latency_ms": 349.15822900075,
+      "operational_branch": "escalate",
+      "operational_correct": false,
+      "policy_type": "choice",
+      "selected_probability": 1.0,
+      "semantic_branch": "escalate",
+      "semantic_correct": false,
+      "use_case": "customer-support-ticket-triage"
+    },
+    {
+      "answer": {
+        "choice": "self_serve",
+        "probabilities": {
+          "self_serve": 0.65,
+          "standard_queue": 0.35,
+          "urgent_human": 0.0
+        },
+        "type": "choice"
+      },
+      "case_id": "customer-support-ticket-triage-blind-08-en",
+      "difficulty": "boundary",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow",
+      "expected_branch": "review",
+      "index": 44,
+      "language": "en",
+      "latency_ms": 452.5155539995467,
+      "operational_branch": "review",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 0.65,
+      "semantic_branch": "self_serve",
+      "semantic_correct": false,
+      "use_case": "customer-support-ticket-triage"
+    },
+    {
+      "answer": {
+        "choice": "self_serve",
+        "probabilities": {
+          "self_serve": 0.82,
+          "standard_queue": 0.18,
+          "urgent_human": 0.0
+        },
+        "type": "choice"
+      },
+      "case_id": "customer-support-ticket-triage-blind-08-es",
+      "difficulty": "boundary",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow",
+      "expected_branch": "review",
+      "index": 45,
+      "language": "es",
+      "latency_ms": 394.36815500084776,
+      "operational_branch": "self_serve",
+      "operational_correct": false,
+      "policy_type": "choice",
+      "selected_probability": 0.82,
+      "semantic_branch": "self_serve",
+      "semantic_correct": false,
+      "use_case": "customer-support-ticket-triage"
+    },
+    {
+      "answer": {
+        "choice": "standard_queue",
+        "probabilities": {
+          "self_serve": 0.07,
+          "standard_queue": 0.83,
+          "urgent_human": 0.1
+        },
+        "type": "choice"
+      },
+      "case_id": "customer-support-ticket-triage-blind-09-en",
+      "difficulty": "boundary",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow",
+      "expected_branch": "review",
+      "index": 46,
+      "language": "en",
+      "latency_ms": 410.76431299734395,
+      "operational_branch": "queue",
+      "operational_correct": false,
+      "policy_type": "choice",
+      "selected_probability": 0.83,
+      "semantic_branch": "queue",
+      "semantic_correct": false,
+      "use_case": "customer-support-ticket-triage"
+    },
+    {
+      "answer": {
+        "choice": "standard_queue",
+        "probabilities": {
+          "self_serve": 0.03,
+          "standard_queue": 0.77,
+          "urgent_human": 0.2
+        },
+        "type": "choice"
+      },
+      "case_id": "customer-support-ticket-triage-blind-09-es",
+      "difficulty": "boundary",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow",
+      "expected_branch": "review",
+      "index": 47,
+      "language": "es",
+      "latency_ms": 450.29517199873226,
+      "operational_branch": "queue",
+      "operational_correct": false,
+      "policy_type": "choice",
+      "selected_probability": 0.77,
+      "semantic_branch": "queue",
+      "semantic_correct": false,
+      "use_case": "customer-support-ticket-triage"
+    },
+    {
+      "answer": {
+        "choice": "standard_queue",
+        "probabilities": {
+          "self_serve": 0.0,
+          "standard_queue": 1.0,
+          "urgent_human": 0.0
+        },
+        "type": "choice"
+      },
+      "case_id": "customer-support-ticket-triage-blind-10-en",
+      "difficulty": "boundary",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow",
+      "expected_branch": "review",
+      "index": 48,
+      "language": "en",
+      "latency_ms": 350.48708400063333,
+      "operational_branch": "queue",
+      "operational_correct": false,
+      "policy_type": "choice",
+      "selected_probability": 1.0,
+      "semantic_branch": "queue",
+      "semantic_correct": false,
+      "use_case": "customer-support-ticket-triage"
+    },
+    {
+      "answer": {
+        "choice": "standard_queue",
+        "probabilities": {
+          "self_serve": 0.0,
+          "standard_queue": 1.0,
+          "urgent_human": 0.0
+        },
+        "type": "choice"
+      },
+      "case_id": "customer-support-ticket-triage-blind-10-es",
+      "difficulty": "boundary",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow",
+      "expected_branch": "review",
+      "index": 49,
+      "language": "es",
+      "latency_ms": 453.18477999899187,
+      "operational_branch": "queue",
+      "operational_correct": false,
+      "policy_type": "choice",
+      "selected_probability": 1.0,
+      "semantic_branch": "queue",
+      "semantic_correct": false,
+      "use_case": "customer-support-ticket-triage"
+    },
+    {
+      "answer": {
+        "choice": "standard_queue",
+        "probabilities": {
+          "self_serve": 0.0,
+          "standard_queue": 0.97,
+          "urgent_human": 0.03
+        },
+        "type": "choice"
+      },
+      "case_id": "customer-support-ticket-triage-blind-11-es",
+      "difficulty": "ambiguous",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow",
+      "expected_branch": "review",
+      "index": 51,
+      "language": "es",
+      "latency_ms": 410.31493499758653,
+      "operational_branch": "queue",
+      "operational_correct": false,
+      "policy_type": "choice",
+      "selected_probability": 0.97,
+      "semantic_branch": "queue",
+      "semantic_correct": false,
+      "use_case": "customer-support-ticket-triage"
+    },
+    {
+      "answer": {
+        "choice": "urgent_human",
+        "probabilities": {
+          "self_serve": 0.0,
+          "standard_queue": 0.15,
+          "urgent_human": 0.85
+        },
+        "type": "choice"
+      },
+      "case_id": "customer-support-ticket-triage-blind-12-en",
+      "difficulty": "ambiguous",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow",
+      "expected_branch": "review",
+      "index": 52,
+      "language": "en",
+      "latency_ms": 348.3565619972069,
+      "operational_branch": "escalate",
+      "operational_correct": false,
+      "policy_type": "choice",
+      "selected_probability": 0.85,
+      "semantic_branch": "escalate",
+      "semantic_correct": false,
+      "use_case": "customer-support-ticket-triage"
+    },
+    {
+      "answer": {
+        "choice": "urgent_human",
+        "probabilities": {
+          "self_serve": 0.0,
+          "standard_queue": 0.11,
+          "urgent_human": 0.89
+        },
+        "type": "choice"
+      },
+      "case_id": "customer-support-ticket-triage-blind-12-es",
+      "difficulty": "ambiguous",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow",
+      "expected_branch": "review",
+      "index": 53,
+      "language": "es",
+      "latency_ms": 350.339074000658,
+      "operational_branch": "escalate",
+      "operational_correct": false,
+      "policy_type": "choice",
+      "selected_probability": 0.89,
+      "semantic_branch": "escalate",
+      "semantic_correct": false,
+      "use_case": "customer-support-ticket-triage"
+    },
+    {
+      "answer": {
+        "choice": "urgent_human",
+        "probabilities": {
+          "self_serve": 0.03,
+          "standard_queue": 0.42,
+          "urgent_human": 0.55
+        },
+        "type": "choice"
+      },
+      "case_id": "customer-support-ticket-triage-blind-13-en",
+      "difficulty": "ambiguous",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow",
+      "expected_branch": "review",
+      "index": 54,
+      "language": "en",
+      "latency_ms": 453.5729290000745,
+      "operational_branch": "review",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 0.55,
+      "semantic_branch": "escalate",
+      "semantic_correct": false,
+      "use_case": "customer-support-ticket-triage"
+    },
+    {
+      "answer": {
+        "choice": "urgent_human",
+        "probabilities": {
+          "self_serve": 0.01,
+          "standard_queue": 0.18,
+          "urgent_human": 0.81
+        },
+        "type": "choice"
+      },
+      "case_id": "customer-support-ticket-triage-blind-13-es",
+      "difficulty": "ambiguous",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow",
+      "expected_branch": "review",
+      "index": 55,
+      "language": "es",
+      "latency_ms": 348.7881019973429,
+      "operational_branch": "escalate",
+      "operational_correct": false,
+      "policy_type": "choice",
+      "selected_probability": 0.81,
+      "semantic_branch": "escalate",
+      "semantic_correct": false,
+      "use_case": "customer-support-ticket-triage"
+    },
+    {
+      "answer": {
+        "choice": "standard_queue",
+        "probabilities": {
+          "self_serve": 0.01,
+          "standard_queue": 0.98,
+          "urgent_human": 0.01
+        },
+        "type": "choice"
+      },
+      "case_id": "customer-support-ticket-triage-blind-14-en",
+      "difficulty": "ambiguous",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow",
+      "expected_branch": "review",
+      "index": 56,
+      "language": "en",
+      "latency_ms": 453.7489469985303,
+      "operational_branch": "queue",
+      "operational_correct": false,
+      "policy_type": "choice",
+      "selected_probability": 0.98,
+      "semantic_branch": "queue",
+      "semantic_correct": false,
+      "use_case": "customer-support-ticket-triage"
+    },
+    {
+      "answer": {
+        "choice": "standard_queue",
+        "probabilities": {
+          "self_serve": 0.0,
+          "standard_queue": 0.98,
+          "urgent_human": 0.02
+        },
+        "type": "choice"
+      },
+      "case_id": "customer-support-ticket-triage-blind-14-es",
+      "difficulty": "ambiguous",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow",
+      "expected_branch": "review",
+      "index": 57,
+      "language": "es",
+      "latency_ms": 348.81405999840354,
+      "operational_branch": "queue",
+      "operational_correct": false,
+      "policy_type": "choice",
+      "selected_probability": 0.98,
+      "semantic_branch": "queue",
+      "semantic_correct": false,
+      "use_case": "customer-support-ticket-triage"
+    },
+    {
+      "answer": {
+        "choice": "self_serve",
+        "probabilities": {
+          "self_serve": 0.73,
+          "standard_queue": 0.27,
+          "urgent_human": 0.0
+        },
+        "type": "choice"
+      },
+      "case_id": "customer-support-ticket-triage-blind-15-en",
+      "difficulty": "ambiguous",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow",
+      "expected_branch": "review",
+      "index": 58,
+      "language": "en",
+      "latency_ms": 350.15826600283617,
+      "operational_branch": "review",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 0.73,
+      "semantic_branch": "self_serve",
+      "semantic_correct": false,
+      "use_case": "customer-support-ticket-triage"
+    },
+    {
+      "answer": {
+        "choice": "self_serve",
+        "probabilities": {
+          "self_serve": 0.73,
+          "standard_queue": 0.27,
+          "urgent_human": 0.0
+        },
+        "type": "choice"
+      },
+      "case_id": "customer-support-ticket-triage-blind-15-es",
+      "difficulty": "ambiguous",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow",
+      "expected_branch": "review",
+      "index": 59,
+      "language": "es",
+      "latency_ms": 453.9493170013884,
+      "operational_branch": "review",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 0.73,
+      "semantic_branch": "self_serve",
+      "semantic_correct": false,
+      "use_case": "customer-support-ticket-triage"
+    },
+    {
+      "answer": {
+        "choice": "investigate",
+        "probabilities": {
+          "ask_author": 0.0,
+          "backlog": 0.0,
+          "close_review": 0.0,
+          "investigate": 1.0,
+          "product_decision": 0.0
+        },
+        "type": "choice"
+      },
+      "case_id": "software-issue-triage-blind-01-en",
+      "difficulty": "clear",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow",
+      "expected_branch": "investigate_candidate",
+      "index": 60,
+      "language": "en",
+      "latency_ms": 350.52931500104023,
+      "operational_branch": "investigate_candidate",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 1.0,
+      "semantic_branch": "investigate_candidate",
+      "semantic_correct": true,
+      "use_case": "software-issue-triage"
+    },
+    {
+      "answer": {
+        "choice": "investigate",
+        "probabilities": {
+          "ask_author": 0.02,
+          "backlog": 0.0,
+          "close_review": 0.0,
+          "investigate": 0.98,
+          "product_decision": 0.0
+        },
+        "type": "choice"
+      },
+      "case_id": "software-issue-triage-blind-01-es",
+      "difficulty": "clear",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow",
+      "expected_branch": "investigate_candidate",
+      "index": 61,
+      "language": "es",
+      "latency_ms": 320.9627200012619,
+      "operational_branch": "investigate_candidate",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 0.98,
+      "semantic_branch": "investigate_candidate",
+      "semantic_correct": true,
+      "use_case": "software-issue-triage"
+    },
+    {
+      "answer": {
+        "choice": "ask_author",
+        "probabilities": {
+          "ask_author": 1.0,
+          "backlog": 0.0,
+          "close_review": 0.0,
+          "investigate": 0.0,
+          "product_decision": 0.0
+        },
+        "type": "choice"
+      },
+      "case_id": "software-issue-triage-blind-02-en",
+      "difficulty": "clear",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow",
+      "expected_branch": "ask_author_candidate",
+      "index": 62,
+      "language": "en",
+      "latency_ms": 479.66209900187096,
+      "operational_branch": "ask_author_candidate",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 1.0,
+      "semantic_branch": "ask_author_candidate",
+      "semantic_correct": true,
+      "use_case": "software-issue-triage"
+    },
+    {
+      "answer": {
+        "choice": "ask_author",
+        "probabilities": {
+          "ask_author": 1.0,
+          "backlog": 0.0,
+          "close_review": 0.0,
+          "investigate": 0.0,
+          "product_decision": 0.0
+        },
+        "type": "choice"
+      },
+      "case_id": "software-issue-triage-blind-02-es",
+      "difficulty": "clear",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow",
+      "expected_branch": "ask_author_candidate",
+      "index": 63,
+      "language": "es",
+      "latency_ms": 352.06761899826233,
+      "operational_branch": "ask_author_candidate",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 1.0,
+      "semantic_branch": "ask_author_candidate",
+      "semantic_correct": true,
+      "use_case": "software-issue-triage"
+    },
+    {
+      "answer": {
+        "choice": "product_decision",
+        "probabilities": {
+          "ask_author": 0.0,
+          "backlog": 0.0,
+          "close_review": 0.0,
+          "investigate": 0.0,
+          "product_decision": 1.0
+        },
+        "type": "choice"
+      },
+      "case_id": "software-issue-triage-blind-03-en",
+      "difficulty": "clear",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow",
+      "expected_branch": "decision_review",
+      "index": 64,
+      "language": "en",
+      "latency_ms": 450.1238730008481,
+      "operational_branch": "decision_review",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 1.0,
+      "semantic_branch": "decision_review",
+      "semantic_correct": true,
+      "use_case": "software-issue-triage"
+    },
+    {
+      "answer": {
+        "choice": "product_decision",
+        "probabilities": {
+          "ask_author": 0.0,
+          "backlog": 0.01,
+          "close_review": 0.0,
+          "investigate": 0.0,
+          "product_decision": 0.99
+        },
+        "type": "choice"
+      },
+      "case_id": "software-issue-triage-blind-03-es",
+      "difficulty": "clear",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow",
+      "expected_branch": "decision_review",
+      "index": 65,
+      "language": "es",
+      "latency_ms": 453.2766489974165,
+      "operational_branch": "decision_review",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 0.99,
+      "semantic_branch": "decision_review",
+      "semantic_correct": true,
+      "use_case": "software-issue-triage"
+    },
+    {
+      "answer": {
+        "choice": "investigate",
+        "probabilities": {
+          "ask_author": 0.05,
+          "backlog": 0.11,
+          "close_review": 0.0,
+          "investigate": 0.84,
+          "product_decision": 0.0
+        },
+        "type": "choice"
+      },
+      "case_id": "software-issue-triage-blind-04-en",
+      "difficulty": "clear",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow",
+      "expected_branch": "backlog_candidate",
+      "index": 66,
+      "language": "en",
+      "latency_ms": 555.8607749990188,
+      "operational_branch": "investigate_candidate",
+      "operational_correct": false,
+      "policy_type": "choice",
+      "selected_probability": 0.84,
+      "semantic_branch": "investigate_candidate",
+      "semantic_correct": false,
+      "use_case": "software-issue-triage"
+    },
+    {
+      "answer": {
+        "choice": "investigate",
+        "probabilities": {
+          "ask_author": 0.01,
+          "backlog": 0.04,
+          "close_review": 0.0,
+          "investigate": 0.95,
+          "product_decision": 0.0
+        },
+        "type": "choice"
+      },
+      "case_id": "software-issue-triage-blind-04-es",
+      "difficulty": "clear",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow",
+      "expected_branch": "backlog_candidate",
+      "index": 67,
+      "language": "es",
+      "latency_ms": 454.1082460018515,
+      "operational_branch": "investigate_candidate",
+      "operational_correct": false,
+      "policy_type": "choice",
+      "selected_probability": 0.95,
+      "semantic_branch": "investigate_candidate",
+      "semantic_correct": false,
+      "use_case": "software-issue-triage"
+    },
+    {
+      "answer": {
+        "choice": "close_review",
+        "probabilities": {
+          "ask_author": 0.0,
+          "backlog": 0.0,
+          "close_review": 1.0,
+          "investigate": 0.0,
+          "product_decision": 0.0
+        },
+        "type": "choice"
+      },
+      "case_id": "software-issue-triage-blind-05-en",
+      "difficulty": "clear",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow",
+      "expected_branch": "close_review",
+      "index": 68,
+      "language": "en",
+      "latency_ms": 450.1802320010029,
+      "operational_branch": "close_review",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 1.0,
+      "semantic_branch": "close_review",
+      "semantic_correct": true,
+      "use_case": "software-issue-triage"
+    },
+    {
+      "answer": {
+        "choice": "close_review",
+        "probabilities": {
+          "ask_author": 0.0,
+          "backlog": 0.0,
+          "close_review": 1.0,
+          "investigate": 0.0,
+          "product_decision": 0.0
+        },
+        "type": "choice"
+      },
+      "case_id": "software-issue-triage-blind-05-es",
+      "difficulty": "clear",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow",
+      "expected_branch": "close_review",
+      "index": 69,
+      "language": "es",
+      "latency_ms": 349.6735680018901,
+      "operational_branch": "close_review",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 1.0,
+      "semantic_branch": "close_review",
+      "semantic_correct": true,
+      "use_case": "software-issue-triage"
+    },
+    {
+      "answer": {
+        "choice": "ask_author",
+        "probabilities": {
+          "ask_author": 0.92,
+          "backlog": 0.0,
+          "close_review": 0.0,
+          "investigate": 0.08,
+          "product_decision": 0.0
+        },
+        "type": "choice"
+      },
+      "case_id": "software-issue-triage-blind-06-en",
+      "difficulty": "boundary",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow",
+      "expected_branch": "human_triage",
+      "index": 70,
+      "language": "en",
+      "latency_ms": 555.0071079996997,
+      "operational_branch": "ask_author_candidate",
+      "operational_correct": false,
+      "policy_type": "choice",
+      "selected_probability": 0.92,
+      "semantic_branch": "ask_author_candidate",
+      "semantic_correct": false,
+      "use_case": "software-issue-triage"
+    },
+    {
+      "answer": {
+        "choice": "ask_author",
+        "probabilities": {
+          "ask_author": 0.96,
+          "backlog": 0.0,
+          "close_review": 0.0,
+          "investigate": 0.04,
+          "product_decision": 0.0
+        },
+        "type": "choice"
+      },
+      "case_id": "software-issue-triage-blind-06-es",
+      "difficulty": "boundary",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow",
+      "expected_branch": "human_triage",
+      "index": 71,
+      "language": "es",
+      "latency_ms": 358.47176400056924,
+      "operational_branch": "ask_author_candidate",
+      "operational_correct": false,
+      "policy_type": "choice",
+      "selected_probability": 0.96,
+      "semantic_branch": "ask_author_candidate",
+      "semantic_correct": false,
+      "use_case": "software-issue-triage"
+    },
+    {
+      "answer": {
+        "choice": "product_decision",
+        "probabilities": {
+          "ask_author": 0.05,
+          "backlog": 0.01,
+          "close_review": 0.11,
+          "investigate": 0.0,
+          "product_decision": 0.83
+        },
+        "type": "choice"
+      },
+      "case_id": "software-issue-triage-blind-07-en",
+      "difficulty": "boundary",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow",
+      "expected_branch": "human_triage",
+      "index": 72,
+      "language": "en",
+      "latency_ms": 356.0403840019717,
+      "operational_branch": "decision_review",
+      "operational_correct": false,
+      "policy_type": "choice",
+      "selected_probability": 0.83,
+      "semantic_branch": "decision_review",
+      "semantic_correct": false,
+      "use_case": "software-issue-triage"
+    },
+    {
+      "answer": {
+        "choice": "product_decision",
+        "probabilities": {
+          "ask_author": 0.11,
+          "backlog": 0.01,
+          "close_review": 0.06,
+          "investigate": 0.0,
+          "product_decision": 0.82
+        },
+        "type": "choice"
+      },
+      "case_id": "software-issue-triage-blind-07-es",
+      "difficulty": "boundary",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow",
+      "expected_branch": "human_triage",
+      "index": 73,
+      "language": "es",
+      "latency_ms": 437.2618009983853,
+      "operational_branch": "decision_review",
+      "operational_correct": false,
+      "policy_type": "choice",
+      "selected_probability": 0.82,
+      "semantic_branch": "decision_review",
+      "semantic_correct": false,
+      "use_case": "software-issue-triage"
+    },
+    {
+      "answer": {
+        "choice": "ask_author",
+        "probabilities": {
+          "ask_author": 0.99,
+          "backlog": 0.01,
+          "close_review": 0.0,
+          "investigate": 0.0,
+          "product_decision": 0.0
+        },
+        "type": "choice"
+      },
+      "case_id": "software-issue-triage-blind-08-en",
+      "difficulty": "boundary",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow",
+      "expected_branch": "human_triage",
+      "index": 74,
+      "language": "en",
+      "latency_ms": 351.3760429996182,
+      "operational_branch": "ask_author_candidate",
+      "operational_correct": false,
+      "policy_type": "choice",
+      "selected_probability": 0.99,
+      "semantic_branch": "ask_author_candidate",
+      "semantic_correct": false,
+      "use_case": "software-issue-triage"
+    },
+    {
+      "answer": {
+        "choice": "ask_author",
+        "probabilities": {
+          "ask_author": 0.99,
+          "backlog": 0.01,
+          "close_review": 0.0,
+          "investigate": 0.0,
+          "product_decision": 0.0
+        },
+        "type": "choice"
+      },
+      "case_id": "software-issue-triage-blind-08-es",
+      "difficulty": "boundary",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow",
+      "expected_branch": "human_triage",
+      "index": 75,
+      "language": "es",
+      "latency_ms": 554.5365600009973,
+      "operational_branch": "ask_author_candidate",
+      "operational_correct": false,
+      "policy_type": "choice",
+      "selected_probability": 0.99,
+      "semantic_branch": "ask_author_candidate",
+      "semantic_correct": false,
+      "use_case": "software-issue-triage"
+    },
+    {
+      "answer": {
+        "choice": "ask_author",
+        "probabilities": {
+          "ask_author": 0.98,
+          "backlog": 0.0,
+          "close_review": 0.0,
+          "investigate": 0.0,
+          "product_decision": 0.02
+        },
+        "type": "choice"
+      },
+      "case_id": "software-issue-triage-blind-09-en",
+      "difficulty": "boundary",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow",
+      "expected_branch": "human_triage",
+      "index": 76,
+      "language": "en",
+      "latency_ms": 452.788981001504,
+      "operational_branch": "ask_author_candidate",
+      "operational_correct": false,
+      "policy_type": "choice",
+      "selected_probability": 0.98,
+      "semantic_branch": "ask_author_candidate",
+      "semantic_correct": false,
+      "use_case": "software-issue-triage"
+    },
+    {
+      "answer": {
+        "choice": "ask_author",
+        "probabilities": {
+          "ask_author": 1.0,
+          "backlog": 0.0,
+          "close_review": 0.0,
+          "investigate": 0.0,
+          "product_decision": 0.0
+        },
+        "type": "choice"
+      },
+      "case_id": "software-issue-triage-blind-09-es",
+      "difficulty": "boundary",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow",
+      "expected_branch": "human_triage",
+      "index": 77,
+      "language": "es",
+      "latency_ms": 347.8292949985189,
+      "operational_branch": "ask_author_candidate",
+      "operational_correct": false,
+      "policy_type": "choice",
+      "selected_probability": 1.0,
+      "semantic_branch": "ask_author_candidate",
+      "semantic_correct": false,
+      "use_case": "software-issue-triage"
+    },
+    {
+      "answer": {
+        "choice": "product_decision",
+        "probabilities": {
+          "ask_author": 0.01,
+          "backlog": 0.0,
+          "close_review": 0.34,
+          "investigate": 0.02,
+          "product_decision": 0.63
+        },
+        "type": "choice"
+      },
+      "case_id": "software-issue-triage-blind-10-en",
+      "difficulty": "boundary",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow",
+      "expected_branch": "human_triage",
+      "index": 78,
+      "language": "en",
+      "latency_ms": 452.97357000163174,
+      "operational_branch": "human_triage",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 0.63,
+      "semantic_branch": "decision_review",
+      "semantic_correct": false,
+      "use_case": "software-issue-triage"
+    },
+    {
+      "answer": {
+        "choice": "product_decision",
+        "probabilities": {
+          "ask_author": 0.15,
+          "backlog": 0.0,
+          "close_review": 0.22,
+          "investigate": 0.05,
+          "product_decision": 0.58
+        },
+        "type": "choice"
+      },
+      "case_id": "software-issue-triage-blind-10-es",
+      "difficulty": "boundary",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow",
+      "expected_branch": "human_triage",
+      "index": 79,
+      "language": "es",
+      "latency_ms": 353.7578620016575,
+      "operational_branch": "human_triage",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 0.58,
+      "semantic_branch": "decision_review",
+      "semantic_correct": false,
+      "use_case": "software-issue-triage"
+    },
+    {
+      "answer": {
+        "choice": "ask_author",
+        "probabilities": {
+          "ask_author": 1.0,
+          "backlog": 0.0,
+          "close_review": 0.0,
+          "investigate": 0.0,
+          "product_decision": 0.0
+        },
+        "type": "choice"
+      },
+      "case_id": "software-issue-triage-blind-11-en",
+      "difficulty": "ambiguous",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow",
+      "expected_branch": "human_triage",
+      "index": 80,
+      "language": "en",
+      "latency_ms": 450.12843099902966,
+      "operational_branch": "ask_author_candidate",
+      "operational_correct": false,
+      "policy_type": "choice",
+      "selected_probability": 1.0,
+      "semantic_branch": "ask_author_candidate",
+      "semantic_correct": false,
+      "use_case": "software-issue-triage"
+    },
+    {
+      "answer": {
+        "choice": "ask_author",
+        "probabilities": {
+          "ask_author": 1.0,
+          "backlog": 0.0,
+          "close_review": 0.0,
+          "investigate": 0.0,
+          "product_decision": 0.0
+        },
+        "type": "choice"
+      },
+      "case_id": "software-issue-triage-blind-11-es",
+      "difficulty": "ambiguous",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow",
+      "expected_branch": "human_triage",
+      "index": 81,
+      "language": "es",
+      "latency_ms": 758.0362699991383,
+      "operational_branch": "ask_author_candidate",
+      "operational_correct": false,
+      "policy_type": "choice",
+      "selected_probability": 1.0,
+      "semantic_branch": "ask_author_candidate",
+      "semantic_correct": false,
+      "use_case": "software-issue-triage"
+    },
+    {
+      "answer": {
+        "choice": "ask_author",
+        "probabilities": {
+          "ask_author": 0.9,
+          "backlog": 0.02,
+          "close_review": 0.0,
+          "investigate": 0.0,
+          "product_decision": 0.08
+        },
+        "type": "choice"
+      },
+      "case_id": "software-issue-triage-blind-12-en",
+      "difficulty": "ambiguous",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow",
+      "expected_branch": "human_triage",
+      "index": 82,
+      "language": "en",
+      "latency_ms": 349.3509480031207,
+      "operational_branch": "ask_author_candidate",
+      "operational_correct": false,
+      "policy_type": "choice",
+      "selected_probability": 0.9,
+      "semantic_branch": "ask_author_candidate",
+      "semantic_correct": false,
+      "use_case": "software-issue-triage"
+    },
+    {
+      "answer": {
+        "choice": "ask_author",
+        "probabilities": {
+          "ask_author": 0.93,
+          "backlog": 0.03,
+          "close_review": 0.0,
+          "investigate": 0.0,
+          "product_decision": 0.04
+        },
+        "type": "choice"
+      },
+      "case_id": "software-issue-triage-blind-12-es",
+      "difficulty": "ambiguous",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow",
+      "expected_branch": "human_triage",
+      "index": 83,
+      "language": "es",
+      "latency_ms": 452.3253039988049,
+      "operational_branch": "ask_author_candidate",
+      "operational_correct": false,
+      "policy_type": "choice",
+      "selected_probability": 0.93,
+      "semantic_branch": "ask_author_candidate",
+      "semantic_correct": false,
+      "use_case": "software-issue-triage"
+    },
+    {
+      "answer": {
+        "choice": "ask_author",
+        "probabilities": {
+          "ask_author": 0.97,
+          "backlog": 0.0,
+          "close_review": 0.0,
+          "investigate": 0.03,
+          "product_decision": 0.0
+        },
+        "type": "choice"
+      },
+      "case_id": "software-issue-triage-blind-13-en",
+      "difficulty": "ambiguous",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow",
+      "expected_branch": "human_triage",
+      "index": 84,
+      "language": "en",
+      "latency_ms": 453.4329179987253,
+      "operational_branch": "ask_author_candidate",
+      "operational_correct": false,
+      "policy_type": "choice",
+      "selected_probability": 0.97,
+      "semantic_branch": "ask_author_candidate",
+      "semantic_correct": false,
+      "use_case": "software-issue-triage"
+    },
+    {
+      "answer": {
+        "choice": "ask_author",
+        "probabilities": {
+          "ask_author": 0.97,
+          "backlog": 0.0,
+          "close_review": 0.0,
+          "investigate": 0.03,
+          "product_decision": 0.0
+        },
+        "type": "choice"
+      },
+      "case_id": "software-issue-triage-blind-13-es",
+      "difficulty": "ambiguous",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow",
+      "expected_branch": "human_triage",
+      "index": 85,
+      "language": "es",
+      "latency_ms": 397.7775229977851,
+      "operational_branch": "ask_author_candidate",
+      "operational_correct": false,
+      "policy_type": "choice",
+      "selected_probability": 0.97,
+      "semantic_branch": "ask_author_candidate",
+      "semantic_correct": false,
+      "use_case": "software-issue-triage"
+    },
+    {
+      "answer": {
+        "choice": "ask_author",
+        "probabilities": {
+          "ask_author": 1.0,
+          "backlog": 0.0,
+          "close_review": 0.0,
+          "investigate": 0.0,
+          "product_decision": 0.0
+        },
+        "type": "choice"
+      },
+      "case_id": "software-issue-triage-blind-14-en",
+      "difficulty": "ambiguous",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow",
+      "expected_branch": "human_triage",
+      "index": 86,
+      "language": "en",
+      "latency_ms": 406.047362001118,
+      "operational_branch": "ask_author_candidate",
+      "operational_correct": false,
+      "policy_type": "choice",
+      "selected_probability": 1.0,
+      "semantic_branch": "ask_author_candidate",
+      "semantic_correct": false,
+      "use_case": "software-issue-triage"
+    },
+    {
+      "answer": {
+        "choice": "ask_author",
+        "probabilities": {
+          "ask_author": 1.0,
+          "backlog": 0.0,
+          "close_review": 0.0,
+          "investigate": 0.0,
+          "product_decision": 0.0
+        },
+        "type": "choice"
+      },
+      "case_id": "software-issue-triage-blind-14-es",
+      "difficulty": "ambiguous",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow",
+      "expected_branch": "human_triage",
+      "index": 87,
+      "language": "es",
+      "latency_ms": 451.64890500018373,
+      "operational_branch": "ask_author_candidate",
+      "operational_correct": false,
+      "policy_type": "choice",
+      "selected_probability": 1.0,
+      "semantic_branch": "ask_author_candidate",
+      "semantic_correct": false,
+      "use_case": "software-issue-triage"
+    },
+    {
+      "answer": {
+        "choice": "ask_author",
+        "probabilities": {
+          "ask_author": 0.94,
+          "backlog": 0.0,
+          "close_review": 0.06,
+          "investigate": 0.0,
+          "product_decision": 0.0
+        },
+        "type": "choice"
+      },
+      "case_id": "software-issue-triage-blind-15-en",
+      "difficulty": "ambiguous",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow",
+      "expected_branch": "human_triage",
+      "index": 88,
+      "language": "en",
+      "latency_ms": 452.0736750018841,
+      "operational_branch": "ask_author_candidate",
+      "operational_correct": false,
+      "policy_type": "choice",
+      "selected_probability": 0.94,
+      "semantic_branch": "ask_author_candidate",
+      "semantic_correct": false,
+      "use_case": "software-issue-triage"
+    },
+    {
+      "answer": {
+        "choice": "ask_author",
+        "probabilities": {
+          "ask_author": 0.88,
+          "backlog": 0.0,
+          "close_review": 0.12,
+          "investigate": 0.0,
+          "product_decision": 0.0
+        },
+        "type": "choice"
+      },
+      "case_id": "software-issue-triage-blind-15-es",
+      "difficulty": "ambiguous",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow",
+      "expected_branch": "human_triage",
+      "index": 89,
+      "language": "es",
+      "latency_ms": 453.0405509976845,
+      "operational_branch": "ask_author_candidate",
+      "operational_correct": false,
+      "policy_type": "choice",
+      "selected_probability": 0.88,
+      "semantic_branch": "ask_author_candidate",
+      "semantic_correct": false,
+      "use_case": "software-issue-triage"
+    },
+    {
+      "answer": {
+        "probabilities": {
+          "0": 0.0,
+          "1": 0.01,
+          "2": 0.02,
+          "3": 0.1,
+          "4": 0.87
+        },
+        "score": 3.84,
+        "type": "score"
+      },
+      "case_id": "content-quality-gate-blind-01-en",
+      "difficulty": "clear",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow",
+      "expected_branch": "publish_candidate",
+      "index": 90,
+      "language": "en",
+      "latency_ms": 349.60776699881535,
+      "operational_branch": "publish_candidate",
+      "operational_correct": true,
+      "policy_type": "score",
+      "selected_probability": null,
+      "semantic_branch": "publish_candidate",
+      "semantic_correct": true,
+      "use_case": "content-quality-gate"
+    },
+    {
+      "answer": {
+        "probabilities": {
+          "0": 0.0,
+          "1": 0.01,
+          "2": 0.07,
+          "3": 0.23,
+          "4": 0.68
+        },
+        "score": 3.58,
+        "type": "score"
+      },
+      "case_id": "content-quality-gate-blind-01-es",
+      "difficulty": "clear",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow",
+      "expected_branch": "publish_candidate",
+      "index": 91,
+      "language": "es",
+      "latency_ms": 361.35645499962266,
+      "operational_branch": "publish_candidate",
+      "operational_correct": true,
+      "policy_type": "score",
+      "selected_probability": null,
+      "semantic_branch": "publish_candidate",
+      "semantic_correct": true,
+      "use_case": "content-quality-gate"
+    },
+    {
+      "answer": {
+        "probabilities": {
+          "0": 0.0,
+          "1": 0.01,
+          "2": 0.03,
+          "3": 0.1,
+          "4": 0.86
+        },
+        "score": 3.78,
+        "type": "score"
+      },
+      "case_id": "content-quality-gate-blind-02-en",
+      "difficulty": "clear",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow",
+      "expected_branch": "publish_candidate",
+      "index": 92,
+      "language": "en",
+      "latency_ms": 440.245199999481,
+      "operational_branch": "publish_candidate",
+      "operational_correct": true,
+      "policy_type": "score",
+      "selected_probability": null,
+      "semantic_branch": "publish_candidate",
+      "semantic_correct": true,
+      "use_case": "content-quality-gate"
+    },
+    {
+      "answer": {
+        "probabilities": {
+          "0": 0.01,
+          "1": 0.03,
+          "2": 0.08,
+          "3": 0.19,
+          "4": 0.69
+        },
+        "score": 3.54,
+        "type": "score"
+      },
+      "case_id": "content-quality-gate-blind-02-es",
+      "difficulty": "clear",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow",
+      "expected_branch": "publish_candidate",
+      "index": 93,
+      "language": "es",
+      "latency_ms": 349.9010449995694,
+      "operational_branch": "publish_candidate",
+      "operational_correct": true,
+      "policy_type": "score",
+      "selected_probability": null,
+      "semantic_branch": "publish_candidate",
+      "semantic_correct": true,
+      "use_case": "content-quality-gate"
+    },
+    {
+      "answer": {
+        "probabilities": {
+          "0": 0.4,
+          "1": 0.6,
+          "2": 0.0,
+          "3": 0.0,
+          "4": 0.0
+        },
+        "score": 0.61,
+        "type": "score"
+      },
+      "case_id": "content-quality-gate-blind-03-en",
+      "difficulty": "clear",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow",
+      "expected_branch": "reject",
+      "index": 94,
+      "language": "en",
+      "latency_ms": 452.23792400065577,
+      "operational_branch": "reject",
+      "operational_correct": true,
+      "policy_type": "score",
+      "selected_probability": null,
+      "semantic_branch": "reject",
+      "semantic_correct": true,
+      "use_case": "content-quality-gate"
+    },
+    {
+      "answer": {
+        "probabilities": {
+          "0": 0.42,
+          "1": 0.58,
+          "2": 0.0,
+          "3": 0.0,
+          "4": 0.0
+        },
+        "score": 0.58,
+        "type": "score"
+      },
+      "case_id": "content-quality-gate-blind-03-es",
+      "difficulty": "clear",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow",
+      "expected_branch": "reject",
+      "index": 95,
+      "language": "es",
+      "latency_ms": 352.3481160009396,
+      "operational_branch": "reject",
+      "operational_correct": true,
+      "policy_type": "score",
+      "selected_probability": null,
+      "semantic_branch": "reject",
+      "semantic_correct": true,
+      "use_case": "content-quality-gate"
+    },
+    {
+      "answer": {
+        "probabilities": {
+          "0": 0.13,
+          "1": 0.85,
+          "2": 0.02,
+          "3": 0.0,
+          "4": 0.0
+        },
+        "score": 0.89,
+        "type": "score"
+      },
+      "case_id": "content-quality-gate-blind-04-en",
+      "difficulty": "clear",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow",
+      "expected_branch": "reject",
+      "index": 96,
+      "language": "en",
+      "latency_ms": 384.73577400145587,
+      "operational_branch": "reject",
+      "operational_correct": true,
+      "policy_type": "score",
+      "selected_probability": null,
+      "semantic_branch": "reject",
+      "semantic_correct": true,
+      "use_case": "content-quality-gate"
+    },
+    {
+      "answer": {
+        "probabilities": {
+          "0": 0.06,
+          "1": 0.9,
+          "2": 0.04,
+          "3": 0.0,
+          "4": 0.0
+        },
+        "score": 0.98,
+        "type": "score"
+      },
+      "case_id": "content-quality-gate-blind-04-es",
+      "difficulty": "clear",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow",
+      "expected_branch": "reject",
+      "index": 97,
+      "language": "es",
+      "latency_ms": 416.0518829994544,
+      "operational_branch": "reject",
+      "operational_correct": true,
+      "policy_type": "score",
+      "selected_probability": null,
+      "semantic_branch": "reject",
+      "semantic_correct": true,
+      "use_case": "content-quality-gate"
+    },
+    {
+      "answer": {
+        "probabilities": {
+          "0": 0.39,
+          "1": 0.61,
+          "2": 0.0,
+          "3": 0.0,
+          "4": 0.0
+        },
+        "score": 0.61,
+        "type": "score"
+      },
+      "case_id": "content-quality-gate-blind-05-en",
+      "difficulty": "clear",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow",
+      "expected_branch": "reject",
+      "index": 98,
+      "language": "en",
+      "latency_ms": 452.1736440001405,
+      "operational_branch": "reject",
+      "operational_correct": true,
+      "policy_type": "score",
+      "selected_probability": null,
+      "semantic_branch": "reject",
+      "semantic_correct": true,
+      "use_case": "content-quality-gate"
+    },
+    {
+      "answer": {
+        "probabilities": {
+          "0": 0.37,
+          "1": 0.63,
+          "2": 0.0,
+          "3": 0.0,
+          "4": 0.0
+        },
+        "score": 0.63,
+        "type": "score"
+      },
+      "case_id": "content-quality-gate-blind-05-es",
+      "difficulty": "clear",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow",
+      "expected_branch": "reject",
+      "index": 99,
+      "language": "es",
+      "latency_ms": 451.83285500024795,
+      "operational_branch": "reject",
+      "operational_correct": true,
+      "policy_type": "score",
+      "selected_probability": null,
+      "semantic_branch": "reject",
+      "semantic_correct": true,
+      "use_case": "content-quality-gate"
+    },
+    {
+      "answer": {
+        "probabilities": {
+          "0": 0.0,
+          "1": 0.64,
+          "2": 0.33,
+          "3": 0.03,
+          "4": 0.0
+        },
+        "score": 1.41,
+        "type": "score"
+      },
+      "case_id": "content-quality-gate-blind-06-en",
+      "difficulty": "boundary",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow",
+      "expected_branch": "revise",
+      "index": 100,
+      "language": "en",
+      "latency_ms": 555.8949660007784,
+      "operational_branch": "revise",
+      "operational_correct": true,
+      "policy_type": "score",
+      "selected_probability": null,
+      "semantic_branch": "revise",
+      "semantic_correct": true,
+      "use_case": "content-quality-gate"
+    },
+    {
+      "answer": {
+        "probabilities": {
+          "0": 0.01,
+          "1": 0.54,
+          "2": 0.4,
+          "3": 0.04,
+          "4": 0.01
+        },
+        "score": 1.52,
+        "type": "score"
+      },
+      "case_id": "content-quality-gate-blind-06-es",
+      "difficulty": "boundary",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow",
+      "expected_branch": "revise",
+      "index": 101,
+      "language": "es",
+      "latency_ms": 305.9556860025623,
+      "operational_branch": "revise",
+      "operational_correct": true,
+      "policy_type": "score",
+      "selected_probability": null,
+      "semantic_branch": "revise",
+      "semantic_correct": true,
+      "use_case": "content-quality-gate"
+    },
+    {
+      "answer": {
+        "probabilities": {
+          "0": 0.01,
+          "1": 0.65,
+          "2": 0.32,
+          "3": 0.02,
+          "4": 0.0
+        },
+        "score": 1.35,
+        "type": "score"
+      },
+      "case_id": "content-quality-gate-blind-07-en",
+      "difficulty": "boundary",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow",
+      "expected_branch": "revise",
+      "index": 102,
+      "language": "en",
+      "latency_ms": 393.1546809981228,
+      "operational_branch": "revise",
+      "operational_correct": true,
+      "policy_type": "score",
+      "selected_probability": null,
+      "semantic_branch": "revise",
+      "semantic_correct": true,
+      "use_case": "content-quality-gate"
+    },
+    {
+      "answer": {
+        "probabilities": {
+          "0": 0.0,
+          "1": 0.64,
+          "2": 0.36,
+          "3": 0.0,
+          "4": 0.0
+        },
+        "score": 1.37,
+        "type": "score"
+      },
+      "case_id": "content-quality-gate-blind-07-es",
+      "difficulty": "boundary",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow",
+      "expected_branch": "revise",
+      "index": 103,
+      "language": "es",
+      "latency_ms": 452.4406620002992,
+      "operational_branch": "revise",
+      "operational_correct": true,
+      "policy_type": "score",
+      "selected_probability": null,
+      "semantic_branch": "revise",
+      "semantic_correct": true,
+      "use_case": "content-quality-gate"
+    },
+    {
+      "answer": {
+        "probabilities": {
+          "0": 0.01,
+          "1": 0.13,
+          "2": 0.22,
+          "3": 0.35,
+          "4": 0.29
+        },
+        "score": 2.79,
+        "type": "score"
+      },
+      "case_id": "content-quality-gate-blind-08-en",
+      "difficulty": "boundary",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow",
+      "expected_branch": "revise",
+      "index": 104,
+      "language": "en",
+      "latency_ms": 451.9868060015142,
+      "operational_branch": "revise",
+      "operational_correct": true,
+      "policy_type": "score",
+      "selected_probability": null,
+      "semantic_branch": "revise",
+      "semantic_correct": true,
+      "use_case": "content-quality-gate"
+    },
+    {
+      "answer": {
+        "probabilities": {
+          "0": 0.01,
+          "1": 0.11,
+          "2": 0.28,
+          "3": 0.36,
+          "4": 0.24
+        },
+        "score": 2.7,
+        "type": "score"
+      },
+      "case_id": "content-quality-gate-blind-08-es",
+      "difficulty": "boundary",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow",
+      "expected_branch": "revise",
+      "index": 105,
+      "language": "es",
+      "latency_ms": 349.70786800113274,
+      "operational_branch": "revise",
+      "operational_correct": true,
+      "policy_type": "score",
+      "selected_probability": null,
+      "semantic_branch": "revise",
+      "semantic_correct": true,
+      "use_case": "content-quality-gate"
+    },
+    {
+      "answer": {
+        "probabilities": {
+          "0": 0.01,
+          "1": 0.67,
+          "2": 0.28,
+          "3": 0.03,
+          "4": 0.01
+        },
+        "score": 1.35,
+        "type": "score"
+      },
+      "case_id": "content-quality-gate-blind-09-en",
+      "difficulty": "boundary",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow",
+      "expected_branch": "revise",
+      "index": 106,
+      "language": "en",
+      "latency_ms": 351.0687620000681,
+      "operational_branch": "revise",
+      "operational_correct": true,
+      "policy_type": "score",
+      "selected_probability": null,
+      "semantic_branch": "revise",
+      "semantic_correct": true,
+      "use_case": "content-quality-gate"
+    },
+    {
+      "answer": {
+        "probabilities": {
+          "0": 0.01,
+          "1": 0.6,
+          "2": 0.34,
+          "3": 0.04,
+          "4": 0.01
+        },
+        "score": 1.43,
+        "type": "score"
+      },
+      "case_id": "content-quality-gate-blind-09-es",
+      "difficulty": "boundary",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow",
+      "expected_branch": "revise",
+      "index": 107,
+      "language": "es",
+      "latency_ms": 452.3204619981698,
+      "operational_branch": "revise",
+      "operational_correct": true,
+      "policy_type": "score",
+      "selected_probability": null,
+      "semantic_branch": "revise",
+      "semantic_correct": true,
+      "use_case": "content-quality-gate"
+    },
+    {
+      "answer": {
+        "probabilities": {
+          "0": 0.0,
+          "1": 0.77,
+          "2": 0.19,
+          "3": 0.04,
+          "4": 0.0
+        },
+        "score": 1.27,
+        "type": "score"
+      },
+      "case_id": "content-quality-gate-blind-10-en",
+      "difficulty": "boundary",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow",
+      "expected_branch": "revise",
+      "index": 108,
+      "language": "en",
+      "latency_ms": 323.3683670005121,
+      "operational_branch": "revise",
+      "operational_correct": true,
+      "policy_type": "score",
+      "selected_probability": null,
+      "semantic_branch": "revise",
+      "semantic_correct": true,
+      "use_case": "content-quality-gate"
+    },
+    {
+      "answer": {
+        "probabilities": {
+          "0": 0.0,
+          "1": 0.55,
+          "2": 0.31,
+          "3": 0.13,
+          "4": 0.01
+        },
+        "score": 1.61,
+        "type": "score"
+      },
+      "case_id": "content-quality-gate-blind-10-es",
+      "difficulty": "boundary",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow",
+      "expected_branch": "revise",
+      "index": 109,
+      "language": "es",
+      "latency_ms": 479.6139790014422,
+      "operational_branch": "revise",
+      "operational_correct": true,
+      "policy_type": "score",
+      "selected_probability": null,
+      "semantic_branch": "revise",
+      "semantic_correct": true,
+      "use_case": "content-quality-gate"
+    },
+    {
+      "answer": {
+        "probabilities": {
+          "0": 0.05,
+          "1": 0.69,
+          "2": 0.25,
+          "3": 0.01,
+          "4": 0.0
+        },
+        "score": 1.22,
+        "type": "score"
+      },
+      "case_id": "content-quality-gate-blind-11-en",
+      "difficulty": "ambiguous",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow",
+      "expected_branch": "revise",
+      "index": 110,
+      "language": "en",
+      "latency_ms": 453.1304589982028,
+      "operational_branch": "revise",
+      "operational_correct": true,
+      "policy_type": "score",
+      "selected_probability": null,
+      "semantic_branch": "revise",
+      "semantic_correct": true,
+      "use_case": "content-quality-gate"
+    },
+    {
+      "answer": {
+        "probabilities": {
+          "0": 0.04,
+          "1": 0.58,
+          "2": 0.34,
+          "3": 0.03,
+          "4": 0.01
+        },
+        "score": 1.39,
+        "type": "score"
+      },
+      "case_id": "content-quality-gate-blind-11-es",
+      "difficulty": "ambiguous",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow",
+      "expected_branch": "revise",
+      "index": 111,
+      "language": "es",
+      "latency_ms": 349.4082889992569,
+      "operational_branch": "revise",
+      "operational_correct": true,
+      "policy_type": "score",
+      "selected_probability": null,
+      "semantic_branch": "revise",
+      "semantic_correct": true,
+      "use_case": "content-quality-gate"
+    },
+    {
+      "answer": {
+        "probabilities": {
+          "0": 0.02,
+          "1": 0.97,
+          "2": 0.01,
+          "3": 0.0,
+          "4": 0.0
+        },
+        "score": 0.99,
+        "type": "score"
+      },
+      "case_id": "content-quality-gate-blind-12-en",
+      "difficulty": "ambiguous",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow",
+      "expected_branch": "revise",
+      "index": 112,
+      "language": "en",
+      "latency_ms": 350.0230860008742,
+      "operational_branch": "reject",
+      "operational_correct": false,
+      "policy_type": "score",
+      "selected_probability": null,
+      "semantic_branch": "reject",
+      "semantic_correct": false,
+      "use_case": "content-quality-gate"
+    },
+    {
+      "answer": {
+        "probabilities": {
+          "0": 0.01,
+          "1": 0.98,
+          "2": 0.01,
+          "3": 0.0,
+          "4": 0.0
+        },
+        "score": 1,
+        "type": "score"
+      },
+      "case_id": "content-quality-gate-blind-12-es",
+      "difficulty": "ambiguous",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow",
+      "expected_branch": "revise",
+      "index": 113,
+      "language": "es",
+      "latency_ms": 452.18793399908463,
+      "operational_branch": "revise",
+      "operational_correct": true,
+      "policy_type": "score",
+      "selected_probability": null,
+      "semantic_branch": "revise",
+      "semantic_correct": true,
+      "use_case": "content-quality-gate"
+    },
+    {
+      "answer": {
+        "probabilities": {
+          "0": 0.03,
+          "1": 0.71,
+          "2": 0.22,
+          "3": 0.03,
+          "4": 0.01
+        },
+        "score": 1.26,
+        "type": "score"
+      },
+      "case_id": "content-quality-gate-blind-13-en",
+      "difficulty": "ambiguous",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow",
+      "expected_branch": "revise",
+      "index": 114,
+      "language": "en",
+      "latency_ms": 453.672509000171,
+      "operational_branch": "revise",
+      "operational_correct": true,
+      "policy_type": "score",
+      "selected_probability": null,
+      "semantic_branch": "revise",
+      "semantic_correct": true,
+      "use_case": "content-quality-gate"
+    },
+    {
+      "answer": {
+        "probabilities": {
+          "0": 0.01,
+          "1": 0.72,
+          "2": 0.27,
+          "3": 0.0,
+          "4": 0.0
+        },
+        "score": 1.27,
+        "type": "score"
+      },
+      "case_id": "content-quality-gate-blind-13-es",
+      "difficulty": "ambiguous",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow",
+      "expected_branch": "revise",
+      "index": 115,
+      "language": "es",
+      "latency_ms": 451.347178001015,
+      "operational_branch": "revise",
+      "operational_correct": true,
+      "policy_type": "score",
+      "selected_probability": null,
+      "semantic_branch": "revise",
+      "semantic_correct": true,
+      "use_case": "content-quality-gate"
+    },
+    {
+      "answer": {
+        "probabilities": {
+          "0": 0.0,
+          "1": 0.03,
+          "2": 0.13,
+          "3": 0.3,
+          "4": 0.54
+        },
+        "score": 3.33,
+        "type": "score"
+      },
+      "case_id": "content-quality-gate-blind-14-en",
+      "difficulty": "ambiguous",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow",
+      "expected_branch": "revise",
+      "index": 116,
+      "language": "en",
+      "latency_ms": 350.48340399953304,
+      "operational_branch": "revise",
+      "operational_correct": true,
+      "policy_type": "score",
+      "selected_probability": null,
+      "semantic_branch": "revise",
+      "semantic_correct": true,
+      "use_case": "content-quality-gate"
+    },
+    {
+      "answer": {
+        "probabilities": {
+          "0": 0.01,
+          "1": 0.04,
+          "2": 0.15,
+          "3": 0.32,
+          "4": 0.48
+        },
+        "score": 3.25,
+        "type": "score"
+      },
+      "case_id": "content-quality-gate-blind-14-es",
+      "difficulty": "ambiguous",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow",
+      "expected_branch": "revise",
+      "index": 117,
+      "language": "es",
+      "latency_ms": 452.5565429976268,
+      "operational_branch": "revise",
+      "operational_correct": true,
+      "policy_type": "score",
+      "selected_probability": null,
+      "semantic_branch": "revise",
+      "semantic_correct": true,
+      "use_case": "content-quality-gate"
+    },
+    {
+      "answer": {
+        "probabilities": {
+          "0": 0.02,
+          "1": 0.6,
+          "2": 0.31,
+          "3": 0.06,
+          "4": 0.01
+        },
+        "score": 1.46,
+        "type": "score"
+      },
+      "case_id": "content-quality-gate-blind-15-en",
+      "difficulty": "ambiguous",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow",
+      "expected_branch": "revise",
+      "index": 118,
+      "language": "en",
+      "latency_ms": 323.94924700201955,
+      "operational_branch": "revise",
+      "operational_correct": true,
+      "policy_type": "score",
+      "selected_probability": null,
+      "semantic_branch": "revise",
+      "semantic_correct": true,
+      "use_case": "content-quality-gate"
+    },
+    {
+      "answer": {
+        "probabilities": {
+          "0": 0.06,
+          "1": 0.83,
+          "2": 0.09,
+          "3": 0.02,
+          "4": 0.0
+        },
+        "score": 1.08,
+        "type": "score"
+      },
+      "case_id": "content-quality-gate-blind-15-es",
+      "difficulty": "ambiguous",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow",
+      "expected_branch": "revise",
+      "index": 119,
+      "language": "es",
+      "latency_ms": 376.38688500010176,
+      "operational_branch": "revise",
+      "operational_correct": true,
+      "policy_type": "score",
+      "selected_probability": null,
+      "semantic_branch": "revise",
+      "semantic_correct": true,
+      "use_case": "content-quality-gate"
+    },
+    {
+      "answer": {
+        "choice": "consistent",
+        "probabilities": {
+          "consistent": 1.0,
+          "inconsistent": 0.0,
+          "unclear": 0.0
+        },
+        "type": "choice"
+      },
+      "case_id": "semantic-data-consistency-blind-01-en",
+      "difficulty": "clear",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow",
+      "expected_branch": "continue_candidate",
+      "index": 120,
+      "language": "en",
+      "latency_ms": 451.9334049982717,
+      "operational_branch": "continue_candidate",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 1.0,
+      "semantic_branch": "continue_candidate",
+      "semantic_correct": true,
+      "use_case": "semantic-data-consistency"
+    },
+    {
+      "answer": {
+        "choice": "consistent",
+        "probabilities": {
+          "consistent": 1.0,
+          "inconsistent": 0.0,
+          "unclear": 0.0
+        },
+        "type": "choice"
+      },
+      "case_id": "semantic-data-consistency-blind-01-es",
+      "difficulty": "clear",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow",
+      "expected_branch": "continue_candidate",
+      "index": 121,
+      "language": "es",
+      "latency_ms": 352.7142470011313,
+      "operational_branch": "continue_candidate",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 1.0,
+      "semantic_branch": "continue_candidate",
+      "semantic_correct": true,
+      "use_case": "semantic-data-consistency"
+    },
+    {
+      "answer": {
+        "choice": "consistent",
+        "probabilities": {
+          "consistent": 1.0,
+          "inconsistent": 0.0,
+          "unclear": 0.0
+        },
+        "type": "choice"
+      },
+      "case_id": "semantic-data-consistency-blind-02-en",
+      "difficulty": "clear",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow",
+      "expected_branch": "continue_candidate",
+      "index": 122,
+      "language": "en",
+      "latency_ms": 450.558339998679,
+      "operational_branch": "continue_candidate",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 1.0,
+      "semantic_branch": "continue_candidate",
+      "semantic_correct": true,
+      "use_case": "semantic-data-consistency"
+    },
+    {
+      "answer": {
+        "choice": "consistent",
+        "probabilities": {
+          "consistent": 1.0,
+          "inconsistent": 0.0,
+          "unclear": 0.0
+        },
+        "type": "choice"
+      },
+      "case_id": "semantic-data-consistency-blind-02-es",
+      "difficulty": "clear",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow",
+      "expected_branch": "continue_candidate",
+      "index": 123,
+      "language": "es",
+      "latency_ms": 451.8962250003824,
+      "operational_branch": "continue_candidate",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 1.0,
+      "semantic_branch": "continue_candidate",
+      "semantic_correct": true,
+      "use_case": "semantic-data-consistency"
+    },
+    {
+      "answer": {
+        "choice": "consistent",
+        "probabilities": {
+          "consistent": 1.0,
+          "inconsistent": 0.0,
+          "unclear": 0.0
+        },
+        "type": "choice"
+      },
+      "case_id": "semantic-data-consistency-blind-03-en",
+      "difficulty": "clear",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow",
+      "expected_branch": "continue_candidate",
+      "index": 124,
+      "language": "en",
+      "latency_ms": 453.79188799779513,
+      "operational_branch": "continue_candidate",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 1.0,
+      "semantic_branch": "continue_candidate",
+      "semantic_correct": true,
+      "use_case": "semantic-data-consistency"
+    },
+    {
+      "answer": {
+        "choice": "consistent",
+        "probabilities": {
+          "consistent": 1.0,
+          "inconsistent": 0.0,
+          "unclear": 0.0
+        },
+        "type": "choice"
+      },
+      "case_id": "semantic-data-consistency-blind-03-es",
+      "difficulty": "clear",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow",
+      "expected_branch": "continue_candidate",
+      "index": 125,
+      "language": "es",
+      "latency_ms": 657.4929950002115,
+      "operational_branch": "continue_candidate",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 1.0,
+      "semantic_branch": "continue_candidate",
+      "semantic_correct": true,
+      "use_case": "semantic-data-consistency"
+    },
+    {
+      "answer": {
+        "choice": "inconsistent",
+        "probabilities": {
+          "consistent": 0.0,
+          "inconsistent": 1.0,
+          "unclear": 0.0
+        },
+        "type": "choice"
+      },
+      "case_id": "semantic-data-consistency-blind-04-en",
+      "difficulty": "clear",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow",
+      "expected_branch": "exception_review",
+      "index": 126,
+      "language": "en",
+      "latency_ms": 450.9008979985083,
+      "operational_branch": "exception_review",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 1.0,
+      "semantic_branch": "exception_review",
+      "semantic_correct": true,
+      "use_case": "semantic-data-consistency"
+    },
+    {
+      "answer": {
+        "choice": "inconsistent",
+        "probabilities": {
+          "consistent": 0.0,
+          "inconsistent": 1.0,
+          "unclear": 0.0
+        },
+        "type": "choice"
+      },
+      "case_id": "semantic-data-consistency-blind-04-es",
+      "difficulty": "clear",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow",
+      "expected_branch": "exception_review",
+      "index": 127,
+      "language": "es",
+      "latency_ms": 452.28555299763684,
+      "operational_branch": "exception_review",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 1.0,
+      "semantic_branch": "exception_review",
+      "semantic_correct": true,
+      "use_case": "semantic-data-consistency"
+    },
+    {
+      "answer": {
+        "choice": "inconsistent",
+        "probabilities": {
+          "consistent": 0.03,
+          "inconsistent": 0.97,
+          "unclear": 0.0
+        },
+        "type": "choice"
+      },
+      "case_id": "semantic-data-consistency-blind-05-en",
+      "difficulty": "clear",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow",
+      "expected_branch": "exception_review",
+      "index": 128,
+      "language": "en",
+      "latency_ms": 1066.1261080022086,
+      "operational_branch": "exception_review",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 0.97,
+      "semantic_branch": "exception_review",
+      "semantic_correct": true,
+      "use_case": "semantic-data-consistency"
+    },
+    {
+      "answer": {
+        "choice": "inconsistent",
+        "probabilities": {
+          "consistent": 0.02,
+          "inconsistent": 0.98,
+          "unclear": 0.0
+        },
+        "type": "choice"
+      },
+      "case_id": "semantic-data-consistency-blind-05-es",
+      "difficulty": "clear",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow",
+      "expected_branch": "exception_review",
+      "index": 129,
+      "language": "es",
+      "latency_ms": 452.2069329977967,
+      "operational_branch": "exception_review",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 0.98,
+      "semantic_branch": "exception_review",
+      "semantic_correct": true,
+      "use_case": "semantic-data-consistency"
+    },
+    {
+      "answer": {
+        "choice": "consistent",
+        "probabilities": {
+          "consistent": 0.84,
+          "inconsistent": 0.11,
+          "unclear": 0.05
+        },
+        "type": "choice"
+      },
+      "case_id": "semantic-data-consistency-blind-06-en",
+      "difficulty": "boundary",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow",
+      "expected_branch": "review",
+      "index": 130,
+      "language": "en",
+      "latency_ms": 656.7811999993864,
+      "operational_branch": "continue_candidate",
+      "operational_correct": false,
+      "policy_type": "choice",
+      "selected_probability": 0.84,
+      "semantic_branch": "continue_candidate",
+      "semantic_correct": false,
+      "use_case": "semantic-data-consistency"
+    },
+    {
+      "answer": {
+        "choice": "consistent",
+        "probabilities": {
+          "consistent": 0.85,
+          "inconsistent": 0.09,
+          "unclear": 0.06
+        },
+        "type": "choice"
+      },
+      "case_id": "semantic-data-consistency-blind-06-es",
+      "difficulty": "boundary",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow",
+      "expected_branch": "review",
+      "index": 131,
+      "language": "es",
+      "latency_ms": 351.2531519991171,
+      "operational_branch": "continue_candidate",
+      "operational_correct": false,
+      "policy_type": "choice",
+      "selected_probability": 0.85,
+      "semantic_branch": "continue_candidate",
+      "semantic_correct": false,
+      "use_case": "semantic-data-consistency"
+    },
+    {
+      "answer": {
+        "choice": "inconsistent",
+        "probabilities": {
+          "consistent": 0.34,
+          "inconsistent": 0.58,
+          "unclear": 0.08
+        },
+        "type": "choice"
+      },
+      "case_id": "semantic-data-consistency-blind-07-en",
+      "difficulty": "boundary",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow",
+      "expected_branch": "review",
+      "index": 132,
+      "language": "en",
+      "latency_ms": 451.74697800030117,
+      "operational_branch": "review",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 0.58,
+      "semantic_branch": "exception_review",
+      "semantic_correct": false,
+      "use_case": "semantic-data-consistency"
+    },
+    {
+      "answer": {
+        "choice": "consistent",
+        "probabilities": {
+          "consistent": 0.41,
+          "inconsistent": 0.36,
+          "unclear": 0.23
+        },
+        "type": "choice"
+      },
+      "case_id": "semantic-data-consistency-blind-07-es",
+      "difficulty": "boundary",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow",
+      "expected_branch": "review",
+      "index": 133,
+      "language": "es",
+      "latency_ms": 452.5835719978204,
+      "operational_branch": "review",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 0.41,
+      "semantic_branch": "continue_candidate",
+      "semantic_correct": false,
+      "use_case": "semantic-data-consistency"
+    },
+    {
+      "answer": {
+        "choice": "consistent",
+        "probabilities": {
+          "consistent": 0.99,
+          "inconsistent": 0.0,
+          "unclear": 0.01
+        },
+        "type": "choice"
+      },
+      "case_id": "semantic-data-consistency-blind-08-en",
+      "difficulty": "boundary",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow",
+      "expected_branch": "review",
+      "index": 134,
+      "language": "en",
+      "latency_ms": 453.6095590010518,
+      "operational_branch": "continue_candidate",
+      "operational_correct": false,
+      "policy_type": "choice",
+      "selected_probability": 0.99,
+      "semantic_branch": "continue_candidate",
+      "semantic_correct": false,
+      "use_case": "semantic-data-consistency"
+    },
+    {
+      "answer": {
+        "choice": "consistent",
+        "probabilities": {
+          "consistent": 0.99,
+          "inconsistent": 0.0,
+          "unclear": 0.01
+        },
+        "type": "choice"
+      },
+      "case_id": "semantic-data-consistency-blind-08-es",
+      "difficulty": "boundary",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow",
+      "expected_branch": "review",
+      "index": 135,
+      "language": "es",
+      "latency_ms": 758.1492499994056,
+      "operational_branch": "continue_candidate",
+      "operational_correct": false,
+      "policy_type": "choice",
+      "selected_probability": 0.99,
+      "semantic_branch": "continue_candidate",
+      "semantic_correct": false,
+      "use_case": "semantic-data-consistency"
+    },
+    {
+      "answer": {
+        "choice": "consistent",
+        "probabilities": {
+          "consistent": 0.99,
+          "inconsistent": 0.0,
+          "unclear": 0.01
+        },
+        "type": "choice"
+      },
+      "case_id": "semantic-data-consistency-blind-09-en",
+      "difficulty": "boundary",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow",
+      "expected_branch": "review",
+      "index": 136,
+      "language": "en",
+      "latency_ms": 556.036326001049,
+      "operational_branch": "continue_candidate",
+      "operational_correct": false,
+      "policy_type": "choice",
+      "selected_probability": 0.99,
+      "semantic_branch": "continue_candidate",
+      "semantic_correct": false,
+      "use_case": "semantic-data-consistency"
+    },
+    {
+      "answer": {
+        "choice": "consistent",
+        "probabilities": {
+          "consistent": 1.0,
+          "inconsistent": 0.0,
+          "unclear": 0.0
+        },
+        "type": "choice"
+      },
+      "case_id": "semantic-data-consistency-blind-09-es",
+      "difficulty": "boundary",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow",
+      "expected_branch": "review",
+      "index": 137,
+      "language": "es",
+      "latency_ms": 451.59424700250383,
+      "operational_branch": "continue_candidate",
+      "operational_correct": false,
+      "policy_type": "choice",
+      "selected_probability": 1.0,
+      "semantic_branch": "continue_candidate",
+      "semantic_correct": false,
+      "use_case": "semantic-data-consistency"
+    },
+    {
+      "answer": {
+        "choice": "consistent",
+        "probabilities": {
+          "consistent": 0.72,
+          "inconsistent": 0.27,
+          "unclear": 0.01
+        },
+        "type": "choice"
+      },
+      "case_id": "semantic-data-consistency-blind-10-en",
+      "difficulty": "boundary",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow",
+      "expected_branch": "review",
+      "index": 138,
+      "language": "en",
+      "latency_ms": 453.03200999842375,
+      "operational_branch": "review",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 0.72,
+      "semantic_branch": "continue_candidate",
+      "semantic_correct": false,
+      "use_case": "semantic-data-consistency"
+    },
+    {
+      "answer": {
+        "choice": "consistent",
+        "probabilities": {
+          "consistent": 0.97,
+          "inconsistent": 0.02,
+          "unclear": 0.01
+        },
+        "type": "choice"
+      },
+      "case_id": "semantic-data-consistency-blind-10-es",
+      "difficulty": "boundary",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow",
+      "expected_branch": "review",
+      "index": 139,
+      "language": "es",
+      "latency_ms": 452.0733859972097,
+      "operational_branch": "continue_candidate",
+      "operational_correct": false,
+      "policy_type": "choice",
+      "selected_probability": 0.97,
+      "semantic_branch": "continue_candidate",
+      "semantic_correct": false,
+      "use_case": "semantic-data-consistency"
+    },
+    {
+      "answer": {
+        "choice": "inconsistent",
+        "probabilities": {
+          "consistent": 0.15,
+          "inconsistent": 0.81,
+          "unclear": 0.04
+        },
+        "type": "choice"
+      },
+      "case_id": "semantic-data-consistency-blind-11-en",
+      "difficulty": "ambiguous",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow",
+      "expected_branch": "review",
+      "index": 140,
+      "language": "en",
+      "latency_ms": 341.61626800050726,
+      "operational_branch": "exception_review",
+      "operational_correct": false,
+      "policy_type": "choice",
+      "selected_probability": 0.81,
+      "semantic_branch": "exception_review",
+      "semantic_correct": false,
+      "use_case": "semantic-data-consistency"
+    },
+    {
+      "answer": {
+        "choice": "consistent",
+        "probabilities": {
+          "consistent": 0.58,
+          "inconsistent": 0.36,
+          "unclear": 0.06
+        },
+        "type": "choice"
+      },
+      "case_id": "semantic-data-consistency-blind-11-es",
+      "difficulty": "ambiguous",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow",
+      "expected_branch": "review",
+      "index": 141,
+      "language": "es",
+      "latency_ms": 767.6423029988655,
+      "operational_branch": "review",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 0.58,
+      "semantic_branch": "continue_candidate",
+      "semantic_correct": false,
+      "use_case": "semantic-data-consistency"
+    },
+    {
+      "answer": {
+        "choice": "consistent",
+        "probabilities": {
+          "consistent": 0.98,
+          "inconsistent": 0.01,
+          "unclear": 0.01
+        },
+        "type": "choice"
+      },
+      "case_id": "semantic-data-consistency-blind-12-en",
+      "difficulty": "ambiguous",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow",
+      "expected_branch": "review",
+      "index": 142,
+      "language": "en",
+      "latency_ms": 759.9072029988747,
+      "operational_branch": "continue_candidate",
+      "operational_correct": false,
+      "policy_type": "choice",
+      "selected_probability": 0.98,
+      "semantic_branch": "continue_candidate",
+      "semantic_correct": false,
+      "use_case": "semantic-data-consistency"
+    },
+    {
+      "answer": {
+        "choice": "consistent",
+        "probabilities": {
+          "consistent": 0.97,
+          "inconsistent": 0.01,
+          "unclear": 0.02
+        },
+        "type": "choice"
+      },
+      "case_id": "semantic-data-consistency-blind-12-es",
+      "difficulty": "ambiguous",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow",
+      "expected_branch": "review",
+      "index": 143,
+      "language": "es",
+      "latency_ms": 1066.4608070001123,
+      "operational_branch": "continue_candidate",
+      "operational_correct": false,
+      "policy_type": "choice",
+      "selected_probability": 0.97,
+      "semantic_branch": "continue_candidate",
+      "semantic_correct": false,
+      "use_case": "semantic-data-consistency"
+    },
+    {
+      "answer": {
+        "choice": "consistent",
+        "probabilities": {
+          "consistent": 0.95,
+          "inconsistent": 0.04,
+          "unclear": 0.01
+        },
+        "type": "choice"
+      },
+      "case_id": "semantic-data-consistency-blind-13-en",
+      "difficulty": "ambiguous",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow",
+      "expected_branch": "review",
+      "index": 144,
+      "language": "en",
+      "latency_ms": 759.8798819999502,
+      "operational_branch": "continue_candidate",
+      "operational_correct": false,
+      "policy_type": "choice",
+      "selected_probability": 0.95,
+      "semantic_branch": "continue_candidate",
+      "semantic_correct": false,
+      "use_case": "semantic-data-consistency"
+    },
+    {
+      "answer": {
+        "choice": "consistent",
+        "probabilities": {
+          "consistent": 0.87,
+          "inconsistent": 0.1,
+          "unclear": 0.03
+        },
+        "type": "choice"
+      },
+      "case_id": "semantic-data-consistency-blind-13-es",
+      "difficulty": "ambiguous",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow",
+      "expected_branch": "review",
+      "index": 145,
+      "language": "es",
+      "latency_ms": 350.19260500121163,
+      "operational_branch": "continue_candidate",
+      "operational_correct": false,
+      "policy_type": "choice",
+      "selected_probability": 0.87,
+      "semantic_branch": "continue_candidate",
+      "semantic_correct": false,
+      "use_case": "semantic-data-consistency"
+    },
+    {
+      "answer": {
+        "choice": "inconsistent",
+        "probabilities": {
+          "consistent": 0.38,
+          "inconsistent": 0.55,
+          "unclear": 0.07
+        },
+        "type": "choice"
+      },
+      "case_id": "semantic-data-consistency-blind-14-en",
+      "difficulty": "ambiguous",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow",
+      "expected_branch": "review",
+      "index": 146,
+      "language": "en",
+      "latency_ms": 317.68704000205616,
+      "operational_branch": "review",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 0.55,
+      "semantic_branch": "exception_review",
+      "semantic_correct": false,
+      "use_case": "semantic-data-consistency"
+    },
+    {
+      "answer": {
+        "choice": "consistent",
+        "probabilities": {
+          "consistent": 0.74,
+          "inconsistent": 0.23,
+          "unclear": 0.03
+        },
+        "type": "choice"
+      },
+      "case_id": "semantic-data-consistency-blind-14-es",
+      "difficulty": "ambiguous",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow",
+      "expected_branch": "review",
+      "index": 147,
+      "language": "es",
+      "latency_ms": 343.70786199724535,
+      "operational_branch": "review",
+      "operational_correct": true,
+      "policy_type": "choice",
+      "selected_probability": 0.74,
+      "semantic_branch": "continue_candidate",
+      "semantic_correct": false,
+      "use_case": "semantic-data-consistency"
+    },
+    {
+      "answer": {
+        "choice": "consistent",
+        "probabilities": {
+          "consistent": 0.99,
+          "inconsistent": 0.01,
+          "unclear": 0.0
+        },
+        "type": "choice"
+      },
+      "case_id": "semantic-data-consistency-blind-15-en",
+      "difficulty": "ambiguous",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow",
+      "expected_branch": "review",
+      "index": 148,
+      "language": "en",
+      "latency_ms": 452.27516399972956,
+      "operational_branch": "continue_candidate",
+      "operational_correct": false,
+      "policy_type": "choice",
+      "selected_probability": 0.99,
+      "semantic_branch": "continue_candidate",
+      "semantic_correct": false,
+      "use_case": "semantic-data-consistency"
+    },
+    {
+      "answer": {
+        "choice": "consistent",
+        "probabilities": {
+          "consistent": 0.99,
+          "inconsistent": 0.01,
+          "unclear": 0.0
+        },
+        "type": "choice"
+      },
+      "case_id": "semantic-data-consistency-blind-15-es",
+      "difficulty": "ambiguous",
+      "ensemble_used": false,
+      "evidence_class": "blind_synthetic_workflow",
+      "expected_branch": "review",
+      "index": 149,
+      "language": "es",
+      "latency_ms": 491.093513002852,
+      "operational_branch": "continue_candidate",
+      "operational_correct": false,
+      "policy_type": "choice",
+      "selected_probability": 0.99,
+      "semantic_branch": "continue_candidate",
+      "semantic_correct": false,
+      "use_case": "semantic-data-consistency"
+    }
+  ],
+  "run": {
+    "http_requests": 149
+  },
+  "schema": "brida.reflexbench.reflex-http-result/v1alpha1",
+  "summary": {
+    "latency_ms": {
+      "mean": 440.9995807181009,
+      "p50": 451.347178001015,
+      "p95": 657.4929950002115,
+      "p99": 1066.1261080022086
+    },
+    "n": 149,
+    "operational_accuracy": 0.6442953020134228,
+    "operational_correct": 96,
+    "review_or_uncertain": 29,
+    "semantic_accuracy": 0.44966442953020136,
+    "semantic_correct": 67
+  },
+  "visibility": "private",
+  "warmup": {
+    "attempted": true,
+    "latency_ms": 1210.360363998916,
+    "ok": true
+  }
+}
