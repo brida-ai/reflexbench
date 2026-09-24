@@ -73,6 +73,14 @@ Accepted public results may use the **Evaluated on ReflexBench v1** badge; accep
 
 For model labs, evaluation platforms and bulk integrations, see **[FOR_LABS.md](FOR_LABS.md)**. ReflexBench also publishes a versioned [result-submission JSON Schema](schemas/result-submission-v1.schema.json), [template](templates/result-submission-v1.json) and dependency-free validator so benchmark evidence can be produced directly from CI.
 
+For benchmark aggregators and automated catalogs, [`benchmark.json`](benchmark.json) and [`leaderboards/v1.json`](leaderboards/v1.json) provide stable machine-readable discovery. See [`docs/INTEGRATORS.md`](docs/INTEGRATORS.md).
+
+Use the repository-hosted badge after an accepted public result:
+
+```markdown
+[![Evaluated on ReflexBench v1](https://raw.githubusercontent.com/brida-ai/reflexbench/main/assets/evaluated-on-reflexbench-v1.svg)](https://github.com/brida-ai/reflexbench)
+```
+
 ## Quick start
 
 Requires Python 3.11+ for the core harness. Core v1 uses only the standard library.

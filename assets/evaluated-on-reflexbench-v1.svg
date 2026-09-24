@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="246" height="28" viewBox="0 0 246 28" role="img" aria-label="Evaluated on ReflexBench v1">
+  <rect width="246" height="28" rx="6" fill="#071019"/>
+  <rect x="0" width="76" height="28" rx="6" fill="#152738"/>
+  <path d="M70 0h6v28h-6z" fill="#152738"/>
+  <circle cx="18" cy="14" r="6" fill="#35c9ff"/>
+  <text x="32" y="18" fill="#fff" font-family="Arial,Helvetica,sans-serif" font-size="11" font-weight="700">BRIDA</text>
+  <text x="88" y="18" fill="#eaf5ff" font-family="Arial,Helvetica,sans-serif" font-size="11" font-weight="700">Evaluated on ReflexBench v1</text>
+</svg>
