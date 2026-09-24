@@ -54,6 +54,8 @@ Maintaining a System One or typed-decision model? Run the frozen protocol and su
 
 Accepted public results may use the **Evaluated on ReflexBench v1** badge; acceptance records reproducible evidence and is not an endorsement or universal ranking.
 
+For model labs, evaluation platforms and bulk integrations, see **[FOR_LABS.md](FOR_LABS.md)**. ReflexBench also publishes a versioned [result-submission JSON Schema](schemas/result-submission-v1.schema.json), [template](templates/result-submission-v1.json) and dependency-free validator so benchmark evidence can be produced directly from CI.
+
 ## Quick start
 
 Requires Python 3.11+ for the core harness. Core v1 uses only the standard library.

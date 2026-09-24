@@ -1,0 +1,43 @@
+{
+  "schema": "reflexbench.result-submission/v1",
+  "benchmark_version": "1.0.0",
+  "lane": "public-hard",
+  "engine": {
+    "owner": "example-lab",
+    "name": "example-system-one-model",
+    "revision": "immutable-model-or-checkpoint-revision",
+    "url": "https://example.com/model"
+  },
+  "adapter": {
+    "repository": "https://github.com/example-lab/reflexbench-adapter",
+    "revision": "immutable-adapter-revision"
+  },
+  "corpus": {
+    "name": "reflexbench-v1-public-hard",
+    "sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+    "rows": 111
+  },
+  "deployment": {
+    "kind": "local-gpu",
+    "hardware": "GPU model and relevant runtime",
+    "provider": "",
+    "region": ""
+  },
+  "run": {
+    "date": "2026-09-24",
+    "command": "exact command used to produce the attached receipt",
+    "retry_policy": "none"
+  },
+  "metrics": {
+    "completion_rate": 1.0,
+    "semantic_accuracy": 0.0,
+    "operational_accuracy": 0.0,
+    "ece": null,
+    "p50_latency_ms": null
+  },
+  "evidence": {
+    "receipt_paths": ["results/v1/example-result.json"],
+    "benchmark_used_for_development": false,
+    "development_note": ""
+  }
+}
