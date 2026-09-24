@@ -8,12 +8,29 @@ This repository contains **ReflexBench v1.0.0**, the first stable public benchma
 
 > ReflexBench does not publish a single "best model" score. Semantic quality, calibration, language consistency, option-order robustness, cardinality, failures, latency boundaries and harness/policy value are reported separately.
 
-## v1 headline results
+## v1 headline: same-corpus raw engine quality
 
-- **Same-response Reflex Core proof:** TypeSafe Jev raw semantic accuracy **96.4% (106/110) -> 100.0% (110/110)** after deterministic policy, with 4 rescues / 0 harms and **0 extra model calls**.
-- **Independent blind workflow replication:** **76.7% raw -> 82.0% Core** on 150/150 completed cases; paired delta **+5.3 pp**, bootstrap 95% **+1.3..+10.0 pp**.
-- The first blind gate is retained as a formal **FAIL** because one provider 503 left it at 149/150. Failures are evidence, not rows to delete.
-- Engine comparisons include the same public hard cohort, multilingual Choice lanes, calibration metrics and explicit capability/compatibility boundaries. See [RESULTS.md](RESULTS.md).
+The canonical launch leaderboard uses the frozen **111-case public-hard cohort** and reports raw semantic accuracy on identical rows. It does not blend latency, calibration or Reflex policy effects into the headline.
+
+| Engine | Raw semantic accuracy |
+|---|---:|
+| TypeSafe Jev | **73.0%** |
+| upstream Reflex / Qwen3.5-2B | 41.4% |
+| frozen Qwen3.5-0.8B readout control | 39.6% |
+| jeff / GLiFormer ~400M | 37.8% |
+| openJev Verdict 1.4 / 151M | 36.9% |
+| Laya base / 421M | 35.1% |
+| Kev-0.8B | 32.4% |
+
+These are same-corpus Brida measurement receipts, not a universal model ranking. Hosted and local latency are different deployment boundaries and are reported separately in [RESULTS.md](RESULTS.md).
+
+### Supplemental Reflex Core evidence
+
+ReflexBench also retains policy/harness ablations as a **separate research lane**, not part of the raw-engine leaderboard:
+
+- TypeSafe Jev same-response public fixtures: **96.4% raw -> 100.0% Core**, 4 rescues / 0 harms, 0 extra model calls.
+- Independent blind workflow Gate v2: **76.7% raw -> 82.0% Core** on 150/150 completed cases; +5.3 pp, bootstrap 95% +1.3..+10.0 pp.
+- Gate v1 remains a formal **FAIL** at 149/150 after one provider 503. Failures stay in the evidence ledger.
 
 ## Why this exists
 
