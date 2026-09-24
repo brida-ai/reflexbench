@@ -76,6 +76,21 @@ Validate a Reflex recipe registry against the same provider-neutral contract:
 PYTHONPATH=reflexbench python reflexbench/validate_reflex_registry_v1.py --help
 ```
 
+## Related evaluation layers
+
+ReflexBench answers one specific question: **how good is the typed decision engine itself?** Brida publishes two complementary public surfaces for the operational-alignment problem:
+
+- [AlignmentBench](https://github.com/brida-ai/alignmentbench) evaluates whether a **target model, checkpoint or agent** stays inside explicit authority, uncertainty, impact, scope and oversight constraints. Its public v0.1 Developer Preview is intentionally separate from ReflexBench's engine-quality protocol.
+- [Reflex Alignment](https://github.com/brida-ai/reflex/tree/main/examples/use-cases/alignment) is the inference-time semantic supervision pattern for one proposed consequential action before deterministic host policy decides whether execution is authorized.
+
+```text
+ReflexBench     -> decision-engine quality
+AlignmentBench  -> target-system alignment behavior
+Reflex Alignment -> execution-time semantic supervision
+```
+
+None of these surfaces is a general AI-alignment certification. Keeping them separate prevents an evaluator result, a target-system benchmark and a runtime authorization boundary from being conflated into one score.
+
 ## Web search / retrieval augmentation
 
 Search stays **outside** the decision model. Fetch current evidence first, apply deterministic freshness/provenance filters, pass a bounded evidence state to a typed decision, then keep action authority in normal code:
