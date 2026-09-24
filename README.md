@@ -28,8 +28,8 @@ These are same-corpus Brida measurement receipts, not a universal model ranking.
 
 ReflexBench also retains policy/harness ablations as a **separate research lane**, not part of the raw-engine leaderboard:
 
-- TypeSafe Jev same-response public fixtures: **96.4% raw -> 100.0% Core**, 4 rescues / 0 harms, 0 extra model calls.
-- Independent blind workflow Gate v2: **76.7% raw -> 82.0% Core** on 150/150 completed cases; +5.3 pp, bootstrap 95% +1.3..+10.0 pp.
+- **Same-response Reflex Core proof:** TypeSafe Jev raw semantic accuracy **96.4% (106/110) -> 100.0% (110/110)** after deterministic policy, with 4 rescues / 0 harms and **0 extra model calls**.
+- **Independent blind workflow replication:** **76.7% raw -> 82.0% Core** on 150/150 completed cases; paired delta **+5.3 pp**, bootstrap 95% **+1.3..+10.0 pp**.
 - Gate v1 remains a formal **FAIL** at 149/150 after one provider 503. Failures stay in the evidence ledger.
 
 ## Why this exists
