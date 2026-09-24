@@ -1,0 +1,29 @@
+{
+  "badge": "assets/evaluated-on-reflexbench-v1.svg",
+  "canonical_repository": "https://github.com/brida-ai/reflexbench",
+  "category": [
+    "system-one-models",
+    "typed-decision-models",
+    "probabilistic-decision-engines"
+  ],
+  "citation": "CITATION.cff",
+  "contact": "https://www.brida.ai/",
+  "homepage": "https://www.brida.ai/blog/reflexbench-v1-system-one-models",
+  "id": "brida/reflexbench",
+  "lab_integration_guide": "FOR_LABS.md",
+  "license": "Apache-2.0",
+  "name": "ReflexBench",
+  "primary_leaderboard": "leaderboards/v1.json",
+  "primary_metric": "semantic_accuracy",
+  "raw_vs_harness_policy": "FOR_LABS.md#raw-model-vs-model--harness",
+  "schema": "reflexbench.benchmark-discovery/v1",
+  "status": "stable",
+  "submission_guide": "SUBMIT_A_MODEL.md",
+  "submission_schema": "schemas/result-submission-v1.schema.json",
+  "task_types": [
+    "binary/noul",
+    "choice",
+    "score"
+  ],
+  "version": "1.0.0"
+}

@@ -1,0 +1,143 @@
+{
+  "benchmark_id": "brida/reflexbench",
+  "benchmark_version": "1.0.0",
+  "generated_from_public_receipts": true,
+  "notes": [
+    "No global aggregate score.",
+    "Hosted and local latency are not hardware-normalized against each other.",
+    "Raw engine quality and model+harness results are distinct claims."
+  ],
+  "primary_lane": {
+    "higher_is_better": true,
+    "id": "public-hard-raw",
+    "metric": "semantic_accuracy",
+    "purpose": "same-corpus raw System One engine quality",
+    "results": [
+      {
+        "deployment_boundary": "hosted-api",
+        "display_name": "TypeSafe Jev",
+        "engine_id": "typesafe-jev",
+        "rank": 1,
+        "receipt": "results/v1/jevbench-public-hard-typesafe-jev-consolidated.json",
+        "semantic_accuracy": 0.73
+      },
+      {
+        "deployment_boundary": "local-gpu",
+        "display_name": "upstream Reflex / Qwen3.5-2B",
+        "engine_id": "upstream-reflex-qwen35-2b",
+        "rank": 2,
+        "receipt": "results/v1/jevbench-public-hard-qwen-reflex-2b-rtx3070.json",
+        "semantic_accuracy": 0.414
+      },
+      {
+        "deployment_boundary": "reference-kernel",
+        "display_name": "frozen Qwen3.5-0.8B readout control",
+        "engine_id": "qwen35-0.8b-readout-control",
+        "rank": 3,
+        "receipt": "results/v1/jevbench-public-hard-qwen35-08b-base-readout-rtx3070-reference-kernel.json",
+        "semantic_accuracy": 0.396
+      },
+      {
+        "deployment_boundary": "local-gpu",
+        "display_name": "jeff / GLiFormer ~400M",
+        "engine_id": "jeff-gliformer",
+        "rank": 4,
+        "receipt": "results/v1/jevbench-public-hard-jeff-rtx3070.json",
+        "semantic_accuracy": 0.378
+      },
+      {
+        "deployment_boundary": "local-gpu",
+        "display_name": "openJev Verdict 1.4 / 151M",
+        "engine_id": "openjev-verdict-1.4",
+        "rank": 5,
+        "receipt": "results/v1/jevbench-public-hard-verdict-1.4-rtx3070.json",
+        "semantic_accuracy": 0.369
+      },
+      {
+        "deployment_boundary": "local-gpu",
+        "display_name": "Laya base / 421M",
+        "engine_id": "laya-base",
+        "rank": 6,
+        "receipt": "results/v1/jevbench-public-hard-laya-base-rtx3070.json",
+        "semantic_accuracy": 0.351
+      },
+      {
+        "deployment_boundary": "local-gpu",
+        "display_name": "Kev-0.8B",
+        "engine_id": "kev-0.8b",
+        "rank": 7,
+        "receipt": "results/v1/jevbench-public-hard-kev-0.8b-rtx3070.json",
+        "semantic_accuracy": 0.324
+      }
+    ],
+    "rows": 111
+  },
+  "schema": "reflexbench.leaderboard/v1",
+  "supplemental_lanes": {
+    "public110_reflex_harness_ablation": {
+      "max_delta_pp": 8.1818181818,
+      "median_delta_pp": 2.7272727273,
+      "purpose": "raw engine vs best measured Reflex harness mode; separate from primary leaderboard",
+      "receipt": "results/v1/reflex-public110-harness-uplift.json",
+      "results": [
+        {
+          "best_mode": "policy-only + reverse-average",
+          "best_reflex_semantic_accuracy": 0.7636363636363637,
+          "ci95_high_pp": 14.5454545455,
+          "ci95_low_pp": 1.8181818182,
+          "delta_pp": 8.1818181818,
+          "engine_id": "qwen-reflex-2b",
+          "raw_semantic_accuracy": 0.6818181818181818
+        },
+        {
+          "best_mode": "policy-only + reverse-average",
+          "best_reflex_semantic_accuracy": 0.5818181818181818,
+          "ci95_high_pp": 9.0909090909,
+          "ci95_low_pp": -1.8181818182,
+          "delta_pp": 3.6363636364,
+          "engine_id": "jeff",
+          "raw_semantic_accuracy": 0.5454545454545454
+        },
+        {
+          "best_mode": "all questions + reverse-average",
+          "best_reflex_semantic_accuracy": 0.6545454545454545,
+          "ci95_high_pp": 6.3636363636,
+          "ci95_low_pp": 0.0,
+          "delta_pp": 2.7272727273,
+          "engine_id": "laya-typed",
+          "raw_semantic_accuracy": 0.6272727272727273
+        },
+        {
+          "best_mode": "policy-only; no ensemble",
+          "best_reflex_semantic_accuracy": 0.7,
+          "ci95_high_pp": 0.0,
+          "ci95_low_pp": 0.0,
+          "delta_pp": 0.0,
+          "engine_id": "kev-0.8b",
+          "raw_semantic_accuracy": 0.7
+        },
+        {
+          "best_mode": "policy-only; no ensemble",
+          "best_reflex_semantic_accuracy": 0.5818181818181818,
+          "ci95_high_pp": 0.0,
+          "ci95_low_pp": 0.0,
+          "delta_pp": 0.0,
+          "engine_id": "laya-base",
+          "raw_semantic_accuracy": 0.5818181818181818
+        }
+      ],
+      "rows": 110,
+      "simple_mean_delta_pp": 2.9090909091
+    },
+    "typesafe_jev_same_response_policy": {
+      "extra_model_calls": 0,
+      "harms": 0,
+      "note": "Operational policy result; not 100% raw semantic accuracy.",
+      "raw_semantic_accuracy": 0.9636363636363636,
+      "receipt": "results/v1/reflex-core-v1-typesafe-jev-public110.json",
+      "reflex_operational_accuracy": 1.0,
+      "rescues": 4,
+      "rows": 110
+    }
+  }
+}
