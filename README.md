@@ -4,7 +4,7 @@
 
 ReflexBench measures engines such as **TypeSafe Jev, Laya, Reflex/Qwen, Kev, jeff and Verdict** on typed **Choice, Score and Noul/Binary** decisions. It also measures a separate question: how much operational value can a small deterministic **Reflex Core** policy add without changing the model response?
 
-This repository contains **ReflexBench v1.0.0**, the first stable public benchmark release. The benchmark is provider-neutral; Brida Reflex is one consumer of the methodology.
+This repository contains **ReflexBench v1.0.0**, the first stable public benchmark release. The benchmark is provider-neutral. It was first built for Brida Reflex, a hosted service that has since been archived; the benchmark itself stays open and stable.
 
 > ReflexBench does not publish a single "best model" score. Semantic quality, calibration, language consistency, option-order robustness, cardinality, failures, latency boundaries and harness/policy value are reported separately.
 
@@ -145,7 +145,7 @@ See [examples/web-search-evidence-gate/README.md](examples/web-search-evidence-g
 
 ReflexBench is open; Brida's hosted execution/control plane is not. This repository contains no customer data, provider credentials, private evaluation corpora, hidden future gates, Brida model weights/training corpora, hosted routing, tenant authorization, billing/metering or production activation logic.
 
-The public [`brida-ai/reflex`](https://github.com/brida-ai/reflex) registry and [`brida-ai/sdk`](https://github.com/brida-ai/sdk) are separate OSS projects. Hosted Brida Reflex remains a separately operated service.
+The public [`brida-ai/reflex`](https://github.com/brida-ai/reflex) registry and [`brida-ai/sdk`](https://github.com/brida-ai/sdk) are separate OSS projects. Hosted Brida Reflex is archived; its evaluator now runs inside Brida ([notice](https://www.brida.ai/reflex)).
 
 ## Versioning
 
@@ -153,7 +153,11 @@ The public [`brida-ai/reflex`](https://github.com/brida-ai/reflex) registry and 
 
 ## Status
 
-**ReflexBench v1.0.0 is stable.** The separately operated hosted Brida Reflex service remains availability/release-gated and this benchmark release does not imply hosted GA.
+**ReflexBench v1.0.0 is stable** and stays open under Apache-2.0.
+
+Brida Reflex, the hosted service that first consumed this methodology, was archived in November 2026, and its evaluator now runs inside Brida ([notice](https://www.brida.ai/reflex)). That does not change this benchmark: the frozen corpora, harness, receipts and submission workflow are unaffected, and new results on the exact v1 protocol can still land in `v1.x`. The hashes in [`release/v1-manifest.json`](release/v1-manifest.json) describe the `v1.0.0` tag.
+
+Created by [Carlos Navarro](https://github.com/0xnavarro) at Brida. To cite it, use [CITATION.cff](CITATION.cff).
 
 ## License
 
